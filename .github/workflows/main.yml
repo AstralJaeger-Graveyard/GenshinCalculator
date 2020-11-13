@@ -1,0 +1,32 @@
+# This is a basic workflow to help you get started with Actions
+
+name: deploy_to_firebase_hosting
+
+on:
+  push:
+    tags: 
+      - release-production-*
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      
+      - name: Checkout the repository
+        uses: actions/checkout@master
+
+      - name: Install dependencies
+        run: | 
+          npm config set '//npm.fontawesome.com/:_authToken' "${{ secrets.FONTAWESOME_NPM }}"
+          npm ci
+
+      - name: Build project
+        run: ng build --prod
+
+      - name: Deploy to firebase
+        uses: w9jds/firebase-action@master
+        with:
+          args: deploy --only hosting
+        env: 
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_CI }}
