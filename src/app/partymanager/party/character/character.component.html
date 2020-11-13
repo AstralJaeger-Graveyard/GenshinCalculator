@@ -1,0 +1,13 @@
+<a href="#" class="list-group-item clearfix" (click)="onSelected()">
+  <span class="pull-left">
+    <img
+      [src] = "member.character.portrait"
+      alt = "portrait"
+      class="img-responsive"
+      style="max-height: 50px; margin-right: 5px; ">
+  </span>
+  <div>
+    <h4 class="left-group-item-heading">{{member.character.name}}</h4>
+    <p class="list-group-item-text">{{member.character.description}}</p>
+  </div>
+</a>

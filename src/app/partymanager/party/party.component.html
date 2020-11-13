@@ -1,0 +1,17 @@
+<div class="row">
+  <div class="col-xs-12">
+    <button class="btn btn-success">Add member</button>
+  </div>
+</div>
+<hr>
+<div class="row">
+  <div class="col-xs-12">
+    <div>
+      <app-character *ngFor="let member of party" [member]="member"
+                     style="margin: 1px"
+                     (memberSelected)="onSelected(member)">
+      </app-character>
+    </div>
+  </div>
+</div>
+
