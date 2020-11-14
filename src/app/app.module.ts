@@ -10,6 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PartyComponent } from './partymanager/party/party.component';
 import { CharacterComponent } from './partymanager/party/character/character.component';
 import { CharacterDetailComponent } from './partymanager/character-detail/character-detail.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CharacterDetailComponent } from './partymanager/character-detail/charac
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

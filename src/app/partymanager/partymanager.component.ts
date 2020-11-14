@@ -25,10 +25,14 @@ export class PartymanagerComponent implements OnInit {
   selectedCharacter: PartyCharacter;
 
   constructor() {
-    this.keqing.portrait = 'https://rerollcdn.com/GENSHIN/Characters/Keqing.png';
-    this.klee.portrait = 'https://rerollcdn.com/GENSHIN/Characters/Klee.png';
-    this.diona.portrait = 'https://rerollcdn.com/GENSHIN/Characters/Diona.png';
-    this.barbara.portrait = 'https://rerollcdn.com/GENSHIN/Characters/Barbara.png';
+    this.keqing.icon = 'https://rerollcdn.com/GENSHIN/Characters/Keqing.png';
+    this.keqing.portrait = 'assets/portraits/Keqing.jpg';
+    this.klee.icon = 'https://rerollcdn.com/GENSHIN/Characters/Klee.png';
+    this.klee.portrait = 'assets/portraits/Klee.jpg';
+    this.diona.icon = 'https://rerollcdn.com/GENSHIN/Characters/Diona.png';
+    this.diona.portrait = 'assets/portraits/Diona.jpg';
+    this.barbara.icon = 'https://rerollcdn.com/GENSHIN/Characters/Barbara.png';
+    this.barbara.portrait = 'assets/portraits/Barbara.jpg';
   }
 
   ngOnInit(): void {

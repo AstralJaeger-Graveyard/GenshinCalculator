@@ -7,7 +7,7 @@ export class Character{
   public rarity: number;
   public tier: string;
   public portrait: string;
-
+  public icon: string;
   // TODO: Upgrade materials, talent materials
 
   constructor(name: string, description: string, element: Element, rarity: number, tier: string) {

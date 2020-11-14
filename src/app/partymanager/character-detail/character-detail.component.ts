@@ -1,5 +1,6 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {PartyCharacter} from '../../model/PartyCharacter';
+import { faStar } from '@fortawesome/pro-solid-svg-icons';
 
 @Component({
   selector: 'app-character-detail',
@@ -8,6 +9,10 @@ import {PartyCharacter} from '../../model/PartyCharacter';
 })
 export class CharacterDetailComponent implements OnInit {
 
+  faRegularStar = faStar;
+  arr = Array;
+
+
   @Input()
   member: PartyCharacter;
 
@@ -15,5 +20,4 @@ export class CharacterDetailComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

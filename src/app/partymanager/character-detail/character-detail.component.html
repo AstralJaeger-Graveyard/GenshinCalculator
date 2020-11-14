@@ -1,10 +1,13 @@
 <div class="row">
   <div class="col-xs-12">
-    <div class="pull-left">
-      <img [src]="this.member.character.portrait" alt="Portrait" class="border border-secondary" style="min-height: 50px;">
-    </div>
-    <div>
-      <h3>{{this.member.character.name}}</h3>
+    <div class="list-group-item">
+      <div class="pull-left" style="margin-right: 5px;">
+        <img [src]="this.member.character.portrait" alt="Portrait" class="border border-secondary" style="max-height: 250px;">
+      </div>
+      <div class="list-group-item-heading">
+        <h3>{{this.member.character.name}}</h3>
+        <fa-icon *ngFor="let i of arr(member.character.rarity)" [icon]="faRegularStar"></fa-icon>
+      </div>
     </div>
   </div>
 </div>
