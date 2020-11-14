@@ -1,0 +1,44 @@
+{
+  "characters": [
+    {
+      "id": 0,
+      "name": "Keqing",
+      "description": "",
+      "element": 0,
+      "rarity": 0,
+      "tier": "",
+      "portrait": "assets/portraits/Keqing.jpg",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Keqing.png"
+    },
+    {
+      "id": 1,
+      "name": "Klee",
+      "description": "",
+      "element": 0,
+      "rarity": 0,
+      "tier": "",
+      "portrait": "assets/portraits/Klee.jpg",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Klee.png"
+    },
+    {
+      "id": 2,
+      "name": "Diona",
+      "description": "",
+      "element": 0,
+      "rarity": 0,
+      "tier": "",
+      "portrait": "assets/portraits/Diona.jpg",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Diona.png"
+    },
+    {
+      "id": 3,
+      "name": "Barbara",
+      "description": "",
+      "element": 0,
+      "rarity": 0,
+      "tier": "",
+      "portrait": "assets/portraits/Barbara.jpg",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Barbara.png"
+    }
+  ]
+}
