@@ -24,7 +24,8 @@ jobs:
 
       - name: Install dependencies
         run: | 
-          npm config set '//npm.fontawesome.com/:_authToken' "${{ secrets.FONTAWESOME_NPM }}"
+          npm config set "@fontawesome:registry" https://npm.fontawesome.com/
+          npm config set "//npm.fontawesome.com/:_authToken" "${{ secrets.FONTAWESOME_NPM }}"
           npm ci
 
       - name: Build project
