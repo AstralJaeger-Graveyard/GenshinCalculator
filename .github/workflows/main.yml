@@ -5,16 +5,21 @@ name: deploy_to_firebase_hosting
 on:
   push:
     tags: 
-      - release-production-*
+      - 'release-*'
 
 jobs:
   build:
+    name: Build and Test
     runs-on: ubuntu-latest
-    
     steps:
       
-      - name: Checkout the repository
+      - name: Checkout
         uses: actions/checkout@master
+
+      - name: Setup NodeJS
+        uses: actions/setup-node@v1
+        with: 
+          node-version: '12.x'
 
       - name: Install dependencies
         run: | 
@@ -22,9 +27,17 @@ jobs:
           npm ci
 
       - name: Build project
-        run: ng build --prod
+        run: npm run build:ci
 
+      - name: Archive build
+        if: success()
+        uses: actions/upload-artifact@v1
+        with: 
+          name: deploy_dist
+          path: dist
+  
       - name: Deploy to firebase
+        if: success()
         uses: w9jds/firebase-action@master
         with:
           args: deploy --only hosting
