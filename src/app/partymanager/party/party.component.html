@@ -1,6 +1,29 @@
 <div class="row">
   <div class="col-xs-12">
     <app-party-cockpit></app-party-cockpit>
+
+    <nz-select nzShowSearch
+               nzPlaceHolder="Select a character"
+               style="min-width: 200px"
+               [(ngModel)]="selectValue"
+               (ngModelChange)="onCharacterSelected($event)"
+    >
+      <nz-option nzCustomContent
+                 *ngFor="let entry of characters | keyvalue"
+                 [nzLabel]="entry.value.name"
+                 [nzValue]="entry.value"
+      >
+        <img [src]="entry.value.icon" alt="Icon" style="max-height: 20px;">
+        {{ entry.value.name }}
+        <fa-icon *ngIf="entry.value.isNew" [icon]="fasBell" style="color: gold;"></fa-icon>
+      </nz-option>
+    </nz-select>
+    <div>
+      <div class="pull-left">Selected Value:</div>
+      <div *ngIf="selectValue">
+        <img [src]="selectValue.icon" alt="Icon" style="max-height: 20px;"> {{selectValue.name}}
+      </div>
+    </div>
   </div>
 </div>
 <hr>

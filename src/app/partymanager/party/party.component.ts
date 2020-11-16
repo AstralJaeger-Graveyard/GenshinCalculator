@@ -2,6 +2,7 @@ import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import {PartyMember} from '../../model/PartyMember';
 import {Character} from '../../model/Character';
 import {CharacterService} from '../../services/character.service';
+import {faBell as fasBell} from '@fortawesome/pro-solid-svg-icons';
 
 @Component({
   selector: 'app-party',
@@ -10,6 +11,7 @@ import {CharacterService} from '../../services/character.service';
   providers: [CharacterService]
 })
 export class PartyComponent implements OnInit {
+  fasBell = fasBell;
 
   @Input()
   party: PartyMember[];
@@ -19,6 +21,8 @@ export class PartyComponent implements OnInit {
 
   @Output()
   memberSelected = new EventEmitter<PartyMember>();
+
+  selectValue = null;
 
   constructor(private characterService: CharacterService) {
     this.characterService.getCharacters().subscribe(data => {
@@ -36,5 +40,9 @@ export class PartyComponent implements OnInit {
   onSelected(member: PartyMember): void{
     console.log('Switching selected member to: ' + member.character.name);
     this.memberSelected.emit(member);
+  }
+
+  onCharacterSelected(character: Character) {
+    this.party.push(new PartyMember(character, 1, 1));
   }
 }

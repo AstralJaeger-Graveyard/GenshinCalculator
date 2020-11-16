@@ -1,6 +1,15 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+// Modules
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import {NgZorroAntdModule} from './ng-zorro-antd.module';
+import { HttpClientModule } from '@angular/common/http';
+import {ReactiveFormsModule, FormsModule} from '@angular/forms';
+import {ScrollingModule} from '@angular/cdk/scrolling';
+import {DragDropModule} from '@angular/cdk/drag-drop';
+
+// Components
 import { AppComponent } from './app.component';
 import { PartymanagerComponent } from './partymanager/partymanager.component';
 import { HeaderComponent } from './header/header.component';
@@ -10,18 +19,32 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PartyComponent } from './partymanager/party/party.component';
 import { PartymemberComponent } from './partymanager/party/partymember/partymember.component';
 import { PartymemberDetailComponent } from './partymanager/partymember-detail/partymember-detail.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { DropdownDirective } from './directives/dropdown.directive';
-import { RepeatDirective } from './directives/repeat.directive';
-import { HttpClientModule } from '@angular/common/http';
 import { PartyCockpitComponent } from './partymanager/party/party-cockpit/party-cockpit.component';
-import {ReactiveFormsModule, FormsModule} from '@angular/forms';
-import { NZ_I18N } from 'ng-zorro-antd/i18n';
-import { de_DE } from 'ng-zorro-antd/i18n';
-import { registerLocaleData } from '@angular/common';
-import de from '@angular/common/locales/de';
 
-registerLocaleData(de);
+// Directives
+import { RepeatDirective } from './directives/repeat.directive';
+
+// I18 localizations
+import { NZ_I18N } from 'ng-zorro-antd/i18n';
+import { en_US } from 'ng-zorro-antd/i18n';
+import { registerLocaleData } from '@angular/common';
+import { NZ_ICONS } from 'ng-zorro-antd/icon';
+import en from '@angular/common/locales/en';
+
+// Zorro Icons
+import { IconDefinition } from '@ant-design/icons-angular';
+import * as AllIcons from '@ant-design/icons-angular/icons';
+
+// Fontawesome Icons
+import { library } from '@fortawesome/fontawesome-svg-core';
+import {faBell, faStar} from '@fortawesome/pro-solid-svg-icons';
+
+registerLocaleData(en);
+
+const antDesignIcons = AllIcons as {
+  [key: string]: IconDefinition;
+};
+const icons: IconDefinition[] = Object.keys(antDesignIcons).map(key => antDesignIcons[key]);
 
 @NgModule({
   declarations: [
@@ -33,9 +56,8 @@ registerLocaleData(de);
     PartyComponent,
     PartymemberComponent,
     PartymemberDetailComponent,
-    DropdownDirective,
-    RepeatDirective,
-    PartyCockpitComponent
+    PartyCockpitComponent,
+    RepeatDirective
   ],
   imports: [
     BrowserModule,
@@ -43,9 +65,16 @@ registerLocaleData(de);
     HttpClientModule,
     FontAwesomeModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    NgZorroAntdModule,
+    ScrollingModule,
+    DragDropModule
   ],
-  providers: [{ provide: NZ_I18N, useValue: de_DE }],
+  providers: [{ provide: NZ_I18N, useValue: en_US }, {provide: NZ_ICONS, useValue: icons}],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  constructor() {
+    library.add(faStar, faBell);
+  }
+}
