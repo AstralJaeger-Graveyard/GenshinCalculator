@@ -2,7 +2,7 @@
   "hosting": {
     "public": "dist/GenshinCalculator/",
     "ignore": [
-      "firebase.json"cls,
+      "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ],

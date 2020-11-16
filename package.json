@@ -8,7 +8,8 @@
     "build:ci": "ng build --prod --sourceMap=false --base-href /GenshinCalculator/",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "firebase deploy --only hosting"
   },
   "private": true,
   "dependencies": {
