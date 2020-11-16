@@ -30,6 +30,8 @@
     "@fortawesome/pro-regular-svg-icons": "^5.15.1",
     "@fortawesome/pro-solid-svg-icons": "^5.15.1",
     "bootstrap": "^3.4.1",
+    "ng-zorro-antd": "^10.1.2",
+    "pouchdb": "^7.2.2",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
