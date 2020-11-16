@@ -6,7 +6,10 @@
       </div>
       <div class="list-group-item-heading">
         <h3>{{this.member.character.name}}</h3>
-        <fa-icon *ngFor="let i of arr(member.character.rarity)" [icon]="faRegularStar"></fa-icon>
+        <fa-layers *appRepeat="this.member.character.rarity" >
+          <fa-icon [icon]="faRegularStar" transform="grow-2"></fa-icon>
+          <fa-icon [icon]="faRegularStar" style="color: yellow;"></fa-icon>
+        </fa-layers>
       </div>
     </div>
   </div>

@@ -1,20 +1,20 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {PartyCharacter} from '../../model/PartyCharacter';
+import {PartyMember} from '../../model/PartyMember';
 import { faStar } from '@fortawesome/pro-solid-svg-icons';
 
 @Component({
-  selector: 'app-character-detail',
-  templateUrl: './character-detail.component.html',
-  styleUrls: ['./character-detail.component.css']
+  selector: 'app-partymember-detail',
+  templateUrl: './partymember-detail.component.html',
+  styleUrls: ['./partymember-detail.component.css']
 })
-export class CharacterDetailComponent implements OnInit {
+export class PartymemberDetailComponent implements OnInit {
 
   faRegularStar = faStar;
   arr = Array;
 
 
   @Input()
-  member: PartyCharacter;
+  member: PartyMember;
 
   constructor() { }
 

@@ -1,15 +1,15 @@
 import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
-import {PartyCharacter} from '../../../model/PartyCharacter';
+import {PartyMember} from '../../../model/PartyMember';
 
 @Component({
-  selector: 'app-character',
-  templateUrl: './character.component.html',
-  styleUrls: ['./character.component.css']
+  selector: 'app-partymember',
+  templateUrl: './partymember.component.html',
+  styleUrls: ['./partymember.component.css']
 })
-export class CharacterComponent implements OnInit {
+export class PartymemberComponent implements OnInit {
 
   @Input()
-  member: PartyCharacter;
+  member: PartyMember;
 
   @Output()
   memberSelected = new EventEmitter<void>();

@@ -1,6 +1,6 @@
 import {Character} from './Character';
 
-export class PartyCharacter{
+export class PartyMember{
   public character: Character;
   public level: number;
   public ascension: number;

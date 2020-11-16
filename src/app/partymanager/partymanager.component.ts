@@ -1,44 +1,46 @@
 import {Component, OnInit} from '@angular/core';
 import {Element} from '../model/Element';
 import {Character} from '../model/Character';
-import {PartyCharacter} from '../model/PartyCharacter';
+import {PartyMember} from '../model/PartyMember';
+import { CharacterService } from '../services/character.service';
 
 @Component({
   selector: 'app-partymanager',
   templateUrl: './partymanager.component.html',
-  styleUrls: ['./partymanager.component.css']
+  styleUrls: ['./partymanager.component.css'],
+  providers: [CharacterService]
 })
 export class PartymanagerComponent implements OnInit {
+  public characters: Map<string, Character>;
+  public party: PartyMember[] = [];
+  public selectedCharacter: PartyMember;
 
-  keqing = new Character('Keqing', 'The Yuheng of the Liyue Qixing. Has much to say about Rex Lapis\' unilateral approach to policymaking in Liyue - but in truth, gods admire skeptics such as her quite a lot.', Element.Electro, 5, 'A');
-  klee = new Character('Klee', 'An explosives expert and a regular at the Knights of Favonius\' confinement room. Also known as Fleeing Sunlight.', Element.Pyro, 5, 'S');
-  diona = new Character('Diona', 'A young lady who has inherited trace amounts of non-human blood. She is the incredible popular bartender of the Cat\'s Tail tavern.', Element.Cryo, 4, '-');
-  barbara = new Character('Barbara', 'Every denizen of Mondstadt adores Barbara. However, she learned the word "idol" from a magazine.', Element.Hydro, 4, 'B');
-
-  party: PartyCharacter[] = [
-    new PartyCharacter(this.keqing, 60, 4),
-    new PartyCharacter(this.klee, 60, 4),
-    new PartyCharacter(this.diona, 50, 3),
-    new PartyCharacter(this.barbara, 52, 3)
-  ];
-
-  selectedCharacter: PartyCharacter;
-
-  constructor() {
-    this.keqing.icon = 'https://rerollcdn.com/GENSHIN/Characters/Keqing.png';
-    this.keqing.portrait = 'assets/portraits/Keqing.jpg';
-    this.klee.icon = 'https://rerollcdn.com/GENSHIN/Characters/Klee.png';
-    this.klee.portrait = 'assets/portraits/Klee.jpg';
-    this.diona.icon = 'https://rerollcdn.com/GENSHIN/Characters/Diona.png';
-    this.diona.portrait = 'assets/portraits/Diona.jpg';
-    this.barbara.icon = 'https://rerollcdn.com/GENSHIN/Characters/Barbara.png';
-    this.barbara.portrait = 'assets/portraits/Barbara.jpg';
+  constructor(private characterService: CharacterService) {
+    // this.keqing.icon = 'https://rerollcdn.com/GENSHIN/Characters/Keqing.png';
+    // this.keqing.portrait = 'assets/portraits/Keqing.jpg';
+    // this.klee.icon = 'https://rerollcdn.com/GENSHIN/Characters/Klee.png';
+    // this.klee.portrait = 'assets/portraits/Klee.jpg';
+    // this.diona.icon = 'https://rerollcdn.com/GENSHIN/Characters/Diona.png';
+    // this.diona.portrait = 'assets/portraits/Diona.jpg';
+    // this.barbara.icon = 'https://rerollcdn.com/GENSHIN/Characters/Barbara.png';
+    // this.barbara.portrait = 'assets/portraits/Barbara.jpg';
   }
 
   ngOnInit(): void {
+     this.characters = new Map<string, Character>();
+     this.characterService.getCharacters().subscribe(data => {
+       const characters = (data as Character[]);
+       for (const character of characters){
+         this.characters.set(character.name.toLowerCase(), character);
+       }
+       this.party.push(new PartyMember(this.characters.get('keqing'), 60, 4));
+       this.party.push(new PartyMember(this.characters.get('klee'), 60, 4));
+       this.party.push(new PartyMember(this.characters.get('diona'), 60, 4));
+       this.party.push(new PartyMember(this.characters.get('barbara'), 60, 4));
+     });
   }
 
-  onSelected(event: PartyCharacter): void{
+  onSelected(event: PartyMember): void{
     this.selectedCharacter = event;
   }
 }

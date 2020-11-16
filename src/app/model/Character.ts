@@ -8,7 +8,8 @@ export class Character{
   public tier: string;
   public portrait: string;
   public icon: string;
-  // TODO: Upgrade materials, talent materials
+  public isNew: boolean = false;
+  // TODO: Upgrade materials, talent materials, weapon
 
   constructor(name: string, description: string, element: Element, rarity: number, tier: string) {
     this.name = name;
