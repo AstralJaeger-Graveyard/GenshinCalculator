@@ -1,6 +1,6 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import {PartyMember} from '../../model/PartyMember';
-import { faStar } from '@fortawesome/pro-solid-svg-icons';
+import { faStar, faWindowClose } from '@fortawesome/pro-solid-svg-icons';
 
 @Component({
   selector: 'app-partymember-detail',
@@ -10,14 +10,20 @@ import { faStar } from '@fortawesome/pro-solid-svg-icons';
 export class PartymemberDetailComponent implements OnInit {
 
   faRegularStar = faStar;
-  arr = Array;
-
+  faWindowClose = faWindowClose;
 
   @Input()
   member: PartyMember;
 
+  @Output()
+  closeDetail = new EventEmitter<void>();
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onCloseDetail(): void{
+    this.closeDetail.emit();
   }
 }

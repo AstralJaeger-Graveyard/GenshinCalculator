@@ -1,15 +1,17 @@
 <div class="row">
   <div class="col-xs-12">
     <div class="list-group-item">
+      <div class="pull-right">
+        <button nz-button nzDanger (click)="onCloseDetail()">
+          <fa-icon [icon]="faWindowClose"></fa-icon>
+        </button>
+      </div>
       <div class="pull-left" style="margin-right: 5px;">
         <img [src]="this.member.character.portrait" alt="Portrait" class="border border-secondary" style="max-height: 250px;">
       </div>
       <div class="list-group-item-heading">
         <h3>{{this.member.character.name}}</h3>
-        <fa-layers *appRepeat="this.member.character.rarity" >
-          <fa-icon [icon]="faRegularStar" transform="grow-2"></fa-icon>
-          <fa-icon [icon]="faRegularStar" style="color: yellow;"></fa-icon>
-        </fa-layers>
+        <fa-icon *appRepeat="this.member.character.rarity" [icon]="faRegularStar" style="color: gold;"></fa-icon>
       </div>
     </div>
   </div>
