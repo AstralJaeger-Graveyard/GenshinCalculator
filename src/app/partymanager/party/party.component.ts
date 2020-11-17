@@ -22,6 +22,9 @@ export class PartyComponent implements OnInit {
   @Output()
   memberSelected = new EventEmitter<PartyMember>();
 
+  @Output()
+  memberRemoved = new EventEmitter<PartyMember>();
+
   selectValue = null;
 
   constructor(private characterService: CharacterService) {
@@ -42,7 +45,16 @@ export class PartyComponent implements OnInit {
     this.memberSelected.emit(member);
   }
 
+  onRemoved(member: PartyMember): void{
+    this.memberRemoved.emit(member);
+  }
+
   onCharacterSelected(character: Character) {
-    this.party.push(new PartyMember(character, 1, 1));
+    if (this.party.filter(member => member.character === character).concat().length === 0) {
+      this.party.push(new PartyMember(character, 1, 1));
+    }
+    else {
+      // TODO: Show some kind of warning
+    }
   }
 }
