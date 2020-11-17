@@ -2,229 +2,254 @@
   {
     "name": "Amber",
     "description": "",
-    "element": 0,
+    "element": "Pyro",
     "rarity": 4,
     "tier": "",
     "portrait": "assets/portraits/Amber.jpg",
-    "icon": "https://rerollcdn.com/GENSHIN/Characters/Amber.png"
+    "icon": "https://rerollcdn.com/GENSHIN/Characters/Amber.png",
+    "weaponType": "Bow"
   },
   {
     "name": "Barbara",
     "description": "Every denizen of Mondstadt adores Barbara. However, she learned the word \"idol\" from a magazine.",
-    "element": 0,
+    "element": "Hydro",
     "rarity": 4,
     "tier": "",
     "portrait": "assets/portraits/Barbara.jpg",
-    "icon": "https://rerollcdn.com/GENSHIN/Characters/Barbara.png"
+    "icon": "https://rerollcdn.com/GENSHIN/Characters/Barbara.png",
+    "weaponType": "Catalyst"
   },
   {
     "name": "Beidou",
     "description": "",
-    "element": 0,
+    "element": "Electro",
     "rarity": 4,
     "tier": "",
     "portrait": "assets/portraits/Beidou.jpg",
-    "icon": "https://rerollcdn.com/GENSHIN/Characters/Beidou.png"
+    "icon": "https://rerollcdn.com/GENSHIN/Characters/Beidou.png",
+    "weaponType": "Claymore"
   },
   {
     "name": "Bennett",
     "description": "",
-    "element": 0,
+    "element": "Pyro",
     "rarity": 4,
     "tier": "",
     "portrait": "assets/portraits/Bennett.jpg",
-    "icon": "https://rerollcdn.com/GENSHIN/Characters/Bennett.png"
+    "icon": "https://rerollcdn.com/GENSHIN/Characters/Bennett.png",
+    "weaponType": "Sword"
   },
   {
     "name": "Chongyun",
     "description": "",
-    "element": 0,
+    "element": "Cryo",
     "rarity": 4,
     "tier": "",
     "portrait": "assets/portraits/Chongyun.jpg",
-    "icon": "https://rerollcdn.com/GENSHIN/Characters/Chongyun.png"
+    "icon": "https://rerollcdn.com/GENSHIN/Characters/Chongyun.png",
+    "weaponType": "Claymore"
   },
   {
     "name": "Diluc",
     "description": "",
-    "element": 0,
+    "element": "Pyro",
     "rarity": 5,
     "tier": "",
     "portrait": "assets/portraits/Diluc.jpg",
-    "icon": "https://rerollcdn.com/GENSHIN/Characters/Diluc.png"
+    "icon": "https://rerollcdn.com/GENSHIN/Characters/Diluc.png",
+    "weaponType": "Claymore"
   },
   {
     "name": "Diona",
     "description": "A young lady who has inherited trace amounts of non-human blood. She is the incredible popular bartender of the Cat's Tail tavern.",
-    "element": 0,
+    "element": "Cryo",
     "rarity": 4,
     "tier": "",
     "portrait": "assets/portraits/Diona.jpg",
     "icon": "https://rerollcdn.com/GENSHIN/Characters/Diona.png",
-    "isNew": true
+    "isNew": true,
+    "weaponType": "Bow"
   },
   {
     "name": "Fischl",
     "description": "",
-    "element": 0,
+    "element": "Electro",
     "rarity": 4,
     "tier": "",
     "portrait": "assets/portraits/Fischl.jpg",
-    "icon": "https://rerollcdn.com/GENSHIN/Characters/Fischl.png"
+    "icon": "https://rerollcdn.com/GENSHIN/Characters/Fischl.png",
+    "weaponType": "Bow"
   },
   {
     "name": "Jean",
     "description": "",
-    "element": 0,
+    "element": "Anemo",
     "rarity": 5,
     "tier": "",
     "portrait": "assets/portraits/Jean.jpg",
-    "icon": "https://rerollcdn.com/GENSHIN/Characters/Jean.png"
+    "icon": "https://rerollcdn.com/GENSHIN/Characters/Jean.png",
+    "weaponType": "Sword"
   },
   {
     "name": "Kaeya",
     "description": "",
-    "element": 0,
+    "element": "Cryo",
     "rarity": 4,
     "tier": "",
     "portrait": "assets/portraits/Kaeya.jpg",
-    "icon": "https://rerollcdn.com/GENSHIN/Characters/Kaeya.png"
+    "icon": "https://rerollcdn.com/GENSHIN/Characters/Kaeya.png",
+    "weaponType": "Sword"
   },
   {
     "name": "Keqing",
     "description": "The Yuheng of the Liyue Qixing. Has much to say about Rex Lapis' unilateral approach to policymaking in Liyue - but in truth, gods admire skeptics such as her quite a lot.",
-    "element": 0,
+    "element": "Electro",
     "rarity": 5,
     "tier": "",
     "portrait": "assets/portraits/Keqing.jpg",
-    "icon": "https://rerollcdn.com/GENSHIN/Characters/Keqing.png"
+    "icon": "https://rerollcdn.com/GENSHIN/Characters/Keqing.png",
+    "weaponType": "Sword"
   },
   {
     "name": "Klee",
     "description": "An explosives expert and a regular at the Knights of Favonius' confinement room. Also known as Fleeing Sunlight.",
-    "element": 0,
+    "element": "Pyro",
     "rarity": 5,
     "tier": "",
     "portrait": "assets/portraits/Klee.jpg",
-    "icon": "https://rerollcdn.com/GENSHIN/Characters/Klee.png"
+    "icon": "https://rerollcdn.com/GENSHIN/Characters/Klee.png",
+    "weaponType": "Catalyst"
   },
   {
     "name": "Lisa",
     "description": "",
-    "element": 0,
+    "element": "Electro",
     "rarity": 4,
     "tier": "",
     "portrait": "assets/portraits/Lisa.jpg",
-    "icon": "https://rerollcdn.com/GENSHIN/Characters/Lisa.png"
+    "icon": "https://rerollcdn.com/GENSHIN/Characters/Lisa.png",
+    "weaponType": "Catalyst"
   },
   {
     "name": "Mona",
     "description": "",
-    "element": 0,
+    "element": "Hydro",
     "rarity": 5,
     "tier": "",
     "portrait": "assets/portraits/Mona.jpg",
-    "icon": "https://rerollcdn.com/GENSHIN/Characters/Mona.png"
+    "icon": "https://rerollcdn.com/GENSHIN/Characters/Mona.png",
+    "weaponType": "Catalyst"
   },
   {
     "name": "Ningguang",
     "description": "",
-    "element": 0,
+    "element": "Geo",
     "rarity": 4,
     "tier": "",
     "portrait": "assets/portraits/Ningguang.jpg",
-    "icon": "https://rerollcdn.com/GENSHIN/Characters/Ningguang.png"
+    "icon": "https://rerollcdn.com/GENSHIN/Characters/Ningguang.png",
+    "weaponType": "Catalyst"
   },
   {
     "name": "Noelle",
     "description": "",
-    "element": 0,
+    "element": "Geo",
     "rarity": 4,
     "tier": "",
     "portrait": "assets/portraits/Noelle.jpg",
-    "icon": "https://rerollcdn.com/GENSHIN/Characters/Noelle.png"
+    "icon": "https://rerollcdn.com/GENSHIN/Characters/Noelle.png",
+    "weaponType": "Claymore"
   },
   {
     "name": "Qiqi",
     "description": "",
-    "element": 0,
+    "element": "Cryo",
     "rarity": 5,
     "tier": "",
     "portrait": "assets/portraits/Qiqi.jpg",
-    "icon": "https://rerollcdn.com/GENSHIN/Characters/Qiqi.png"
+    "icon": "https://rerollcdn.com/GENSHIN/Characters/Qiqi.png",
+    "weaponType": "Sword"
   },
   {
     "name": "Razor",
     "description": "",
-    "element": 0,
+    "element": "Electro",
     "rarity": 4,
     "tier": "",
     "portrait": "assets/portraits/Razor.jpg",
-    "icon": "https://rerollcdn.com/GENSHIN/Characters/Razor.png"
+    "icon": "https://rerollcdn.com/GENSHIN/Characters/Razor.png",
+    "weaponType": "Claymore"
   },
   {
     "name": "Sucrose",
     "description": "",
-    "element": 0,
+    "element": "Anemo",
     "rarity": 4,
     "tier": "",
     "portrait": "assets/portraits/Sucrose.jpg",
-    "icon": "https://rerollcdn.com/GENSHIN/Characters/Sucrose.png"
+    "icon": "https://rerollcdn.com/GENSHIN/Characters/Sucrose.png",
+    "weaponType": "Catalyst"
   },
   {
     "name": "Tartaglia",
     "description": "",
-    "element": 0,
+    "element": "Hydro",
     "rarity": 5,
     "tier": "",
     "portrait": "assets/portraits/Tartaglia.jpg",
     "icon": "https://rerollcdn.com/GENSHIN/Characters/Tartaglia.png",
-    "isNew": true
+    "isNew": true,
+    "weaponType": "Bow"
   },
   {
-    "name": "Traveler",
+    "name": "Traveler (Anemo)",
     "description": "",
-    "element": 0,
+    "element": "Anemo",
+    "rarity": 5,
+    "tier": "",
+    "portrait": "assets/portraits/Traveler_Male.jpg",
+    "icon": "https://rerollcdn.com/GENSHIN/Characters/Traveler (Anemo).png",
+    "weaponType": "Sword"
+  },
+  {
+    "name": "Traveler (Geo)",
+    "description": "",
+    "element": "Geo",
     "rarity": 5,
     "tier": "",
     "portrait": "assets/portraits/Traveler.jpg",
-    "icon": "https://rerollcdn.com/GENSHIN/Characters/Traveler (Anemo).png"
-  },
-  {
-    "name": "Traveler",
-    "description": "",
-    "element": 0,
-    "rarity": 5,
-    "tier": "",
-    "portrait": "assets/portraits/Traveler.jpg",
-    "icon": "https://rerollcdn.com/GENSHIN/Characters/Traveler (Geo).png"
+    "icon": "https://rerollcdn.com/GENSHIN/Characters/Traveler (Geo).png",
+    "weaponType": "Sword"
   },
   {
     "name": "Venti",
     "description": "",
-    "element": 0,
+    "element": "Anemo",
     "rarity": 4,
     "tier": "",
     "portrait": "assets/portraits/Venti.jpg",
-    "icon": "https://rerollcdn.com/GENSHIN/Characters/Venti.png"
+    "icon": "https://rerollcdn.com/GENSHIN/Characters/Venti.png",
+    "weaponType": "Bow"
   },
   {
     "name": "Xiangling",
     "description": "",
-    "element": 0,
+    "element": "Pyro",
     "rarity": 4,
     "tier": "",
     "portrait": "assets/portraits/Xiangling.jpg",
-    "icon": "https://rerollcdn.com/GENSHIN/Characters/Xiangling.png"
+    "icon": "https://rerollcdn.com/GENSHIN/Characters/Xiangling.png",
+    "weaponType": "Polearm"
   },
   {
     "name": "Xingqiu",
     "description": "",
-    "element": 0,
+    "element": "Hydro",
     "rarity": 4,
     "tier": "",
     "portrait": "assets/portraits/Xingqiu.jpg",
-    "icon": "https://rerollcdn.com/GENSHIN/Characters/Xingqiu.png"
+    "icon": "https://rerollcdn.com/GENSHIN/Characters/Xingqiu.png",
+    "weaponType": "Sword"
   }
 ]
 
