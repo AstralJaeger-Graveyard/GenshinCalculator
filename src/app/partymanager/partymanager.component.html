@@ -3,10 +3,19 @@
     <h2>Party Manager</h2>
   </div>
   <div class="row">
-    <app-party [party]="party" [characters]="characters" (memberSelected)="onSelected($event)"></app-party>
+    <app-party [party]="party"
+               [characters]="characters"
+               (memberSelected)="onSelected($event)"
+               (memberRemoved)="onRemoved($event)"
+    ></app-party>
   </div>
   <div class="row">
-    <app-partymember-detail *ngIf="selectedCharacter; else infoText" [member]="selectedCharacter"></app-partymember-detail>
+    <app-partymember-detail *ngIf="selectedCharacter; else infoText"
+                            [member]="selectedCharacter"
+                            (closeDetail)="onCloseDetail()"
+    >
+
+    </app-partymember-detail>
     <ng-template #infoText>
       <h3>Please select a character!</h3>
     </ng-template>

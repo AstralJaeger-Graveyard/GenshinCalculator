@@ -1,5 +1,4 @@
 import {Component, OnInit} from '@angular/core';
-import {Element} from '../model/Element';
 import {Character} from '../model/Character';
 import {PartyMember} from '../model/PartyMember';
 import { CharacterService } from '../services/character.service';
@@ -17,30 +16,39 @@ export class PartymanagerComponent implements OnInit {
 
   constructor(private characterService: CharacterService) {
     // this.keqing.icon = 'https://rerollcdn.com/GENSHIN/Characters/Keqing.png';
-    // this.keqing.portrait = 'assets/portraits/Keqing.jpg';
+    // this.keqing.portrait = 'assets/cards/Keqing.jpg';
     // this.klee.icon = 'https://rerollcdn.com/GENSHIN/Characters/Klee.png';
-    // this.klee.portrait = 'assets/portraits/Klee.jpg';
+    // this.klee.portrait = 'assets/cards/Klee.jpg';
     // this.diona.icon = 'https://rerollcdn.com/GENSHIN/Characters/Diona.png';
-    // this.diona.portrait = 'assets/portraits/Diona.jpg';
+    // this.diona.portrait = 'assets/cards/Diona.jpg';
     // this.barbara.icon = 'https://rerollcdn.com/GENSHIN/Characters/Barbara.png';
-    // this.barbara.portrait = 'assets/portraits/Barbara.jpg';
+    // this.barbara.portrait = 'assets/cards/Barbara.jpg';
   }
 
   ngOnInit(): void {
      this.characters = new Map<string, Character>();
      this.characterService.getCharacters().subscribe(data => {
-       const characters = (data as Character[]);
-       for (const character of characters){
+       for (const character of data){
          this.characters.set(character.name.toLowerCase(), character);
        }
-       this.party.push(new PartyMember(this.characters.get('keqing'), 60, 4));
-       this.party.push(new PartyMember(this.characters.get('klee'), 60, 4));
-       this.party.push(new PartyMember(this.characters.get('diona'), 60, 4));
-       this.party.push(new PartyMember(this.characters.get('barbara'), 60, 4));
+       this.party.push(new PartyMember(this.characters.get('traveler (anemo)'), 1, 1));
+       this.party.push(new PartyMember(this.characters.get('amber'), 1, 1));
+       this.party.push(new PartyMember(this.characters.get('kaeya'), 1, 1));
+       this.party.push(new PartyMember(this.characters.get('lisa'), 1, 1));
      });
   }
 
-  onSelected(event: PartyMember): void{
-    this.selectedCharacter = event;
+  onSelected(member: PartyMember): void{
+    this.selectedCharacter = member;
+  }
+
+  onRemoved(member: PartyMember): void{
+    const index: number = this.party.indexOf(member);
+    this.party.splice(index, 1);
+    this.selectedCharacter = null;
+  }
+
+  onCloseDetail(): void{
+    this.selectedCharacter = null;
   }
 }
