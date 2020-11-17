@@ -1,13 +1,20 @@
-<a href="#" class="list-group-item clearfix" (click)="onSelected()">
-  <span class="pull-left">
-    <img
-      [src] = "member.character.icon"
-      alt = "portrait"
-      class="img-responsive"
-      style="max-height: 50px; margin-right: 5px; ">
-  </span>
-  <div>
-    <h4 class="list-group-item-heading">{{member.character.name}}</h4>
-    <p class="list-group-item-text">{{member.character.description}}</p>
+<div class="list-group-item clearfix">
+  <div class="pull-left">
+    <nz-switch nzSize="small"></nz-switch>
+    <nz-avatar [nzSrc]="member.character.icon" nzAlt="icon" nzGap="1" nzSize="large"></nz-avatar>
+    {{member.character.name}}
   </div>
-</a>
+  <div class="pull-right">
+    <nz-button-group>
+      <button nz-button disabled>
+        <fa-icon [icon]="faInfo"></fa-icon>
+      </button>
+      <button nz-button nzType="primary" (click)="onSelected()">
+        <fa-icon [icon]="faEdit"></fa-icon>
+      </button>
+      <button nz-button nzType="danger" (click)="onRemove()">
+        <fa-icon [icon]="faTrash"></fa-icon>
+      </button>
+    </nz-button-group>
+  </div>
+</div>
