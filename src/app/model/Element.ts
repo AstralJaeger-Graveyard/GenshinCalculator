@@ -1,9 +1,9 @@
 export enum Element{
-  Anemo,
-  Cryo,
-  Electro,
-  Dendro,
-  Geo,
-  Hydro,
-  Pyro
+  Anemo = "Anemo",
+  Cryo = "Cryo",
+  Electro = "Electro",
+  Dendro = "Dendro",
+  Geo = "Geo",
+  Hydro = "Hydro",
+  Pyro = "Pyro"
 }
