@@ -19,7 +19,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PartyComponent } from './partymanager/party/party.component';
 import { PartymemberComponent } from './partymanager/party/partymember/partymember.component';
 import { PartymemberDetailComponent } from './partymanager/partymember-detail/partymember-detail.component';
-import { PartyCockpitComponent } from './partymanager/party/party-cockpit/party-cockpit.component';
 
 // Directives
 import { RepeatDirective } from './directives/repeat.directive';
@@ -56,7 +55,6 @@ const icons: IconDefinition[] = Object.keys(antDesignIcons).map(key => antDesign
     PartyComponent,
     PartymemberComponent,
     PartymemberDetailComponent,
-    PartyCockpitComponent,
     RepeatDirective
   ],
   imports: [
