@@ -3,26 +3,23 @@ import { Character } from '../model/Character';
 import { HttpClient } from '@angular/common/http';
 import {Observable} from 'rxjs';
 import {map} from 'rxjs/operators';
+import * as  cData from 'src/app/_dataassets/characters.json';
+
 
 @Injectable({
   providedIn: 'root'
 })
 export class CharacterService {
-  private dataUrl = 'assets/data.json';
+  private dataUrl = 'assets/characters.json';
 
-  constructor(private http: HttpClient) { }
+  // @ts-ignore
+  public characters: Character[] = cData.default;
 
-  public getCharacters(): Observable<Character[]>{
-    return this.http.get(this.dataUrl).pipe(map<any, Character[]>(data => data as Character[]));
-  }
+  public characterMap: Map<string, Character> = new Map<string, Character>();
 
-  public getCharacterMap(obs: Observable<Character[]> ): Observable<Map<string, Character>> {
-     return obs.pipe(map(data => {
-       const characters = new Map<string, Character>();
-       for (const character of data){
-         characters.set(character.name, character);
-       }
-       return characters;
-     }));
+  constructor() {
+    this.characters.forEach(character => {
+      this.characterMap.set(character.name.toLowerCase(), character)
+    });
   }
 }
