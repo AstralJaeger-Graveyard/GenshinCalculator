@@ -1,7 +1,7 @@
 import { Element } from './Element';
 import { WeaponType } from './WeaponType';
 
-export class Character{
+export class Character {
   public name: string;
   public description: string;
   public motto: string;
