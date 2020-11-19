@@ -1,5 +1,5 @@
 <div class="row">
-  <div class="col-xs-12">
+  <div class="col-xs-11">
     <h3>Add a party member: </h3>
     <nz-select nzShowSearch
                nzPlaceHolder="Select a character"
@@ -19,8 +19,8 @@
             <fa-icon *ngIf="entry.value.isNew" [icon]="fasBell" style="color: gold;"></fa-icon>
           </div>
           <div class="pull-right">
-            <img [src]="'https://rerollcdn.com/GENSHIN/Elements/Element_' + entry.value.element + '.png'" alt="Element" style="max-height: 20px;">
-            <img [src]="'https://rerollcdn.com/GENSHIN/Weapon/NEW/' + entry.value.weaponType + '.png'" alt="Weapon" style="max-height: 20px;">
+            <img [src]="'assets/elements/' + entry.value.element + '.png'" alt="Element" style="max-height: 20px;">
+            <img [src]="'assets/weapontypes/' + entry.value.weaponType + '.png'" alt="Weapon" style="max-height: 20px;">
           </div>
         </div>
 
@@ -29,13 +29,23 @@
   </div>
 </div>
 <nz-divider></nz-divider>
+
 <div class="row">
   <div class="col-xs-12">
+    <div class="list-group-item clearfix">
+      <div class="pull-left">
+        <h4>A party</h4>
+      </div>
+      <div class="pull-right">
+        <nz-switch nzSize="small" nz-tooltip="Don't ask again" [(ngModel)]="forceDelete"></nz-switch>
+      </div>
+    </div>
     <div *ngIf="party.length != 0; else emptyParty">
       <app-partymember *ngFor="let member of party"
                        [member]="member"
                        (memberSelected)="onSelected(member)"
                        (memberRemoved)="onRemoved(member)"
+                       [forceDelete]="forceDelete"
       >
       </app-partymember>
     </div>

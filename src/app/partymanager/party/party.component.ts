@@ -3,15 +3,18 @@ import {PartyMember} from '../../model/PartyMember';
 import {Character} from '../../model/Character';
 import {CharacterService} from '../../services/character.service';
 import {faBell as fasBell} from '@fortawesome/pro-solid-svg-icons';
+import {faInfoCircle, faTrashAlt, faEdit} from '@fortawesome/pro-light-svg-icons';
 
 @Component({
   selector: 'app-party',
   templateUrl: './party.component.html',
-  styleUrls: ['./party.component.css'],
-  providers: [CharacterService]
+  styleUrls: ['./party.component.css']
 })
 export class PartyComponent implements OnInit {
   fasBell = fasBell;
+  faInfo = faInfoCircle;
+  faEdit = faEdit;
+  faTrash = faTrashAlt;
 
   @Input()
   party: PartyMember[];
@@ -26,18 +29,12 @@ export class PartyComponent implements OnInit {
   memberRemoved = new EventEmitter<PartyMember>();
 
   selectValue = null;
+  forceDelete: boolean;
 
-  constructor(private characterService: CharacterService) {
-    this.characterService.getCharacters().subscribe(data => {
-      const characters = (data as Character[]);
-      for (const character of characters){
-        this.characters.set(character.name.toLowerCase(), character);
-      }
-    });
-  }
+  constructor(private characterService: CharacterService) { }
 
   ngOnInit(): void {
-
+    this.characters = this.characterService.characterMap;
   }
 
   onSelected(member: PartyMember): void{
