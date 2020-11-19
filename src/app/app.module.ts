@@ -37,6 +37,9 @@ import * as AllIcons from '@ant-design/icons-angular/icons';
 // Fontawesome Icons
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {faBell, faStar} from '@fortawesome/pro-solid-svg-icons';
+import {CharacterService} from './services/character.service';
+import {PartyService} from './services/party.service';
+import {LoggingService} from './services/logging.service';
 
 registerLocaleData(en);
 
@@ -68,7 +71,13 @@ const icons: IconDefinition[] = Object.keys(antDesignIcons).map(key => antDesign
     ScrollingModule,
     DragDropModule
   ],
-  providers: [{ provide: NZ_I18N, useValue: en_US }, {provide: NZ_ICONS, useValue: icons}],
+  providers: [
+    { provide: NZ_I18N, useValue: en_US },
+    {provide: NZ_ICONS, useValue: icons},
+     CharacterService,
+     PartyService,
+     LoggingService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {
