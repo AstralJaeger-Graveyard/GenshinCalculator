@@ -9,9 +9,9 @@ export class LoggingService {
 
   constructor() { }
 
-  public log(message?: string, ...data: any[]){
+  public log(message?: string, ...optionalData: any[]){
     if(this.enabled) {
-      console.log(message, data);
+      console.log(message, optionalData);
     }
   }
 }
