@@ -1,16 +1,11 @@
 {
   "hosting": {
-    "public": "dist/GenshinCalculator/",
+    "public": "dist/GenshinCalculator",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
-    ]
+    "rewrites": [ ]
   }
 }
