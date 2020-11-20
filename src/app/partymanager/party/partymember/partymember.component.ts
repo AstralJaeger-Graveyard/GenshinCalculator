@@ -17,6 +17,9 @@ export class PartymemberComponent implements OnInit {
   @Input()
   member: PartyMember;
 
+  @Input()
+  forceDelete: boolean = false;
+
   @Output()
   memberSelected = new EventEmitter<void>();
 

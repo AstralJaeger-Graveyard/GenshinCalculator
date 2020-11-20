@@ -18,6 +18,8 @@ export class PartymemberDetailComponent implements OnInit {
   @Output()
   closeDetail = new EventEmitter<void>();
 
+  displayMode: string = "portrait";
+
   constructor() { }
 
   ngOnInit(): void {
@@ -25,5 +27,22 @@ export class PartymemberDetailComponent implements OnInit {
 
   onCloseDetail(): void{
     this.closeDetail.emit();
+  }
+
+  getTagColor(): string{
+    switch (this.member.character.tier.toLowerCase()){
+      case 's':
+        return '#ff7f7f';
+      case 'a':
+        return '#ffbf7f';
+      case 'b':
+        return '#ffff7f';
+      case 'c':
+        return '#bfff7f';
+      case 'd':
+        return '#7fff7f';
+      default:
+        return '#a0a0a0'
+    }
   }
 }

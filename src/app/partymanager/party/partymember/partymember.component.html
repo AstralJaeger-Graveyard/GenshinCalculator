@@ -1,18 +1,22 @@
 <div class="list-group-item clearfix">
   <div class="pull-left">
-    <nz-switch nzSize="small"></nz-switch>
+    <nz-switch nzSize="small" nz-tooltip="Include in Schedule/Summary"></nz-switch>
     <nz-avatar [nzSrc]="member.character.icon" nzAlt="icon" nzGap="1" nzSize="large"></nz-avatar>
     {{member.character.name}}
   </div>
   <div class="pull-right">
     <nz-button-group>
-      <button nz-button disabled>
-        <fa-icon [icon]="faInfo"></fa-icon>
-      </button>
-      <button nz-button nzType="primary" (click)="onSelected()">
+      <button nz-button
+              nzType="primary"
+              (click)="onSelected()">
         <fa-icon [icon]="faEdit"></fa-icon>
       </button>
-      <button nz-button nzType="danger" (click)="onRemove()">
+      <button nz-button
+              nzType="danger"
+              nz-popconfirm
+              [nzCondition] = "forceDelete"
+              nzPopconfirmTitle="Are you sure you want to remove this character form your party?"
+              (nzOnConfirm)="onRemove()">
         <fa-icon [icon]="faTrash"></fa-icon>
       </button>
     </nz-button-group>
