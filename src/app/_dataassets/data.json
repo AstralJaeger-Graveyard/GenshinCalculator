@@ -1,0 +1,379 @@
+{
+  "characters": [
+    {
+      "name": "Amber",
+      "description": "Always energetic and full of life, Amber's the best - albeit only - Outrider of the Knights of Favonius.",
+      "motto": "Outrider Amber, at the ready!",
+      "element": "Pyro",
+      "rarity": 4,
+      "tier": "D",
+      "portrait": "assets/portraits/Amber.png",
+      "card": "assets/cards/Amber.jpg",
+      "icon": "assets/icons/Amber.png",
+      "weaponType": "Bow"
+    },
+    {
+      "name": "Barbara",
+      "description": "Every denizen of Mondstadt adores Barbara. However, she learned the word \"idol\" from a magazine.",
+      "motto": "The best magic is diligence.",
+      "element": "Hydro",
+      "rarity": 4,
+      "tier": "B",
+      "portrait": "assets/portraits/Barbara.png",
+      "card": "assets/cards/Barbara.jpg",
+      "icon": "assets/icons/Barbara.png",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Beidou",
+      "description": "Beidou is the leader of the Crux — an armed fleet based in Liyue Harbor. An armed fleet means exactly what it sounds like: a fleet of ships armed to the teeth",
+      "motto": "I'm the captain, so you can be my first mate! Deal?",
+      "element": "Electro",
+      "rarity": 4,
+      "tier": "B",
+      "portrait": "assets/portraits/Beidou.png",
+      "card": "assets/cards/Beidou.jpg",
+      "icon": "assets/icons/Beidou.png",
+      "weaponType": "Claymore"
+    },
+    {
+      "name": "Bennett",
+      "description": "A righteous and good-natured adventurer from Mondstadt who's unfortunately extremely unlucky.",
+      "motto": "Weather's not bad today... Oh crud, I jinxed it! Now it's bound to rain.",
+      "element": "Pyro",
+      "rarity": 4,
+      "tier": "S",
+      "portrait": "assets/portraits/Bennett.png",
+      "card": "assets/cards/Bennett.jpg",
+      "icon": "assets/icons/Bennett.png",
+      "weaponType": "Sword"
+    },
+    {
+      "name": "Chongyun",
+      "description": "A young exortcist from a family of exorcists. He does everything he can to suppress his pure positive energy.",
+      "motto": "Once I have rid this world of all evil spirits, I... I will break with my abstinence, and go to the host springs!",
+      "element": "Cryo",
+      "rarity": 4,
+      "tier": "B",
+      "portrait": "assets/portraits/Chongyun.png",
+      "card": "assets/cards/Chongyun.jpg",
+      "icon": "assets/icons/Chongyun.png",
+      "weaponType": "Claymore"
+    },
+    {
+      "name": "Diluc",
+      "description": "The tycoon of a winery empire in Mondstadt, unmatched in every possible way.",
+      "motto": "Eyes forwards, to the new dawn.",
+      "element": "Pyro",
+      "rarity": 5,
+      "tier": "S",
+      "portrait": "assets/portraits/Diluc.png",
+      "card": "assets/cards/Diluc.jpg",
+      "icon": "assets/icons/Diluc.png",
+      "weaponType": "Claymore"
+    },
+    {
+      "name": "Diona",
+      "description": "A young lady who has inherited trace amounts of non-human blood. She is the incredible popular bartender of the Cat's Tail tavern.",
+      "motto": "Diona, Bartender of the Cat's Tail! I charge a hefty fee for private events... huh? You didn't come here for a drink?",
+      "element": "Cryo",
+      "rarity": 4,
+      "tier": "A",
+      "portrait": "assets/portraits/Diona.png",
+      "card": "assets/cards/Diona.jpg",
+      "icon": "assets/icons/Diona.png",
+      "isNew": true,
+      "weaponType": "Bow"
+    },
+    {
+      "name": "Fischl",
+      "description": "A mysterious girl who calls herself \"Prinzessia der Verurteilung\" and travels with a night raven named Oz.",
+      "motto": "You are as I am, a traveler form another world.",
+      "element": "Electro",
+      "rarity": 4,
+      "tier": "A",
+      "portrait": "assets/portraits/Fischl.png",
+      "card": "assets/cards/Fischl.jpg",
+      "icon": "assets/icons/Fischl.png",
+      "weaponType": "Bow"
+    },
+    {
+      "name": "Jean",
+      "description": "The righteous and rigorous Dandelion Knight, and Acting Grand Master of the Knights of Favonius in Mondstadt.",
+      "motto": "Wind, hear me!",
+      "element": "Anemo",
+      "rarity": 5,
+      "tier": "A",
+      "portrait": "assets/portraits/Jean.png",
+      "card": "assets/cards/Jean.jpg",
+      "icon": "assets/icons/Jean.png",
+      "weaponType": "Sword"
+    },
+    {
+      "name": "Kaeya",
+      "description": "A thinker in the Knights of Favonius with a somewhat exotic appearance.",
+      "motto": "A knight's duty goes beyond the sword.",
+      "element": "Cryo",
+      "rarity": 4,
+      "tier": "C",
+      "portrait": "assets/portraits/Kaeya.png",
+      "card": "assets/cards/Kaeya.jpg",
+      "icon": "assets/icons/Kaeya.png",
+      "weaponType": "Sword"
+    },
+    {
+      "name": "Keqing",
+      "description": "The Yuheng of the Liyue Qixing. Has much to say about Rex Lapis' unilateral approach to policymaking in Liyue - but in truth, gods admire skeptics such as her quite a lot.",
+      "motto": "Hmph. Lets be real here, does Rex Lapis really know everything?",
+      "element": "Electro",
+      "rarity": 5,
+      "tier": "A",
+      "portrait": "assets/portraits/Keqing.png",
+      "card": "assets/cards/Keqing.jpg",
+      "icon": "assets/icons/Keqing.png",
+      "weaponType": "Sword"
+    },
+    {
+      "name": "Klee",
+      "description": "An explosives expert and a regular at the Knights of Favonius' confinement room. Also known as Fleeing Sunlight.",
+      "motto": "I wanna go out and play! Come on, take me out to play already!",
+      "element": "Pyro",
+      "rarity": 5,
+      "tier": "S",
+      "portrait": "assets/portraits/Klee.png",
+      "card": "assets/cards/Klee.jpg",
+      "icon": "assets/icons/Klee.png",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Lisa",
+      "description": "The languid but knowledgeable Librarian of the Knights of Favonius who was deemed by Sumeru Academia to be their most distinguised graduate in the past two centuries.",
+      "motto": "There'll be time for this later... Come sit and chat with me.",
+      "element": "Electro",
+      "rarity": 4,
+      "tier": "C",
+      "portrait": "assets/portraits/Lisa.png",
+      "card": "assets/cards/Lisa.jpg",
+      "icon": "assets/icons/Lisa.png",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Mona",
+      "description": "A mysterious young astrologer who proclaims herself to be \"Astrologist Mona Megistus,\" and who possesses abilities to match the title.",
+      "motto": "Fate is challed as such, for it cannot be changed, nor can it be reversed. It can only but be accepted.",
+      "element": "Hydro",
+      "rarity": 5,
+      "tier": "S",
+      "portrait": "assets/portraits/Mona.png",
+      "card": "assets/cards/Mona.jpg",
+      "icon": "assets/icons/Mona.png",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Ningguang",
+      "description": "The Tianquan of Liyue Qixing. Her wealth is unsurpassed in all of Teyvat.",
+      "motto": "Every Mora counts, down to the very last one.",
+      "element": "Geo",
+      "rarity": 4,
+      "tier": "A",
+      "portrait": "assets/portraits/Ningguang.png",
+      "card": "assets/cards/Ningguang.jpg",
+      "icon": "assets/icons/Ningguang.png",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Noelle",
+      "description": "A maid in the service of the Knights of Favonius that dreams of joining their ranks someday.",
+      "motto": "Leave it to me! All of it, whatever it is!",
+      "element": "Geo",
+      "rarity": 4,
+      "tier": "C",
+      "portrait": "assets/portraits/Noelle.png",
+      "card": "assets/cards/Noelle.jpg",
+      "icon": "assets/icons/Noelle.png",
+      "weaponType": "Claymore"
+    },
+    {
+      "name": "Qiqi",
+      "description": "An apprentice and herb-picker Bubu Pharmacy. An undead with a bone-white complexion, she seldom has much in the way of words or emotion.",
+      "motto": "I am Qiqi. I am a zombie. And I forgot what comes next.",
+      "element": "Cryo",
+      "rarity": 5,
+      "tier": "S",
+      "portrait": "assets/portraits/Qiqi.png",
+      "card": "assets/cards/Qiqi.jpg",
+      "icon": "assets/icons/Qiqi.png",
+      "weaponType": "Sword"
+    },
+    {
+      "name": "Razor",
+      "description": "A boy who lives among the wolves in Wolvendom of Mondstadt, away from human civilization. As agile as lightning.",
+      "motto": "The wolves are my Lipical. My family.",
+      "element": "Electro",
+      "rarity": 4,
+      "tier": "A",
+      "portrait": "assets/portraits/Razor.png",
+      "card": "assets/cards/Razor.jpg",
+      "icon": "assets/icons/Razor.png",
+      "weaponType": "Claymore"
+    },
+    {
+      "name": "Sucrose",
+      "description": "An alchemist filled with curiosity about all things. She researches bio-alchemy.",
+      "motto": "And this one is called... Mist Flower Project 3, Version 17, Enlargement Trial.",
+      "element": "Anemo",
+      "rarity": 4,
+      "tier": "B",
+      "portrait": "assets/portraits/Sucrose.png",
+      "card": "assets/cards/Sucrose.jpg",
+      "icon": "assets/icons/Sucrose.png",
+      "weaponType": "Catalyst"
+    },
+    {
+      "name": "Tartaglia",
+      "description": "No. 11 of The Harbingers, also known as \"Childe\". His name is highly feared on the battlefield.",
+      "motto": "If your plan is to get the best of me... I'm looking forward to watching you try.",
+      "element": "Hydro",
+      "rarity": 5,
+      "tier": "S",
+      "portrait": "assets/portraits/Tartaglia.png",
+      "card": "assets/cards/Tartaglia.jpg",
+      "icon": "assets/icons/Tartaglia.png",
+      "isNew": true,
+      "weaponType": "Bow"
+    },
+    {
+      "name": "Traveler (Anemo)",
+      "description": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
+      "motto": "",
+      "element": "Anemo",
+      "rarity": 5,
+      "tier": "C",
+      "portrait": "assets/portraits/Traveler_Male.png",
+      "card": "assets/cards/Traveler_Male.jpg",
+      "icon": "assets/icons/Traveler.png",
+      "weaponType": "Sword"
+    },
+    {
+      "name": "Traveler (Geo)",
+      "description": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
+      "motto": "",
+      "element": "Geo",
+      "rarity": 5,
+      "tier": "C",
+      "portrait": "assets/portraits/Traveler.png",
+      "card": "assets/cards/Traveler_Male.jpg",
+      "icon": "assets/icons/Traveler.png",
+      "weaponType": "Sword"
+    },
+    {
+      "name": "Venti",
+      "description": "One of the many bards of Mondstadt, who freely wanders the city's streets and alleys.",
+      "motto": "Perfec timing, traveler! Tell me - what is your greatest wish?",
+      "element": "Anemo",
+      "rarity": 4,
+      "tier": "S",
+      "portrait": "assets/portraits/Venti.png",
+      "card": "assets/cards/Venti.jpg",
+      "icon": "assets/icons/Venti.png",
+      "weaponType": "Bow"
+    },
+    {
+      "name": "Xiangling",
+      "description": "A renowned chef from Liyue. She's extremely passionate about cooking and excels at making her signature hot and spicy dishes.",
+      "motto": "Sit anywhere you like. I can make whatever you want, even it it's not on the menu!",
+      "element": "Pyro",
+      "rarity": 4,
+      "tier": "A",
+      "portrait": "assets/portraits/Xiangling.png",
+      "card": "assets/cards/Xiangling.jpg",
+      "icon": "assets/icons/Xiangling.png",
+      "weaponType": "Polearm"
+    },
+    {
+      "name": "Xingqiu",
+      "description": "A young man carrying a longsword who is frequently seen at book booths. He has a chivalrous heart and yearns for justice and fairness for all.",
+      "motto": "A moment of solitude. What could be better?",
+      "element": "Hydro",
+      "rarity": 4,
+      "tier": "S",
+      "portrait": "assets/portraits/Xingqiu.png",
+      "card": "assets/cards/Xingqiu.jpg",
+      "icon": "assets/icons/Xingqiu.png",
+      "weaponType": "Sword"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Agnidus Agate Silver",
+      "description": "Character Ascension Material",
+      "source": [
+        {"$ref": "#/materialSources/0"},
+        {"$ref": "#/materialSources/1"},
+        {"$ref": "#/materialSources/2"}
+      ]
+    },
+    {
+      "name": "Everflame Seed",
+      "description": "A seed that fuels the unending flames of the Pyro Regisvine. It emits pyro energy as if it will burn all that has ever sprouted from the ground.\nEndless desires flow among turbulent energy deep within the earth. What desire could steadily hold such fire to the plants and long so eagerly to bathe everything in unquenchable flames?",
+      "source": [
+        {"$ref": "#/materialSources/3"}
+      ]
+    },
+    {
+      "name": "Small Lamp Grass",
+      "description": "A wild grass that emits light at night. Used in cooking to enhance other flavors.",
+      "source": [
+        {"$ref": "#/materialSources/4"},
+        {"$ref": "#/materialSources/5"},
+        {"$ref": "#/materialSources/6"},
+        {"$ref": "#/materialSources/7"}
+      ]
+    },
+    {
+      "name": "Firm Arowhead",
+      "description": "A roughly produced arrowhead. Though unimpressive, neither it nor the bow should be underestimated, for even the bravest knight can be felled by an arrow from the rear.",
+      "source": [
+        {"$ref": "#/materialSources/8"}
+      ]
+    }
+  ],
+  "materialSources": [
+    {
+      "$id": 0,
+      "description": "Dropped by Pyro Regisvine"
+    },
+    {
+      "$id": 1,
+      "description": "Wolf of the North Challenge Reward"
+    },
+    {
+      "$id": 2,
+      "description": "Purchased from the Souvenir Shop"
+    },
+    {
+      "$id": 3,
+      "description": "Dropped by Lv. 30+ Pyro Regisvines"
+    },
+    {
+      "$id": 4,
+      "description": "Found in the wild at night"
+    },
+    {
+      "$id": 5,
+      "description": "Found in Wolvendom"
+    },
+    {
+      "$id": 6,
+      "description": "Found in the Whispering Woods"
+    },
+    {
+      "$id": 7,
+      "description": "Sold by Flora (Mondstadt)"
+    },
+    {
+      "$id": 8,
+      "description": "Dropped by Ranged Hilichurls"
+    }
+  ]
+}
