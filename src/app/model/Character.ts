@@ -1,5 +1,7 @@
 import { Element } from './Element';
 import { WeaponType } from './WeaponType';
+import {MaterialEntry} from './MaterialEntry';
+import {MaterialSet} from './MaterialSet';
 
 export class Character {
   public name: string;
@@ -13,7 +15,8 @@ export class Character {
   public card: string;
   public icon: string;
   public isNew: boolean = false;
-  // TODO: Ascension materials, talent materials
+  public ascension: MaterialSet[];
+  // TODO: talent materials
 
   constructor(name: string, description: string, element: Element) {
     this.name = name;
