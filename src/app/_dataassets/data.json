@@ -10,7 +10,143 @@
       "portrait": "assets/portraits/Amber.png",
       "card": "assets/cards/Amber.jpg",
       "icon": "assets/icons/Amber.png",
-      "weaponType": "Bow"
+      "weaponType": "Bow",
+      "ascension": [
+        {
+          "rank": 1,
+          "level": 20,
+          "cost": 20000,
+          "materials": [
+            {
+              "material_id": "agnidus_agate_silver",
+              "amount": "1"
+            },
+            {
+              "material_id": "small_lamp_grass",
+              "amount": "3"
+            },
+            {
+              "material_id": "firm_arrowhead",
+              "amount": "3"
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "level": 40,
+          "cost": 40000,
+          "materials": [
+            {
+              "material_id": "agnidus_agate_fragment",
+              "amount": "3"
+            },
+            {
+              "material_id": "everflame_seed",
+              "amount": "2"
+            },
+            {
+              "material_id": "small_lamp_grass",
+              "amount": "10"
+            },
+            {
+              "material_id": "firm_arrowhead",
+              "amount": "10"
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "level":50,
+          "cost": 60000,
+          "materials": [
+            {
+              "material_id": "agnidus_agate_fragment",
+              "amount": "6"
+            },
+            {
+              "material_id": "everflame_seed",
+              "amount": "4"
+            },
+            {
+              "material_id": "small_lamp_grass",
+              "amount": "20"
+            },
+            {
+              "material_id": "sharp_arrowhead",
+              "amount": "12"
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "level": 60,
+          "cost": 80000,
+          "materials": [
+            {
+              "material_id": "agnidus_agate_chunk",
+              "amount": "3"
+            },
+            {
+              "material_id": "everflame_seed",
+              "amount": "8"
+            },
+            {
+              "material_id": "small_lamp_grass",
+              "amount": "30"
+            },
+            {
+              "material_id": "sharp_arrowhead",
+              "amount": "18"
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "level": 70,
+          "cost": 100000,
+          "materials": [
+            {
+              "material_id": "agnidus_agate_chunk",
+              "amount": "6"
+            },
+            {
+              "material_id": "everflame_seed",
+              "amount": "12"
+            },
+            {
+              "material_id": "small_lamp_grass",
+              "amount": "45"
+            },
+            {
+              "material_id": "weathered_arrowhead",
+              "amount": "12"
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "level": 80,
+          "cost": 120000,
+          "materials": [
+            {
+              "material_id": "agnidus_agate_gemstone",
+              "amount": "6"
+            },
+            {
+              "material_id": "everflame_seed",
+              "amount": "20"
+            },
+            {
+              "material_id": "small_lamp_grass",
+              "amount": "60"
+            },
+            {
+              "material_id": "weathered_arrowhead",
+              "amount": "24"
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Barbara",
@@ -22,7 +158,143 @@
       "portrait": "assets/portraits/Barbara.png",
       "card": "assets/cards/Barbara.jpg",
       "icon": "assets/icons/Barbara.png",
-      "weaponType": "Catalyst"
+      "weaponType": "Catalyst",
+      "ascension": [
+        {
+          "rank": 1,
+          "level": 20,
+          "cost": 20000,
+          "materials": [
+            {
+              "material_id": "varunada_lazurite_silver",
+              "amount": 1
+            },
+            {
+              "material_id": "philameno_mushroom",
+              "amount": 3
+            },
+            {
+              "material_id": "divining_scroll",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "level": 40,
+          "cost": 40000,
+          "materials": [
+            {
+              "material_id": "varunada_lazurite_fragment",
+              "amount": 3
+            },
+            {
+              "material_id": "cleansing_heart",
+              "amount": 2
+            },
+            {
+              "material_id": "philameno_mushroom",
+              "amount": 10
+            },
+            {
+              "material_id": "divining_scroll",
+              "amount": 15
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "level":50,
+          "cost": 60000,
+          "materials": [
+            {
+              "material_id": "varunada_lazurite_fragment",
+              "amount": 6
+            },
+            {
+              "material_id": "cleansing_heart",
+              "amount": 4
+            },
+            {
+              "material_id": "philameno_mushroom",
+              "amount": 20
+            },
+            {
+              "material_id": "sealed_scroll",
+              "amount": 12
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "level": 60,
+          "cost": 80000,
+          "materials": [
+            {
+              "material_id": "varunada_lazurite_chunk",
+              "amount": 3
+            },
+            {
+              "material_id": "cleansing_heart",
+              "amount": 8
+            },
+            {
+              "material_id": "philameno_mushroom",
+              "amount": 10
+            },
+            {
+              "material_id": "divining_scroll",
+              "amount": 10
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "level": 70,
+          "cost": 100000,
+          "materials": [
+            {
+              "material_id": "varunada_lazurite_chunk",
+              "amount": 6
+            },
+            {
+              "material_id": "cleansing_heart",
+              "amount": 12
+            },
+            {
+              "material_id": "philameno_mushroom",
+              "amount": 45
+            },
+            {
+              "material_id": "forbidden_curse_scroll",
+              "amount": 12
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "level": 80,
+          "cost": 120000,
+          "materials": [
+            {
+              "material_id": "varunada_lazurite_gemstone",
+              "amount": 6
+            },
+            {
+              "material_id": "cleansing_heart",
+              "amount": 20
+            },
+            {
+              "material_id": "philameno_mushroom",
+              "amount": 60
+            },
+            {
+              "material_id": "forbidden_curse_scroll",
+              "amount": 24
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Beidou",
@@ -34,7 +306,143 @@
       "portrait": "assets/portraits/Beidou.png",
       "card": "assets/cards/Beidou.jpg",
       "icon": "assets/icons/Beidou.png",
-      "weaponType": "Claymore"
+      "weaponType": "Claymore",
+      "ascension": [
+        {
+          "rank": 1,
+          "level": 20,
+          "cost": 20000,
+          "materials": [
+            {
+              "material_id": "vajrada_amethyst_silver",
+              "amount": 1
+            },
+            {
+              "material_id": "noctilucous_jade",
+              "amount": 3
+            },
+            {
+              "material_id": "treasure_hoarder_insignia",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "level": 40,
+          "cost": 40000,
+          "materials": [
+            {
+              "material_id": "vajrada_amethyst_fragment",
+              "amount": 3
+            },
+            {
+              "material_id": "lightning_prism",
+              "amount": 2
+            },
+            {
+              "material_id": "noctilucous_jade",
+              "amount": 10
+            },
+            {
+              "material_id": "treasure_hoarder_insignia",
+              "amount": 15
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "level":50,
+          "cost": 60000,
+          "materials": [
+            {
+              "material_id": "vajrada_amethyst_fragment",
+              "amount": 6
+            },
+            {
+              "material_id": "lightning_prism",
+              "amount": 4
+            },
+            {
+              "material_id": "noctilucous_jade",
+              "amount": 20
+            },
+            {
+              "material_id": "silver_raven_insignia",
+              "amount": 12
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "level": 60,
+          "cost": 80000,
+          "materials": [
+            {
+              "material_id": "vajrada_amethyst_chunk",
+              "amount": 3
+            },
+            {
+              "material_id": "lightning_prism",
+              "amount": 8
+            },
+            {
+              "material_id": "noctilucous_jade",
+              "amount": 30
+            },
+            {
+              "material_id": "silver_raven_insignia",
+              "amount": 18
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "level": 70,
+          "cost": 100000,
+          "materials": [
+            {
+              "material_id": "vajrada_amethyst_chunk",
+              "amount": 6
+            },
+            {
+              "material_id": "lightning_prism",
+              "amount": 12
+            },
+            {
+              "material_id": "noctilucous_jade",
+              "amount": 45
+            },
+            {
+              "material_id": "golden_raven_insignia",
+              "amount": 12
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "level": 80,
+          "cost": 120000,
+          "materials": [
+            {
+              "material_id": "vajrada_amethyst_gemstone",
+              "amount": 6
+            },
+            {
+              "material_id": "lightning_prism",
+              "amount": 20
+            },
+            {
+              "material_id": "noctilucous_jade",
+              "amount": 60
+            },
+            {
+              "material_id": "golden_raven_insignia",
+              "amount": 24
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Bennett",
@@ -46,7 +454,143 @@
       "portrait": "assets/portraits/Bennett.png",
       "card": "assets/cards/Bennett.jpg",
       "icon": "assets/icons/Bennett.png",
-      "weaponType": "Sword"
+      "weaponType": "Sword",
+      "ascension": [
+        {
+          "rank": 1,
+          "level": 20,
+          "cost": 20000,
+          "materials": [
+            {
+              "material_id": "agnidus_agate_silver",
+              "amount": "1"
+            },
+            {
+              "material_id": "windwheel_aster",
+              "amount": "3"
+            },
+            {
+              "material_id": "treasure_hoarder_insignia",
+              "amount": "3"
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "level": 40,
+          "cost": 40000,
+          "materials": [
+            {
+              "material_id": "agnidus_agate_fragment",
+              "amount": "3"
+            },
+            {
+              "material_id": "everflame_seed",
+              "amount": "2"
+            },
+            {
+              "material_id": "windwheel_aster",
+              "amount": "10"
+            },
+            {
+              "material_id": "treasure_hoarder_insignia",
+              "amount": "15"
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "level":50,
+          "cost": 60000,
+          "materials": [
+            {
+              "material_id": "agnidus_agate_fragment",
+              "amount": "6"
+            },
+            {
+              "material_id": "everflame_seed",
+              "amount": "4"
+            },
+            {
+              "material_id": "windwheel_aster",
+              "amount": "20"
+            },
+            {
+              "material_id": "silver_raven_insignia",
+              "amount": "12"
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "level": 60,
+          "cost": 80000,
+          "materials": [
+            {
+              "material_id": "agnidus_agate_chunk",
+              "amount": "3"
+            },
+            {
+              "material_id": "everflame_seed",
+              "amount": "8"
+            },
+            {
+              "material_id": "windwheel_aster",
+              "amount": "30"
+            },
+            {
+              "material_id": "silver_raven_insignia",
+              "amount": "18"
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "level": 70,
+          "cost": 100000,
+          "materials": [
+            {
+              "material_id": "agnidus_agate_chunk",
+              "amount": "6"
+            },
+            {
+              "material_id": "everflame_seed",
+              "amount": "12"
+            },
+            {
+              "material_id": "windwheel_aster",
+              "amount": "45"
+            },
+            {
+              "material_id": "gold_raven_insignia",
+              "amount": "12"
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "level": 80,
+          "cost": 120000,
+          "materials": [
+            {
+              "material_id": "agnidus_agate_gemstone",
+              "amount": "6"
+            },
+            {
+              "material_id": "everflame_seed",
+              "amount": "20"
+            },
+            {
+              "material_id": "windwheel_aster",
+              "amount": "60"
+            },
+            {
+              "material_id": "gold_raven_insignia",
+              "amount": "24"
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Chongyun",
@@ -58,7 +602,143 @@
       "portrait": "assets/portraits/Chongyun.png",
       "card": "assets/cards/Chongyun.jpg",
       "icon": "assets/icons/Chongyun.png",
-      "weaponType": "Claymore"
+      "weaponType": "Claymore",
+      "ascension": [
+        {
+          "rank": 1,
+          "level": 20,
+          "cost": 20000,
+          "materials": [
+            {
+              "material_id": "shivada_jade_silver",
+              "amount": "1"
+            },
+            {
+              "material_id": "cor_lapis",
+              "amount": "3"
+            },
+            {
+              "material_id": "damaged_mask",
+              "amount": "3"
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "level": 40,
+          "cost": 40000,
+          "materials": [
+            {
+              "material_id": "shivada_jade_fragment",
+              "amount": "3"
+            },
+            {
+              "material_id": "horafrost_core",
+              "amount": "2"
+            },
+            {
+              "material_id": "cor_lapis",
+              "amount": "10"
+            },
+            {
+              "material_id": "damaged_mask",
+              "amount": "15"
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "level":50,
+          "cost": 60000,
+          "materials": [
+            {
+              "material_id": "shivada_jade_fragment",
+              "amount": "6"
+            },
+            {
+              "material_id": "horafrost_core",
+              "amount": "4"
+            },
+            {
+              "material_id": "cor_lapis",
+              "amount": "20"
+            },
+            {
+              "material_id": "stained_mask",
+              "amount": "12"
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "level": 60,
+          "cost": 80000,
+          "materials": [
+            {
+              "material_id": "shivada_jade_chunk",
+              "amount": "3"
+            },
+            {
+              "material_id": "horafrost_core",
+              "amount": "8"
+            },
+            {
+              "material_id": "cor_lapis",
+              "amount": "30"
+            },
+            {
+              "material_id": "stained_mask",
+              "amount": "18"
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "level": 70,
+          "cost": 100000,
+          "materials": [
+            {
+              "material_id": "shivada_jade_chunk",
+              "amount": "6"
+            },
+            {
+              "material_id": "horafrost_core",
+              "amount": "12"
+            },
+            {
+              "material_id": "cor_lapis",
+              "amount": "45"
+            },
+            {
+              "material_id": "ominous_mask",
+              "amount": "12"
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "level": 80,
+          "cost": 120000,
+          "materials": [
+            {
+              "material_id": "shivada_jade_gemstone",
+              "amount": "6"
+            },
+            {
+              "material_id": "horafrost_core",
+              "amount": "20"
+            },
+            {
+              "material_id": "cor_lapis",
+              "amount": "60"
+            },
+            {
+              "material_id": "ominous_mask",
+              "amount": "24"
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Diluc",
@@ -70,7 +750,143 @@
       "portrait": "assets/portraits/Diluc.png",
       "card": "assets/cards/Diluc.jpg",
       "icon": "assets/icons/Diluc.png",
-      "weaponType": "Claymore"
+      "weaponType": "Claymore",
+      "ascension": [
+        {
+          "rank": 1,
+          "level": 20,
+          "cost": 20000,
+          "materials": [
+            {
+              "material_id": "agnidus_agate_silver",
+              "amount": "1"
+            },
+            {
+              "material_id": "small_lamp_grass",
+              "amount": "3"
+            },
+            {
+              "material_id": "recruit_insignia",
+              "amount": "3"
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "level": 40,
+          "cost": 40000,
+          "materials": [
+            {
+              "material_id": "agnidus_agate_fragment",
+              "amount": "3"
+            },
+            {
+              "material_id": "everflame_seed",
+              "amount": "2"
+            },
+            {
+              "material_id": "small_lamp_grass",
+              "amount": "10"
+            },
+            {
+              "material_id": "recruit_insignia",
+              "amount": "10"
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "level":50,
+          "cost": 60000,
+          "materials": [
+            {
+              "material_id": "agnidus_agate_fragment",
+              "amount": "6"
+            },
+            {
+              "material_id": "everflame_seed",
+              "amount": "4"
+            },
+            {
+              "material_id": "small_lamp_grass",
+              "amount": "20"
+            },
+            {
+              "material_id": "sergeant_insignia",
+              "amount": "12"
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "level": 60,
+          "cost": 80000,
+          "materials": [
+            {
+              "material_id": "agnidus_agate_chunk",
+              "amount": "3"
+            },
+            {
+              "material_id": "everflame_seed",
+              "amount": "8"
+            },
+            {
+              "material_id": "small_lamp_grass",
+              "amount": "30"
+            },
+            {
+              "material_id": "sergeant_insignia",
+              "amount": "18"
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "level": 70,
+          "cost": 100000,
+          "materials": [
+            {
+              "material_id": "agnidus_agate_chunk",
+              "amount": "6"
+            },
+            {
+              "material_id": "everflame_seed",
+              "amount": "12"
+            },
+            {
+              "material_id": "small_lamp_grass",
+              "amount": "45"
+            },
+            {
+              "material_id": "lieutenant_insignia",
+              "amount": "12"
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "level": 80,
+          "cost": 120000,
+          "materials": [
+            {
+              "material_id": "agnidus_agate_gemstone",
+              "amount": "6"
+            },
+            {
+              "material_id": "everflame_seed",
+              "amount": "20"
+            },
+            {
+              "material_id": "small_lamp_grass",
+              "amount": "60"
+            },
+            {
+              "material_id": "lieutenant_insignia",
+              "amount": "24"
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Diona",
@@ -83,7 +899,143 @@
       "card": "assets/cards/Diona.jpg",
       "icon": "assets/icons/Diona.png",
       "isNew": true,
-      "weaponType": "Bow"
+      "weaponType": "Bow",
+      "ascension": [
+        {
+          "rank": 1,
+          "level": 20,
+          "cost": 20000,
+          "materials": [
+            {
+              "material_id": "shivada_jade_silver",
+              "amount": "1"
+            },
+            {
+              "material_id": "calla_lily",
+              "amount": "3"
+            },
+            {
+              "material_id": "firm_arrowhead",
+              "amount": "3"
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "level": 40,
+          "cost": 40000,
+          "materials": [
+            {
+              "material_id": "shivada_jade_fragment",
+              "amount": "3"
+            },
+            {
+              "material_id": "horafrost_core",
+              "amount": "2"
+            },
+            {
+              "material_id": "calla_lily",
+              "amount": "10"
+            },
+            {
+              "material_id": "firm_arrowhead",
+              "amount": "15"
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "level":50,
+          "cost": 60000,
+          "materials": [
+            {
+              "material_id": "shivada_jade_fragment",
+              "amount": "6"
+            },
+            {
+              "material_id": "horafrost_core",
+              "amount": "4"
+            },
+            {
+              "material_id": "calla_lily",
+              "amount": "20"
+            },
+            {
+              "material_id": "sharp_arrowhead",
+              "amount": "12"
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "level": 60,
+          "cost": 80000,
+          "materials": [
+            {
+              "material_id": "shivada_jade_chunk",
+              "amount": "3"
+            },
+            {
+              "material_id": "horafrost_core",
+              "amount": "8"
+            },
+            {
+              "material_id": "calla_lily",
+              "amount": "30"
+            },
+            {
+              "material_id": "sharp_arrowhead",
+              "amount": "18"
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "level": 70,
+          "cost": 100000,
+          "materials": [
+            {
+              "material_id": "shivada_jade_chunk",
+              "amount": "6"
+            },
+            {
+              "material_id": "horafrost_core",
+              "amount": "12"
+            },
+            {
+              "material_id": "calla_lily",
+              "amount": "45"
+            },
+            {
+              "material_id": "weathered_arrowhead",
+              "amount": "12"
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "level": 80,
+          "cost": 120000,
+          "materials": [
+            {
+              "material_id": "shivada_jade_gemstone",
+              "amount": "6"
+            },
+            {
+              "material_id": "horafrost_core",
+              "amount": "20"
+            },
+            {
+              "material_id": "calla_lily",
+              "amount": "60"
+            },
+            {
+              "material_id": "weathered_arrowhead",
+              "amount": "24"
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Fischl",
@@ -95,7 +1047,143 @@
       "portrait": "assets/portraits/Fischl.png",
       "card": "assets/cards/Fischl.jpg",
       "icon": "assets/icons/Fischl.png",
-      "weaponType": "Bow"
+      "weaponType": "Bow",
+      "ascension": [
+        {
+          "rank": 1,
+          "level": 20,
+          "cost": 20000,
+          "materials": [
+            {
+              "material_id": "vajrada_amethyst_silver",
+              "amount": 1
+            },
+            {
+              "material_id": "small_lamp_grass",
+              "amount": 3
+            },
+            {
+              "material_id": "firm_arrowhead",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "level": 40,
+          "cost": 40000,
+          "materials": [
+            {
+              "material_id": "vajrada_amethyst_fragment",
+              "amount": 3
+            },
+            {
+              "material_id": "lightning_prism",
+              "amount": 2
+            },
+            {
+              "material_id": "small_lamp_grass",
+              "amount": 10
+            },
+            {
+              "material_id": "firm_arrowhead",
+              "amount": 15
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "level":50,
+          "cost": 60000,
+          "materials": [
+            {
+              "material_id": "vajrada_amethyst_fragment",
+              "amount": 6
+            },
+            {
+              "material_id": "lightning_prism",
+              "amount": 4
+            },
+            {
+              "material_id": "small_lamp_grass",
+              "amount": 20
+            },
+            {
+              "material_id": "sharp_arrowhead",
+              "amount": 12
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "level": 60,
+          "cost": 80000,
+          "materials": [
+            {
+              "material_id": "vajrada_amethyst_chunk",
+              "amount": 3
+            },
+            {
+              "material_id": "lightning_prism",
+              "amount": 8
+            },
+            {
+              "material_id": "small_lamp_grass",
+              "amount": 30
+            },
+            {
+              "material_id": "sharp_arrowhead",
+              "amount": 18
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "level": 70,
+          "cost": 100000,
+          "materials": [
+            {
+              "material_id": "vajrada_amethyst_chunk",
+              "amount": 6
+            },
+            {
+              "material_id": "lightning_prism",
+              "amount": 12
+            },
+            {
+              "material_id": "small_lamp_grass",
+              "amount": 45
+            },
+            {
+              "material_id": "weathered_arrowhead",
+              "amount": 12
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "level": 80,
+          "cost": 120000,
+          "materials": [
+            {
+              "material_id": "vajrada_amethyst_gemstone",
+              "amount": 6
+            },
+            {
+              "material_id": "lightning_prism",
+              "amount": 20
+            },
+            {
+              "material_id": "small_lamp_grass",
+              "amount": 60
+            },
+            {
+              "material_id": "weathered_arrowhead",
+              "amount": 24
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Jean",
@@ -305,75 +1393,724 @@
   ],
   "materials": [
     {
+      "id": "agnidus_agate_silver",
       "name": "Agnidus Agate Silver",
       "description": "Character Ascension Material",
       "source": [
-        {"$ref": "#/materialSources/0"},
-        {"$ref": "#/materialSources/1"},
-        {"$ref": "#/materialSources/2"}
+        {
+          "description": "Dropped by Pyro Regisvine"
+        },
+        {
+          "description": "Wolf of the North Challenge Reward"
+        },
+        {
+          "description": "Purchased from the Souvenir Shop"
+        }
       ]
     },
     {
+      "id": "agnidus_agate_fragment",
+      "name": "Agnidus Agate Fragment",
+      "description": "Character Ascension Material",
+      "source": [
+        {
+          "description": "Dropped by Lv. 40+ Pyro Regisvine"
+        },
+        {
+          "description": "Lv. 40+ Wolf of the North Challenge Reward"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "id": "agnidus_agate_chunk",
+      "name": "Agnidus Agate Chunk",
+      "description": "Character Ascension Material",
+      "source": [
+        {
+          "description": "Dropped by Lv. 60+ Pyro Regisvine"
+        },
+        {
+          "description": "Lv. 60+ Wolf of the North Challenge Reward"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "id": "agnidus_agate_gemstone",
+      "name": "Agnidus Agate Gemstone",
+      "description": "Character Ascension Material",
+      "source": [
+        {
+          "description": "Dropped by Lv. 75+ Pyro Regisvine"
+        },
+        {
+          "description": "Lv. 75+ Wolf of the North Challenge Reward"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+
+    {
+      "id": "varunada_lazurite_silver",
+      "name": "Varunada Lazurite Silver",
+      "description": "Character Ascension Material",
+      "source": [
+        {
+          "description": "Dropped by Oceanid"
+        },
+        {
+          "description": "Purchased from the Souvenir Shop"
+        }
+      ]
+    },
+    {
+      "id": "varunada_lazurite_fragment",
+      "name": "Varunada Lazurite Fragment",
+      "description": "Character Ascension Material",
+      "source": [
+        {
+          "description": "Dropped by Lv. 40+ Oceanid"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "id": "varunada_lazurite_chunk",
+      "name": "Varunada Lazurite Chunk",
+      "description": "Character Ascension Material",
+      "source": [
+        {
+          "description": "Dropped by Lv. 60+ Oceanid"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "id": "varunada_lazurite_gemstone",
+      "name": "Varunada Lazurite Gemstone",
+      "description": "Character Ascension Material",
+      "source": [
+        {
+          "description": "Dropped by Lv. 75+ Oceanid"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+
+    {
+      "id": "vajrada_amethyst_silver",
+      "name": "Vajrada Amethyst Silver",
+      "description": "Character Ascension Material",
+      "source": [
+        {
+          "description": "Dropped by Electro Hypostasis"
+        },
+        {
+          "description": "Purchased from the Souvenir Shop"
+        }
+      ]
+    },
+    {
+      "id": "vajrada_amethyst_fragment",
+      "name": "Vajrada Amethyst Fragment",
+      "description": "Character Ascension Material",
+      "source": [
+        {
+          "description": "Dropped by Lv. 40+ Electro Hypostasis"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "id": "vajrada_amethyst_chunk",
+      "name": "Vajrada Amethyst Chunk",
+      "description": "Character Ascension Material",
+      "source": [
+        {
+          "description": "Dropped by Lv. 60+ Electro Hypostasis"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "id": "vajrada_amethyst_gemstone",
+      "name": "Vajrada Amethyst Gemstone",
+      "description": "Character Ascension Material",
+      "source": [
+        {
+          "description": "Dropped by Lv. 75+ Electro Hypostasis"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+
+    {
+      "id": "shivada_jade_silver",
+      "name": "Shivada Jade Silver",
+      "description": "Character Ascension Material",
+      "source": [
+        {
+          "description": "Dropped by Cryo Regisvine"
+        },
+        {
+          "description": "Wolf of the North Challenge Reward"
+        },
+        {
+          "description": "Purchased from the Souvenir Shop"
+        }
+      ]
+    },
+    {
+      "id": "shivada_jade_fragment",
+      "name": "Shivada Jade Fragment",
+      "description": "Character Ascension Material",
+      "source": [
+        {
+          "description": "Dropped by Lv. 40+ Cryo Regisvine"
+        },
+        {
+          "description": "Lv. 40+ Wolf of the North Challenge Reward"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "id": "shivada_jade_chunk",
+      "name": "Shivada Jade Chunk",
+      "description": "Character Ascension Material",
+      "source": [
+        {
+          "description": "Dropped by Lv. 60+ Cryo Regisvine"
+        },
+        {
+          "description": "Lv. 60+ Wolf of the North Challenge Reward"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "id": "shivada_jade_gemstone",
+      "name": "Shivada Jade Gemstone",
+      "description": "Character Ascension Material",
+      "source": [
+        {
+          "description": "Dropped by Lv. 75+ Cryo Regisvine"
+        },
+        {
+          "description": "Lv. 75+ Wolf of the North Challenge Reward"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+
+    {
+      "id": "vayuda_turquise_silver",
+      "name": "Vayuda Turquise Silver",
+      "description": "Character Ascension Material",
+      "source": [
+        {
+          "description": "Dropped by Anemo Hypostasis"
+        },
+        {
+          "description": "Purchased from the Souvenir Shop"
+        }
+      ]
+    },
+    {
+      "id": "vayuda_turquise_fragment",
+      "name": "Vayuda Turquise Fragment",
+      "description": "Character Ascension Material",
+      "source": [
+        {
+          "description": "Dropped by Lv. 40+ Anemo Hypostasis"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "id": "vayuda_turquise_chunk",
+      "name": "Vayuda Turquise Chunk",
+      "description": "Character Ascension Material",
+      "source": [
+        {
+          "description": "Dropped by Lv. 60+ Anemo Hypostasis"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "id": "vayuda_turquise_gemstone",
+      "name": "Vayuda Turquise Gemstone",
+      "description": "Character Ascension Material",
+      "source": [
+        {
+          "description": "Dropped by Lv. 75+ Anemo Hypostasis"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+
+    {
+      "id": "hurricane_seed",
+      "name": "Lightning Prism",
+      "description": "The imploded form of an Anemo Hypostasis upon its defeat. It contains the essence of Anemo energy. It is said that the power to create hurricanes resides within its seemingly fragile body. This butterfly of pure Anemo energy must be waiting for the day to conjure up storms once again",
+      "source": [
+        {
+          "description": "Dropped by Lv. 30+ Anemo Hypostasis"
+        }
+      ]
+    },
+    {
+      "id": "lightning_prism",
+      "name": "Lightning Prism",
+      "description": "An Electro Hypostasis channels nearby elemental energy to repair damaged elemental entities. It contains the essence of Electro energy. A common prism separates white light into component colors; a Lightning Prism, however, channels flowing energy and weaves them into lighting. It will continue to do so even after the Electro Hypostasis has been defeated.",
+      "source": [
+        {
+          "description": "Dropped by Lv. 30+ Electro Hypostasis"
+        }
+      ]
+    },
+    {
+      "id": "hoarfrost_core",
+      "name": "Hoarfrost Core",
+      "description": "The exposed core of a defeated Cryo Regisvine. Pure cryo elements are contained within it. Energy and thoughts that swell deep within the earth will eventually erupt on the surface. Even the deathly silent frost will attach to creatures on the ground, causing even the vines and branches of vegetation to become huge and fierce, attracting the hunter's gaze.\n",
+      "source": [
+        {
+          "description": "Dropped by Lv. 30+ Cryo Regisvine"
+        }
+      ]
+    },
+    {
+      "id": "basalt_pillar",
+      "name": "Basalt Pillar",
+      "description": "A pillar form by the shell of a Geo Hypostasis. It is composed of high-density Geo energy. This is the heaviest component of a Geo Element. Maybe the reason a Geo Hypostasis creates this polar out of its shell and raises itself is just to get closer to the sky, not to combat enemies.",
+      "source": [
+        {
+          "description": "Dropped by Lv. 30+ Geo Hypostasis"
+        }
+      ]
+    },
+    {
+      "id": "cleansing_heart",
+      "name": "Cleansing Heart",
+      "description": "A scoop of eternal water left by an oceanid. Though it has already diffused among the depths of the lake, its purity remains all the same. But why would a creature so pure and clean as an oceanid desire the appearance of plants born of the ground and assume such a form with pure water? They need not breathe nor do they require sustenance...",
+      "source": [
+        {
+          "description": "Dropped by Lv. 30+ Oceanids"
+        }
+      ]
+    },
+    {
+      "id": "everflame_seed",
       "name": "Everflame Seed",
       "description": "A seed that fuels the unending flames of the Pyro Regisvine. It emits pyro energy as if it will burn all that has ever sprouted from the ground.\nEndless desires flow among turbulent energy deep within the earth. What desire could steadily hold such fire to the plants and long so eagerly to bathe everything in unquenchable flames?",
       "source": [
-        {"$ref": "#/materialSources/3"}
+        {
+          "description": "Dropped by Lv. 30+ Pyro Regisvines"
+        }
       ]
     },
+
     {
+      "id": "small_lamp_grass",
       "name": "Small Lamp Grass",
       "description": "A wild grass that emits light at night. Used in cooking to enhance other flavors.",
       "source": [
-        {"$ref": "#/materialSources/4"},
-        {"$ref": "#/materialSources/5"},
-        {"$ref": "#/materialSources/6"},
-        {"$ref": "#/materialSources/7"}
+        {
+          "description": "Found in the wild at night"
+        },
+        {
+          "description": "Found in Wolvendom"
+        },
+        {
+          "description": "Found in the Whispering Woods"
+        },
+        {
+          "description": "Sold by Flora (Mondstadt)"
+        }
       ]
     },
     {
-      "name": "Firm Arowhead",
+      "id": "philanemo_mushroom",
+      "name": "Philanemo Mushroom",
+      "description": "A fungus that grows in the warm caress of the wind. It is as everlasting as the wind, nourishing life.",
+      "source": [
+        {
+          "description": "Found under the eaves of houses"
+        },
+        {
+          "description": "Sold by Chloris (6:00-19:00 at Mondstadt's Windrise area)"
+        }
+      ]
+    },
+    {
+      "id": "noctilucous_jade",
+      "name": "Noctilucous Jade",
+      "description": "A rare mineral that glimmers in the dark. It's said to be a mutated gemstone condensed from the flourishing elements of the world.",
+      "source": [
+        {
+          "description": "Found in caves in Liyue"
+        },
+        {
+          "description": "Found in Mingyun Village"
+        },
+        {
+          "description": "Sold by Shitou (Liyue Harbor)"
+        }
+      ]
+    },
+    {
+      "id": "cor_lapis",
+      "name": "Cor Lapis",
+      "description": "A precious crystal of condensed pure Geo element that usually grows along with other minerals. It's also commonly called \"Cor Petrae.\"",
+      "source": [
+        {
+          "description": "Found under cliffs in Liyue"
+        },
+        {
+          "description": "Found in Mt. Hulao"
+        }
+      ]
+    },
+    {
+      "id": "windwheel_aster",
+      "name": "Windwheel Aster",
+      "description": "A plant that adores the wind. To the proud children of the wind, or the citizens of Mondstadt, the Windwheel Asters are the \"visible winds.\"",
+      "source": [
+        {
+          "description": "Found near the Statue of The Seven at Windrise"
+        },
+        {
+          "description": "Found under trees in the wild"
+        },
+        {
+          "description": "Found in Stormterror's Lair"
+        },
+        {
+          "description": "Sold by Flora (6:00-19:00 in the city of Mondstadt)"
+        }
+      ]
+    },
+    {
+      "id": "calla_lilly",
+      "name": "Calla Lily",
+      "description": "A flower that grows near water sources. When cooked the petals have a chunky texture, yet are sweet and a little bitter.",
+      "source": [
+        {
+          "description": "Found near lakes"
+        },
+        {
+          "description": "Found in Springvale"
+        },
+        {
+          "description": "Sold by Flora (6:00-19:00 in the city of Mondstadt)"
+        }
+      ]
+    },
+    {
+      "id": "dandelion_seed",
+      "name": "Dandelion Seed",
+      "description": "A tiny seed that rides on the wind. Even without its feathered wings, it still holds the hope from afar within.",
+      "source": [
+        {
+          "description": "Found in the wild"
+        },
+        {
+          "description": "Found at Mondstadt gates"
+        }
+      ]
+    },
+
+    {
+      "id": "firm_arrowhead",
+      "name": "Firm Arrowhead",
       "description": "A roughly produced arrowhead. Though unimpressive, neither it nor the bow should be underestimated, for even the bravest knight can be felled by an arrow from the rear.",
       "source": [
-        {"$ref": "#/materialSources/8"}
+        {
+          "description": "Dropped by Ranged Hilichurls"
+        }
       ]
-    }
-  ],
-  "materialSources": [
-    {
-      "$id": 0,
-      "description": "Dropped by Pyro Regisvine"
     },
     {
-      "$id": 1,
-      "description": "Wolf of the North Challenge Reward"
+      "id": "sharp_arrowhead",
+      "name": "Sharp Arrowhead",
+      "description": "A well-made arrowhead. Sharp enough to penetrate armor with the ease of a rock through the surface of water.",
+      "source": [
+        {
+          "description": "Dropped by Lv. 40+ Ranged Hilichurls"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
     },
     {
-      "$id": 2,
-      "description": "Purchased from the Souvenir Shop"
+      "id": "weathered_arrowhead",
+      "name": "Weatherd Arrowhead",
+      "description": "An old arrowhead coated in blood. The arrowhead has long since lost its sharpness and thus its use as a weapon. However it represents the pride of a hunter and acts as both an amulet and a medal.",
+      "source": [
+        {
+          "description": "Dropped by Lv. 60+ Ranged Hilichurls"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+
+    {
+      "id": "divining_scroll",
+      "name": "Divining Scroll",
+      "description": "A scroll that likely relates to some kind of magic. Exudes an inexplicable but ominous warmth.",
+      "source": [
+        {
+          "description": "Dropped by samachurls"
+        }
+      ]
     },
     {
-      "$id": 3,
-      "description": "Dropped by Lv. 30+ Pyro Regisvines"
+      "id": "sealed_scroll",
+      "name": "Sealed Scroll",
+      "description": "An old scroll lacking in detail and clarity. By following the images on it, some magical creatures can recreate a small part of its magic.",
+      "source": [
+        {
+          "description": "Dropped by Lv 40+ samachurls"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
     },
     {
-      "$id": 4,
-      "description": "Found in the wild at night"
+      "id": "forbidden_curse_scroll",
+      "name": "Forbidden Curse Scroll",
+      "description": "A scroll inscribed with ancient images. It is said that few can decipher its meaning, and the few scholars that have all went mad.",
+      "source": [
+        {
+          "description": "Dropped by Lv 60+ samachurls"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+
+    {
+      "id": "treasure_hoarder_insignia",
+      "name": "Treasure Hoarder Insignia",
+      "description": "A signet that proudly represents it's owner's position as a member of the Treasure Hoarders. The pursuit of treasure knows no bounds. That said... is being a thief something to be proud of?",
+      "source": [
+        {
+          "description": "Dropped by Treasure Hoarders"
+        }
+      ]
     },
     {
-      "$id": 5,
-      "description": "Found in Wolvendom"
+      "id": "silver_raven_insignia",
+      "name": "Silver Raven Insignia",
+      "description": "A raven insignia used by members of the Treasure Hoarders to identify each other. The Treasure Hoarders ask for no resume. Anyone who has an insatiable desire for treasure and is backed up by an equal amount of courage can become a worthy member.",
+      "source": [
+        {
+          "description": "Dropped by Lv 40+ Treasure Hoarders"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
     },
     {
-      "$id": 6,
-      "description": "Found in the Whispering Woods"
+      "id": "golden_raven_insignia",
+      "name": "Golden Raven Insignia",
+      "description": "A raven insignia that symbolizes the pride and the guiding principle of the Treasure Hoarders. Whether it's hidden amidst the vastness of the land or in the depths of the seas, as long as there are treasures to be hunted down, the spirit of Treasure Hoarders, who will stop at nothing to acquire them, will never die.",
+      "source": [
+        {
+          "description": "Dropped by Lv 60+ Treasure Hoarders"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+
+    {
+      "id": "damaged_mask",
+      "name": "Damaged Mask",
+      "description": "A broken bone mask that once belonged to some hilichurl. Now more broken than complete, it can no longer perform its primary function.",
+      "source": [
+        {
+          "description": "Dropped by hilichurls"
+        },
+        {
+          "description": "Dropped by some ranged hilichurls"
+        },
+        {
+          "description": "Dropped by some samachurls"
+        },
+        {
+          "description": "Dropped by some mitachurls"
+        }
+      ]
     },
     {
-      "$id": 7,
-      "description": "Sold by Flora (Mondstadt)"
+      "id": "stained_mask",
+      "name": "Silver Raven Insignia",
+      "description": "A bone mask covered in unidentifiable stains and a mysterious odor. Yet such is the devotion of hilichurls to masks that they will wear it nonetheless.",
+      "source": [
+        {
+          "description": "Dropped by Lv. 40+ hilichurls"
+        },
+        {
+          "description": "Dropped by some Lv. 40+ ranged hilichurls"
+        },
+        {
+          "description": "Dropped by Lv. 40+ some samachurls"
+        },
+        {
+          "description": "Dropped by Lv. 40+ some mitachurls"
+        }
+      ]
     },
     {
-      "$id": 8,
-      "description": "Dropped by Ranged Hilichurls"
+      "id": "ominous_mask",
+      "name": "Ominous Mask",
+      "description": "A glossy bone mask with oil markings painted on it, meant to intimidate enemies. No-one really knows why hilichurls are so fascinated with masks. Some say it's because they don't want to see their own reflections in the water.",
+      "source": [
+        {
+          "description": "Dropped by Lv. 60+ hilichurls"
+        },
+        {
+          "description": "Dropped by some Lv. 60+ ranged hilichurls"
+        },
+        {
+          "description": "Dropped by Lv. 60+ some samachurls"
+        },
+        {
+          "description": "Dropped by Lv. 60+ some mitachurls"
+        }
+      ]
+    },
+
+    {
+      "id": "recruit_insignia",
+      "name": "Recruit's Insignia",
+      "description": "An insignia to identify the recruits. Makes one wonder about what the ones joining the Fatui's war machine were thinking.",
+      "source": [
+        {
+          "description": "Dropped by Skirmishers"
+        },
+        {
+          "description": "Dropped by some Agents"
+        },
+        {
+          "description": "Dropped by some Electro Cicin Mages"
+        }
+      ]
+    },
+    {
+      "id": "sergeant_insignia",
+      "name": "Sergeant's Insignia",
+      "description": "An insignia with a different shape to tell the sergeants from new recruits. Perhaps there are complicated emotions behind it.",
+      "source": [
+        {
+          "description": "Dropped by Lv. 40+ Skirmishers"
+        },
+        {
+          "description": "Dropped by some Lv. 40+ Agents"
+        },
+        {
+          "description": "Dropped by some Lv. 40+ Electro Cicin Mages"
+        },
+        {
+          "description": "Craftable"
+        }
+      ]
+    },
+    {
+      "id": "lieutenant_insignia",
+      "name": "Ominous Mask",
+      "description": "An armband to identify officers. The Fatui possess a colossal army, so there must be something extraordinary about the ones who achieved this rank within the group.",
+      "source": [
+        {
+          "description": "Dropped by Lv. 60+ Skirmishers"
+        },
+        {
+          "description": "Dropped by some Lv. 60+ Agents"
+        },
+        {
+          "description": "Dropped by some Lv. 60+ Electro Cicin Mages"
+        },
+        {
+          "description": "Craftable"
+        }
+      ]
+    },
+
+    {
+      "id": "whopperflower_nectar",
+      "name": "Whopperflower Nectar",
+      "description": "Nectar extracted from the stamen of a Whopperflower that contains trace amounts of elements. The taste of the nectar has a hint of Sweet Flower in it.",
+      "source": [
+        {
+          "description": "Dropped by Whopperflower"
+        }
+      ]
+    },
+    {
+      "id": "shimmering_nectar",
+      "name": "Shimmering Nectar",
+      "description": "Nectar that is full of pure elements. Scholars generally concur that Whopperflowers are advanced life forms among the elemental plants, but there has yet to be a satisfactory explanation regarding their predatory habits.",
+      "source": [
+        {
+          "description": "Dropped by Lv. 40+ Whopperflowers"
+        },
+        {
+          "description": "Craftable"
+        }
+      ]
+    },
+    {
+      "id": "energy_nectar",
+      "name": "Energy Nectar",
+      "description": "A thick and sticky honey that is full of energy. The Whopperflower hunts by tricking its prey, a process it uses to possibly evolve into a more powerful and pure form.",
+      "source": [
+        {
+          "description": "Dropped by Lv. 60+ Whopperflowers"
+        },
+        {
+          "description": "Craftable"
+        }
+      ]
     }
   ]
 }
