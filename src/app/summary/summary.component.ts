@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {PartyService} from '../services/party.service';
+import {MaterialService} from '../services/material.service';
+import {PartyMember} from '../model/PartyMember';
 
 @Component({
   selector: 'app-summary',
@@ -7,9 +10,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SummaryComponent implements OnInit {
 
-  constructor() { }
+  constructor(public partyService: PartyService,
+              public materialService: MaterialService) { }
 
   ngOnInit(): void {
+    for(let member of this.partyService.party) {
+      if(member.character.ascension) {
+        this.materialService.resolveMaterials(member.character);
+      }
+    }
   }
-
 }
