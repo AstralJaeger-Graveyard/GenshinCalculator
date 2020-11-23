@@ -34,7 +34,7 @@ export class PartyComponent implements OnInit {
   constructor(private characterService: CharacterService) { }
 
   ngOnInit(): void {
-    this.characters = this.characterService.characterMap;
+    this.characters = this.characterService.getCharacterMap;
   }
 
   onSelected(member: PartyMember): void{

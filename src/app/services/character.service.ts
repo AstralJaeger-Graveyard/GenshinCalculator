@@ -9,23 +9,17 @@ import * as data from 'src/app/_dataassets/data.json';
 export class CharacterService{
 
   // @ts-ignore
-  private _characters: Character[] = cData.default;
-  private _characterMap: Map<string, Character> = new Map<string, Character>();
+  public characters: Character[] = data.characters;
+  private characterMap: Map<string, Character> = new Map<string, Character>();
 
-  constructor() {
+  constructor() { }
 
-  }
-
-  public get characters(){
-    return this._characters;
-  }
-
-  public get characterMap(){
-    if(this._characterMap.size === 0){
-      for(let character of this._characters){
-        this._characterMap.set(character.name.toLowerCase(), character);
+  public get getCharacterMap(){
+    if(this.characterMap.size === 0){
+      for(let character of this.characters){
+        this.characterMap.set(character.name.toLowerCase(), character);
       }
     }
-    return this._characterMap
+    return this.characterMap
   }
 }
