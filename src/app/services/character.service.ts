@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Character } from '../model/Character';
-import * as cData from 'src/app/_dataassets/characters.json';
-import * as data from 'src/app/_dataassets/data.json';
+import * as data from 'src/app/_dataassets/data_0.json';
 
 @Injectable({
   providedIn: 'root'
