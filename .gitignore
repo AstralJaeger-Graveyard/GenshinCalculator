@@ -46,3 +46,7 @@ testem.log
 Thumbs.db
 
 .firebase/
+
+*.lxsproj
+
+*.lxsopt
