@@ -1,7 +1,7 @@
 {
   "materials": [
     {
-      "id": "agnidus_agate_silver",
+      "id": "agate_1",
       "name": "Agnidus Agate Silver",
       "description": "Character Ascension Material",
       "source": [
@@ -17,7 +17,7 @@
       ]
     },
     {
-      "id": "agnidus_agate_fragment",
+      "id": "agate_2",
       "name": "Agnidus Agate Fragment",
       "description": "Character Ascension Material",
       "source": [
@@ -33,7 +33,7 @@
       ]
     },
     {
-      "id": "agnidus_agate_chunk",
+      "id": "agate_3",
       "name": "Agnidus Agate Chunk",
       "description": "Character Ascension Material",
       "source": [
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "id": "agnidus_agate_gemstone",
+      "id": "agate_4",
       "name": "Agnidus Agate Gemstone",
       "description": "Character Ascension Material",
       "source": [
@@ -64,9 +64,8 @@
         }
       ]
     },
-
     {
-      "id": "varunada_lazurite_silver",
+      "id": "lazurite_1",
       "name": "Varunada Lazurite Silver",
       "description": "Character Ascension Material",
       "source": [
@@ -79,7 +78,7 @@
       ]
     },
     {
-      "id": "varunada_lazurite_fragment",
+      "id": "lazurite_2",
       "name": "Varunada Lazurite Fragment",
       "description": "Character Ascension Material",
       "source": [
@@ -92,7 +91,7 @@
       ]
     },
     {
-      "id": "varunada_lazurite_chunk",
+      "id": "lazurite_3",
       "name": "Varunada Lazurite Chunk",
       "description": "Character Ascension Material",
       "source": [
@@ -105,7 +104,7 @@
       ]
     },
     {
-      "id": "varunada_lazurite_gemstone",
+      "id": "lazurite_4",
       "name": "Varunada Lazurite Gemstone",
       "description": "Character Ascension Material",
       "source": [
@@ -117,9 +116,8 @@
         }
       ]
     },
-
     {
-      "id": "vajrada_amethyst_silver",
+      "id": "amethyst_1",
       "name": "Vajrada Amethyst Silver",
       "description": "Character Ascension Material",
       "source": [
@@ -132,7 +130,7 @@
       ]
     },
     {
-      "id": "vajrada_amethyst_fragment",
+      "id": "amethyst_2",
       "name": "Vajrada Amethyst Fragment",
       "description": "Character Ascension Material",
       "source": [
@@ -145,7 +143,7 @@
       ]
     },
     {
-      "id": "vajrada_amethyst_chunk",
+      "id": "amethyst_3",
       "name": "Vajrada Amethyst Chunk",
       "description": "Character Ascension Material",
       "source": [
@@ -158,7 +156,7 @@
       ]
     },
     {
-      "id": "vajrada_amethyst_gemstone",
+      "id": "amethyst_4",
       "name": "Vajrada Amethyst Gemstone",
       "description": "Character Ascension Material",
       "source": [
@@ -170,9 +168,8 @@
         }
       ]
     },
-
     {
-      "id": "shivada_jade_silver",
+      "id": "jade_1",
       "name": "Shivada Jade Silver",
       "description": "Character Ascension Material",
       "source": [
@@ -188,7 +185,7 @@
       ]
     },
     {
-      "id": "shivada_jade_fragment",
+      "id": "jade_2",
       "name": "Shivada Jade Fragment",
       "description": "Character Ascension Material",
       "source": [
@@ -204,7 +201,7 @@
       ]
     },
     {
-      "id": "shivada_jade_chunk",
+      "id": "jade_3",
       "name": "Shivada Jade Chunk",
       "description": "Character Ascension Material",
       "source": [
@@ -220,7 +217,7 @@
       ]
     },
     {
-      "id": "shivada_jade_gemstone",
+      "id": "jade_4",
       "name": "Shivada Jade Gemstone",
       "description": "Character Ascension Material",
       "source": [
@@ -235,9 +232,8 @@
         }
       ]
     },
-
     {
-      "id": "vayuda_turquise_silver",
+      "id": "turquise_1",
       "name": "Vayuda Turquise Silver",
       "description": "Character Ascension Material",
       "source": [
@@ -250,7 +246,7 @@
       ]
     },
     {
-      "id": "vayuda_turquise_fragment",
+      "id": "turquise_2",
       "name": "Vayuda Turquise Fragment",
       "description": "Character Ascension Material",
       "source": [
@@ -263,7 +259,7 @@
       ]
     },
     {
-      "id": "vayuda_turquise_chunk",
+      "id": "turquise_3",
       "name": "Vayuda Turquise Chunk",
       "description": "Character Ascension Material",
       "source": [
@@ -276,7 +272,7 @@
       ]
     },
     {
-      "id": "vayuda_turquise_gemstone",
+      "id": "turquise_4",
       "name": "Vayuda Turquise Gemstone",
       "description": "Character Ascension Material",
       "source": [
@@ -288,9 +284,8 @@
         }
       ]
     },
-
     {
-      "id": "pirthiva_topaz_silver",
+      "id": "topaz_1",
       "name": "Prithiva Topaz Silver",
       "description": "Character Ascension Material",
       "source": [
@@ -306,7 +301,7 @@
       ]
     },
     {
-      "id": "pirthiva_topaz_fragment",
+      "id": "topaz_2",
       "name": "Prithiva Topaz Fragment",
       "description": "Character Ascension Material",
       "source": [
@@ -322,7 +317,7 @@
       ]
     },
     {
-      "id": "pirthiva_topaz_chunk",
+      "id": "topaz_3",
       "name": "Prithiva Topaz Chunk",
       "description": "Character Ascension Material",
       "source": [
@@ -338,7 +333,7 @@
       ]
     },
     {
-      "id": "pirthiva_topaz_gemstone",
+      "id": "topaz_4",
       "name": "Prithiva Topaz Gemstone",
       "description": "Character Ascension Material",
       "source": [
@@ -353,9 +348,8 @@
         }
       ]
     },
-
     {
-      "id": "brilliant_diamond_silver",
+      "id": "diamond_1",
       "name": "Brilliant Diamond Silver",
       "description": "Character Ascension Material",
       "source": [
@@ -365,7 +359,7 @@
       ]
     },
     {
-      "id": "brilliant_diamond_fragment",
+      "id": "diamond_2",
       "name": "Brilliant Diamond Fragment",
       "description": "Character Ascension Material",
       "source": [
@@ -384,7 +378,7 @@
       ]
     },
     {
-      "id": "brilliant_diamond_chunk",
+      "id": "diamond_3",
       "name": "Brilliant Diamond Chunk",
       "description": "Character Ascension Material",
       "source": [
@@ -400,7 +394,7 @@
       ]
     },
     {
-      "id": "brilliant_diamond_gemstone",
+      "id": "diamond_4",
       "name": "Brilliant Diamond Gemstone",
       "description": "Character Ascension Material",
       "source": [
@@ -558,7 +552,7 @@
       ]
     },
     {
-      "id": "calla_lilly",
+      "id": "calla_lily",
       "name": "Calla Lily",
       "description": "A flower that grows near water sources. When cooked the petals have a chunky texture, yet are sweet and a little bitter.",
       "source": [
@@ -707,7 +701,7 @@
     },
 
     {
-      "id": "firm_arrowhead",
+      "id": "arrowhead_1",
       "name": "Firm Arrowhead",
       "description": "A roughly produced arrowhead. Though unimpressive, neither it nor the bow should be underestimated, for even the bravest knight can be felled by an arrow from the rear.",
       "source": [
@@ -717,7 +711,7 @@
       ]
     },
     {
-      "id": "sharp_arrowhead",
+      "id": "arrowhead_2",
       "name": "Sharp Arrowhead",
       "description": "A well-made arrowhead. Sharp enough to penetrate armor with the ease of a rock through the surface of water.",
       "source": [
@@ -730,7 +724,7 @@
       ]
     },
     {
-      "id": "weathered_arrowhead",
+      "id": "arrowhead_3",
       "name": "Weatherd Arrowhead",
       "description": "An old arrowhead coated in blood. The arrowhead has long since lost its sharpness and thus its use as a weapon. However it represents the pride of a hunter and acts as both an amulet and a medal.",
       "source": [
@@ -744,7 +738,7 @@
     },
 
     {
-      "id": "divining_scroll",
+      "id": "scroll_1",
       "name": "Divining Scroll",
       "description": "A scroll that likely relates to some kind of magic. Exudes an inexplicable but ominous warmth.",
       "source": [
@@ -754,7 +748,7 @@
       ]
     },
     {
-      "id": "sealed_scroll",
+      "id": "scroll_2",
       "name": "Sealed Scroll",
       "description": "An old scroll lacking in detail and clarity. By following the images on it, some magical creatures can recreate a small part of its magic.",
       "source": [
@@ -767,7 +761,7 @@
       ]
     },
     {
-      "id": "forbidden_curse_scroll",
+      "id": "scroll_3",
       "name": "Forbidden Curse Scroll",
       "description": "A scroll inscribed with ancient images. It is said that few can decipher its meaning, and the few scholars that have all went mad.",
       "source": [
@@ -781,7 +775,7 @@
     },
 
     {
-      "id": "treasure_hoarder_insignia",
+      "id": "tinsignia_1",
       "name": "Treasure Hoarder Insignia",
       "description": "A signet that proudly represents it's owner's position as a member of the Treasure Hoarders. The pursuit of treasure knows no bounds. That said... is being a thief something to be proud of?",
       "source": [
@@ -791,7 +785,7 @@
       ]
     },
     {
-      "id": "silver_raven_insignia",
+      "id": "tinsignia_2",
       "name": "Silver Raven Insignia",
       "description": "A raven insignia used by members of the Treasure Hoarders to identify each other. The Treasure Hoarders ask for no resume. Anyone who has an insatiable desire for treasure and is backed up by an equal amount of courage can become a worthy member.",
       "source": [
@@ -804,7 +798,7 @@
       ]
     },
     {
-      "id": "golden_raven_insignia",
+      "id": "tinsignia_3",
       "name": "Golden Raven Insignia",
       "description": "A raven insignia that symbolizes the pride and the guiding principle of the Treasure Hoarders. Whether it's hidden amidst the vastness of the land or in the depths of the seas, as long as there are treasures to be hunted down, the spirit of Treasure Hoarders, who will stop at nothing to acquire them, will never die.",
       "source": [
@@ -818,7 +812,7 @@
     },
 
     {
-      "id": "damaged_mask",
+      "id": "mask_1",
       "name": "Damaged Mask",
       "description": "A broken bone mask that once belonged to some hilichurl. Now more broken than complete, it can no longer perform its primary function.",
       "source": [
@@ -837,7 +831,7 @@
       ]
     },
     {
-      "id": "stained_mask",
+      "id": "mask_2",
       "name": "Silver Raven Insignia",
       "description": "A bone mask covered in unidentifiable stains and a mysterious odor. Yet such is the devotion of hilichurls to masks that they will wear it nonetheless.",
       "source": [
@@ -856,7 +850,7 @@
       ]
     },
     {
-      "id": "ominous_mask",
+      "id": "mask_3",
       "name": "Ominous Mask",
       "description": "A glossy bone mask with oil markings painted on it, meant to intimidate enemies. No-one really knows why hilichurls are so fascinated with masks. Some say it's because they don't want to see their own reflections in the water.",
       "source": [
@@ -876,7 +870,7 @@
     },
 
     {
-      "id": "recruit_insignia",
+      "id": "finsigna_1",
       "name": "Recruit's Insignia",
       "description": "An insignia to identify the recruits. Makes one wonder about what the ones joining the Fatui's war machine were thinking.",
       "source": [
@@ -892,7 +886,7 @@
       ]
     },
     {
-      "id": "sergeant_insignia",
+      "id": "finsigna_2",
       "name": "Sergeant's Insignia",
       "description": "An insignia with a different shape to tell the sergeants from new recruits. Perhaps there are complicated emotions behind it.",
       "source": [
@@ -911,8 +905,8 @@
       ]
     },
     {
-      "id": "lieutenant_insignia",
-      "name": "Ominous Mask",
+      "id": "finsigna_3",
+      "name": "Lieutenant's Insignia",
       "description": "An armband to identify officers. The Fatui possess a colossal army, so there must be something extraordinary about the ones who achieved this rank within the group.",
       "source": [
         {
@@ -931,7 +925,7 @@
     },
 
     {
-      "id": "whopperflower_nectar",
+      "id": "nectar_1",
       "name": "Whopperflower Nectar",
       "description": "Nectar extracted from the stamen of a Whopperflower that contains trace amounts of elements. The taste of the nectar has a hint of Sweet Flower in it.",
       "source": [
@@ -941,7 +935,7 @@
       ]
     },
     {
-      "id": "shimmering_nectar",
+      "id": "nectar_2",
       "name": "Shimmering Nectar",
       "description": "Nectar that is full of pure elements. Scholars generally concur that Whopperflowers are advanced life forms among the elemental plants, but there has yet to be a satisfactory explanation regarding their predatory habits.",
       "source": [
@@ -954,7 +948,7 @@
       ]
     },
     {
-      "id": "energy_nectar",
+      "id": "nectar_3",
       "name": "Energy Nectar",
       "description": "A thick and sticky honey that is full of energy. The Whopperflower hunts by tricking its prey, a process it uses to possibly evolve into a more powerful and pure form.",
       "source": [
@@ -968,7 +962,7 @@
     },
 
     {
-      "id": "slime_condensate",
+      "id": "slime_1",
       "name": "Slime Condensate",
       "description": "A thick coating found on slimes. Most commonly seen material in elemental workshops.",
       "source": [
@@ -978,7 +972,7 @@
       ]
     },
     {
-      "id": "slime_secretions",
+      "id": "slime_2",
       "name": "Slime Secretions",
       "description": "Mildly purified slime secretions. Harmful to the skin. Please avoid direct exposure.",
       "source": [
@@ -991,8 +985,8 @@
       ]
     },
     {
-      "id": "slime_concentrate",
-      "name": "Slime COncentrate",
+      "id": "slime_3",
+      "name": "Slime Concentrate",
       "description": "Concentrated slime essence. When left on its own, it will begin to move on its own.",
       "source": [
         {
