@@ -4,6 +4,7 @@ import {Character} from '../../model/Character';
 import {CharacterService} from '../../services/character.service';
 import {faBell as fasBell} from '@fortawesome/pro-solid-svg-icons';
 import {faInfoCircle, faTrashAlt, faEdit} from '@fortawesome/pro-light-svg-icons';
+import {MaterialService} from '../../services/material.service';
 
 @Component({
   selector: 'app-party',
@@ -48,7 +49,7 @@ export class PartyComponent implements OnInit {
 
   onCharacterSelected(character: Character) {
     if (this.party.filter(member => member.character === character).concat().length === 0) {
-      this.party.push(new PartyMember(character, 1, 1));
+      this.party.push(new PartyMember(character, 1, 0));
     }
     else {
       // TODO: Show some kind of warning
