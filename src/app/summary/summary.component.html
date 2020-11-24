@@ -2,13 +2,14 @@
   <h2>Summary</h2>
 </div>
 <div class="row">
-  <div class="list-group-item clearfix" *ngFor="let member of partyService.party">
-    {{member.character.name}}
-    <div *ngFor="let mset of member.character.ascension">
-      {{mset.rank}}:
-      <div *ngFor="let entry of mset.materials">
-        {{entry.material_id}} : {{entry.amount}}
-      </div>
+  <div *ngFor="let item of requiredItemsForNextAscension() | keyvalue">
+    <div *ngIf="item.value.material else idOnly">
+      {{item.value.amount}}: {{item.value.material.name}}
     </div>
+    <ng-template #idOnly>
+      <div style="color: red">
+        {{item.value.amount}}: {{item.value.material.name}}
+      </div>
+    </ng-template>
   </div>
 </div>
