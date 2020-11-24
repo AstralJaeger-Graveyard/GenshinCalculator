@@ -26,7 +26,6 @@ export class MaterialService{
   public resolveMaterials(character: Character): void{
     for (let mset of character.ascension){
       for (let material of mset.materials){
-        console.log("Infilling: " + character.name + " Material: " + material.material_id);
         material.material = this.getMaterialsMap.get(material.material_id);
       }
     }

@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Character } from '../model/Character';
 import * as data from 'src/app/_dataassets/data_0.json';
+import {MaterialService} from './material.service';
 
 @Injectable({
   providedIn: 'root'
@@ -11,7 +12,11 @@ export class CharacterService{
   public characters: Character[] = data.characters;
   private characterMap: Map<string, Character> = new Map<string, Character>();
 
-  constructor() { }
+  constructor(private materialService: MaterialService) {
+    for (let character of this.characters){
+      materialService.resolveMaterials(character);
+    }
+  }
 
   public get getCharacterMap(){
     if(this.characterMap.size === 0){
