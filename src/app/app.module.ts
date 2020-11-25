@@ -41,6 +41,7 @@ import {CharacterService} from './services/character.service';
 import {PartyService} from './services/party.service';
 import {LoggingService} from './services/logging.service';
 import {MaterialService} from './services/material.service';
+import { ItemComponent } from './summary/item/item.component';
 
 registerLocaleData(en);
 
@@ -59,7 +60,8 @@ const icons: IconDefinition[] = Object.keys(antDesignIcons).map(key => antDesign
     PartyComponent,
     PartymemberComponent,
     PartymemberDetailComponent,
-    RepeatDirective
+    RepeatDirective,
+    ItemComponent
   ],
   imports: [
     BrowserModule,
