@@ -1,6 +1,7 @@
 import {Character} from './Character';
 
 export class PartyMember{
+  public include: boolean = true;
   public character: Character;
   public level: number;
   public ascension: number;

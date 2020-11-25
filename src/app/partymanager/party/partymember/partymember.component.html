@@ -1,11 +1,10 @@
-<div class="list-group-item clearfix">
-  <div class="pull-left">
-    <nz-switch nzSize="small" nz-tooltip="Include in Schedule/Summary"></nz-switch>
+<div class="list-group-item clearfix" style="display: flex; flex-wrap: wrap; align-items: center">
+    <nz-switch [(ngModel)]="member.include"
+               nzSize="small"
+               nz-tooltip="Include in Schedule/Summary"></nz-switch>
     <nz-avatar [nzSrc]="member.character.icon" nzAlt="icon" nzGap="1" nzSize="large"></nz-avatar>
     {{member.character.name}}
-  </div>
-  <div class="pull-right">
-    <nz-button-group>
+    <nz-button-group style="order: 5">
       <button nz-button
               nzType="primary"
               (click)="onSelected()">
@@ -20,5 +19,4 @@
         <fa-icon [icon]="faTrash"></fa-icon>
       </button>
     </nz-button-group>
-  </div>
 </div>
