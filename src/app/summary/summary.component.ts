@@ -9,6 +9,8 @@ import {MaterialEntry} from '../model/MaterialEntry';
 })
 export class SummaryComponent implements OnInit {
 
+  public ascensionStage: number = 0;
+
   constructor(public partyService: PartyService) { }
 
   ngOnInit(): void {
@@ -18,10 +20,10 @@ export class SummaryComponent implements OnInit {
   requiredItemsForNextAscension(): Map<string, MaterialEntry>{
     const entries = new Map<string, MaterialEntry>();
     for (const member of this.partyService.party){
-      if (member.ascension === 6){
+      if (member.ascension === 6 || !member.include){
         continue;
       }
-      const nextStage = member.ascension + 1;
+      const nextStage = member.ascension;
       for(const entry of member.character.ascension[nextStage].materials){
         if (entries.has(entry.material_id)){
           let oldEntry = entries.get(entry.material_id);
@@ -37,5 +39,11 @@ export class SummaryComponent implements OnInit {
       }
     }
     return entries;
+  }
+
+  onAscensionStageChange(): void{
+    for(const member of this.partyService.party){
+      member.ascension = this.ascensionStage;
+    }
   }
 }
