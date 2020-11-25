@@ -3,8 +3,8 @@ import {PartyMember} from '../../model/PartyMember';
 import {Character} from '../../model/Character';
 import {CharacterService} from '../../services/character.service';
 import {faBell as fasBell} from '@fortawesome/pro-solid-svg-icons';
-import {faInfoCircle, faTrashAlt, faEdit} from '@fortawesome/pro-light-svg-icons';
-import {MaterialService} from '../../services/material.service';
+import {faExclamationTriangle, faTrashAlt, faEdit} from '@fortawesome/pro-light-svg-icons';
+import {PartyService} from '../../services/party.service';
 
 @Component({
   selector: 'app-party',
@@ -13,9 +13,9 @@ import {MaterialService} from '../../services/material.service';
 })
 export class PartyComponent implements OnInit {
   fasBell = fasBell;
-  faInfo = faInfoCircle;
   faEdit = faEdit;
   faTrash = faTrashAlt;
+  faExclamation = faExclamationTriangle;
 
   @Input()
   party: PartyMember[];
@@ -32,7 +32,8 @@ export class PartyComponent implements OnInit {
   selectValue = null;
   forceDelete: boolean;
 
-  constructor(private characterService: CharacterService) { }
+  constructor(private characterService: CharacterService,
+              private partyService: PartyService) { }
 
   ngOnInit(): void {
     this.characters = this.characterService.getCharacterMap;
@@ -54,5 +55,18 @@ export class PartyComponent implements OnInit {
     else {
       // TODO: Show some kind of warning
     }
+  }
+
+  isInParty(character: Character): boolean{
+    for (const member of this.partyService.party){
+      if (member.character.name === character.name){
+        return true;
+      }
+    }
+    return false;
+  }
+
+  addDefaultParty(): void {
+    this.partyService.addDefaultParty();
   }
 }

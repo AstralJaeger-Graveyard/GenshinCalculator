@@ -6,24 +6,26 @@
                class="pseudo-fullwidth"
                [(ngModel)]="selectValue"
                (ngModelChange)="onCharacterSelected($event)"
+               [nzDisabled]="partyService.party.length > 9"
     >
       <nz-option nzCustomContent
                  *ngFor="let entry of characters | keyvalue"
                  [nzLabel]="entry.value.name"
                  [nzValue]="entry.value"
+                 [nzDisabled]="isInParty(entry.value)"
       >
         <div>
           <div class="pull-left">
             <img [src]="entry.value.icon" alt="Icon" style="max-height: 20px;">
             {{ entry.value.name }}
             <fa-icon *ngIf="entry.value.isNew" [icon]="fasBell" style="color: gold;"></fa-icon>
+            <fa-icon *ngIf="isInParty(entry.value)" [icon]="faExclamation"></fa-icon>
           </div>
           <div class="pull-right">
             <img [src]="'assets/elements/' + entry.value.element + '.png'" alt="Element" style="max-height: 20px;">
             <img [src]="'assets/weapontypes/' + entry.value.weaponType + '.png'" alt="Weapon" style="max-height: 20px;">
           </div>
         </div>
-
       </nz-option>
     </nz-select>
   </div>
@@ -50,7 +52,11 @@
       </app-partymember>
     </div>
     <ng-template #emptyParty>
-      <h3>Your party is empty!</h3>
+      <nz-empty [nzNotFoundFooter]="footerTpl">
+        <ng-template #footerTpl>
+          <button nz-button nzType="primary" (click)="addDefaultParty()">Add default party</button>
+        </ng-template>
+      </nz-empty>
     </ng-template>
   </div>
 </div>
