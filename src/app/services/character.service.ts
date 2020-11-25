@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Character } from '../model/Character';
-import * as data from 'src/app/_dataassets/data_0.json';
 import {MaterialService} from './material.service';
+import * as data from 'src/app/_dataassets/data_0.json';
 
 @Injectable({
   providedIn: 'root'
