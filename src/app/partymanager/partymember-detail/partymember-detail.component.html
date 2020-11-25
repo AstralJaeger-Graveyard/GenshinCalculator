@@ -14,9 +14,9 @@
   </div>
   <div class="col-xs-6">
     <div>
-      <nz-tag [nzColor]="getTagColor()" class="pull-right">
+      <div class="character-tier" [ngClass]="member.character.tier">
         {{ this.member.character.tier }}
-      </nz-tag>
+      </div>
       <div style="display: flex; flex-direction: row; justify-content: flex-start; align-items: center">
         <nz-avatar [nzSrc]="'assets/elements/' + this.member.character.element + '.png'"
                    nzGap="10"
