@@ -1,0 +1,27 @@
+<div class="row">
+  <app-member-header [member]="member"></app-member-header>
+  <app-member-nav></app-member-nav>
+  <div class="character-overview">
+    <h2>{{ member.character.name }}</h2>
+    <p class="overview-description">
+      {{ member.character.description }}
+    </p>
+  </div>
+  <div class="character-stats">
+    <h2>Stats</h2>
+    <div style="display: grid;">
+      <h4 style="">Ascension Rank: </h4>
+      <nz-input-number [(ngModel)]="member.ascension"
+                       [nzMin]="0"
+                       [nzMax]="6"
+                       [nzStep]="1">
+      </nz-input-number>
+      <h4>Level: </h4>
+      <nz-input-number [(ngModel)]="member.level"
+                       [nzMin]="1"
+                       [nzMax]="90"
+                       [nzStep]="1">
+      </nz-input-number>
+    </div>
+  </div>
+</div>

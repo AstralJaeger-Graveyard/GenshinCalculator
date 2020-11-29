@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 // Modules
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
 import {NgZorroAntdModule} from './ng-zorro-antd.module';
 import { HttpClientModule } from '@angular/common/http';
 import {ReactiveFormsModule, FormsModule} from '@angular/forms';
@@ -18,7 +18,10 @@ import { SummaryComponent } from './summary/summary.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PartyComponent } from './partymanager/party/party.component';
 import { PartymemberComponent } from './partymanager/party/partymember/partymember.component';
-import { PartymemberDetailComponent } from './partymanager/partymember-detail/partymember-detail.component';
+import { MemberDetailComponent } from './partymanager/member-detail/member-detail.component';
+import { ItemComponent } from './summary/item/item.component';
+import { PortraitComponent } from './partymanager/member-detail/portrait/portrait.component';
+import { MemberHeaderComponent } from './partymanager/member-detail/member-header/member-header.component';
 
 // Directives
 import { RepeatDirective } from './directives/repeat.directive';
@@ -35,13 +38,12 @@ import { IconDefinition } from '@ant-design/icons-angular';
 import * as AllIcons from '@ant-design/icons-angular/icons';
 
 // Fontawesome Icons
-import { library } from '@fortawesome/fontawesome-svg-core';
-import {faBell, faStar} from '@fortawesome/pro-solid-svg-icons';
 import {CharacterService} from './services/character.service';
 import {PartyService} from './services/party.service';
-import {LoggingService} from './services/logging.service';
-import {MaterialService} from './services/material.service';
-import { ItemComponent } from './summary/item/item.component';
+import { LoggingService } from './services/logging.service';
+import { MaterialService } from './services/material.service';
+import { fas } from '@fortawesome/pro-solid-svg-icons';
+import { MemberNavComponent } from './partymanager/member-detail/member-nav/member-nav.component';
 
 registerLocaleData(en);
 
@@ -59,9 +61,12 @@ const icons: IconDefinition[] = Object.keys(antDesignIcons).map(key => antDesign
     ScheduleComponent,
     PartyComponent,
     PartymemberComponent,
-    PartymemberDetailComponent,
+    MemberDetailComponent,
+    MemberHeaderComponent,
     RepeatDirective,
-    ItemComponent
+    ItemComponent,
+    PortraitComponent,
+    MemberNavComponent
   ],
   imports: [
     BrowserModule,
@@ -85,7 +90,7 @@ const icons: IconDefinition[] = Object.keys(antDesignIcons).map(key => antDesign
   bootstrap: [AppComponent]
 })
 export class AppModule {
-  constructor() {
-    library.add(faStar, faBell);
+  constructor(private library: FaIconLibrary) {
+    library.addIconPacks(fas);
   }
 }

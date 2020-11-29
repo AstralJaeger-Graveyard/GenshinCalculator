@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {PartyService} from '../services/party.service';
 import {MaterialEntry} from '../model/MaterialEntry';
+import {PartyMember} from '../model/PartyMember';
 
 @Component({
   selector: 'app-summary',
@@ -17,7 +18,7 @@ export class SummaryComponent implements OnInit {
     for(let member of this.partyService.party) { }
   }
 
-  requiredItemsForNextAscension(): Map<string, MaterialEntry>{
+  filterReqItemsNextAsc(): Map<string, MaterialEntry>{
     const entries = new Map<string, MaterialEntry>();
     for (const member of this.partyService.party){
       if (member.ascension === 6 || !member.include){
@@ -39,6 +40,14 @@ export class SummaryComponent implements OnInit {
       }
     }
     return entries;
+  }
+
+  filterEnaCharNextAsc(): PartyMember[] {
+    return this.partyService.party.filter(value => value.include);
+  }
+
+  generateCharAscTitle(member: PartyMember): string {
+    return `${member.character.name} - Asc. ${member.ascension === 6 ? 6 : member.ascension + 1}`;
   }
 
   onAscensionStageChange(): void{

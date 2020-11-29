@@ -1,0 +1,19 @@
+<div class="character-header">
+  <app-portrait [character]="member.character">
+  </app-portrait>
+  <div class="character-title">
+    <h1 class="character-name">{{ member.character.name }}</h1>
+    <div class="character-details">
+      <div class="character-details-item" [ngClass]="member.character.element.toLowerCase()">
+        {{ member.character.element }}
+      </div>
+      •
+      <div class="character-details-item">
+        {{ member.character.weaponType }}
+      </div>
+    </div>
+  </div>
+  <div class="character-tier S" [ngClass]="member.character.tier">
+      {{member.character.tier}}
+  </div>
+</div>

@@ -1,0 +1,15 @@
+<div class="character-meta">
+  <img [src]="character.icon"
+       [alt]="character.name"
+       class="character-icon">
+  <div class="character-rarity">
+    <fa-layers *appRepeat="character.rarity" fixedWidth="true">
+      <fa-icon  [icon]="['fas', 'star']" style="color: black" transform="grow-2 up-3"></fa-icon>
+      <fa-icon  [icon]="['fas', 'star']" style="color: gold" transform="shink-2 up-3"></fa-icon>
+    </fa-layers>
+  </div>
+  <img [src]="'assets/elements/' + character.element + '.png'"
+       [alt]="character.element"
+       class="character-type">
+</div>
+

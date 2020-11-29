@@ -6,7 +6,7 @@
                class="pseudo-fullwidth"
                [(ngModel)]="selectValue"
                (ngModelChange)="onCharacterSelected($event)"
-               [nzDisabled]="partyService.party.length > 9"
+               [nzDisabled]="party.length > 9"
     >
       <nz-option nzCustomContent
                  *ngFor="let entry of characters | keyvalue"

@@ -2,9 +2,41 @@
   <h2>Summary</h2>
 </div>
 <div class="row">
-  <nz-input-number [(ngModel)]="ascensionStage" [nzMin]="0" [nzMax]="6" [nzStep]="1" (ngModelChange)="onAscensionStageChange()">
-  </nz-input-number>
-  <div *ngFor="let item of requiredItemsForNextAscension() | keyvalue">
-    <app-item [entry]="item.value"></app-item>
+  <div style="display: flex; flex-wrap: wrap; margin: 0 0 1% 0">
+    <h4 style="margin-right: 1%">Current party ascension rank: </h4>
+    <nz-input-number [(ngModel)]="ascensionStage"
+                     [nzMin]="0"
+                     [nzMax]="6"
+                     [nzStep]="1"
+                     (ngModelChange)="onAscensionStageChange()">
+    </nz-input-number>
   </div>
+  <nz-collapse>
+    <nz-collapse-panel nzHeader="Required materials for next ascension rank">
+      <div style="display: flex; flex-wrap: wrap; align-items: center">
+        <app-item *ngFor="let item of filterReqItemsNextAsc() | keyvalue"
+                  [entry]="item.value">
+        </app-item>
+      </div>
+    </nz-collapse-panel>
+    <nz-collapse-panel nzHeader="Required materials for next ascension rank by partymember">
+      <nz-collapse>
+        <nz-collapse-panel *ngFor="let member of filterEnaCharNextAsc()"
+                           [nzHeader]="generateCharAscTitle(member)">
+          <nz-list *ngIf="member.ascension !== 6; else FullAscensionTpl" nzSize="small">
+            <nz-list-item *ngFor="let material of member.character.ascension[member.ascension].materials">
+              <nz-list-item-meta [nzAvatar]="material.material.icon">
+                <nz-list-item-meta-title>
+                  x{{material.amount}} {{ material.material.name }}
+                </nz-list-item-meta-title>
+              </nz-list-item-meta>
+            </nz-list-item>
+          </nz-list>
+          <ng-template #FullAscensionTpl let-member='member'>
+            This character is already fully ascended!
+          </ng-template>
+        </nz-collapse-panel>
+      </nz-collapse>
+    </nz-collapse-panel>
+  </nz-collapse>
 </div>

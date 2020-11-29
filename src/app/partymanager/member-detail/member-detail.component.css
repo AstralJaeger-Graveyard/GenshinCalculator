@@ -1,0 +1,36 @@
+.character-overview {
+  padding: 0 30px;
+  margin-bottom: 30px;
+}
+
+.character-stats {
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+
+p, ul {
+  margin: 0;
+}
+
+p{
+  font-size: 16px;
+  line-height: 1.8em;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+
+}
+
+.grid-box {
+  display: grid;
+  flex-wrap: wrap;
+  align-items: baseline;
+
+}
+
+.grid-box-item {
+  margin-left: 1%;
+}
