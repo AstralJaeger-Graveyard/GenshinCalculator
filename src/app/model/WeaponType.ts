@@ -1,7 +1,7 @@
 export enum WeaponType{
-  Bow = "Bow",
-  Catalyst = "Catalyst",
-  Claymore = "Claymore",
-  Polearm = "Polearm",
-  Sword = "Sword",
+  Bow = "bow",
+  Catalyst = "catalyst",
+  Claymore = "claymore",
+  Polearm = "polearm",
+  Sword = "sword",
 }

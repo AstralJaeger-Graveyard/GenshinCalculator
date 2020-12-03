@@ -4,9 +4,7 @@ import {MaterialEntry} from './MaterialEntry';
 import {MaterialSet} from './MaterialSet';
 
 export class Character {
-  public name: string;
-  public description: string;
-  public motto: string;
+  public id: string;
   public element: Element;
   public weaponType: WeaponType;
   public rarity: number;
@@ -18,9 +16,5 @@ export class Character {
   public ascension: MaterialSet[];
   // TODO: talent materials
 
-  constructor(name: string, description: string, element: Element) {
-    this.name = name;
-    this.description = description;
-    this.element = element;
-  }
+  constructor() { }
 }
