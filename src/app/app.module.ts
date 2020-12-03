@@ -40,11 +40,11 @@ import * as AllIcons from '@ant-design/icons-angular/icons';
 // Fontawesome Icons
 import {CharacterService} from './services/character.service';
 import {PartyService} from './services/party.service';
-import { LoggingService } from './services/logging.service';
 import { MaterialService } from './services/material.service';
 import { fas } from '@fortawesome/pro-solid-svg-icons';
 import { MemberNavComponent } from './partymanager/member-detail/member-nav/member-nav.component';
 import {WeaponService} from './services/weapon.service';
+import {LocalizationService} from './services/localization.service';
 
 registerLocaleData(en);
 
@@ -82,12 +82,12 @@ const icons: IconDefinition[] = Object.keys(antDesignIcons).map(key => antDesign
   ],
   providers: [
     { provide: NZ_I18N, useValue: en_US },
-    {provide: NZ_ICONS, useValue: icons},
+    { provide: NZ_ICONS, useValue: icons },
+     LocalizationService,
      MaterialService,
      CharacterService,
      WeaponService,
-     PartyService,
-     LoggingService
+     PartyService
   ],
   bootstrap: [AppComponent]
 })
