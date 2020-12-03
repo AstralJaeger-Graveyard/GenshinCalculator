@@ -1,11 +1,13 @@
-
+import {Stat} from './Stat';
+import {WeaponType} from './WeaponType';
 
 export class Weapon{
 
-  public name: string;
-  public description: string;
-  public image: string;
+  public id: string;
+  public weaponType: WeaponType;
+  public icon: string;
   public rarity: number;
-  public baseAtk: number;
-
+  public atk: number;
+  public secondary: Stat;
+  public passive: string;
 }
