@@ -1,0 +1,979 @@
+{
+  "translations": [
+    {
+      "description": "Always energetic and full of life, Amber's the best - albeit only - Outrider of the Knights of Favonius.",
+      "id": "amber",
+      "name": "Amber"
+    },
+    {
+      "description": "Every denizen of Mondstadt adores Barbara. However, she learned the word \"idol\" from a magazine.",
+      "id": "barbara",
+      "name": "Barbara"
+    },
+    {
+      "description": "Beidou is the leader of the Crux an armed fleet based in Liyue Harbor. An armed fleet means exactly what it sounds like: a fleet of ships armed to the teeth",
+      "id": "beidou",
+      "name": "Beidou"
+    },
+    {
+      "description": "A righteous and good-natured adventurer from Mondstadt who's unfortunately extremely unlucky.",
+      "id": "bennett",
+      "name": "Bennett"
+    },
+    {
+      "description": "A young exortcist from a family of exorcists. He does everything he can to suppress his pure positive energy.",
+      "id": "chongyun",
+      "name": "Chongyun"
+    },
+    {
+      "description": "The tycoon of a winery empire in Mondstadt, unmatched in every possible way.",
+      "id": "diluc",
+      "name": "Diluc"
+    },
+    {
+      "description": "A young lady who has inherited trace amounts of non-human blood. She is the incredible popular bartender of the Cat's Tail tavern.",
+      "id": "diona",
+      "name": "Diona"
+    },
+    {
+      "description": "A mysterious girl who calls herself \"Prinzessia der Verurteilung\" and travels with a night raven named Oz.",
+      "id": "fischl",
+      "name": "Fischl"
+    },
+    {
+      "description": "The righteous and rigorous Dandelion Knight, and Acting Grand Master of the Knights of Favonius in Mondstadt.",
+      "id": "jean",
+      "name": "Jean"
+    },
+    {
+      "description": "A thinker in the Knights of Favonius with a somewhat exotic appearance.",
+      "id": "kaeya",
+      "name": "Kaeya"
+    },
+    {
+      "description": "The Yuheng of the Liyue Qixing. Has much to say about Rex Lapis' unilateral approach to policymaking in Liyue - but in truth, gods admire skeptics such as her quite a lot.",
+      "id": "keqing",
+      "name": "Keqing"
+    },
+    {
+      "description": "An explosives expert and a regular at the Knights of Favonius' confinement room. Also known as Fleeing Sunlight.",
+      "id": "klee",
+      "name": "Klee"
+    },
+    {
+      "description": "The languid but knowledgeable Librarian of the Knights of Favonius who was deemed by Sumeru Academia to be their most distinguised graduate in the past two centuries.",
+      "id": "lisa",
+      "name": "Lisa"
+    },
+    {
+      "description": "A mysterious young astrologer who proclaims herself to be \"Astrologist Mona Megistus,\" and who possesses abilities to match the title.",
+      "id": "mona",
+      "name": "Mona"
+    },
+    {
+      "description": "The Tianquan of Liyue Qixing. Her wealth is unsurpassed in all of Teyvat.",
+      "id": "ningguang",
+      "name": "Ningguang"
+    },
+    {
+      "description": "A maid in the service of the Knights of Favonius that dreams of joining their ranks someday.",
+      "id": "noelle",
+      "name": "Noelle"
+    },
+    {
+      "description": "An apprentice and herb-picker Bubu Pharmacy. An undead with a bone-white complexion, she seldom has much in the way of words or emotion.",
+      "id": "qiqi",
+      "name": "Qiqi"
+    },
+    {
+      "description": "A boy who lives among the wolves in Wolvendom of Mondstadt, away from human civilization. As agile as lightning.",
+      "id": "razor",
+      "name": "Razor"
+    },
+    {
+      "description": "An alchemist filled with curiosity about all things. She researches bio-alchemy.",
+      "id": "sucrose",
+      "name": "Sucrose"
+    },
+    {
+      "description": "No. 11 of The Harbingers, also known as \"Childe\". His name is highly feared on the battlefield.",
+      "id": "tartaglia",
+      "name": "Tartaglia"
+    },
+    {
+      "description": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
+      "id": "traveler_anemo",
+      "name": "Traveler Anemo"
+    },
+    {
+      "description": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
+      "id": "traveler_geo",
+      "name": "Traveler Geo"
+    },
+    {
+      "description": "One of the many bards of Mondstadt, who freely wanders the city's streets and alleys.",
+      "id": "venti",
+      "name": "Venti"
+    },
+    {
+      "description": "A renowned chef from Liyue. She's extremely passionate about cooking and excels at making her signature hot and spicy dishes.",
+      "id": "xiangling",
+      "name": "Xiangling"
+    },
+    {
+      "description": "A young man carrying a longsword who is frequently seen at book booths. He has a chivalrous heart and yearns for justice and fairness for all.",
+      "id": "xingqiu",
+      "name": "Xingqiu"
+    },
+    {
+      "description": "Common currency",
+      "id": "mora",
+      "name": "Mora"
+    },
+    {
+      "description": "Character Ascension Material",
+      "id": "agate_1",
+      "name": "Agnidus Agate Silver"
+    },
+    {
+      "description": "Character Ascension Material",
+      "id": "agate_2",
+      "name": "Agnidus Agate Fragment"
+    },
+    {
+      "description": "Character Ascension Material",
+      "id": "agate_3",
+      "name": "Agnidus Agate Chunk"
+    },
+    {
+      "description": "Character Ascension Material",
+      "id": "agate_4",
+      "name": "Agnidus Agate Gemstone"
+    },
+    {
+      "description": "Character Ascension Material",
+      "id": "lazurite_1",
+      "name": "Varunada Lazurite Silver"
+    },
+    {
+      "description": "Character Ascension Material",
+      "id": "lazurite_2",
+      "name": "Varunada Lazurite Fragment"
+    },
+    {
+      "description": "Character Ascension Material",
+      "id": "lazurite_3",
+      "name": "Varunada Lazurite Chunk"
+    },
+    {
+      "description": "Character Ascension Material",
+      "id": "lazurite_4",
+      "name": "Varunada Lazurite Gemstone"
+    },
+    {
+      "description": "Character Ascension Material",
+      "id": "amethyst_1",
+      "name": "Vajrada Amethyst Silver"
+    },
+    {
+      "description": "Character Ascension Material",
+      "id": "amethyst_2",
+      "name": "Vajrada Amethyst Fragment"
+    },
+    {
+      "description": "Character Ascension Material",
+      "id": "amethyst_3",
+      "name": "Vajrada Amethyst Chunk"
+    },
+    {
+      "description": "Character Ascension Material",
+      "id": "amethyst_4",
+      "name": "Vajrada Amethyst Gemstone"
+    },
+    {
+      "description": "Character Ascension Material",
+      "id": "jade_1",
+      "name": "Shivada Jade Silver"
+    },
+    {
+      "description": "Character Ascension Material",
+      "id": "jade_2",
+      "name": "Shivada Jade Fragment"
+    },
+    {
+      "description": "Character Ascension Material",
+      "id": "jade_3",
+      "name": "Shivada Jade Chunk"
+    },
+    {
+      "description": "Character Ascension Material",
+      "id": "jade_4",
+      "name": "Shivada Jade Gemstone"
+    },
+    {
+      "description": "Character Ascension Material",
+      "id": "turquise_1",
+      "name": "Vayuda Turquise Silver"
+    },
+    {
+      "description": "Character Ascension Material",
+      "id": "turquise_2",
+      "name": "Vayuda Turquise Fragment"
+    },
+    {
+      "description": "Character Ascension Material",
+      "id": "turquise_3",
+      "name": "Vayuda Turquise Chunk"
+    },
+    {
+      "description": "Character Ascension Material",
+      "id": "turquise_4",
+      "name": "Vayuda Turquise Gemstone"
+    },
+    {
+      "description": "",
+      "id": "topaz_1",
+      "name": "Prithiva Topaz Silver"
+    },
+    {
+      "description": "",
+      "id": "topaz_2",
+      "name": "Prithiva Topaz Fragment"
+    },
+    {
+      "description": "",
+      "id": "topaz_3",
+      "name": "Prithiva Topaz Chunk"
+    },
+    {
+      "description": "",
+      "id": "topaz_4",
+      "name": "Prithiva Topaz Gemstone"
+    },
+    {
+      "description": "",
+      "id": "diamond_1",
+      "name": "Brilliant Diamond Silver"
+    },
+    {
+      "description": "",
+      "id": "diamond_2",
+      "name": "Brilliant Diamond Fragment"
+    },
+    {
+      "description": "",
+      "id": "diamond_3",
+      "name": "Brilliant Diamond Chunk"
+    },
+    {
+      "description": "",
+      "id": "diamond_4",
+      "name": "Brilliant Diamond Gemstone"
+    },
+    {
+      "description": "The imploded form of an Anemo Hypostasis upon its defeat. It contains the essence of Anemo energy. It is said that the power to create hurricanes resides within its seemingly fragile body. This butterfly of pure Anemo energy must be waiting for the day to conjure up storms once again",
+      "id": "hurricane_seed",
+      "name": "Hurricane Seed"
+    },
+    {
+      "description": "An Electro Hypostasis channels nearby elemental energy to repair damaged elemental entities. It contains the essence of Electro energy. A common prism separates white light into component colors; a Lightning Prism, however, channels flowing energy and weaves them into lighting. It will continue to do so even after the Electro Hypostasis has been defeated.",
+      "id": "lightning_prism",
+      "name": "Lightning Prism"
+    },
+    {
+      "description": "The exposed core of a defeated Cryo Regisvine. Pure cryo elements are contained within it. Energy and thoughts that swell deep within the earth will eventually erupt on the surface. Even the deathly silent frost will attach to creatures on the ground, causing even the vines and branches of vegetation to become huge and fierce, attracting the hunter's gaze.\n",
+      "id": "hoarfrost_core",
+      "name": "Hoarfrost Core"
+    },
+    {
+      "description": "A pillar form by the shell of a Geo Hypostasis. It is composed of high-density Geo energy. This is the heaviest component of a Geo Element. Maybe the reason a Geo Hypostasis creates this polar out of its shell and raises itself is just to get closer to the sky, not to combat enemies.",
+      "id": "basalt_pillar",
+      "name": "Basalt Pillar"
+    },
+    {
+      "description": "A scoop of eternal water left by an oceanid. Though it has already diffused among the depths of the lake, its purity remains all the same. But why would a creature so pure and clean as an oceanid desire the appearance of plants born of the ground and assume such a form with pure water? They need not breathe nor do they require sustenance...",
+      "id": "cleansing_heart",
+      "name": "Cleansing Heart"
+    },
+    {
+      "description": "A seed that fuels the unending flames of the Pyro Regisvine. It emits pyro energy as if it will burn all that has ever sprouted from the ground.\nEndless desires flow among turbulent energy deep within the earth. What desire could steadily hold such fire to the plants and long so eagerly to bathe everything in unquenchable flames?",
+      "id": "everflame_seed",
+      "name": "Everflame Seed"
+    },
+    {
+      "description": "A wild grass that emits light at night. Used in cooking to enhance other flavors.",
+      "id": "small_lamp_grass",
+      "name": "Small Lamp Grass"
+    },
+    {
+      "description": "A fungus that grows in the warm caress of the wind. It is as everlasting as the wind, nourishing life.",
+      "id": "philanemo_mushroom",
+      "name": "Philanemo Mushroom"
+    },
+    {
+      "description": "A rare mineral that glimmers in the dark. It's said to be a mutated gemstone condensed from the flourishing elements of the world.",
+      "id": "noctilucous_jade",
+      "name": "Noctilucous Jade"
+    },
+    {
+      "description": "A precious crystal of condensed pure Geo element that usually grows along with other minerals. It's also commonly called \"Cor Petrae.\"",
+      "id": "cor_lapis",
+      "name": "Cor Lapis"
+    },
+    {
+      "description": "A plant that adores the wind. To the proud children of the wind, or the citizens of Mondstadt, the Windwheel Asters are the \"visible winds.\"",
+      "id": "windwheel_aster",
+      "name": "Windwheel Aster"
+    },
+    {
+      "description": "A flower that grows near water sources. When cooked the petals have a chunky texture, yet are sweet and a little bitter.",
+      "id": "calla_lily",
+      "name": "Calla Lily"
+    },
+    {
+      "description": "A tiny seed that rides on the wind. Even without its feathered wings, it still holds the hope from afar within.",
+      "id": "dandelion_seed",
+      "name": "Dandelion Seed"
+    },
+    {
+      "description": "A plump and translucent berry that has a fragrant smell and a sweet refreshing taste. In the past, the watchers of the storms found solace in the sweetness of the fruit and the hope for the city's security.",
+      "id": "valberry",
+      "name": "Valberry"
+    },
+    {
+      "description": "An extremely ancient flower that was said to be commonly seen in Liyue. It transforms the memories of the land into its fragrance during florescence.",
+      "id": "glaze_lily",
+      "name": "Glaze Lily"
+    },
+    {
+      "description": "A small flower with strong vitality. It was said its downward-blooming flower keeps its fragrance from dissipating.",
+      "id": "violetgrass",
+      "name": "Violetgrass"
+    },
+    {
+      "description": "A berry with thorns that often gets attached to a wolf's pelt. When you look at it, you can almost hear the echoing cries of the wolves in the woods.",
+      "id": "wolfhook",
+      "name": "Wolfhook"
+    },
+    {
+      "description": "Empty seashells brought ashore by the tides. Hold it close to your ear, and hear the longing calls of the sea.",
+      "id": "starconch",
+      "name": "Starconch"
+    },
+    {
+      "description": "A beautiful flower with a name that suits its appearance. It only grows where harsh winds blow, and is just as intangible as the true heart of an unbound soul.",
+      "id": "cecilia",
+      "name": "Cecilia"
+    },
+    {
+      "description": "A spicy plant native to Liyue. Merely smelling it makes one hot and thirsty.",
+      "id": "jueyun_chili",
+      "name": "Jueyun Chili"
+    },
+    {
+      "description": "A crimson flower that blooms like the rainbow clouds in Liyue. It can be made into silky-smooth fabric.",
+      "id": "silk_flower",
+      "name": "Silk Flower"
+    },
+    {
+      "description": "A roughly produced arrowhead. Though unimpressive, neither it nor the bow should be underestimated, for even the bravest knight can be felled by an arrow from the rear.",
+      "id": "arrowhead_1",
+      "name": "Firm Arrowhead"
+    },
+    {
+      "description": "A well-made arrowhead. Sharp enough to penetrate armor with the ease of a rock through the surface of water.",
+      "id": "arrowhead_2",
+      "name": "Sharp Arrowhead"
+    },
+    {
+      "description": "An old arrowhead coated in blood. The arrowhead has long since lost its sharpness and thus its use as a weapon. However it represents the pride of a hunter and acts as both an amulet and a medal.",
+      "id": "arrowhead_3",
+      "name": "Weatherd Arrowhead"
+    },
+    {
+      "description": "A scroll that likely relates to some kind of magic. Exudes an inexplicable but ominous warmth.",
+      "id": "scroll_1",
+      "name": "Divining Scroll"
+    },
+    {
+      "description": "An old scroll lacking in detail and clarity. By following the images on it, some magical creatures can recreate a small part of its magic.",
+      "id": "scroll_2",
+      "name": "Sealed Scroll"
+    },
+    {
+      "description": "A scroll inscribed with ancient images. It is said that few can decipher its meaning, and the few scholars that have all went mad.",
+      "id": "scroll_3",
+      "name": "Forbidden Curse Scroll"
+    },
+    {
+      "description": "A signet that proudly represents it's owner's position as a member of the Treasure Hoarders. The pursuit of treasure knows no bounds. That said... is being a thief something to be proud of?",
+      "id": "tinsignia_1",
+      "name": "Treasure Hoarder Insignia"
+    },
+    {
+      "description": "A raven insignia used by members of the Treasure Hoarders to identify each other. The Treasure Hoarders ask for no resume. Anyone who has an insatiable desire for treasure and is backed up by an equal amount of courage can become a worthy member.",
+      "id": "tinsignia_2",
+      "name": "Silver Raven Insignia"
+    },
+    {
+      "description": "A raven insignia that symbolizes the pride and the guiding principle of the Treasure Hoarders. Whether it's hidden amidst the vastness of the land or in the depths of the seas, as long as there are treasures to be hunted down, the spirit of Treasure Hoarders, who will stop at nothing to acquire them, will never die.",
+      "id": "tinsignia_3",
+      "name": "Golden Raven Insignia"
+    },
+    {
+      "description": "A broken bone mask that once belonged to some hilichurl. Now more broken than complete, it can no longer perform its primary function.",
+      "id": "mask_1",
+      "name": "Damaged Mask"
+    },
+    {
+      "description": "A bone mask covered in unidentifiable stains and a mysterious odor. Yet such is the devotion of hilichurls to masks that they will wear it nonetheless.",
+      "id": "mask_2",
+      "name": "Stained Mask"
+    },
+    {
+      "description": "A glossy bone mask with oil markings painted on it, meant to intimidate enemies. No-one really knows why hilichurls are so fascinated with masks. Some say it's because they don't want to see their own reflections in the water.",
+      "id": "mask_3",
+      "name": "Ominous Mask"
+    },
+    {
+      "description": "An insignia to identify the recruits. Makes one wonder about what the ones joining the Fatui's war machine were thinking.",
+      "id": "tinsignia_1",
+      "name": "Recruit Insignia"
+    },
+    {
+      "description": "An insignia to identify the recruits. Makes one wonder about what the ones joining the Fatui's war machine were thinking.",
+      "id": "tinsignia_2",
+      "name": "Recruit Insignia"
+    },
+    {
+      "description": "An armband to identify officers. The Fatui possess a colossal army, so there must be something extraordinary about the ones who achieved this rank within the group.",
+      "id": "tinsignia_3",
+      "name": "Lieutenant Insignia"
+    },
+    {
+      "description": "Nectar extracted from the stamen of a Whopperflower that contains trace amounts of elements. The taste of the nectar has a hint of Sweet Flower in it.",
+      "id": "nectar_1",
+      "name": "Whopperflower Nectar"
+    },
+    {
+      "description": "Nectar that is full of pure elements. Scholars generally concur that Whopperflowers are advanced life forms among the elemental plants, but there has yet to be a satisfactory explanation regarding their predatory habits.",
+      "id": "nectar_2",
+      "name": "Shimmering Nectar"
+    },
+    {
+      "description": "A thick and sticky honey that is full of energy. The Whopperflower hunts by tricking its prey, a process it uses to possibly evolve into a more powerful and pure form.",
+      "id": "nectar_3",
+      "name": "Energy Nectar"
+    },
+    {
+      "description": "A thick coating found on slimes. Most commonly seen material in elemental workshops.",
+      "id": "condensate_1",
+      "name": "Slime Condensate"
+    },
+    {
+      "description": "Mildly purified slime secretions. Harmful to the skin. Please avoid direct exposure.",
+      "id": "condensate_2",
+      "name": "Slime Secretions"
+    },
+    {
+      "description": "Concentrated slime essence. When left on its own, it will begin to move on its own.",
+      "id": "condensate_3",
+      "name": "Slime Concentrate"
+    },
+    {
+      "description": "",
+      "id": "alley_hunter",
+      "name": "Alley Hunter"
+    },
+    {
+      "description": "",
+      "id": "amos_bow",
+      "name": "Amos Bow"
+    },
+    {
+      "description": "",
+      "id": "blackcliff_warbow",
+      "name": "Blackcliff Warbow"
+    },
+    {
+      "description": "",
+      "id": "compound_bow",
+      "name": "Compound Bow"
+    },
+    {
+      "description": "",
+      "id": "ebony_bow",
+      "name": "Ebony Bow"
+    },
+    {
+      "description": "",
+      "id": "favonius_warbow",
+      "name": "Favonius Warbow"
+    },
+    {
+      "description": "",
+      "id": "hunter_bow",
+      "name": "Hunter Bow"
+    },
+    {
+      "description": "",
+      "id": "messenger",
+      "name": "Messenger"
+    },
+    {
+      "description": "",
+      "id": "prototype_crescent",
+      "name": "Prototype Crescent"
+    },
+    {
+      "description": "",
+      "id": "raven_bow",
+      "name": "Raven Bow"
+    },
+    {
+      "description": "",
+      "id": "recurve_bow",
+      "name": "Recurve Bow"
+    },
+    {
+      "description": "",
+      "id": "royal_bow",
+      "name": "Royal Bow"
+    },
+    {
+      "description": "",
+      "id": "rust",
+      "name": "Rust"
+    },
+    {
+      "description": "",
+      "id": "sacrificial_bow",
+      "name": "Sacrificial Bow"
+    },
+    {
+      "description": "",
+      "id": "seasoned_hunter_bow",
+      "name": "Seasoned Hunter Bow"
+    },
+    {
+      "description": "",
+      "id": "sharpshooter_oath",
+      "name": "Sharpshooter Oath"
+    },
+    {
+      "description": "",
+      "id": "skyward_harp",
+      "name": "Skyward Harp"
+    },
+    {
+      "description": "",
+      "id": "slingshot",
+      "name": "Slingshot"
+    },
+    {
+      "description": "",
+      "id": "the_stringless",
+      "name": "The Stringless"
+    },
+    {
+      "description": "",
+      "id": "the_viridescent_hunt",
+      "name": "The Viridescent Hunt"
+    },
+    {
+      "description": "",
+      "id": "amber_catalyst",
+      "name": "Amber Catalyst"
+    },
+    {
+      "description": "",
+      "id": "apprentice_notes",
+      "name": "Apprentice Notes"
+    },
+    {
+      "description": "",
+      "id": "blackcliff_amulet",
+      "name": "Blackcliff Amulet"
+    },
+    {
+      "description": "",
+      "id": "emerald_orb",
+      "name": "Emerald Orb"
+    },
+    {
+      "description": "",
+      "id": "eye_of_perception",
+      "name": "Eye Of Perception"
+    },
+    {
+      "description": "",
+      "id": "favonius_codex",
+      "name": "Favonius Codex"
+    },
+    {
+      "description": "",
+      "id": "lost_prayer_to_the_sacred_winds",
+      "name": "Lost Prayer To The Sacred Winds"
+    },
+    {
+      "description": "",
+      "id": "magic_guide",
+      "name": "Magic Guide"
+    },
+    {
+      "description": "",
+      "id": "mappa_mare",
+      "name": "Mappa Mare"
+    },
+    {
+      "description": "",
+      "id": "memory_of_dust",
+      "name": "Memory Of Dust"
+    },
+    {
+      "description": "",
+      "id": "otherworldly_story",
+      "name": "Otherworldly Story"
+    },
+    {
+      "description": "",
+      "id": "pocket_grimoire",
+      "name": "Pocket Grimoire"
+    },
+    {
+      "description": "",
+      "id": "prototype_malice",
+      "name": "Prototype Malice"
+    },
+    {
+      "description": "",
+      "id": "royal_grimoire",
+      "name": "Royal Grimoire"
+    },
+    {
+      "description": "",
+      "id": "sacrificial_fragments",
+      "name": "Sacrificial Fragments"
+    },
+    {
+      "description": "",
+      "id": "skyward_atlas",
+      "name": "Skyward Atlas"
+    },
+    {
+      "description": "",
+      "id": "solar_pearl",
+      "name": "Solar Pearl"
+    },
+    {
+      "description": "",
+      "id": "the_widsith",
+      "name": "The Widsith"
+    },
+    {
+      "description": "",
+      "id": "thrilling_tales_of_dragon_slayers",
+      "name": "Thrilling Tales Of Dragon Slayers"
+    },
+    {
+      "description": "",
+      "id": "twin_nephrite",
+      "name": "Twin Nephrite"
+    },
+    {
+      "description": "",
+      "id": "wine_and_song",
+      "name": "Wine And Song"
+    },
+    {
+      "description": "",
+      "id": "blackcliff_slasher",
+      "name": "Blackcliff Slasher"
+    },
+    {
+      "description": "",
+      "id": "bloodtainted_greatsword",
+      "name": "Bloodtainted Greatsword"
+    },
+    {
+      "description": "",
+      "id": "debate_club",
+      "name": "Debate Club"
+    },
+    {
+      "description": "",
+      "id": "favonius_greatsword",
+      "name": "Favonius Greatsword"
+    },
+    {
+      "description": "",
+      "id": "ferrous_shadow",
+      "name": "Ferrous Shadow"
+    },
+    {
+      "description": "",
+      "id": "lithic_blade",
+      "name": "Lithic Blade"
+    },
+    {
+      "description": "",
+      "id": "old_merc_pal",
+      "name": "Old Merc Pal"
+    },
+    {
+      "description": "",
+      "id": "prototype_aminus",
+      "name": "Prototype Aminus"
+    },
+    {
+      "description": "",
+      "id": "quartz",
+      "name": "Quartz"
+    },
+    {
+      "description": "",
+      "id": "rainslasher",
+      "name": "Rainslasher"
+    },
+    {
+      "description": "",
+      "id": "royal_greatsword",
+      "name": "Royal Greatsword"
+    },
+    {
+      "description": "",
+      "id": "sacrificial_greatsword",
+      "name": "Sacrificial Greatsword"
+    },
+    {
+      "description": "",
+      "id": "serpent_spine",
+      "name": "Serpent Spine"
+    },
+    {
+      "description": "",
+      "id": "skyrider_greatsword",
+      "name": "Skyrider Greatsword"
+    },
+    {
+      "description": "",
+      "id": "skyward_pride",
+      "name": "Skyward Pride"
+    },
+    {
+      "description": "",
+      "id": "the_bell",
+      "name": "The Bell"
+    },
+    {
+      "description": "",
+      "id": "the_unforged",
+      "name": "The Unforged"
+    },
+    {
+      "description": "",
+      "id": "waster_greatsword",
+      "name": "Waster Greatsword"
+    },
+    {
+      "description": "",
+      "id": "white_iron_greatsword",
+      "name": "White Iron Greatsword"
+    },
+    {
+      "description": "",
+      "id": "whiteblind",
+      "name": "Whiteblind"
+    },
+    {
+      "description": "",
+      "id": "wolf_gravestone",
+      "name": "Wolf Gravestone"
+    },
+    {
+      "description": "",
+      "id": "blackcliff_slasher",
+      "name": "Blackcliff Slasher"
+    },
+    {
+      "description": "",
+      "id": "beginner_protector",
+      "name": "Beginner Protector"
+    },
+    {
+      "description": "",
+      "id": "black_tassel",
+      "name": "Black Tassel"
+    },
+    {
+      "description": "",
+      "id": "blackcliff_pole",
+      "name": "Blackcliff Pole"
+    },
+    {
+      "description": "",
+      "id": "crescent_pike",
+      "name": "Crescent Pike"
+    },
+    {
+      "description": "",
+      "id": "deathmatch",
+      "name": "Deathmatch"
+    },
+    {
+      "description": "",
+      "id": "dragon_bane",
+      "name": "Dragon Bane"
+    },
+    {
+      "description": "",
+      "id": "favonius_lance",
+      "name": "Favonius Lance"
+    },
+    {
+      "description": "",
+      "id": "halberd",
+      "name": "Halberd"
+    },
+    {
+      "description": "",
+      "id": "iron_point",
+      "name": "Iron Point"
+    },
+    {
+      "description": "",
+      "id": "lithic_spear",
+      "name": "Lithic Spear"
+    },
+    {
+      "description": "",
+      "id": "primordial_jade_winged_spear",
+      "name": "Primordial Jade Winged Spear"
+    },
+    {
+      "description": "",
+      "id": "prototype_grudge",
+      "name": "Prototype Grudge"
+    },
+    {
+      "description": "",
+      "id": "skyward_spine",
+      "name": "Skyward Spine"
+    },
+    {
+      "description": "",
+      "id": "vortex_vanquisher",
+      "name": "Vortex Vanquisher"
+    },
+    {
+      "description": "",
+      "id": "white_tassel",
+      "name": "White Tassel"
+    },
+    {
+      "description": "",
+      "id": "aquila_favonia",
+      "name": "Aquila Favonia"
+    },
+    {
+      "description": "",
+      "id": "blackcliff_longsword",
+      "name": "Blackcliff Longsword"
+    },
+    {
+      "description": "",
+      "id": "cool_steel",
+      "name": "Cool Steel"
+    },
+    {
+      "description": "",
+      "id": "dark_iron_sword",
+      "name": "Dark Iron Sword"
+    },
+    {
+      "description": "",
+      "id": "dull_blade",
+      "name": "Dull Blade"
+    },
+    {
+      "description": "",
+      "id": "favonius_sword",
+      "name": "Favonius Sword"
+    },
+    {
+      "description": "",
+      "id": "fillet_blade",
+      "name": "Fillet Blade"
+    },
+    {
+      "description": "",
+      "id": "harbinger_of_dawn",
+      "name": "Harbinger Of Dawn"
+    },
+    {
+      "description": "",
+      "id": "iron_sting",
+      "name": "Iron Sting"
+    },
+    {
+      "description": "",
+      "id": "lion_roar",
+      "name": "Lion Roar"
+    },
+    {
+      "description": "",
+      "id": "prototype_rancour",
+      "name": "Prototype Rancour"
+    },
+    {
+      "description": "",
+      "id": "royal_longsword",
+      "name": "Royal Longsword"
+    },
+    {
+      "description": "",
+      "id": "sacrificial_sword",
+      "name": "Sacrificial Sword"
+    },
+    {
+      "description": "",
+      "id": "silver_sword",
+      "name": "Silver Sword"
+    },
+    {
+      "description": "",
+      "id": "skyrider_sword",
+      "name": "Skyrider Sword"
+    },
+    {
+      "description": "",
+      "id": "skyward_blade",
+      "name": "Skyward Blade"
+    },
+    {
+      "description": "",
+      "id": "the_alley_flash",
+      "name": "The Alley Flash"
+    },
+    {
+      "description": "",
+      "id": "the_black_sword",
+      "name": "The Black Sword"
+    },
+    {
+      "description": "",
+      "id": "the_flute",
+      "name": "The Flute"
+    },
+    {
+      "description": "",
+      "id": "traveler_handy_sword",
+      "name": "Traveler Handy Sword"
+    },
+    {
+      "description": "",
+      "id": "",
+      "name": ""
+    }
+  ]
+}
