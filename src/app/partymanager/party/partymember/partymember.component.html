@@ -2,13 +2,13 @@
     <nz-switch [(ngModel)]="member.include"
                nzSize="small"
                nz-tooltip="Include in Schedule/Summary"></nz-switch>
-    <nz-avatar [nzSrc]="member.character.icon" nzAlt="icon" nzGap="1" nzSize="large"></nz-avatar>
-    <span style="flex-grow: 4">{{member.character.name}}</span>
-    <nz-button-group style="order: 5">
+    <nz-avatar [nzSrc]="'assets/icons/' + member.character_id + '.png'" nzAlt="icon" nzGap="1" nzSize="large"></nz-avatar>
+    <span style="flex-grow: 4">{{ localService.get(member.character_id).name}}</span>
+    <nz-button-group>
       <button nz-button
               nzType="primary"
               (click)="onSelected()">
-        <fa-icon [icon]="faEdit"></fa-icon>
+        <fa-icon [icon]="['fas', 'edit']"></fa-icon>
       </button>
       <button nz-button
               nzType="danger"
@@ -16,7 +16,7 @@
               [nzCondition] = "forceDelete"
               nzPopconfirmTitle="Are you sure you want to remove this character form your party?"
               (nzOnConfirm)="onRemove()">
-        <fa-icon [icon]="faTrash"></fa-icon>
+        <fa-icon [icon]="['fas', 'trash']"></fa-icon>
       </button>
     </nz-button-group>
 </div>

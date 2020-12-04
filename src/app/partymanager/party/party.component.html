@@ -1,34 +1,46 @@
 <div class="row">
-  <div class="col-xs-11">
-    <h3>Add a party member: </h3>
-    <nz-select nzShowSearch
-               nzPlaceHolder="Select a character"
-               class="pseudo-fullwidth"
-               [(ngModel)]="selectValue"
-               (ngModelChange)="onCharacterSelected($event)"
-               [nzDisabled]="party.length > 9"
-    >
-      <nz-option nzCustomContent
-                 *ngFor="let entry of characters | keyvalue"
-                 [nzLabel]="entry.value.name"
-                 [nzValue]="entry.value"
-                 [nzDisabled]="isInParty(entry.value)"
+    <div class="pull-left">
+      <h3 i18n="Add party member">Add a party member: </h3>
+      <nz-select nzShowSearch
+                 nzPlaceHolder="Select a character"
+                 class="pseudo-fullwidth"
+                 [(ngModel)]="selectValue"
+                 (ngModelChange)="onCharacterSelected($event)"
+                 [nzDisabled]="party.length > 9"
       >
-        <div>
-          <div class="pull-left">
-            <img [src]="entry.value.icon" alt="Icon" style="max-height: 20px;">
-            {{ entry.value.name }}
-            <fa-icon *ngIf="entry.value.isNew" [icon]="fasBell" style="color: gold;"></fa-icon>
-            <fa-icon *ngIf="isInParty(entry.value)" [icon]="faExclamation"></fa-icon>
+        <nz-option nzCustomContent
+                   *ngFor="let character of characters.characters"
+                   [nzLabel]="localization.get(character.id).name"
+                   [nzValue]="character"
+                   [nzDisabled]="party.contains(character.id)"
+        >
+          <div>
+            <div class="pull-left">
+              <img [src]="'assets/icons/' + character.id + '.png'"
+                   [alt]="character.id"
+                   style="max-height: 20px;">
+              {{ localization.get(character.id).name }}
+              <fa-icon *ngIf="character.isNew"
+                       [icon]="['fas', 'bell']"
+                       style="color: gold;"></fa-icon>
+              <fa-icon *ngIf="party.contains(character.id)"
+                       [icon]="['fas','exclamation-triangle']"></fa-icon>
+            </div>
+            <div class="pull-right">
+              <img [src]="'assets/elements/' + character.element + '.png'"
+                   [alt]="character.element"
+                   style="max-height: 20px;">
+              <img [src]="'assets/weapontypes/' + character.weaponType + '.png'"
+                   [alt]="character.weaponType"
+                   style="max-height: 20px;">
+            </div>
           </div>
-          <div class="pull-right">
-            <img [src]="'assets/elements/' + entry.value.element + '.png'" alt="Element" style="max-height: 20px;">
-            <img [src]="'assets/weapontypes/' + entry.value.weaponType + '.png'" alt="Weapon" style="max-height: 20px;">
-          </div>
-        </div>
-      </nz-option>
-    </nz-select>
-  </div>
+        </nz-option>
+      </nz-select>
+    </div>
+    <div class="pull-right">
+      <button nz-button (click)="onSaveParty()">Save</button>
+    </div>
 </div>
 <nz-divider></nz-divider>
 
@@ -42,8 +54,8 @@
         <nz-switch nzSize="small" nz-tooltip="Don't ask again" [(ngModel)]="forceDelete"></nz-switch>
       </div>
     </div>
-    <div *ngIf="party.length != 0; else emptyParty">
-      <app-partymember *ngFor="let member of party"
+    <div *ngIf="party.members.length != 0; else emptyParty">
+      <app-partymember *ngFor="let member of party.members"
                        [member]="member"
                        (memberSelected)="onSelected(member)"
                        (memberRemoved)="onRemoved(member)"
@@ -54,7 +66,12 @@
     <ng-template #emptyParty>
       <nz-empty [nzNotFoundFooter]="footerTpl">
         <ng-template #footerTpl>
-          <button nz-button nzType="primary" (click)="addDefaultParty()">Add default party</button>
+          <button nz-button
+                  nzType="primary"
+                  (click)="addDefaultParty()"
+                  i18n="Add default party">
+            Add default party
+          </button>
         </ng-template>
       </nz-empty>
     </ng-template>

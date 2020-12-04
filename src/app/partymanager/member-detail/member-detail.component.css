@@ -34,3 +34,13 @@ p{
 .grid-box-item {
   margin-left: 1%;
 }
+
+nz-divider {
+  color: #333;
+  fontweight: normal;
+}
+
+.inner-box {
+  background: #0092ff;
+  padding: 8px 0;
+}

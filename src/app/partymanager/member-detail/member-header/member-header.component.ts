@@ -1,5 +1,7 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {PartyMember} from '../../../model/PartyMember';
+import {CharacterService} from '../../../services/character.service';
+import {LocalizationService} from '../../../services/localization.service';
 
 @Component({
   selector: 'app-member-header',
@@ -11,7 +13,8 @@ export class MemberHeaderComponent implements OnInit {
   @Input()
   member: PartyMember;
 
-  constructor() { }
+  constructor(public localization: LocalizationService,
+              public characters: CharacterService) { }
 
   ngOnInit(): void {
   }

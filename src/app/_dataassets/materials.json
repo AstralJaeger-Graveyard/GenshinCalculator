@@ -766,7 +766,7 @@
         {
             "description": "A roughly produced arrowhead. Though unimpressive, neither it nor the bow should be underestimated, for even the bravest knight can be felled by an arrow from the rear.",
             "icon": "assets/material_icons/arrowhead_1.png",
-            "id": "firm_arrowhead",
+            "id": "arrowhead_1",
             "name": "Firm Arrowhead",
             "source": [
                 {
@@ -777,7 +777,7 @@
         {
             "description": "A well-made arrowhead. Sharp enough to penetrate armor with the ease of a rock through the surface of water.",
             "icon": "assets/material_icons/arrowhead_2.png",
-            "id": "sharp_arrowhead",
+            "id": "arrowhead_2",
             "name": "Sharp Arrowhead",
             "source": [
                 {
@@ -791,7 +791,7 @@
         {
             "description": "An old arrowhead coated in blood. The arrowhead has long since lost its sharpness and thus its use as a weapon. However it represents the pride of a hunter and acts as both an amulet and a medal.",
             "icon": "assets/material_icons/arrowhead_3.png",
-            "id": "weatherd_arrowhead",
+            "id": "arrowhead_3",
             "name": "Weatherd Arrowhead",
             "source": [
                 {
@@ -805,7 +805,7 @@
         {
             "description": "A scroll that likely relates to some kind of magic. Exudes an inexplicable but ominous warmth.",
             "icon": "assets/material_icons/scroll_1.png",
-            "id": "divining_scroll",
+            "id": "scroll_1",
             "name": "Divining Scroll",
             "source": [
                 {
@@ -816,7 +816,7 @@
         {
             "description": "An old scroll lacking in detail and clarity. By following the images on it, some magical creatures can recreate a small part of its magic.",
             "icon": "assets/material_icons/scroll_2.png",
-            "id": "sealed_scroll",
+            "id": "scroll_2",
             "name": "Sealed Scroll",
             "source": [
                 {
@@ -830,7 +830,7 @@
         {
             "description": "A scroll inscribed with ancient images. It is said that few can decipher its meaning, and the few scholars that have all went mad.",
             "icon": "assets/material_icons/scroll_3.png",
-            "id": "forbidden_curse_scroll",
+            "id": "scroll_3",
             "name": "Forbidden Curse Scroll",
             "source": [
                 {
@@ -844,7 +844,7 @@
         {
             "description": "A signet that proudly represents it's owner's position as a member of the Treasure Hoarders. The pursuit of treasure knows no bounds. That said... is being a thief something to be proud of?",
             "icon": "assets/material_icons/tinsignia_1.png",
-            "id": "treasure_hoarder_insignia",
+            "id": "tinsignia_1",
             "name": "Treasure Hoarder Insignia",
             "source": [
                 {
@@ -855,7 +855,7 @@
         {
             "description": "A raven insignia used by members of the Treasure Hoarders to identify each other. The Treasure Hoarders ask for no resume. Anyone who has an insatiable desire for treasure and is backed up by an equal amount of courage can become a worthy member.",
             "icon": "assets/material_icons/tinsignia_2.png",
-            "id": "1_raven_insignia",
+            "id": "tinsignia_2",
             "name": "Silver Raven Insignia",
             "source": [
                 {
@@ -869,7 +869,7 @@
         {
             "description": "A raven insignia that symbolizes the pride and the guiding principle of the Treasure Hoarders. Whether it's hidden amidst the vastness of the land or in the depths of the seas, as long as there are treasures to be hunted down, the spirit of Treasure Hoarders, who will stop at nothing to acquire them, will never die.",
             "icon": "assets/material_icons/tinsignia_3.png",
-            "id": "golden_raven_insignia",
+            "id": "tinsignia_3",
             "name": "Golden Raven Insignia",
             "source": [
                 {
@@ -883,7 +883,7 @@
         {
             "description": "A broken bone mask that once belonged to some hilichurl. Now more broken than complete, it can no longer perform its primary function.",
             "icon": "assets/material_icons/mask_1.png",
-            "id": "damaged_mask",
+            "id": "mask_1",
             "name": "Damaged Mask",
             "source": [
                 {
@@ -903,8 +903,8 @@
         {
             "description": "A bone mask covered in unidentifiable stains and a mysterious odor. Yet such is the devotion of hilichurls to masks that they will wear it nonetheless.",
             "icon": "assets/material_icons/mask_2.png",
-            "id": "1_raven_insignia",
-            "name": "Silver Raven Insignia",
+            "id": "mask_2",
+            "name": "Stained Mask",
             "source": [
                 {
                     "description": "Dropped by Lv. 40+ hilichurls"
@@ -923,7 +923,7 @@
         {
             "description": "A glossy bone mask with oil markings painted on it, meant to intimidate enemies. No-one really knows why hilichurls are so fascinated with masks. Some say it's because they don't want to see their own reflections in the water.",
             "icon": "assets/material_icons/mask_3.png",
-            "id": "ominous_mask",
+            "id": "mask_2",
             "name": "Ominous Mask",
             "source": [
                 {
@@ -943,7 +943,7 @@
         {
             "description": "An insignia to identify the recruits. Makes one wonder about what the ones joining the Fatui's war machine were thinking.",
             "icon": "assets/material_icons/finsignia_1.png",
-            "id": "recruit_insignia",
+            "id": "finsignia_1",
             "name": "Recruit's Insignia",
             "source": [
                 {
@@ -960,7 +960,7 @@
         {
             "description": "An insignia with a different shape to tell the sergeants from new recruits. Perhaps there are complicated emotions behind it.",
             "icon": "assets/material_icons/finsignia_2.png",
-            "id": "sergeant_insignia",
+            "id": "finsignia_2",
             "name": "Sergeant's Insignia",
             "source": [
                 {
@@ -980,7 +980,7 @@
         {
             "description": "An armband to identify officers. The Fatui possess a colossal army, so there must be something extraordinary about the ones who achieved this rank within the group.",
             "icon": "assets/material_icons/finsignia_3.png",
-            "id": "lieutenant_insignia",
+            "id": "finsignia_3",
             "name": "Lieutenant's Insignia",
             "source": [
                 {
@@ -1000,7 +1000,7 @@
         {
             "description": "Nectar extracted from the stamen of a Whopperflower that contains trace amounts of elements. The taste of the nectar has a hint of Sweet Flower in it.",
             "icon": "assets/material_icons/nectar_1.png",
-            "id": "whopperflower_nectar",
+            "id": "nectar_1",
             "name": "Whopperflower Nectar",
             "source": [
                 {
@@ -1011,7 +1011,7 @@
         {
             "description": "Nectar that is full of pure elements. Scholars generally concur that Whopperflowers are advanced life forms among the elemental plants, but there has yet to be a satisfactory explanation regarding their predatory habits.",
             "icon": "assets/material_icons/nectar_2.png",
-            "id": "shimmering_nectar",
+            "id": "nectar_2",
             "name": "Shimmering Nectar",
             "source": [
                 {
@@ -1025,7 +1025,7 @@
         {
             "description": "A thick and sticky honey that is full of energy. The Whopperflower hunts by tricking its prey, a process it uses to possibly evolve into a more powerful and pure form.",
             "icon": "assets/material_icons/nectar_3.png",
-            "id": "energy_nectar",
+            "id": "nectar_3",
             "name": "Energy Nectar",
             "source": [
                 {
@@ -1039,7 +1039,7 @@
         {
             "description": "A thick coating found on slimes. Most commonly seen material in elemental workshops.",
             "icon": "assets/material_icons/slime_1.png",
-            "id": "slime_condensate",
+            "id": "slime_1",
             "name": "Slime Condensate",
             "source": [
                 {
@@ -1050,7 +1050,7 @@
         {
             "description": "Mildly purified slime secretions. Harmful to the skin. Please avoid direct exposure.",
             "icon": "assets/material_icons/slime_2.png",
-            "id": "slime_secretions",
+            "id": "slime_2",
             "name": "Slime Secretions",
             "source": [
                 {
@@ -1064,7 +1064,7 @@
         {
             "description": "Concentrated slime essence. When left on its own, it will begin to move on its own.",
             "icon": "assets/material_icons/slime_3.png",
-            "id": "slime_concentrate",
+            "id": "slime_3",
             "name": "Slime Concentrate",
             "source": [
                 {

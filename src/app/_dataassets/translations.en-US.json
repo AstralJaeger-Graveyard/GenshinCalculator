@@ -126,6 +126,16 @@
       "name": "Xingqiu"
     },
     {
+      "description": "Liyue's sole rock 'n' roll musician. She rebels against ossified prejudices using her music and passionate singing.",
+      "id": "xinyan",
+      "name": "Xinyan"
+    },
+    {
+      "description": "A mysterious guest invited by the Wangsheng Funeral Parlor. Extremely knowledgeable in all things.",
+      "id": "zhongli",
+      "name": "Zhongli"
+    },
+    {
       "description": "Common currency",
       "id": "mora",
       "name": "Mora"
@@ -437,17 +447,17 @@
     },
     {
       "description": "An insignia to identify the recruits. Makes one wonder about what the ones joining the Fatui's war machine were thinking.",
-      "id": "tinsignia_1",
+      "id": "finsignia_1",
       "name": "Recruit Insignia"
     },
     {
       "description": "An insignia to identify the recruits. Makes one wonder about what the ones joining the Fatui's war machine were thinking.",
-      "id": "tinsignia_2",
+      "id": "finsignia_2",
       "name": "Recruit Insignia"
     },
     {
       "description": "An armband to identify officers. The Fatui possess a colossal army, so there must be something extraordinary about the ones who achieved this rank within the group.",
-      "id": "tinsignia_3",
+      "id": "finsignia_3",
       "name": "Lieutenant Insignia"
     },
     {
@@ -467,17 +477,17 @@
     },
     {
       "description": "A thick coating found on slimes. Most commonly seen material in elemental workshops.",
-      "id": "condensate_1",
+      "id": "slime_1",
       "name": "Slime Condensate"
     },
     {
       "description": "Mildly purified slime secretions. Harmful to the skin. Please avoid direct exposure.",
-      "id": "condensate_2",
+      "id": "slime_2",
       "name": "Slime Secretions"
     },
     {
       "description": "Concentrated slime essence. When left on its own, it will begin to move on its own.",
-      "id": "condensate_3",
+      "id": "slime_3",
       "name": "Slime Concentrate"
     },
     {

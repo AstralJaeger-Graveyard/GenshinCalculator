@@ -1,0 +1,3908 @@
+{
+    "characters": [
+        {
+            "ascension": [
+                {
+                    "cost": 20000,
+                    "level": 20,
+                    "materials": [
+                        {
+                            "amount": "1",
+                            "material_id": "agate_1"
+                        },
+                        {
+                            "amount": "3",
+                            "material_id": "small_lamp_grass"
+                        },
+                        {
+                            "amount": "3",
+                            "material_id": "arrowhead_1"
+                        }
+                    ],
+                    "rank": 1
+                },
+                {
+                    "cost": 40000,
+                    "level": 40,
+                    "materials": [
+                        {
+                            "amount": "3",
+                            "material_id": "agate_2"
+                        },
+                        {
+                            "amount": "2",
+                            "material_id": "everflame_seed"
+                        },
+                        {
+                            "amount": "10",
+                            "material_id": "small_lamp_grass"
+                        },
+                        {
+                            "amount": "10",
+                            "material_id": "arrowhead_1"
+                        }
+                    ],
+                    "rank": 2
+                },
+                {
+                    "cost": 60000,
+                    "level": 50,
+                    "materials": [
+                        {
+                            "amount": "6",
+                            "material_id": "agate_2"
+                        },
+                        {
+                            "amount": "4",
+                            "material_id": "everflame_seed"
+                        },
+                        {
+                            "amount": "20",
+                            "material_id": "small_lamp_grass"
+                        },
+                        {
+                            "amount": "12",
+                            "material_id": "arrowhead_2"
+                        }
+                    ],
+                    "rank": 3
+                },
+                {
+                    "cost": 80000,
+                    "level": 60,
+                    "materials": [
+                        {
+                            "amount": "3",
+                            "material_id": "agate_3"
+                        },
+                        {
+                            "amount": "8",
+                            "material_id": "everflame_seed"
+                        },
+                        {
+                            "amount": "30",
+                            "material_id": "small_lamp_grass"
+                        },
+                        {
+                            "amount": "18",
+                            "material_id": "arrowhead_2"
+                        }
+                    ],
+                    "rank": 4
+                },
+                {
+                    "cost": 100000,
+                    "level": 70,
+                    "materials": [
+                        {
+                            "amount": "6",
+                            "material_id": "agate_3"
+                        },
+                        {
+                            "amount": "12",
+                            "material_id": "everflame_seed"
+                        },
+                        {
+                            "amount": "45",
+                            "material_id": "small_lamp_grass"
+                        },
+                        {
+                            "amount": "12",
+                            "material_id": "arrowhead_3"
+                        }
+                    ],
+                    "rank": 5
+                },
+                {
+                    "cost": 120000,
+                    "level": 80,
+                    "materials": [
+                        {
+                            "amount": "6",
+                            "material_id": "agate_4"
+                        },
+                        {
+                            "amount": "20",
+                            "material_id": "everflame_seed"
+                        },
+                        {
+                            "amount": "60",
+                            "material_id": "small_lamp_grass"
+                        },
+                        {
+                            "amount": "24",
+                            "material_id": "arrowhead_3"
+                        }
+                    ],
+                    "rank": 6
+                }
+            ],
+            "card": "assets/cards/Amber.jpg",
+            "element": "Pyro",
+            "icon": "assets/icons/Amber.png",
+            "id": "amber",
+            "portrait": "assets/portraits/Amber.png",
+            "rarity": 4,
+            "tier": "D",
+            "weaponType": "bow"
+        },
+        {
+            "ascension": [
+                {
+                    "cost": 20000,
+                    "level": 20,
+                    "materials": [
+                        {
+                            "amount": 1,
+                            "material_id": "lazurite_1"
+                        },
+                        {
+                            "amount": 3,
+                            "material_id": "philanemo_mushroom"
+                        },
+                        {
+                            "amount": 3,
+                            "material_id": "scroll_1"
+                        }
+                    ],
+                    "rank": 1
+                },
+                {
+                    "cost": 40000,
+                    "level": 40,
+                    "materials": [
+                        {
+                            "amount": 3,
+                            "material_id": "lazurite_2"
+                        },
+                        {
+                            "amount": 2,
+                            "material_id": "cleansing_heart"
+                        },
+                        {
+                            "amount": 10,
+                            "material_id": "philanemo_mushroom"
+                        },
+                        {
+                            "amount": 15,
+                            "material_id": "scroll_1"
+                        }
+                    ],
+                    "rank": 2
+                },
+                {
+                    "cost": 60000,
+                    "level": 50,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "lazurite_2"
+                        },
+                        {
+                            "amount": 4,
+                            "material_id": "cleansing_heart"
+                        },
+                        {
+                            "amount": 20,
+                            "material_id": "philanemo_mushroom"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "scroll_2"
+                        }
+                    ],
+                    "rank": 3
+                },
+                {
+                    "cost": 80000,
+                    "level": 60,
+                    "materials": [
+                        {
+                            "amount": 3,
+                            "material_id": "lazurite_3"
+                        },
+                        {
+                            "amount": 8,
+                            "material_id": "cleansing_heart"
+                        },
+                        {
+                            "amount": 10,
+                            "material_id": "philanemo_mushroom"
+                        },
+                        {
+                            "amount": 10,
+                            "material_id": "scroll_1"
+                        }
+                    ],
+                    "rank": 4
+                },
+                {
+                    "cost": 100000,
+                    "level": 70,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "lazurite_3"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "cleansing_heart"
+                        },
+                        {
+                            "amount": 45,
+                            "material_id": "philanemo_mushroom"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "scroll_3"
+                        }
+                    ],
+                    "rank": 5
+                },
+                {
+                    "cost": 120000,
+                    "level": 80,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "lazurite_4"
+                        },
+                        {
+                            "amount": 20,
+                            "material_id": "cleansing_heart"
+                        },
+                        {
+                            "amount": 60,
+                            "material_id": "philanemo_mushroom"
+                        },
+                        {
+                            "amount": 24,
+                            "material_id": "scroll_3"
+                        }
+                    ],
+                    "rank": 6
+                }
+            ],
+            "card": "assets/cards/Barbara.jpg",
+            "element": "Hydro",
+            "icon": "assets/icons/Barbara.png",
+            "id": "barbara",
+            "portrait": "assets/portraits/Barbara.png",
+            "rarity": 4,
+            "tier": "B",
+            "weaponType": "catalyst"
+        },
+        {
+            "ascension": [
+                {
+                    "cost": 20000,
+                    "level": 20,
+                    "materials": [
+                        {
+                            "amount": 1,
+                            "material_id": "amethyst_1"
+                        },
+                        {
+                            "amount": 3,
+                            "material_id": "noctilucous_jade"
+                        },
+                        {
+                            "amount": 3,
+                            "material_id": "tinsignia_1"
+                        }
+                    ],
+                    "rank": 1
+                },
+                {
+                    "cost": 40000,
+                    "level": 40,
+                    "materials": [
+                        {
+                            "amount": 3,
+                            "material_id": "amethyst_2"
+                        },
+                        {
+                            "amount": 2,
+                            "material_id": "lightning_prism"
+                        },
+                        {
+                            "amount": 10,
+                            "material_id": "noctilucous_jade"
+                        },
+                        {
+                            "amount": 15,
+                            "material_id": "tinsignia_1"
+                        }
+                    ],
+                    "rank": 2
+                },
+                {
+                    "cost": 60000,
+                    "level": 50,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "amethyst_2"
+                        },
+                        {
+                            "amount": 4,
+                            "material_id": "lightning_prism"
+                        },
+                        {
+                            "amount": 20,
+                            "material_id": "noctilucous_jade"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "tinsignia_2"
+                        }
+                    ],
+                    "rank": 3
+                },
+                {
+                    "cost": 80000,
+                    "level": 60,
+                    "materials": [
+                        {
+                            "amount": 3,
+                            "material_id": "amethyst_3"
+                        },
+                        {
+                            "amount": 8,
+                            "material_id": "lightning_prism"
+                        },
+                        {
+                            "amount": 30,
+                            "material_id": "noctilucous_jade"
+                        },
+                        {
+                            "amount": 18,
+                            "material_id": "tinsignia_2"
+                        }
+                    ],
+                    "rank": 4
+                },
+                {
+                    "cost": 100000,
+                    "level": 70,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "amethyst_3"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "lightning_prism"
+                        },
+                        {
+                            "amount": 45,
+                            "material_id": "noctilucous_jade"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "tinsignia_3"
+                        }
+                    ],
+                    "rank": 5
+                },
+                {
+                    "cost": 120000,
+                    "level": 80,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "amethyst_4"
+                        },
+                        {
+                            "amount": 20,
+                            "material_id": "lightning_prism"
+                        },
+                        {
+                            "amount": 60,
+                            "material_id": "noctilucous_jade"
+                        },
+                        {
+                            "amount": 24,
+                            "material_id": "tinsignia_3"
+                        }
+                    ],
+                    "rank": 6
+                }
+            ],
+            "card": "assets/cards/Beidou.jpg",
+            "element": "Electro",
+            "icon": "assets/icons/Beidou.png",
+            "id": "beidou",
+            "portrait": "assets/portraits/Beidou.png",
+            "rarity": 4,
+            "tier": "B",
+            "weaponType": "claymore"
+        },
+        {
+            "ascension": [
+                {
+                    "cost": 20000,
+                    "level": 20,
+                    "materials": [
+                        {
+                            "amount": "1",
+                            "material_id": "agate_1"
+                        },
+                        {
+                            "amount": "3",
+                            "material_id": "windwheel_aster"
+                        },
+                        {
+                            "amount": "3",
+                            "material_id": "tinsignia_1"
+                        }
+                    ],
+                    "rank": 1
+                },
+                {
+                    "cost": 40000,
+                    "level": 40,
+                    "materials": [
+                        {
+                            "amount": "3",
+                            "material_id": "agate_2"
+                        },
+                        {
+                            "amount": "2",
+                            "material_id": "everflame_seed"
+                        },
+                        {
+                            "amount": "10",
+                            "material_id": "windwheel_aster"
+                        },
+                        {
+                            "amount": "15",
+                            "material_id": "tinsignia_1"
+                        }
+                    ],
+                    "rank": 2
+                },
+                {
+                    "cost": 60000,
+                    "level": 50,
+                    "materials": [
+                        {
+                            "amount": "6",
+                            "material_id": "agate_2"
+                        },
+                        {
+                            "amount": "4",
+                            "material_id": "everflame_seed"
+                        },
+                        {
+                            "amount": "20",
+                            "material_id": "windwheel_aster"
+                        },
+                        {
+                            "amount": "12",
+                            "material_id": "tinsignia_2"
+                        }
+                    ],
+                    "rank": 3
+                },
+                {
+                    "cost": 80000,
+                    "level": 60,
+                    "materials": [
+                        {
+                            "amount": "3",
+                            "material_id": "agate_3"
+                        },
+                        {
+                            "amount": "8",
+                            "material_id": "everflame_seed"
+                        },
+                        {
+                            "amount": "30",
+                            "material_id": "windwheel_aster"
+                        },
+                        {
+                            "amount": "18",
+                            "material_id": "tinsignia_2"
+                        }
+                    ],
+                    "rank": 4
+                },
+                {
+                    "cost": 100000,
+                    "level": 70,
+                    "materials": [
+                        {
+                            "amount": "6",
+                            "material_id": "agate_3"
+                        },
+                        {
+                            "amount": "12",
+                            "material_id": "everflame_seed"
+                        },
+                        {
+                            "amount": "45",
+                            "material_id": "windwheel_aster"
+                        },
+                        {
+                            "amount": "12",
+                            "material_id": "tinsignia_3"
+                        }
+                    ],
+                    "rank": 5
+                },
+                {
+                    "cost": 120000,
+                    "level": 80,
+                    "materials": [
+                        {
+                            "amount": "6",
+                            "material_id": "agate_4"
+                        },
+                        {
+                            "amount": "20",
+                            "material_id": "everflame_seed"
+                        },
+                        {
+                            "amount": "60",
+                            "material_id": "windwheel_aster"
+                        },
+                        {
+                            "amount": "24",
+                            "material_id": "tinsignia_3"
+                        }
+                    ],
+                    "rank": 6
+                }
+            ],
+            "card": "assets/cards/Bennett.jpg",
+            "element": "Pyro",
+            "icon": "assets/icons/Bennett.png",
+            "id": "bennett",
+            "portrait": "assets/portraits/Bennett.png",
+            "rarity": 4,
+            "tier": "S",
+            "weaponType": "sword"
+        },
+        {
+            "ascension": [
+                {
+                    "cost": 20000,
+                    "level": 20,
+                    "materials": [
+                        {
+                            "amount": "1",
+                            "material_id": "jade_1"
+                        },
+                        {
+                            "amount": "3",
+                            "material_id": "cor_lapis"
+                        },
+                        {
+                            "amount": "3",
+                            "material_id": "mask_1"
+                        }
+                    ],
+                    "rank": 1
+                },
+                {
+                    "cost": 40000,
+                    "level": 40,
+                    "materials": [
+                        {
+                            "amount": "3",
+                            "material_id": "jade_2"
+                        },
+                        {
+                            "amount": "2",
+                            "material_id": "hoarfrost_core"
+                        },
+                        {
+                            "amount": "10",
+                            "material_id": "cor_lapis"
+                        },
+                        {
+                            "amount": "15",
+                            "material_id": "mask_1"
+                        }
+                    ],
+                    "rank": 2
+                },
+                {
+                    "cost": 60000,
+                    "level": 50,
+                    "materials": [
+                        {
+                            "amount": "6",
+                            "material_id": "jade_2"
+                        },
+                        {
+                            "amount": "4",
+                            "material_id": "hoarfrost_core"
+                        },
+                        {
+                            "amount": "20",
+                            "material_id": "cor_lapis"
+                        },
+                        {
+                            "amount": "12",
+                            "material_id": "mask_2"
+                        }
+                    ],
+                    "rank": 3
+                },
+                {
+                    "cost": 80000,
+                    "level": 60,
+                    "materials": [
+                        {
+                            "amount": "3",
+                            "material_id": "jade_3"
+                        },
+                        {
+                            "amount": "8",
+                            "material_id": "hoarfrost_core"
+                        },
+                        {
+                            "amount": "30",
+                            "material_id": "cor_lapis"
+                        },
+                        {
+                            "amount": "18",
+                            "material_id": "mask_2"
+                        }
+                    ],
+                    "rank": 4
+                },
+                {
+                    "cost": 100000,
+                    "level": 70,
+                    "materials": [
+                        {
+                            "amount": "6",
+                            "material_id": "jade_3"
+                        },
+                        {
+                            "amount": "12",
+                            "material_id": "hoarfrost_core"
+                        },
+                        {
+                            "amount": "45",
+                            "material_id": "cor_lapis"
+                        },
+                        {
+                            "amount": "12",
+                            "material_id": "mask_3"
+                        }
+                    ],
+                    "rank": 5
+                },
+                {
+                    "cost": 120000,
+                    "level": 80,
+                    "materials": [
+                        {
+                            "amount": "6",
+                            "material_id": "jade_4"
+                        },
+                        {
+                            "amount": "20",
+                            "material_id": "hoarfrost_core"
+                        },
+                        {
+                            "amount": "60",
+                            "material_id": "cor_lapis"
+                        },
+                        {
+                            "amount": "24",
+                            "material_id": "mask_3"
+                        }
+                    ],
+                    "rank": 6
+                }
+            ],
+            "card": "assets/cards/Chongyun.jpg",
+            "element": "Cryo",
+            "icon": "assets/icons/Chongyun.png",
+            "id": "chongyun",
+            "portrait": "assets/portraits/Chongyun.png",
+            "rarity": 4,
+            "tier": "B",
+            "weaponType": "claymore"
+        },
+        {
+            "ascension": [
+                {
+                    "cost": 20000,
+                    "level": 20,
+                    "materials": [
+                        {
+                            "amount": "1",
+                            "material_id": "agate_1"
+                        },
+                        {
+                            "amount": "3",
+                            "material_id": "small_lamp_grass"
+                        },
+                        {
+                            "amount": "3",
+                            "material_id": "finsigna_1"
+                        }
+                    ],
+                    "rank": 1
+                },
+                {
+                    "cost": 40000,
+                    "level": 40,
+                    "materials": [
+                        {
+                            "amount": "3",
+                            "material_id": "agate_2"
+                        },
+                        {
+                            "amount": "2",
+                            "material_id": "everflame_seed"
+                        },
+                        {
+                            "amount": "10",
+                            "material_id": "small_lamp_grass"
+                        },
+                        {
+                            "amount": "10",
+                            "material_id": "finsigna_1"
+                        }
+                    ],
+                    "rank": 2
+                },
+                {
+                    "cost": 60000,
+                    "level": 50,
+                    "materials": [
+                        {
+                            "amount": "6",
+                            "material_id": "agate_2"
+                        },
+                        {
+                            "amount": "4",
+                            "material_id": "everflame_seed"
+                        },
+                        {
+                            "amount": "20",
+                            "material_id": "small_lamp_grass"
+                        },
+                        {
+                            "amount": "12",
+                            "material_id": "finsigna_2"
+                        }
+                    ],
+                    "rank": 3
+                },
+                {
+                    "cost": 80000,
+                    "level": 60,
+                    "materials": [
+                        {
+                            "amount": "3",
+                            "material_id": "agate_3"
+                        },
+                        {
+                            "amount": "8",
+                            "material_id": "everflame_seed"
+                        },
+                        {
+                            "amount": "30",
+                            "material_id": "small_lamp_grass"
+                        },
+                        {
+                            "amount": "18",
+                            "material_id": "finsigna_2"
+                        }
+                    ],
+                    "rank": 4
+                },
+                {
+                    "cost": 100000,
+                    "level": 70,
+                    "materials": [
+                        {
+                            "amount": "6",
+                            "material_id": "agate_3"
+                        },
+                        {
+                            "amount": "12",
+                            "material_id": "everflame_seed"
+                        },
+                        {
+                            "amount": "45",
+                            "material_id": "small_lamp_grass"
+                        },
+                        {
+                            "amount": "12",
+                            "material_id": "finsigna_3"
+                        }
+                    ],
+                    "rank": 5
+                },
+                {
+                    "cost": 120000,
+                    "level": 80,
+                    "materials": [
+                        {
+                            "amount": "6",
+                            "material_id": "agate_4"
+                        },
+                        {
+                            "amount": "20",
+                            "material_id": "everflame_seed"
+                        },
+                        {
+                            "amount": "60",
+                            "material_id": "small_lamp_grass"
+                        },
+                        {
+                            "amount": "24",
+                            "material_id": "finsigna_3"
+                        }
+                    ],
+                    "rank": 6
+                }
+            ],
+            "card": "assets/cards/Diluc.jpg",
+            "element": "Pyro",
+            "icon": "assets/icons/Diluc.png",
+            "id": "diluc",
+            "portrait": "assets/portraits/Diluc.png",
+            "rarity": 5,
+            "tier": "S",
+            "weaponType": "claymore"
+        },
+        {
+            "ascension": [
+                {
+                    "cost": 20000,
+                    "level": 20,
+                    "materials": [
+                        {
+                            "amount": "1",
+                            "material_id": "jade_1"
+                        },
+                        {
+                            "amount": "3",
+                            "material_id": "calla_lily"
+                        },
+                        {
+                            "amount": "3",
+                            "material_id": "arrowhead_1"
+                        }
+                    ],
+                    "rank": 1
+                },
+                {
+                    "cost": 40000,
+                    "level": 40,
+                    "materials": [
+                        {
+                            "amount": "3",
+                            "material_id": "jade_2"
+                        },
+                        {
+                            "amount": "2",
+                            "material_id": "hoarfrost_core"
+                        },
+                        {
+                            "amount": "10",
+                            "material_id": "calla_lily"
+                        },
+                        {
+                            "amount": "15",
+                            "material_id": "arrowhead_1"
+                        }
+                    ],
+                    "rank": 2
+                },
+                {
+                    "cost": 60000,
+                    "level": 50,
+                    "materials": [
+                        {
+                            "amount": "6",
+                            "material_id": "jade_2"
+                        },
+                        {
+                            "amount": "4",
+                            "material_id": "hoarfrost_core"
+                        },
+                        {
+                            "amount": "20",
+                            "material_id": "calla_lily"
+                        },
+                        {
+                            "amount": "12",
+                            "material_id": "arrowhead_2"
+                        }
+                    ],
+                    "rank": 3
+                },
+                {
+                    "cost": 80000,
+                    "level": 60,
+                    "materials": [
+                        {
+                            "amount": "3",
+                            "material_id": "jade_3"
+                        },
+                        {
+                            "amount": "8",
+                            "material_id": "hoarfrost_core"
+                        },
+                        {
+                            "amount": "30",
+                            "material_id": "calla_lily"
+                        },
+                        {
+                            "amount": "18",
+                            "material_id": "arrowhead_2"
+                        }
+                    ],
+                    "rank": 4
+                },
+                {
+                    "cost": 100000,
+                    "level": 70,
+                    "materials": [
+                        {
+                            "amount": "6",
+                            "material_id": "jade_3"
+                        },
+                        {
+                            "amount": "12",
+                            "material_id": "hoarfrost_core"
+                        },
+                        {
+                            "amount": "45",
+                            "material_id": "calla_lily"
+                        },
+                        {
+                            "amount": "12",
+                            "material_id": "arrowhead_3"
+                        }
+                    ],
+                    "rank": 5
+                },
+                {
+                    "cost": 120000,
+                    "level": 80,
+                    "materials": [
+                        {
+                            "amount": "6",
+                            "material_id": "jade_4"
+                        },
+                        {
+                            "amount": "20",
+                            "material_id": "hoarfrost_core"
+                        },
+                        {
+                            "amount": "60",
+                            "material_id": "calla_lily"
+                        },
+                        {
+                            "amount": "24",
+                            "material_id": "arrowhead_3"
+                        }
+                    ],
+                    "rank": 6
+                }
+            ],
+            "card": "assets/cards/Diona.jpg",
+            "element": "Cryo",
+            "icon": "assets/icons/Diona.png",
+            "id": "diona",
+            "portrait": "assets/portraits/Diona.png",
+            "rarity": 4,
+            "tier": "A",
+            "weaponType": "bow"
+        },
+        {
+            "ascension": [
+                {
+                    "cost": 20000,
+                    "level": 20,
+                    "materials": [
+                        {
+                            "amount": 1,
+                            "material_id": "amethyst_1"
+                        },
+                        {
+                            "amount": 3,
+                            "material_id": "small_lamp_grass"
+                        },
+                        {
+                            "amount": 3,
+                            "material_id": "arrowhead_1"
+                        }
+                    ],
+                    "rank": 1
+                },
+                {
+                    "cost": 40000,
+                    "level": 40,
+                    "materials": [
+                        {
+                            "amount": 3,
+                            "material_id": "amethyst_2"
+                        },
+                        {
+                            "amount": 2,
+                            "material_id": "lightning_prism"
+                        },
+                        {
+                            "amount": 10,
+                            "material_id": "small_lamp_grass"
+                        },
+                        {
+                            "amount": 15,
+                            "material_id": "arrowhead_1"
+                        }
+                    ],
+                    "rank": 2
+                },
+                {
+                    "cost": 60000,
+                    "level": 50,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "amethyst_2"
+                        },
+                        {
+                            "amount": 4,
+                            "material_id": "lightning_prism"
+                        },
+                        {
+                            "amount": 20,
+                            "material_id": "small_lamp_grass"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "arrowhead_2"
+                        }
+                    ],
+                    "rank": 3
+                },
+                {
+                    "cost": 80000,
+                    "level": 60,
+                    "materials": [
+                        {
+                            "amount": 3,
+                            "material_id": "amethyst_3"
+                        },
+                        {
+                            "amount": 8,
+                            "material_id": "lightning_prism"
+                        },
+                        {
+                            "amount": 30,
+                            "material_id": "small_lamp_grass"
+                        },
+                        {
+                            "amount": 18,
+                            "material_id": "arrowhead_2"
+                        }
+                    ],
+                    "rank": 4
+                },
+                {
+                    "cost": 100000,
+                    "level": 70,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "amethyst_3"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "lightning_prism"
+                        },
+                        {
+                            "amount": 45,
+                            "material_id": "small_lamp_grass"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "arrowhead_3"
+                        }
+                    ],
+                    "rank": 5
+                },
+                {
+                    "cost": 120000,
+                    "level": 80,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "amethyst_4"
+                        },
+                        {
+                            "amount": 20,
+                            "material_id": "lightning_prism"
+                        },
+                        {
+                            "amount": 60,
+                            "material_id": "small_lamp_grass"
+                        },
+                        {
+                            "amount": 24,
+                            "material_id": "arrowhead_3"
+                        }
+                    ],
+                    "rank": 6
+                }
+            ],
+            "card": "assets/cards/Fischl.jpg",
+            "element": "Electro",
+            "icon": "assets/icons/Fischl.png",
+            "id": "fischl",
+            "portrait": "assets/portraits/Fischl.png",
+            "rarity": 4,
+            "tier": "A",
+            "weaponType": "bow"
+        },
+        {
+            "ascension": [
+                {
+                    "cost": 20000,
+                    "level": 20,
+                    "materials": [
+                        {
+                            "amount": 1,
+                            "material_id": "turquise_1"
+                        },
+                        {
+                            "amount": 3,
+                            "material_id": "dandelion_seed"
+                        },
+                        {
+                            "amount": 3,
+                            "material_id": "mask_1"
+                        }
+                    ],
+                    "rank": 1
+                },
+                {
+                    "cost": 40000,
+                    "level": 40,
+                    "materials": [
+                        {
+                            "amount": 3,
+                            "material_id": "turquise_2"
+                        },
+                        {
+                            "amount": 2,
+                            "material_id": "hurricane_seed"
+                        },
+                        {
+                            "amount": 10,
+                            "material_id": "dandelion_seed"
+                        },
+                        {
+                            "amount": 15,
+                            "material_id": "mask_1"
+                        }
+                    ],
+                    "rank": 2
+                },
+                {
+                    "cost": 60000,
+                    "level": 50,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "turquise_2"
+                        },
+                        {
+                            "amount": 4,
+                            "material_id": "hurricane_seed"
+                        },
+                        {
+                            "amount": 20,
+                            "material_id": "dandelion_seed"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "mask_2"
+                        }
+                    ],
+                    "rank": 3
+                },
+                {
+                    "cost": 80000,
+                    "level": 60,
+                    "materials": [
+                        {
+                            "amount": 3,
+                            "material_id": "turquise_3"
+                        },
+                        {
+                            "amount": 8,
+                            "material_id": "hurricane_seed"
+                        },
+                        {
+                            "amount": 30,
+                            "material_id": "dandelion_seed"
+                        },
+                        {
+                            "amount": 18,
+                            "material_id": "mask_2"
+                        }
+                    ],
+                    "rank": 4
+                },
+                {
+                    "cost": 100000,
+                    "level": 70,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "turquise_3"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "hurricane_seed"
+                        },
+                        {
+                            "amount": 45,
+                            "material_id": "dandelion_seed"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "mask_3"
+                        }
+                    ],
+                    "rank": 5
+                },
+                {
+                    "cost": 120000,
+                    "level": 80,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "turquise_4"
+                        },
+                        {
+                            "amount": 20,
+                            "material_id": "hurricane_seed"
+                        },
+                        {
+                            "amount": 60,
+                            "material_id": "dandelion_seed"
+                        },
+                        {
+                            "amount": 24,
+                            "material_id": "mask_3"
+                        }
+                    ],
+                    "rank": 6
+                }
+            ],
+            "card": "assets/cards/Jean.jpg",
+            "element": "Anemo",
+            "icon": "assets/icons/Jean.png",
+            "id": "jean",
+            "portrait": "assets/portraits/Jean.png",
+            "rarity": 5,
+            "tier": "A",
+            "weaponType": "sword"
+        },
+        {
+            "ascension": [
+                {
+                    "cost": 20000,
+                    "level": 20,
+                    "materials": [
+                        {
+                            "amount": "1",
+                            "material_id": "jade_1"
+                        },
+                        {
+                            "amount": "3",
+                            "material_id": "calla_lily"
+                        },
+                        {
+                            "amount": "3",
+                            "material_id": "tinsignia_1"
+                        }
+                    ],
+                    "rank": 1
+                },
+                {
+                    "cost": 40000,
+                    "level": 40,
+                    "materials": [
+                        {
+                            "amount": "3",
+                            "material_id": "jade_2"
+                        },
+                        {
+                            "amount": "2",
+                            "material_id": "hoarfrost_core"
+                        },
+                        {
+                            "amount": "10",
+                            "material_id": "calla_lily"
+                        },
+                        {
+                            "amount": "15",
+                            "material_id": "tinsignia_1"
+                        }
+                    ],
+                    "rank": 2
+                },
+                {
+                    "cost": 60000,
+                    "level": 50,
+                    "materials": [
+                        {
+                            "amount": "6",
+                            "material_id": "jade_2"
+                        },
+                        {
+                            "amount": "4",
+                            "material_id": "hoarfrost_core"
+                        },
+                        {
+                            "amount": "20",
+                            "material_id": "calla_lily"
+                        },
+                        {
+                            "amount": "12",
+                            "material_id": "tinsignia_2"
+                        }
+                    ],
+                    "rank": 3
+                },
+                {
+                    "cost": 80000,
+                    "level": 60,
+                    "materials": [
+                        {
+                            "amount": "3",
+                            "material_id": "jade_3"
+                        },
+                        {
+                            "amount": "8",
+                            "material_id": "hoarfrost_core"
+                        },
+                        {
+                            "amount": "30",
+                            "material_id": "calla_lily"
+                        },
+                        {
+                            "amount": "18",
+                            "material_id": "tinsignia_2"
+                        }
+                    ],
+                    "rank": 4
+                },
+                {
+                    "cost": 100000,
+                    "level": 70,
+                    "materials": [
+                        {
+                            "amount": "6",
+                            "material_id": "jade_3"
+                        },
+                        {
+                            "amount": "12",
+                            "material_id": "hoarfrost_core"
+                        },
+                        {
+                            "amount": "45",
+                            "material_id": "calla_lily"
+                        },
+                        {
+                            "amount": "12",
+                            "material_id": "tinsignia_3"
+                        }
+                    ],
+                    "rank": 5
+                },
+                {
+                    "cost": 120000,
+                    "level": 80,
+                    "materials": [
+                        {
+                            "amount": "6",
+                            "material_id": "jade_4"
+                        },
+                        {
+                            "amount": "20",
+                            "material_id": "hoarfrost_core"
+                        },
+                        {
+                            "amount": "60",
+                            "material_id": "calla_lily"
+                        },
+                        {
+                            "amount": "24",
+                            "material_id": "tinsignia_3"
+                        }
+                    ],
+                    "rank": 6
+                }
+            ],
+            "card": "assets/cards/Kaeya.jpg",
+            "element": "Cryo",
+            "icon": "assets/icons/Kaeya.png",
+            "id": "kaeya",
+            "portrait": "assets/portraits/Kaeya.png",
+            "rarity": 4,
+            "tier": "C",
+            "weaponType": "sword"
+        },
+        {
+            "ascension": [
+                {
+                    "cost": 20000,
+                    "level": 20,
+                    "materials": [
+                        {
+                            "amount": 1,
+                            "material_id": "amethyst_1"
+                        },
+                        {
+                            "amount": 3,
+                            "material_id": "cor_lapis"
+                        },
+                        {
+                            "amount": 3,
+                            "material_id": "nectar_1"
+                        }
+                    ],
+                    "rank": 1
+                },
+                {
+                    "cost": 40000,
+                    "level": 40,
+                    "materials": [
+                        {
+                            "amount": 3,
+                            "material_id": "amethyst_2"
+                        },
+                        {
+                            "amount": 2,
+                            "material_id": "lightning_prism"
+                        },
+                        {
+                            "amount": 10,
+                            "material_id": "cor_lapis"
+                        },
+                        {
+                            "amount": 15,
+                            "material_id": "nectar_1"
+                        }
+                    ],
+                    "rank": 2
+                },
+                {
+                    "cost": 60000,
+                    "level": 50,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "amethyst_2"
+                        },
+                        {
+                            "amount": 4,
+                            "material_id": "lightning_prism"
+                        },
+                        {
+                            "amount": 20,
+                            "material_id": "cor_lapis"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "nectar_2"
+                        }
+                    ],
+                    "rank": 3
+                },
+                {
+                    "cost": 80000,
+                    "level": 60,
+                    "materials": [
+                        {
+                            "amount": 3,
+                            "material_id": "amethyst_3"
+                        },
+                        {
+                            "amount": 8,
+                            "material_id": "lightning_prism"
+                        },
+                        {
+                            "amount": 30,
+                            "material_id": "cor_lapis"
+                        },
+                        {
+                            "amount": 18,
+                            "material_id": "nectar_2"
+                        }
+                    ],
+                    "rank": 4
+                },
+                {
+                    "cost": 100000,
+                    "level": 70,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "amethyst_3"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "lightning_prism"
+                        },
+                        {
+                            "amount": 45,
+                            "material_id": "cor_lapis"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "nectar_3"
+                        }
+                    ],
+                    "rank": 5
+                },
+                {
+                    "cost": 120000,
+                    "level": 80,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "amethyst_4"
+                        },
+                        {
+                            "amount": 20,
+                            "material_id": "lightning_prism"
+                        },
+                        {
+                            "amount": 60,
+                            "material_id": "cor_lapis"
+                        },
+                        {
+                            "amount": 24,
+                            "material_id": "nectar_2"
+                        }
+                    ],
+                    "rank": 6
+                }
+            ],
+            "card": "assets/cards/Keqing.jpg",
+            "element": "Electro",
+            "icon": "assets/icons/Keqing.png",
+            "id": "keqing",
+            "portrait": "assets/portraits/Keqing.png",
+            "rarity": 5,
+            "tier": "A",
+            "weaponType": "sword"
+        },
+        {
+            "ascension": [
+                {
+                    "cost": 20000,
+                    "level": 20,
+                    "materials": [
+                        {
+                            "amount": "1",
+                            "material_id": "agate_1"
+                        },
+                        {
+                            "amount": "3",
+                            "material_id": "philanemo_mushroom"
+                        },
+                        {
+                            "amount": "3",
+                            "material_id": "scroll_1"
+                        }
+                    ],
+                    "rank": 1
+                },
+                {
+                    "cost": 40000,
+                    "level": 40,
+                    "materials": [
+                        {
+                            "amount": "3",
+                            "material_id": "agate_2"
+                        },
+                        {
+                            "amount": "2",
+                            "material_id": "everflame_seed"
+                        },
+                        {
+                            "amount": "10",
+                            "material_id": "philanemo_mushroom"
+                        },
+                        {
+                            "amount": "10",
+                            "material_id": "scroll_1"
+                        }
+                    ],
+                    "rank": 2
+                },
+                {
+                    "cost": 60000,
+                    "level": 50,
+                    "materials": [
+                        {
+                            "amount": "6",
+                            "material_id": "agate_2"
+                        },
+                        {
+                            "amount": "4",
+                            "material_id": "everflame_seed"
+                        },
+                        {
+                            "amount": "20",
+                            "material_id": "philanemo_mushroom"
+                        },
+                        {
+                            "amount": "12",
+                            "material_id": "scroll_2"
+                        }
+                    ],
+                    "rank": 3
+                },
+                {
+                    "cost": 80000,
+                    "level": 60,
+                    "materials": [
+                        {
+                            "amount": "3",
+                            "material_id": "agate_3"
+                        },
+                        {
+                            "amount": "8",
+                            "material_id": "everflame_seed"
+                        },
+                        {
+                            "amount": "30",
+                            "material_id": "philanemo_mushroom"
+                        },
+                        {
+                            "amount": "18",
+                            "material_id": "scroll_2"
+                        }
+                    ],
+                    "rank": 4
+                },
+                {
+                    "cost": 100000,
+                    "level": 70,
+                    "materials": [
+                        {
+                            "amount": "6",
+                            "material_id": "agate_3"
+                        },
+                        {
+                            "amount": "12",
+                            "material_id": "everflame_seed"
+                        },
+                        {
+                            "amount": "45",
+                            "material_id": "philanemo_mushroom"
+                        },
+                        {
+                            "amount": "12",
+                            "material_id": "scroll_3"
+                        }
+                    ],
+                    "rank": 5
+                },
+                {
+                    "cost": 120000,
+                    "level": 80,
+                    "materials": [
+                        {
+                            "amount": "6",
+                            "material_id": "agate_4"
+                        },
+                        {
+                            "amount": "20",
+                            "material_id": "everflame_seed"
+                        },
+                        {
+                            "amount": "60",
+                            "material_id": "philanemo_mushroom"
+                        },
+                        {
+                            "amount": "24",
+                            "material_id": "scroll_3"
+                        }
+                    ],
+                    "rank": 6
+                }
+            ],
+            "card": "assets/cards/Klee.jpg",
+            "element": "Pyro",
+            "icon": "assets/icons/Klee.png",
+            "id": "klee",
+            "portrait": "assets/portraits/Klee.png",
+            "rarity": 5,
+            "tier": "S",
+            "weaponType": "catalyst"
+        },
+        {
+            "ascension": [
+                {
+                    "cost": 20000,
+                    "level": 20,
+                    "materials": [
+                        {
+                            "amount": 1,
+                            "material_id": "amethyst_1"
+                        },
+                        {
+                            "amount": 3,
+                            "material_id": "valberry"
+                        },
+                        {
+                            "amount": 3,
+                            "material_id": "slime_1"
+                        }
+                    ],
+                    "rank": 1
+                },
+                {
+                    "cost": 40000,
+                    "level": 40,
+                    "materials": [
+                        {
+                            "amount": 3,
+                            "material_id": "amethyst_2"
+                        },
+                        {
+                            "amount": 2,
+                            "material_id": "lightning_prism"
+                        },
+                        {
+                            "amount": 10,
+                            "material_id": "valberry"
+                        },
+                        {
+                            "amount": 15,
+                            "material_id": "slime_1"
+                        }
+                    ],
+                    "rank": 2
+                },
+                {
+                    "cost": 60000,
+                    "level": 50,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "amethyst_2"
+                        },
+                        {
+                            "amount": 4,
+                            "material_id": "lightning_prism"
+                        },
+                        {
+                            "amount": 20,
+                            "material_id": "valberry"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "slime_2"
+                        }
+                    ],
+                    "rank": 3
+                },
+                {
+                    "cost": 80000,
+                    "level": 60,
+                    "materials": [
+                        {
+                            "amount": 3,
+                            "material_id": "amethyst_3"
+                        },
+                        {
+                            "amount": 8,
+                            "material_id": "lightning_prism"
+                        },
+                        {
+                            "amount": 30,
+                            "material_id": "valberry"
+                        },
+                        {
+                            "amount": 18,
+                            "material_id": "slime_2"
+                        }
+                    ],
+                    "rank": 4
+                },
+                {
+                    "cost": 100000,
+                    "level": 70,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "amethyst_3"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "lightning_prism"
+                        },
+                        {
+                            "amount": 45,
+                            "material_id": "valberry"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "slime_3"
+                        }
+                    ],
+                    "rank": 5
+                },
+                {
+                    "cost": 120000,
+                    "level": 80,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "amethyst_4"
+                        },
+                        {
+                            "amount": 20,
+                            "material_id": "lightning_prism"
+                        },
+                        {
+                            "amount": 60,
+                            "material_id": "valberry"
+                        },
+                        {
+                            "amount": 24,
+                            "material_id": "slime_3"
+                        }
+                    ],
+                    "rank": 6
+                }
+            ],
+            "card": "assets/cards/Lisa.jpg",
+            "element": "Electro",
+            "icon": "assets/icons/Lisa.png",
+            "id": "lisa",
+            "portrait": "assets/portraits/Lisa.png",
+            "rarity": 4,
+            "tier": "C",
+            "weaponType": "catalyst"
+        },
+        {
+            "ascension": [
+                {
+                    "cost": 20000,
+                    "level": 20,
+                    "materials": [
+                        {
+                            "amount": 1,
+                            "material_id": "lazurite_1"
+                        },
+                        {
+                            "amount": 3,
+                            "material_id": "philanemo_mushroom"
+                        },
+                        {
+                            "amount": 3,
+                            "material_id": "nectar_1"
+                        }
+                    ],
+                    "rank": 1
+                },
+                {
+                    "cost": 40000,
+                    "level": 40,
+                    "materials": [
+                        {
+                            "amount": 3,
+                            "material_id": "lazurite_2"
+                        },
+                        {
+                            "amount": 2,
+                            "material_id": "cleansing_heart"
+                        },
+                        {
+                            "amount": 10,
+                            "material_id": "philanemo_mushroom"
+                        },
+                        {
+                            "amount": 15,
+                            "material_id": "nectar_1"
+                        }
+                    ],
+                    "rank": 2
+                },
+                {
+                    "cost": 60000,
+                    "level": 50,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "lazurite_2"
+                        },
+                        {
+                            "amount": 4,
+                            "material_id": "cleansing_heart"
+                        },
+                        {
+                            "amount": 20,
+                            "material_id": "philanemo_mushroom"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "nectar_2"
+                        }
+                    ],
+                    "rank": 3
+                },
+                {
+                    "cost": 80000,
+                    "level": 60,
+                    "materials": [
+                        {
+                            "amount": 3,
+                            "material_id": "lazurite_3"
+                        },
+                        {
+                            "amount": 8,
+                            "material_id": "cleansing_heart"
+                        },
+                        {
+                            "amount": 10,
+                            "material_id": "philanemo_mushroom"
+                        },
+                        {
+                            "amount": 10,
+                            "material_id": "nectar_2"
+                        }
+                    ],
+                    "rank": 4
+                },
+                {
+                    "cost": 100000,
+                    "level": 70,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "lazurite_3"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "cleansing_heart"
+                        },
+                        {
+                            "amount": 45,
+                            "material_id": "philanemo_mushroom"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "nectar_3"
+                        }
+                    ],
+                    "rank": 5
+                },
+                {
+                    "cost": 120000,
+                    "level": 80,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "lazurite_4"
+                        },
+                        {
+                            "amount": 20,
+                            "material_id": "cleansing_heart"
+                        },
+                        {
+                            "amount": 60,
+                            "material_id": "philanemo_mushroom"
+                        },
+                        {
+                            "amount": 24,
+                            "material_id": "nectar_3"
+                        }
+                    ],
+                    "rank": 6
+                }
+            ],
+            "card": "assets/cards/Mona.jpg",
+            "element": "Hydro",
+            "icon": "assets/icons/Mona.png",
+            "id": "mona",
+            "portrait": "assets/portraits/Mona.png",
+            "rarity": 5,
+            "tier": "S",
+            "weaponType": "catalyst"
+        },
+        {
+            "ascension": [
+                {
+                    "cost": 20000,
+                    "level": 20,
+                    "materials": [
+                        {
+                            "amount": 1,
+                            "material_id": "topaz_1"
+                        },
+                        {
+                            "amount": 3,
+                            "material_id": "glaze_lily"
+                        },
+                        {
+                            "amount": 3,
+                            "material_id": "finsigna_1"
+                        }
+                    ],
+                    "rank": 1
+                },
+                {
+                    "cost": 40000,
+                    "level": 40,
+                    "materials": [
+                        {
+                            "amount": 3,
+                            "material_id": "topaz_2"
+                        },
+                        {
+                            "amount": 2,
+                            "material_id": "basalt_pillar"
+                        },
+                        {
+                            "amount": 10,
+                            "material_id": "glaze_lily"
+                        },
+                        {
+                            "amount": 15,
+                            "material_id": "finsigna_1"
+                        }
+                    ],
+                    "rank": 2
+                },
+                {
+                    "cost": 60000,
+                    "level": 50,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "topaz_2"
+                        },
+                        {
+                            "amount": 4,
+                            "material_id": "basalt_pillar"
+                        },
+                        {
+                            "amount": 20,
+                            "material_id": "glaze_lily"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "finsigna_2"
+                        }
+                    ],
+                    "rank": 3
+                },
+                {
+                    "cost": 80000,
+                    "level": 60,
+                    "materials": [
+                        {
+                            "amount": 3,
+                            "material_id": "topaz_3"
+                        },
+                        {
+                            "amount": 8,
+                            "material_id": "basalt_pillar"
+                        },
+                        {
+                            "amount": 10,
+                            "material_id": "glaze_lily"
+                        },
+                        {
+                            "amount": 10,
+                            "material_id": "finsigna_2"
+                        }
+                    ],
+                    "rank": 4
+                },
+                {
+                    "cost": 100000,
+                    "level": 70,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "topaz_3"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "basalt_pillar"
+                        },
+                        {
+                            "amount": 45,
+                            "material_id": "glaze_lily"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "finsigna_3"
+                        }
+                    ],
+                    "rank": 5
+                },
+                {
+                    "cost": 120000,
+                    "level": 80,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "topaz_4"
+                        },
+                        {
+                            "amount": 20,
+                            "material_id": "basalt_pillar"
+                        },
+                        {
+                            "amount": 60,
+                            "material_id": "glaze_lily"
+                        },
+                        {
+                            "amount": 24,
+                            "material_id": "finsigna_3"
+                        }
+                    ],
+                    "rank": 6
+                }
+            ],
+            "card": "assets/cards/Ningguang.jpg",
+            "element": "Geo",
+            "icon": "assets/icons/Ningguang.png",
+            "id": "ningguang",
+            "portrait": "assets/portraits/Ningguang.png",
+            "rarity": 4,
+            "tier": "A",
+            "weaponType": "catalyst"
+        },
+        {
+            "ascension": [
+                {
+                    "cost": 20000,
+                    "level": 20,
+                    "materials": [
+                        {
+                            "amount": 1,
+                            "material_id": "topaz_1"
+                        },
+                        {
+                            "amount": 3,
+                            "material_id": "valberry"
+                        },
+                        {
+                            "amount": 3,
+                            "material_id": "mask_1"
+                        }
+                    ],
+                    "rank": 1
+                },
+                {
+                    "cost": 40000,
+                    "level": 40,
+                    "materials": [
+                        {
+                            "amount": 3,
+                            "material_id": "topaz_2"
+                        },
+                        {
+                            "amount": 2,
+                            "material_id": "basalt_pillar"
+                        },
+                        {
+                            "amount": 10,
+                            "material_id": "valberry"
+                        },
+                        {
+                            "amount": 15,
+                            "material_id": "mask_1"
+                        }
+                    ],
+                    "rank": 2
+                },
+                {
+                    "cost": 60000,
+                    "level": 50,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "topaz_2"
+                        },
+                        {
+                            "amount": 4,
+                            "material_id": "basalt_pillar"
+                        },
+                        {
+                            "amount": 20,
+                            "material_id": "valberry"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "mask_2"
+                        }
+                    ],
+                    "rank": 3
+                },
+                {
+                    "cost": 80000,
+                    "level": 60,
+                    "materials": [
+                        {
+                            "amount": 3,
+                            "material_id": "topaz_3"
+                        },
+                        {
+                            "amount": 8,
+                            "material_id": "basalt_pillar"
+                        },
+                        {
+                            "amount": 10,
+                            "material_id": "valberry"
+                        },
+                        {
+                            "amount": 10,
+                            "material_id": "mask_2"
+                        }
+                    ],
+                    "rank": 4
+                },
+                {
+                    "cost": 100000,
+                    "level": 70,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "topaz_3"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "basalt_pillar"
+                        },
+                        {
+                            "amount": 45,
+                            "material_id": "valberry"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "mask_3"
+                        }
+                    ],
+                    "rank": 5
+                },
+                {
+                    "cost": 120000,
+                    "level": 80,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "topaz_4"
+                        },
+                        {
+                            "amount": 20,
+                            "material_id": "basalt_pillar"
+                        },
+                        {
+                            "amount": 60,
+                            "material_id": "valberry"
+                        },
+                        {
+                            "amount": 24,
+                            "material_id": "mask_3"
+                        }
+                    ],
+                    "rank": 6
+                }
+            ],
+            "card": "assets/cards/Noelle.jpg",
+            "element": "Geo",
+            "icon": "assets/icons/Noelle.png",
+            "id": "noelle",
+            "portrait": "assets/portraits/Noelle.png",
+            "rarity": 4,
+            "tier": "C",
+            "weaponType": "claymore"
+        },
+        {
+            "ascension": [
+                {
+                    "cost": 20000,
+                    "level": 20,
+                    "materials": [
+                        {
+                            "amount": "1",
+                            "material_id": "jade_1"
+                        },
+                        {
+                            "amount": "3",
+                            "material_id": "violetgrass"
+                        },
+                        {
+                            "amount": "3",
+                            "material_id": "scroll_1"
+                        }
+                    ],
+                    "rank": 1
+                },
+                {
+                    "cost": 40000,
+                    "level": 40,
+                    "materials": [
+                        {
+                            "amount": "3",
+                            "material_id": "jade_2"
+                        },
+                        {
+                            "amount": "2",
+                            "material_id": "hoarfrost_core"
+                        },
+                        {
+                            "amount": "10",
+                            "material_id": "violetgrass"
+                        },
+                        {
+                            "amount": "15",
+                            "material_id": "scroll_1"
+                        }
+                    ],
+                    "rank": 2
+                },
+                {
+                    "cost": 60000,
+                    "level": 50,
+                    "materials": [
+                        {
+                            "amount": "6",
+                            "material_id": "jade_2"
+                        },
+                        {
+                            "amount": "4",
+                            "material_id": "hoarfrost_core"
+                        },
+                        {
+                            "amount": "20",
+                            "material_id": "violetgrass"
+                        },
+                        {
+                            "amount": "12",
+                            "material_id": "scroll_2"
+                        }
+                    ],
+                    "rank": 3
+                },
+                {
+                    "cost": 80000,
+                    "level": 60,
+                    "materials": [
+                        {
+                            "amount": "3",
+                            "material_id": "jade_3"
+                        },
+                        {
+                            "amount": "8",
+                            "material_id": "hoarfrost_core"
+                        },
+                        {
+                            "amount": "30",
+                            "material_id": "violetgrass"
+                        },
+                        {
+                            "amount": "18",
+                            "material_id": "scroll_2"
+                        }
+                    ],
+                    "rank": 4
+                },
+                {
+                    "cost": 100000,
+                    "level": 70,
+                    "materials": [
+                        {
+                            "amount": "6",
+                            "material_id": "jade_3"
+                        },
+                        {
+                            "amount": "12",
+                            "material_id": "hoarfrost_core"
+                        },
+                        {
+                            "amount": "45",
+                            "material_id": "violetgrass"
+                        },
+                        {
+                            "amount": "12",
+                            "material_id": "scroll_3"
+                        }
+                    ],
+                    "rank": 5
+                },
+                {
+                    "cost": 120000,
+                    "level": 80,
+                    "materials": [
+                        {
+                            "amount": "6",
+                            "material_id": "jade_4"
+                        },
+                        {
+                            "amount": "20",
+                            "material_id": "hoarfrost_core"
+                        },
+                        {
+                            "amount": "60",
+                            "material_id": "violetgrass"
+                        },
+                        {
+                            "amount": "24",
+                            "material_id": "scroll_3"
+                        }
+                    ],
+                    "rank": 6
+                }
+            ],
+            "card": "assets/cards/Qiqi.jpg",
+            "element": "Cryo",
+            "icon": "assets/icons/Qiqi.png",
+            "id": "qiqi",
+            "portrait": "assets/portraits/Qiqi.png",
+            "rarity": 5,
+            "tier": "S",
+            "weaponType": "sword"
+        },
+        {
+            "ascension": [
+                {
+                    "cost": 20000,
+                    "level": 20,
+                    "materials": [
+                        {
+                            "amount": 1,
+                            "material_id": "amethyst_1"
+                        },
+                        {
+                            "amount": 3,
+                            "material_id": "wolfhook"
+                        },
+                        {
+                            "amount": 3,
+                            "material_id": "mask_1"
+                        }
+                    ],
+                    "rank": 1
+                },
+                {
+                    "cost": 40000,
+                    "level": 40,
+                    "materials": [
+                        {
+                            "amount": 3,
+                            "material_id": "amethyst_2"
+                        },
+                        {
+                            "amount": 2,
+                            "material_id": "lightning_prism"
+                        },
+                        {
+                            "amount": 10,
+                            "material_id": "wolfhook"
+                        },
+                        {
+                            "amount": 15,
+                            "material_id": "mask_1"
+                        }
+                    ],
+                    "rank": 2
+                },
+                {
+                    "cost": 60000,
+                    "level": 50,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "amethyst_2"
+                        },
+                        {
+                            "amount": 4,
+                            "material_id": "lightning_prism"
+                        },
+                        {
+                            "amount": 20,
+                            "material_id": "wolfhook"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "mask_2"
+                        }
+                    ],
+                    "rank": 3
+                },
+                {
+                    "cost": 80000,
+                    "level": 60,
+                    "materials": [
+                        {
+                            "amount": 3,
+                            "material_id": "amethyst_3"
+                        },
+                        {
+                            "amount": 8,
+                            "material_id": "lightning_prism"
+                        },
+                        {
+                            "amount": 30,
+                            "material_id": "wolfhook"
+                        },
+                        {
+                            "amount": 18,
+                            "material_id": "mask_2"
+                        }
+                    ],
+                    "rank": 4
+                },
+                {
+                    "cost": 100000,
+                    "level": 70,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "amethyst_3"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "lightning_prism"
+                        },
+                        {
+                            "amount": 45,
+                            "material_id": "wolfhook"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "mask_3"
+                        }
+                    ],
+                    "rank": 5
+                },
+                {
+                    "cost": 120000,
+                    "level": 80,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "amethyst_4"
+                        },
+                        {
+                            "amount": 20,
+                            "material_id": "lightning_prism"
+                        },
+                        {
+                            "amount": 60,
+                            "material_id": "wolfhook"
+                        },
+                        {
+                            "amount": 24,
+                            "material_id": "mask_3"
+                        }
+                    ],
+                    "rank": 6
+                }
+            ],
+            "card": "assets/cards/Razor.jpg",
+            "element": "Electro",
+            "icon": "assets/icons/Razor.png",
+            "id": "razor",
+            "portrait": "assets/portraits/Razor.png",
+            "rarity": 4,
+            "tier": "A",
+            "weaponType": "claymore"
+        },
+        {
+            "ascension": [
+                {
+                    "cost": 20000,
+                    "level": 20,
+                    "materials": [
+                        {
+                            "amount": 1,
+                            "material_id": "turquise_1"
+                        },
+                        {
+                            "amount": 3,
+                            "material_id": "windwheel_aster"
+                        },
+                        {
+                            "amount": 3,
+                            "material_id": "nectar_1"
+                        }
+                    ],
+                    "rank": 1
+                },
+                {
+                    "cost": 40000,
+                    "level": 40,
+                    "materials": [
+                        {
+                            "amount": 3,
+                            "material_id": "turquise_2"
+                        },
+                        {
+                            "amount": 2,
+                            "material_id": "hurricane_seed"
+                        },
+                        {
+                            "amount": 10,
+                            "material_id": "windwheel_aster"
+                        },
+                        {
+                            "amount": 15,
+                            "material_id": "nectar_1"
+                        }
+                    ],
+                    "rank": 2
+                },
+                {
+                    "cost": 60000,
+                    "level": 50,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "turquise_2"
+                        },
+                        {
+                            "amount": 4,
+                            "material_id": "hurricane_seed"
+                        },
+                        {
+                            "amount": 20,
+                            "material_id": "windwheel_aster"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "nectar_2"
+                        }
+                    ],
+                    "rank": 3
+                },
+                {
+                    "cost": 80000,
+                    "level": 60,
+                    "materials": [
+                        {
+                            "amount": 3,
+                            "material_id": "turquise_3"
+                        },
+                        {
+                            "amount": 8,
+                            "material_id": "hurricane_seed"
+                        },
+                        {
+                            "amount": 30,
+                            "material_id": "windwheel_aster"
+                        },
+                        {
+                            "amount": 18,
+                            "material_id": "nectar_2"
+                        }
+                    ],
+                    "rank": 4
+                },
+                {
+                    "cost": 100000,
+                    "level": 70,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "turquise_3"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "hurricane_seed"
+                        },
+                        {
+                            "amount": 45,
+                            "material_id": "windwheel_aster"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "nectar_3"
+                        }
+                    ],
+                    "rank": 5
+                },
+                {
+                    "cost": 120000,
+                    "level": 80,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "turquise_4"
+                        },
+                        {
+                            "amount": 20,
+                            "material_id": "hurricane_seed"
+                        },
+                        {
+                            "amount": 60,
+                            "material_id": "windwheel_aster"
+                        },
+                        {
+                            "amount": 24,
+                            "material_id": "nectar_3"
+                        }
+                    ],
+                    "rank": 6
+                }
+            ],
+            "card": "assets/cards/Sucrose.jpg",
+            "element": "Anemo",
+            "icon": "assets/icons/Sucrose.png",
+            "id": "sucrose",
+            "portrait": "assets/portraits/Sucrose.png",
+            "rarity": 4,
+            "tier": "B",
+            "weaponType": "catalyst"
+        },
+        {
+            "ascension": [
+                {
+                    "cost": 20000,
+                    "level": 20,
+                    "materials": [
+                        {
+                            "amount": 1,
+                            "material_id": "lazurite_1"
+                        },
+                        {
+                            "amount": 3,
+                            "material_id": "starconch"
+                        },
+                        {
+                            "amount": 3,
+                            "material_id": "finsigna_1"
+                        }
+                    ],
+                    "rank": 1
+                },
+                {
+                    "cost": 40000,
+                    "level": 40,
+                    "materials": [
+                        {
+                            "amount": 3,
+                            "material_id": "lazurite_2"
+                        },
+                        {
+                            "amount": 2,
+                            "material_id": "cleansing_heart"
+                        },
+                        {
+                            "amount": 10,
+                            "material_id": "starconch"
+                        },
+                        {
+                            "amount": 15,
+                            "material_id": "finsigna_1"
+                        }
+                    ],
+                    "rank": 2
+                },
+                {
+                    "cost": 60000,
+                    "level": 50,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "lazurite_2"
+                        },
+                        {
+                            "amount": 4,
+                            "material_id": "cleansing_heart"
+                        },
+                        {
+                            "amount": 20,
+                            "material_id": "starconch"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "finsigna_2"
+                        }
+                    ],
+                    "rank": 3
+                },
+                {
+                    "cost": 80000,
+                    "level": 60,
+                    "materials": [
+                        {
+                            "amount": 3,
+                            "material_id": "lazurite_3"
+                        },
+                        {
+                            "amount": 8,
+                            "material_id": "cleansing_heart"
+                        },
+                        {
+                            "amount": 10,
+                            "material_id": "starconch"
+                        },
+                        {
+                            "amount": 10,
+                            "material_id": "finsigna_2"
+                        }
+                    ],
+                    "rank": 4
+                },
+                {
+                    "cost": 100000,
+                    "level": 70,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "lazurite_3"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "cleansing_heart"
+                        },
+                        {
+                            "amount": 45,
+                            "material_id": "starconch"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "finsigna_3"
+                        }
+                    ],
+                    "rank": 5
+                },
+                {
+                    "cost": 120000,
+                    "level": 80,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "lazurite_4"
+                        },
+                        {
+                            "amount": 20,
+                            "material_id": "cleansing_heart"
+                        },
+                        {
+                            "amount": 60,
+                            "material_id": "starconch"
+                        },
+                        {
+                            "amount": 24,
+                            "material_id": "finsigna_3"
+                        }
+                    ],
+                    "rank": 6
+                }
+            ],
+            "card": "assets/cards/Tartaglia.jpg",
+            "element": "Hydro",
+            "icon": "assets/icons/Tartaglia.png",
+            "id": "tartaglia",
+            "portrait": "assets/portraits/Tartaglia.png",
+            "rarity": 5,
+            "tier": "S",
+            "weaponType": "bow"
+        },
+        {
+            "ascension": [
+                {
+                    "cost": 20000,
+                    "level": 20,
+                    "materials": [
+                        {
+                            "amount": 1,
+                            "material_id": "diamond_1"
+                        },
+                        {
+                            "amount": 3,
+                            "material_id": "windwheel_aster"
+                        },
+                        {
+                            "amount": 3,
+                            "material_id": "mask_1"
+                        }
+                    ],
+                    "rank": 1
+                },
+                {
+                    "cost": 40000,
+                    "level": 40,
+                    "materials": [
+                        {
+                            "amount": 3,
+                            "material_id": "diamond_2"
+                        },
+                        {
+                            "amount": 10,
+                            "material_id": "windwheel_aster"
+                        },
+                        {
+                            "amount": 15,
+                            "material_id": "mask_1"
+                        }
+                    ],
+                    "rank": 2
+                },
+                {
+                    "cost": 60000,
+                    "level": 50,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "diamond_2"
+                        },
+                        {
+                            "amount": 20,
+                            "material_id": "windwheel_aster"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "mask_2"
+                        }
+                    ],
+                    "rank": 3
+                },
+                {
+                    "cost": 80000,
+                    "level": 60,
+                    "materials": [
+                        {
+                            "amount": 3,
+                            "material_id": "diamond_3"
+                        },
+                        {
+                            "amount": 30,
+                            "material_id": "windwheel_aster"
+                        },
+                        {
+                            "amount": 18,
+                            "material_id": "mask_2"
+                        }
+                    ],
+                    "rank": 4
+                },
+                {
+                    "cost": 100000,
+                    "level": 70,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "diamond_3"
+                        },
+                        {
+                            "amount": 45,
+                            "material_id": "windwheel_aster"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "mask_3"
+                        }
+                    ],
+                    "rank": 5
+                },
+                {
+                    "cost": 120000,
+                    "level": 80,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "diamond_4"
+                        },
+                        {
+                            "amount": 60,
+                            "material_id": "windwheel_aster"
+                        },
+                        {
+                            "amount": 24,
+                            "material_id": "mask_3"
+                        }
+                    ],
+                    "rank": 6
+                }
+            ],
+            "card": "assets/cards/Traveler_Male.jpg",
+            "element": "Anemo",
+            "icon": "assets/icons/Traveler.png",
+            "id": "traveler_anemo",
+            "portrait": "assets/portraits/Traveler_Male.png",
+            "rarity": 5,
+            "tier": "C",
+            "weaponType": "sword"
+        },
+        {
+            "ascension": [
+                {
+                    "cost": 20000,
+                    "level": 20,
+                    "materials": [
+                        {
+                            "amount": 1,
+                            "material_id": "diamond_1"
+                        },
+                        {
+                            "amount": 3,
+                            "material_id": "windwheel_aster"
+                        },
+                        {
+                            "amount": 3,
+                            "material_id": "mask_1"
+                        }
+                    ],
+                    "rank": 1
+                },
+                {
+                    "cost": 40000,
+                    "level": 40,
+                    "materials": [
+                        {
+                            "amount": 3,
+                            "material_id": "diamond_2"
+                        },
+                        {
+                            "amount": 10,
+                            "material_id": "windwheel_aster"
+                        },
+                        {
+                            "amount": 15,
+                            "material_id": "mask_1"
+                        }
+                    ],
+                    "rank": 2
+                },
+                {
+                    "cost": 60000,
+                    "level": 50,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "diamond_2"
+                        },
+                        {
+                            "amount": 20,
+                            "material_id": "windwheel_aster"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "mask_2"
+                        }
+                    ],
+                    "rank": 3
+                },
+                {
+                    "cost": 80000,
+                    "level": 60,
+                    "materials": [
+                        {
+                            "amount": 3,
+                            "material_id": "diamond_3"
+                        },
+                        {
+                            "amount": 30,
+                            "material_id": "windwheel_aster"
+                        },
+                        {
+                            "amount": 18,
+                            "material_id": "mask_2"
+                        }
+                    ],
+                    "rank": 4
+                },
+                {
+                    "cost": 100000,
+                    "level": 70,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "diamond_3"
+                        },
+                        {
+                            "amount": 45,
+                            "material_id": "windwheel_aster"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "mask_3"
+                        }
+                    ],
+                    "rank": 5
+                },
+                {
+                    "cost": 120000,
+                    "level": 80,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "diamond_4"
+                        },
+                        {
+                            "amount": 60,
+                            "material_id": "windwheel_aster"
+                        },
+                        {
+                            "amount": 24,
+                            "material_id": "mask_3"
+                        }
+                    ],
+                    "rank": 6
+                }
+            ],
+            "card": "assets/cards/Traveler_Male.jpg",
+            "element": "Geo",
+            "icon": "assets/icons/Traveler.png",
+            "id": "traveler_geo",
+            "portrait": "assets/portraits/Traveler.png",
+            "rarity": 5,
+            "tier": "C",
+            "weaponType": "sword"
+        },
+        {
+            "ascension": [
+                {
+                    "cost": 20000,
+                    "level": 20,
+                    "materials": [
+                        {
+                            "amount": 1,
+                            "material_id": "turquise_1"
+                        },
+                        {
+                            "amount": 3,
+                            "material_id": "cecilia"
+                        },
+                        {
+                            "amount": 3,
+                            "material_id": "slime_1"
+                        }
+                    ],
+                    "rank": 1
+                },
+                {
+                    "cost": 40000,
+                    "level": 40,
+                    "materials": [
+                        {
+                            "amount": 3,
+                            "material_id": "turquise_2"
+                        },
+                        {
+                            "amount": 2,
+                            "material_id": "hurricane_seed"
+                        },
+                        {
+                            "amount": 10,
+                            "material_id": "cecilia"
+                        },
+                        {
+                            "amount": 15,
+                            "material_id": "slime_1"
+                        }
+                    ],
+                    "rank": 2
+                },
+                {
+                    "cost": 60000,
+                    "level": 50,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "turquise_2"
+                        },
+                        {
+                            "amount": 4,
+                            "material_id": "hurricane_seed"
+                        },
+                        {
+                            "amount": 20,
+                            "material_id": "cecilia"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "slime_2"
+                        }
+                    ],
+                    "rank": 3
+                },
+                {
+                    "cost": 80000,
+                    "level": 60,
+                    "materials": [
+                        {
+                            "amount": 3,
+                            "material_id": "turquise_3"
+                        },
+                        {
+                            "amount": 8,
+                            "material_id": "hurricane_seed"
+                        },
+                        {
+                            "amount": 30,
+                            "material_id": "cecilia"
+                        },
+                        {
+                            "amount": 18,
+                            "material_id": "slime_2"
+                        }
+                    ],
+                    "rank": 4
+                },
+                {
+                    "cost": 100000,
+                    "level": 70,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "turquise_3"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "hurricane_seed"
+                        },
+                        {
+                            "amount": 45,
+                            "material_id": "cecilia"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "slime_3"
+                        }
+                    ],
+                    "rank": 5
+                },
+                {
+                    "cost": 120000,
+                    "level": 80,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "turquise_4"
+                        },
+                        {
+                            "amount": 20,
+                            "material_id": "hurricane_seed"
+                        },
+                        {
+                            "amount": 60,
+                            "material_id": "cecilia"
+                        },
+                        {
+                            "amount": 24,
+                            "material_id": "slime_3"
+                        }
+                    ],
+                    "rank": 6
+                }
+            ],
+            "card": "assets/cards/Venti.jpg",
+            "element": "Anemo",
+            "icon": "assets/icons/Venti.png",
+            "id": "venti",
+            "portrait": "assets/portraits/Venti.png",
+            "rarity": 4,
+            "tier": "S",
+            "weaponType": "bow"
+        },
+        {
+            "ascension": [
+                {
+                    "cost": 20000,
+                    "level": 20,
+                    "materials": [
+                        {
+                            "amount": "1",
+                            "material_id": "agate_1"
+                        },
+                        {
+                            "amount": "3",
+                            "material_id": "jueyun_chili"
+                        },
+                        {
+                            "amount": "3",
+                            "material_id": "slime_1"
+                        }
+                    ],
+                    "rank": 1
+                },
+                {
+                    "cost": 40000,
+                    "level": 40,
+                    "materials": [
+                        {
+                            "amount": "3",
+                            "material_id": "agate_2"
+                        },
+                        {
+                            "amount": "2",
+                            "material_id": "everflame_seed"
+                        },
+                        {
+                            "amount": "10",
+                            "material_id": "jueyun_chili"
+                        },
+                        {
+                            "amount": "10",
+                            "material_id": "slime_1"
+                        }
+                    ],
+                    "rank": 2
+                },
+                {
+                    "cost": 60000,
+                    "level": 50,
+                    "materials": [
+                        {
+                            "amount": "6",
+                            "material_id": "agate_2"
+                        },
+                        {
+                            "amount": "4",
+                            "material_id": "everflame_seed"
+                        },
+                        {
+                            "amount": "20",
+                            "material_id": "jueyun_chili"
+                        },
+                        {
+                            "amount": "12",
+                            "material_id": "slime_2"
+                        }
+                    ],
+                    "rank": 3
+                },
+                {
+                    "cost": 80000,
+                    "level": 60,
+                    "materials": [
+                        {
+                            "amount": "3",
+                            "material_id": "agate_3"
+                        },
+                        {
+                            "amount": "8",
+                            "material_id": "everflame_seed"
+                        },
+                        {
+                            "amount": "30",
+                            "material_id": "jueyun_chili"
+                        },
+                        {
+                            "amount": "18",
+                            "material_id": "slime_2"
+                        }
+                    ],
+                    "rank": 4
+                },
+                {
+                    "cost": 100000,
+                    "level": 70,
+                    "materials": [
+                        {
+                            "amount": "6",
+                            "material_id": "agate_3"
+                        },
+                        {
+                            "amount": "12",
+                            "material_id": "everflame_seed"
+                        },
+                        {
+                            "amount": "45",
+                            "material_id": "jueyun_chili"
+                        },
+                        {
+                            "amount": "12",
+                            "material_id": "slime_3"
+                        }
+                    ],
+                    "rank": 5
+                },
+                {
+                    "cost": 120000,
+                    "level": 80,
+                    "materials": [
+                        {
+                            "amount": "6",
+                            "material_id": "agate_4"
+                        },
+                        {
+                            "amount": "20",
+                            "material_id": "everflame_seed"
+                        },
+                        {
+                            "amount": "60",
+                            "material_id": "jueyun_chili"
+                        },
+                        {
+                            "amount": "24",
+                            "material_id": "slime_3"
+                        }
+                    ],
+                    "rank": 6
+                }
+            ],
+            "card": "assets/cards/Xiangling.jpg",
+            "element": "Pyro",
+            "icon": "assets/icons/Xiangling.png",
+            "id": "xiangling",
+            "portrait": "assets/portraits/Xiangling.png",
+            "rarity": 4,
+            "tier": "A",
+            "weaponType": "polearm"
+        },
+        {
+            "ascension": [
+                {
+                    "cost": 20000,
+                    "level": 20,
+                    "materials": [
+                        {
+                            "amount": 1,
+                            "material_id": "lazurite_1"
+                        },
+                        {
+                            "amount": 3,
+                            "material_id": "silk_flower"
+                        },
+                        {
+                            "amount": 3,
+                            "material_id": "mask_1"
+                        }
+                    ],
+                    "rank": 1
+                },
+                {
+                    "cost": 40000,
+                    "level": 40,
+                    "materials": [
+                        {
+                            "amount": 3,
+                            "material_id": "lazurite_2"
+                        },
+                        {
+                            "amount": 2,
+                            "material_id": "cleansing_heart"
+                        },
+                        {
+                            "amount": 10,
+                            "material_id": "silk_flower"
+                        },
+                        {
+                            "amount": 15,
+                            "material_id": "mask_1"
+                        }
+                    ],
+                    "rank": 2
+                },
+                {
+                    "cost": 60000,
+                    "level": 50,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "lazurite_2"
+                        },
+                        {
+                            "amount": 4,
+                            "material_id": "cleansing_heart"
+                        },
+                        {
+                            "amount": 20,
+                            "material_id": "silk_flower"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "mask_2"
+                        }
+                    ],
+                    "rank": 3
+                },
+                {
+                    "cost": 80000,
+                    "level": 60,
+                    "materials": [
+                        {
+                            "amount": 3,
+                            "material_id": "lazurite_3"
+                        },
+                        {
+                            "amount": 8,
+                            "material_id": "cleansing_heart"
+                        },
+                        {
+                            "amount": 10,
+                            "material_id": "philanemo_mushroom"
+                        },
+                        {
+                            "amount": 10,
+                            "material_id": "mask_2"
+                        }
+                    ],
+                    "rank": 4
+                },
+                {
+                    "cost": 100000,
+                    "level": 70,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "lazurite_3"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "cleansing_heart"
+                        },
+                        {
+                            "amount": 45,
+                            "material_id": "silk_flower"
+                        },
+                        {
+                            "amount": 12,
+                            "material_id": "mask_3"
+                        }
+                    ],
+                    "rank": 5
+                },
+                {
+                    "cost": 120000,
+                    "level": 80,
+                    "materials": [
+                        {
+                            "amount": 6,
+                            "material_id": "lazurite_4"
+                        },
+                        {
+                            "amount": 20,
+                            "material_id": "cleansing_heart"
+                        },
+                        {
+                            "amount": 60,
+                            "material_id": "silk_flower"
+                        },
+                        {
+                            "amount": 24,
+                            "material_id": "mask_3"
+                        }
+                    ],
+                    "rank": 6
+                }
+            ],
+            "card": "assets/cards/Xingqiu.jpg",
+            "element": "Hydro",
+            "icon": "assets/icons/Xingqiu.png",
+            "id": "xingqiu",
+            "portrait": "assets/portraits/Xingqiu.png",
+            "rarity": 4,
+            "tier": "S",
+            "weaponType": "sword"
+        },
+        {
+        "ascension": [
+          {
+            "cost": 20000,
+            "level": 20,
+            "materials": [
+              {
+                "amount": 1,
+                "material_id": "agate_1"
+              },
+              {
+                "amount": 3,
+                "material_id": "violetgrass"
+              },
+              {
+                "amount": 3,
+                "material_id": "tinsignia_1"
+              }
+            ],
+            "rank": 1
+          },
+          {
+            "cost": 40000,
+            "level": 40,
+            "materials": [
+              {
+                "amount": 3,
+                "material_id": "agate_1"
+              },
+              {
+                "amount": 2,
+                "material_id": "everflame_seed"
+              },
+              {
+                "amount": 10,
+                "material_id": "violetgrass"
+              },
+              {
+                "amount": 15,
+                "material_id": "tinsignia_1"
+              }
+            ],
+            "rank": 2
+          },
+          {
+            "cost": 60000,
+            "level": 50,
+            "materials": [
+              {
+                "amount": 6,
+                "material_id": "lazurite_2"
+              },
+              {
+                "amount": 4,
+                "material_id": "everflame_seed"
+              },
+              {
+                "amount": 20,
+                "material_id": "violetgrass"
+              },
+              {
+                "amount": 12,
+                "material_id": "tinsignia_2"
+              }
+            ],
+            "rank": 3
+          },
+          {
+            "cost": 80000,
+            "level": 60,
+            "materials": [
+              {
+                "amount": 3,
+                "material_id": "lazurite_3"
+              },
+              {
+                "amount": 8,
+                "material_id": "everflame_seed"
+              },
+              {
+                "amount": 10,
+                "material_id": "violetgrass"
+              },
+              {
+                "amount": 10,
+                "material_id": "tinsignia_2"
+              }
+            ],
+            "rank": 4
+          },
+          {
+            "cost": 100000,
+            "level": 70,
+            "materials": [
+              {
+                "amount": 6,
+                "material_id": "lazurite_3"
+              },
+              {
+                "amount": 12,
+                "material_id": "everflame_seed"
+              },
+              {
+                "amount": 45,
+                "material_id": "violetgrass"
+              },
+              {
+                "amount": 12,
+                "material_id": "tinsignia_3"
+              }
+            ],
+            "rank": 5
+          },
+          {
+            "cost": 120000,
+            "level": 80,
+            "materials": [
+              {
+                "amount": 6,
+                "material_id": "lazurite_4"
+              },
+              {
+                "amount": 20,
+                "material_id": "everflame_seed"
+              },
+              {
+                "amount": 60,
+                "material_id": "violetgrass"
+              },
+              {
+                "amount": 24,
+                "material_id": "tinsignia_3"
+              }
+            ],
+            "rank": 6
+          }
+        ],
+        "card": "assets/cards/xinyan.jpg",
+        "element": "Pyro",
+        "icon": "assets/icons/xinyan.png",
+        "id": "xinyan",
+        "portrait": "assets/portraits/Xingqiu.png",
+        "rarity": 4,
+        "tier": "B",
+        "weaponType": "claymore",
+        "isNew": true
+        },
+        {
+        "ascension": [
+          {
+            "cost": 20000,
+            "level": 20,
+            "materials": [
+              {
+                "amount": 1,
+                "material_id": "topaz_1"
+              },
+              {
+                "amount": 3,
+                "material_id": "cor_lapis"
+              },
+              {
+                "amount": 3,
+                "material_id": "slime_1"
+              }
+            ],
+            "rank": 1
+          },
+          {
+            "cost": 40000,
+            "level": 40,
+            "materials": [
+              {
+                "amount": 3,
+                "material_id": "topaz_2"
+              },
+              {
+                "amount": 2,
+                "material_id": "basalt_pillar"
+              },
+              {
+                "amount": 10,
+                "material_id": "cor_lapis"
+              },
+              {
+                "amount": 15,
+                "material_id": "slime_1"
+              }
+            ],
+            "rank": 2
+          },
+          {
+            "cost": 60000,
+            "level": 50,
+            "materials": [
+              {
+                "amount": 6,
+                "material_id": "topaz_2"
+              },
+              {
+                "amount": 4,
+                "material_id": "basalt_pillar"
+              },
+              {
+                "amount": 20,
+                "material_id": "cor_lapis"
+              },
+              {
+                "amount": 12,
+                "material_id": "slime_2"
+              }
+            ],
+            "rank": 3
+          },
+          {
+            "cost": 80000,
+            "level": 60,
+            "materials": [
+              {
+                "amount": 3,
+                "material_id": "topaz_2"
+              },
+              {
+                "amount": 8,
+                "material_id": "basalt_pillar"
+              },
+              {
+                "amount": 10,
+                "material_id": "cor_lapis"
+              },
+              {
+                "amount": 10,
+                "material_id": "slime_2"
+              }
+            ],
+            "rank": 4
+          },
+          {
+            "cost": 100000,
+            "level": 70,
+            "materials": [
+              {
+                "amount": 6,
+                "material_id": "topaz_3"
+              },
+              {
+                "amount": 12,
+                "material_id": "basalt_pillar"
+              },
+              {
+                "amount": 45,
+                "material_id": "cor_lapis"
+              },
+              {
+                "amount": 12,
+                "material_id": "slime_3"
+              }
+            ],
+            "rank": 5
+          },
+          {
+            "cost": 120000,
+            "level": 80,
+            "materials": [
+              {
+                "amount": 6,
+                "material_id": "topaz_4"
+              },
+              {
+                "amount": 20,
+                "material_id": "basalt_pillar"
+              },
+              {
+                "amount": 60,
+                "material_id": "cor_lapis"
+              },
+              {
+                "amount": 24,
+                "material_id": "slime_3"
+              }
+            ],
+            "rank": 6
+          }
+        ],
+        "card": "assets/cards/zhongli.jpg",
+        "element": "Geo",
+        "icon": "assets/icons/zhongli.png",
+        "id": "zhongli",
+        "portrait": "assets/portraits/zhongli.png",
+        "rarity": 5,
+        "tier": "B",
+        "weaponType": "polearm",
+          "isNew": true
+        }
+    ]
+}

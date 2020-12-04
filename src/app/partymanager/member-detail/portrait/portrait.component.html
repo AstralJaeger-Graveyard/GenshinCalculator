@@ -1,6 +1,6 @@
 <div class="character-meta">
-  <img [src]="character.icon"
-       [alt]="character.name"
+  <img [src]="'assets/icons/'+ character.id + '.png'"
+       [alt]="character.id"
        class="character-icon">
   <div class="character-rarity">
     <fa-layers *appRepeat="character.rarity" fixedWidth="true">

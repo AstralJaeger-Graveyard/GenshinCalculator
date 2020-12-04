@@ -1,14 +1,14 @@
 <div class="row">
-  <h2>Summary</h2>
+  <h2 i18n="Summary Header">Summary</h2>
 </div>
 <div class="row">
-  <div style="display: flex; flex-wrap: wrap; margin: 0 0 1% 0">
+  <div *ngIf="false" style="display: flex; flex-wrap: wrap; margin: 0 0 1% 0">
     <h4 style="margin-right: 1%">Current party ascension rank: </h4>
     <nz-input-number [(ngModel)]="ascensionStage"
                      [nzMin]="0"
                      [nzMax]="6"
                      [nzStep]="1"
-                     (ngModelChange)="onAscensionStageChange()">
+                     (ngModelChange)="onAscStageChange()">
     </nz-input-number>
   </div>
   <nz-collapse>
@@ -22,17 +22,25 @@
     <nz-collapse-panel nzHeader="Required materials for next ascension rank by partymember">
       <nz-collapse>
         <nz-collapse-panel *ngFor="let member of filterEnaCharNextAsc()"
-                           [nzHeader]="generateCharAscTitle(member)">
-          <nz-list *ngIf="member.ascension !== 6; else FullAscensionTpl" nzSize="small">
-            <nz-list-item *ngFor="let material of member.character.ascension[member.ascension].materials">
+                           [nzHeader]="genCharAscTitle(member)">
+          <nz-list *ngIf="member.ascension !== 6; else FullAscensionTpl"
+                   nzSize="small">
+            <nz-list-item>
+              <nz-list-item-meta [nzAvatar]="materialService.getMaterialsMap.get('mora').icon">
+                <nz-list-item-meta-title>
+                  x{{ formatNumber(characterService.characterMap.get(member.character_id).ascension[member.ascension].cost) }} Mora
+                </nz-list-item-meta-title>
+              </nz-list-item-meta>
+            </nz-list-item>
+            <nz-list-item *ngFor="let material of characterService.characterMap.get(member.character_id).ascension[member.ascension].materials">
               <nz-list-item-meta [nzAvatar]="material.material.icon">
                 <nz-list-item-meta-title>
-                  x{{material.amount}} {{ material.material.name }}
+                  x{{ material.amount }} {{ localizationService.translationsMap.get(material.material_id).name }}
                 </nz-list-item-meta-title>
               </nz-list-item-meta>
             </nz-list-item>
           </nz-list>
-          <ng-template #FullAscensionTpl let-member='member'>
+          <ng-template #FullAscensionTpl>
             This character is already fully ascended!
           </ng-template>
         </nz-collapse-panel>

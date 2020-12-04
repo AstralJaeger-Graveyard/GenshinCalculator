@@ -1,5 +1,7 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {MaterialEntry} from '../../model/MaterialEntry';
+import {MaterialService} from '../../services/material.service';
+import {LocalizationService} from '../../services/localization.service';
 
 @Component({
   selector: 'app-item',
@@ -11,9 +13,17 @@ export class ItemComponent implements OnInit {
   @Input()
   entry: MaterialEntry;
 
-  constructor() { }
+  constructor(public localizationService: LocalizationService) { }
 
   ngOnInit(): void {
   }
 
+  formatAmount(value: number): string{
+    if (value > 1000) {
+      value = value / 1000;
+      return `${value}k`;
+    }
+    else
+      return value + "";
+  }
 }

@@ -5,6 +5,8 @@ import {CharacterService} from '../../services/character.service';
 import {faBell as fasBell} from '@fortawesome/pro-solid-svg-icons';
 import {faExclamationTriangle, faTrashAlt, faEdit} from '@fortawesome/pro-light-svg-icons';
 import {PartyService} from '../../services/party.service';
+import {LocalizationService} from '../../services/localization.service';
+import {NzNotificationService} from 'ng-zorro-antd/notification';
 
 @Component({
   selector: 'app-party',
@@ -17,12 +19,6 @@ export class PartyComponent implements OnInit {
   faTrash = faTrashAlt;
   faExclamation = faExclamationTriangle;
 
-  @Input()
-  party: PartyMember[];
-
-  @Input()
-  characters: Map<string, Character> = new Map<string, Character>();
-
   @Output()
   memberSelected = new EventEmitter<PartyMember>();
 
@@ -32,41 +28,49 @@ export class PartyComponent implements OnInit {
   selectValue = null;
   forceDelete: boolean;
 
-  constructor(private characterService: CharacterService,
-              private partyService: PartyService) { }
+  constructor(public localization: LocalizationService,
+              public characters: CharacterService,
+              public party: PartyService,
+              public notification: NzNotificationService) { }
 
   ngOnInit(): void {
-    this.characters = this.characterService.getCharacterMap;
   }
 
   onSelected(member: PartyMember): void{
-    console.log('Switching selected member to: ' + member.character.name);
+    console.log('Switching selected member to: ' + member.character_id);
     this.memberSelected.emit(member);
   }
 
   onRemoved(member: PartyMember): void{
     this.memberRemoved.emit(member);
+    this.onSaveParty();
   }
 
   onCharacterSelected(character: Character) {
-    if (this.party.filter(member => member.character === character).concat().length === 0) {
-      this.party.push(new PartyMember(character, 1, 0));
+    if (this.party.members.filter(member => member.character_id === character.id).concat().length === 0) {
+      let partyMember = new PartyMember();
+      partyMember.character_id = character.id;
+      partyMember.ascension = 0;
+      partyMember.level = 1;
+      this.party.members.push(partyMember);
+
+      // TODO: Somewhat improve this
+      this.onSaveParty()
     }
     else {
       // TODO: Show some kind of warning
     }
   }
 
-  isInParty(character: Character): boolean{
-    for (const member of this.partyService.party){
-      if (member.character.name === character.name){
-        return true;
-      }
-    }
-    return false;
+  onSaveParty(){
+    this.party.save();
+    this.notification.blank(
+      "Saved party to localstorage",
+      "Your party has been successfully saved to your local storage!"
+    );
   }
 
   addDefaultParty(): void {
-    this.partyService.addDefaultParty();
+    this.party.addDefaultParty();
   }
 }

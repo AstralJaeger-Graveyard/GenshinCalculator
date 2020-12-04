@@ -1,6 +1,11 @@
 import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import {PartyMember} from '../../model/PartyMember';
 import { faStar, faWindowClose } from '@fortawesome/pro-solid-svg-icons';
+import {PartyService} from '../../services/party.service';
+import {WeaponService} from '../../services/weapon.service';
+import {CharacterService} from '../../services/character.service';
+import {Character} from '../../model/Character';
+import {LocalizationService} from '../../services/localization.service';
 
 @Component({
   selector: 'app-partymember-detail',
@@ -9,24 +14,17 @@ import { faStar, faWindowClose } from '@fortawesome/pro-solid-svg-icons';
 })
 export class MemberDetailComponent implements OnInit {
 
-  faRegularStar = faStar;
-  faWindowClose = faWindowClose;
-
   @Input()
   member: PartyMember;
 
   @Output()
   closeDetail = new EventEmitter<void>();
 
-  displayMode: string = "portrait";
-
-  constructor() { }
+  constructor(public localization: LocalizationService,
+              public weapons: WeaponService,
+              public characters: CharacterService) { }
 
   ngOnInit(): void {
-  }
-
-  onAscensionStageChange(){
-
   }
 
   onCloseDetail(): void{

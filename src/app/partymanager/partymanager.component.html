@@ -1,11 +1,9 @@
 <div class="container">
   <div class="row">
-    <h2>Party Manager</h2>
+    <h2 i18n="Party Manager Title">Party Manager</h2>
   </div>
   <div class="row">
-    <app-party [party]="party"
-               [characters]="characters"
-               (memberSelected)="onSelected($event)"
+    <app-party (memberSelected)="onSelected($event)"
                (memberRemoved)="onRemoved($event)"
     ></app-party>
   </div>
@@ -14,10 +12,9 @@
                             [member]="selectedCharacter"
                             (closeDetail)="onCloseDetail()"
     >
-
     </app-partymember-detail>
     <ng-template #infoText>
-      <h3>Please select a character!</h3>
+      <h3 i18n="No character selected" style="text-align: center">Please select a character!</h3>
     </ng-template>
   </div>
 </div>

@@ -1,19 +1,19 @@
 <div class="character-header">
-  <app-portrait [character]="member.character">
+  <app-portrait [character]="characters.get(member.character_id)">
   </app-portrait>
   <div class="character-title">
-    <h1 class="character-name">{{ member.character.name }}</h1>
+    <h1 class="character-name">{{ localization.get(member.character_id).name }}</h1>
     <div class="character-details">
-      <div class="character-details-item" [ngClass]="member.character.element.toLowerCase()">
-        {{ member.character.element }}
+      <div class="character-details-item" [ngClass]="characters.get(member.character_id).element.toLowerCase()">
+        {{ characters.get(member.character_id).element }}
       </div>
       •
       <div class="character-details-item">
-        {{ member.character.weaponType }}
+        {{ characters.get(member.character_id).weaponType }}
       </div>
     </div>
   </div>
-  <div class="character-tier S" [ngClass]="member.character.tier">
-      {{member.character.tier}}
+  <div class="character-tier S" [ngClass]="characters.get(member.character_id).tier">
+      {{characters.get(member.character_id).tier}}
   </div>
 </div>

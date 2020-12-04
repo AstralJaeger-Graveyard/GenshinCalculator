@@ -10,7 +10,7 @@ import {Element} from '../../../model/Element';
 export class PortraitComponent implements OnInit {
 
   @Input()
-  character: Character = new Character("NULL", "Description", Element.Dendro);
+  character: Character = null;
 
   constructor() { }
 

@@ -19,8 +19,8 @@ export class PartymanagerComponent implements OnInit {
   }
 
   ngOnInit(): void {
-     this.characters = this.characterService.getCharacterMap;
-     this.party = this.partyService.party;
+     this.characters = this.characterService.characterMap;
+     this.party = this.partyService.members;
   }
 
   onSelected(member: PartyMember): void{

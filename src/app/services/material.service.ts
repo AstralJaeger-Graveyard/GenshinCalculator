@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Character } from '../model/Character';
 import {Material} from '../model/Material';
-import * as data from 'src/app/_dataassets/data_1.json';
+import * as data from 'src/app/_dataassets/materials.json';
 
 @Injectable({
   providedIn: 'root'
@@ -29,5 +29,10 @@ export class MaterialService{
         material.material = this.getMaterialsMap.get(material.material_id);
       }
     }
+  }
+
+
+  public get(id: string): Material{
+    return this.materialsMap.get(id);
   }
 }
