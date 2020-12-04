@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import {Injectable, isDevMode} from '@angular/core';
 // @ts-ignore
 import * as data from 'src/app/_dataassets/translations.en-US.json';
 import {Translation} from '../model/Translation';
@@ -13,13 +13,13 @@ export class LocalizationService {
     new Map<string, Translation>();
 
   constructor() {
-    for(let translation of this.translations){
+    for (const translation of this.translations){
       this.translationsMap.set(translation.id, translation);
     }
   }
 
-  public get(id:string): Translation{
-    if(!this.translationsMap.has(id)){
+  public get(id: string): Translation{
+    if (isDevMode() && !this.translationsMap.has(id)){
       console.log('%c Could not find item with id: ' + id, 'color: red; font-size: 20px;')
     }
     return this.translationsMap.get(id);

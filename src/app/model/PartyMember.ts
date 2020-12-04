@@ -20,5 +20,7 @@ export class PartyMember{
 
   //TODO: Add artifacts, talents
 
-  constructor() { }
+  constructor(characterId: string) {
+    this.character_id = characterId;
+  }
 }

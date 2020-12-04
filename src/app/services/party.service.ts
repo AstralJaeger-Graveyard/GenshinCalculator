@@ -19,29 +19,32 @@ export class PartyService{
     return this.members.length;
   }
 
-  public save(){
+  public save(): void{
     PartyService.storePartyToLS(this.members);
   }
 
-  public addDefaultParty(){
+  public addDefaultParty(): void{
     this.members = PartyService.generateDefaultParty();
   }
 
   public contains(id: string): boolean{
-    for(let member of this.members){
-      if(member.character_id == id){
-        return true;
-      }
-    }
-    return false;
+    return this.members
+      .filter(member => member.character_id === id)
+      .length === 1;
+    // for (const member of this.members){
+    //   if (member.character_id === id){
+    //     return true;
+    //   }
+    // }
+    // return false;
   }
 
   private static generateDefaultParty(): PartyMember[] {
 
-    let party = [];
+    const party = [];
     const defaultParty = ['traveler_anemo', 'amber', 'kaeya', 'lisa'];
-    for(let member of defaultParty){
-      let partyMember = new PartyMember();
+    for (const member of defaultParty){
+      const partyMember = new PartyMember();
       partyMember.character_id = member;
       partyMember.ascension = 0;
       partyMember.level = 1;

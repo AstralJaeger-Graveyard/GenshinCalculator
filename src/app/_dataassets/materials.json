@@ -1,1079 +1,1149 @@
 {
-    "materials": [
+  "materials": [
+    {
+      "description": "Common currency",
+      "icon": "assets/material_icons/mora.png",
+      "id": "mora",
+      "name": "Mora",
+      "sortingRank": -1,
+      "source": [
         {
-            "description": "Common currency",
-            "icon": "assets/material_icons/mora.png",
-            "id": "mora",
-            "name": "Mora",
-            "source": [
-                {
-                    "description": "Quests"
-                },
-                {
-                    "description": "Defeating Monsters"
-                },
-                {
-                    "description": "Opening Chests"
-                }
-            ]
+          "description": "Quests"
         },
         {
-            "description": "Character Ascension Material",
-            "icon": "assets/material_icons/agate_1.png",
-            "id": "agate_1",
-            "name": "Agnidus Agate Silver",
-            "source": [
-                {
-                    "description": "Dropped by Pyro Regisvine"
-                },
-                {
-                    "description": "Wolf of the North Challenge Reward"
-                },
-                {
-                    "description": "Purchased from the Souvenir Shop"
-                }
-            ]
+          "description": "Defeating Monsters"
         },
         {
-            "description": "Character Ascension Material",
-            "icon": "assets/material_icons/agate_2.png",
-            "id": "agate_2",
-            "name": "Agnidus Agate Fragment",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 40+ Pyro Regisvine"
-                },
-                {
-                    "description": "Lv. 40+ Wolf of the North Challenge Reward"
-                },
-                {
-                    "description": "Crafting"
-                }
-            ]
-        },
-        {
-            "description": "Character Ascension Material",
-            "icon": "assets/material_icons/agate_3.png",
-            "id": "agate_3",
-            "name": "Agnidus Agate Chunk",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 60+ Pyro Regisvine"
-                },
-                {
-                    "description": "Lv. 60+ Wolf of the North Challenge Reward"
-                },
-                {
-                    "description": "Crafting"
-                }
-            ]
-        },
-        {
-            "description": "Character Ascension Material",
-            "icon": "assets/material_icons/agate_4.png",
-            "id": "agate_4",
-            "name": "Agnidus Agate Gemstone",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 75+ Pyro Regisvine"
-                },
-                {
-                    "description": "Lv. 75+ Wolf of the North Challenge Reward"
-                },
-                {
-                    "description": "Crafting"
-                }
-            ]
-        },
-        {
-            "description": "Character Ascension Material",
-            "icon": "assets/material_icons/lazurite_1.png",
-            "id": "lazurite_1",
-            "name": "Varunada Lazurite Silver",
-            "source": [
-                {
-                    "description": "Dropped by Oceanid"
-                },
-                {
-                    "description": "Purchased from the Souvenir Shop"
-                }
-            ]
-        },
-        {
-            "description": "Character Ascension Material",
-            "icon": "assets/material_icons/lazurite_2.png",
-            "id": "lazurite_2",
-            "name": "Varunada Lazurite Fragment",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 40+ Oceanid"
-                },
-                {
-                    "description": "Crafting"
-                }
-            ]
-        },
-        {
-            "description": "Character Ascension Material",
-            "icon": "assets/material_icons/lazurite_3.png",
-            "id": "lazurite_3",
-            "name": "Varunada Lazurite Chunk",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 60+ Oceanid"
-                },
-                {
-                    "description": "Crafting"
-                }
-            ]
-        },
-        {
-            "description": "Character Ascension Material",
-            "icon": "assets/material_icons/lazurite_4.png",
-            "id": "lazurite_4",
-            "name": "Varunada Lazurite Gemstone",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 75+ Oceanid"
-                },
-                {
-                    "description": "Crafting"
-                }
-            ]
-        },
-        {
-            "description": "Character Ascension Material",
-            "icon": "assets/material_icons/amethyst_1.png",
-            "id": "amethyst_1",
-            "name": "Vajrada Amethyst Silver",
-            "source": [
-                {
-                    "description": "Dropped by Electro Hypostasis"
-                },
-                {
-                    "description": "Purchased from the Souvenir Shop"
-                }
-            ]
-        },
-        {
-            "description": "Character Ascension Material",
-            "icon": "assets/material_icons/amethyst_2.png",
-            "id": "amethyst_2",
-            "name": "Vajrada Amethyst Fragment",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 40+ Electro Hypostasis"
-                },
-                {
-                    "description": "Crafting"
-                }
-            ]
-        },
-        {
-            "description": "Character Ascension Material",
-            "icon": "assets/material_icons/amethyst_3.png",
-            "id": "amethyst_3",
-            "name": "Vajrada Amethyst Chunk",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 60+ Electro Hypostasis"
-                },
-                {
-                    "description": "Crafting"
-                }
-            ]
-        },
-        {
-            "description": "Character Ascension Material",
-            "icon": "assets/material_icons/amethyst_4.png",
-            "id": "amethyst_4",
-            "name": "Vajrada Amethyst Gemstone",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 75+ Electro Hypostasis"
-                },
-                {
-                    "description": "Crafting"
-                }
-            ]
-        },
-        {
-            "description": "Character Ascension Material",
-            "icon": "assets/material_icons/jade_1.png",
-            "id": "jade_1",
-            "name": "Shivada Jade Silver",
-            "source": [
-                {
-                    "description": "Dropped by Cryo Regisvine"
-                },
-                {
-                    "description": "Wolf of the North Challenge Reward"
-                },
-                {
-                    "description": "Purchased from the Souvenir Shop"
-                }
-            ]
-        },
-        {
-            "description": "Character Ascension Material",
-            "icon": "assets/material_icons/jade_2.png",
-            "id": "jade_2",
-            "name": "Shivada Jade Fragment",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 40+ Cryo Regisvine"
-                },
-                {
-                    "description": "Lv. 40+ Wolf of the North Challenge Reward"
-                },
-                {
-                    "description": "Crafting"
-                }
-            ]
-        },
-        {
-            "description": "Character Ascension Material",
-            "icon": "assets/material_icons/jade_3.png",
-            "id": "jade_3",
-            "name": "Shivada Jade Chunk",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 60+ Cryo Regisvine"
-                },
-                {
-                    "description": "Lv. 60+ Wolf of the North Challenge Reward"
-                },
-                {
-                    "description": "Crafting"
-                }
-            ]
-        },
-        {
-            "description": "Character Ascension Material",
-            "icon": "assets/material_icons/jade_4.png",
-            "id": "jade_4",
-            "name": "Shivada Jade Gemstone",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 75+ Cryo Regisvine"
-                },
-                {
-                    "description": "Lv. 75+ Wolf of the North Challenge Reward"
-                },
-                {
-                    "description": "Crafting"
-                }
-            ]
-        },
-        {
-            "description": "Character Ascension Material",
-            "icon": "assets/material_icons/turquise_1.png",
-            "id": "turquise_1",
-            "name": "Vayuda Turquise Silver",
-            "source": [
-                {
-                    "description": "Dropped by Anemo Hypostasis"
-                },
-                {
-                    "description": "Purchased from the Souvenir Shop"
-                }
-            ]
-        },
-        {
-            "description": "Character Ascension Material",
-            "icon": "assets/material_icons/turquise_2.png",
-            "id": "turquise_2",
-            "name": "Vayuda Turquise Fragment",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 40+ Anemo Hypostasis"
-                },
-                {
-                    "description": "Crafting"
-                }
-            ]
-        },
-        {
-            "description": "Character Ascension Material",
-            "icon": "assets/material_icons/turquise_3.png",
-            "id": "turquise_3",
-            "name": "Vayuda Turquise Chunk",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 60+ Anemo Hypostasis"
-                },
-                {
-                    "description": "Crafting"
-                }
-            ]
-        },
-        {
-            "description": "Character Ascension Material",
-            "icon": "assets/material_icons/turquise_4.png",
-            "id": "turquise_4",
-            "name": "Vayuda Turquise Gemstone",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 75+ Anemo Hypostasis"
-                },
-                {
-                    "description": "Crafting"
-                }
-            ]
-        },
-        {
-            "description": "Character Ascension Material",
-            "icon": "assets/material_icons/topaz_1.png",
-            "id": "topaz_1",
-            "name": "Prithiva Topaz Silver",
-            "source": [
-                {
-                    "description": "Dropped by Geo Hypostasis"
-                },
-                {
-                    "description": "Wolf of the North Challenge Reward"
-                },
-                {
-                    "description": "Purchased from the Souvenir Shop"
-                }
-            ]
-        },
-        {
-            "description": "Character Ascension Material",
-            "icon": "assets/material_icons/topaz_2.png",
-            "id": "topaz_2",
-            "name": "Prithiva Topaz Fragment",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 40+ Geo Hypostasis"
-                },
-                {
-                    "description": "Lv. 40+ Wolf of the North Challenge Reward"
-                },
-                {
-                    "description": "Crafting"
-                }
-            ]
-        },
-        {
-            "description": "Character Ascension Material",
-            "icon": "assets/material_icons/topaz_3.png",
-            "id": "topaz_3",
-            "name": "Prithiva Topaz Chunk",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 60+ Geo Hypostasis"
-                },
-                {
-                    "description": "Lv. 60+ Wolf of the North Challenge Reward"
-                },
-                {
-                    "description": "Crafting"
-                }
-            ]
-        },
-        {
-            "description": "Character Ascension Material",
-            "icon": "assets/material_icons/topaz_4.png",
-            "id": "topaz_4",
-            "name": "Prithiva Topaz Gemstone",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 75+ Geo Hypostasis"
-                },
-                {
-                    "description": "Lv. 75+ Wolf of the North Challenge Reward"
-                },
-                {
-                    "description": "Crafting"
-                }
-            ]
-        },
-        {
-            "description": "Character Ascension Material",
-            "icon": "assets/material_icons/diamond_1.png",
-            "id": "diamond_1",
-            "name": "Brilliant Diamond Silver",
-            "source": [
-                {
-                    "description": "Adventure Rank 15 Reward (x1)"
-                }
-            ]
-        },
-        {
-            "description": "Character Ascension Material",
-            "icon": "assets/material_icons/diamond_2.png",
-            "id": "diamond_2",
-            "name": "Brilliant Diamond Fragment",
-            "source": [
-                {
-                    "description": "Adventure Rank 25 Reward (x3)"
-                },
-                {
-                    "description": "Adventure Rank 26 Reward (x2)"
-                },
-                {
-                    "description": "Adventure Rank 28 Reward (x2)"
-                },
-                {
-                    "description": "Adventure Rank 30 Reward (x2)"
-                }
-            ]
-        },
-        {
-            "description": "Character Ascension Material",
-            "icon": "assets/material_icons/diamond_3.png",
-            "id": "diamond_3",
-            "name": "Brilliant Diamond Chunk",
-            "source": [
-                {
-                    "description": "Adventure Rank 35 Reward (x3)"
-                },
-                {
-                    "description": "Adventure Rank 38 Reward (x3)"
-                },
-                {
-                    "description": "Adventure Rank 40 Reward (x3)"
-                }
-            ]
-        },
-        {
-            "description": "Character Ascension Material",
-            "icon": "assets/material_icons/diamond_4.png",
-            "id": "diamond_4",
-            "name": "Brilliant Diamond Gemstone",
-            "source": [
-                {
-                    "description": "Adventure Rank 41 Reward (x2)"
-                },
-                {
-                    "description": "Adventure Rank 42 Reward (x2)"
-                },
-                {
-                    "description": "Adventure Rank 45 Reward (x2)"
-                }
-            ]
-        },
-        {
-            "description": "The imploded form of an Anemo Hypostasis upon its defeat. It contains the essence of Anemo energy. It is said that the power to create hurricanes resides within its seemingly fragile body. This butterfly of pure Anemo energy must be waiting for the day to conjure up storms once again",
-            "icon": "assets/material_icons/hurricane_seed.png",
-            "id": "hurricane_seed",
-            "name": "Lightning Prism",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 30+ Anemo Hypostasis"
-                }
-            ]
-        },
-        {
-            "description": "An Electro Hypostasis channels nearby elemental energy to repair damaged elemental entities. It contains the essence of Electro energy. A common prism separates white light into component colors; a Lightning Prism, however, channels flowing energy and weaves them into lighting. It will continue to do so even after the Electro Hypostasis has been defeated.",
-            "icon": "assets/material_icons/lightning_prism.png",
-            "id": "lightning_prism",
-            "name": "Lightning Prism",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 30+ Electro Hypostasis"
-                }
-            ]
-        },
-        {
-            "description": "The exposed core of a defeated Cryo Regisvine. Pure cryo elements are contained within it. Energy and thoughts that swell deep within the earth will eventually erupt on the surface. Even the deathly silent frost will attach to creatures on the ground, causing even the vines and branches of vegetation to become huge and fierce, attracting the hunter's gaze.\n",
-            "icon": "assets/material_icons/hoarfrost_core.png",
-            "id": "hoarfrost_core",
-            "name": "Hoarfrost Core",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 30+ Cryo Regisvine"
-                }
-            ]
-        },
-        {
-            "description": "A pillar form by the shell of a Geo Hypostasis. It is composed of high-density Geo energy. This is the heaviest component of a Geo Element. Maybe the reason a Geo Hypostasis creates this polar out of its shell and raises itself is just to get closer to the sky, not to combat enemies.",
-            "icon": "assets/material_icons/basalt_pillar.png",
-            "id": "basalt_pillar",
-            "name": "Basalt Pillar",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 30+ Geo Hypostasis"
-                }
-            ]
-        },
-        {
-            "description": "A scoop of eternal water left by an oceanid. Though it has already diffused among the depths of the lake, its purity remains all the same. But why would a creature so pure and clean as an oceanid desire the appearance of plants born of the ground and assume such a form with pure water? They need not breathe nor do they require sustenance...",
-            "icon": "assets/material_icons/cleansing_heart.png",
-            "id": "cleansing_heart",
-            "name": "Cleansing Heart",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 30+ Oceanids"
-                }
-            ]
-        },
-        {
-            "description": "A seed that fuels the unending flames of the Pyro Regisvine. It emits pyro energy as if it will burn all that has ever sprouted from the ground.\nEndless desires flow among turbulent energy deep within the earth. What desire could steadily hold such fire to the plants and long so eagerly to bathe everything in unquenchable flames?",
-            "icon": "assets/material_icons/everflame_seed.png",
-            "id": "everflame_seed",
-            "name": "Everflame Seed",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 30+ Pyro Regisvines"
-                }
-            ]
-        },
-        {
-            "description": "A wild grass that emits light at night. Used in cooking to enhance other flavors.",
-            "icon": "assets/material_icons/small_lamp_grass.png",
-            "id": "small_lamp_grass",
-            "name": "Small Lamp Grass",
-            "source": [
-                {
-                    "description": "Found in the wild at night"
-                },
-                {
-                    "description": "Found in Wolvendom"
-                },
-                {
-                    "description": "Found in the Whispering Woods"
-                },
-                {
-                    "description": "Sold by Flora (Mondstadt)"
-                }
-            ]
-        },
-        {
-            "description": "A fungus that grows in the warm caress of the wind. It is as everlasting as the wind, nourishing life.",
-            "icon": "assets/material_icons/philanemo_mushroom.png",
-            "id": "philanemo_mushroom",
-            "name": "Philanemo Mushroom",
-            "source": [
-                {
-                    "description": "Found under the eaves of houses"
-                },
-                {
-                    "description": "Sold by Chloris (6:00-19:00 at Mondstadt's Windrise area)"
-                }
-            ]
-        },
-        {
-            "description": "A rare mineral that glimmers in the dark. It's said to be a mutated gemstone condensed from the flourishing elements of the world.",
-            "icon": "assets/material_icons/noctilucous_jade.png",
-            "id": "noctilucous_jade",
-            "name": "Noctilucous Jade",
-            "source": [
-                {
-                    "description": "Found in caves in Liyue"
-                },
-                {
-                    "description": "Found in Mingyun Village"
-                },
-                {
-                    "description": "Sold by Shitou (Liyue Harbor)"
-                }
-            ]
-        },
-        {
-            "description": "A precious crystal of condensed pure Geo element that usually grows along with other minerals. It's also commonly called \"Cor Petrae.\"",
-            "icon": "assets/material_icons/cor_lapis.png",
-            "id": "cor_lapis",
-            "name": "Cor Lapis",
-            "source": [
-                {
-                    "description": "Found under cliffs in Liyue"
-                },
-                {
-                    "description": "Found in Mt. Hulao"
-                }
-            ]
-        },
-        {
-            "description": "A plant that adores the wind. To the proud children of the wind, or the citizens of Mondstadt, the Windwheel Asters are the \"visible winds.\"",
-            "icon": "assets/material_icons/windwheel_aster.png",
-            "id": "windwheel_aster",
-            "name": "Windwheel Aster",
-            "source": [
-                {
-                    "description": "Found near the Statue of The Seven at Windrise"
-                },
-                {
-                    "description": "Found under trees in the wild"
-                },
-                {
-                    "description": "Found in Stormterror's Lair"
-                },
-                {
-                    "description": "Sold by Flora (6:00-19:00 in the city of Mondstadt)"
-                }
-            ]
-        },
-        {
-            "description": "A flower that grows near water sources. When cooked the petals have a chunky texture, yet are sweet and a little bitter.",
-            "icon": "assets/material_icons/calla_lily.png",
-            "id": "calla_lily",
-            "name": "Calla Lily",
-            "source": [
-                {
-                    "description": "Found near lakes"
-                },
-                {
-                    "description": "Found in Springvale"
-                },
-                {
-                    "description": "Sold by Flora (6:00-19:00 in the city of Mondstadt)"
-                }
-            ]
-        },
-        {
-            "description": "A tiny seed that rides on the wind. Even without its feathered wings, it still holds the hope from afar within.",
-            "icon": "assets/material_icons/dandelion_seed.png",
-            "id": "dandelion_seed",
-            "name": "Dandelion Seed",
-            "source": [
-                {
-                    "description": "Found in the wild"
-                },
-                {
-                    "description": "Found at Mondstadt gates"
-                }
-            ]
-        },
-        {
-            "description": "A plump and translucent berry that has a fragrant smell and a sweet refreshing taste. In the past, the watchers of the storms found solace in the sweetness of the fruit and the hope for the city's security.",
-            "icon": "assets/material_icons/valberry.png",
-            "id": "valberry",
-            "name": "Valberry",
-            "source": [
-                {
-                    "description": "Found in the wild around Stormbearer Mountains"
-                },
-                {
-                    "description": "Sold by Chloris (6:00-19:00 at Mondstadt's Windrise area)"
-                }
-            ]
-        },
-        {
-            "description": "An extremely ancient flower that was said to be commonly seen in Liyue. It transforms the memories of the land into its fragrance during florescence.",
-            "icon": "assets/material_icons/glaze_lily.png",
-            "id": "glaze_lily",
-            "name": "Glaze Lily",
-            "source": [
-                {
-                    "description": "Found in the wild"
-                },
-                {
-                    "description": "Sold by Ms. Bai (Qingce Village)"
-                },
-                {
-                    "description": "Found in Qingce Village"
-                },
-                {
-                    "description": "Found in Yujing Terrace, Liyue Harbor"
-                }
-            ]
-        },
-        {
-            "description": "A small flower with strong vitality. It was said its downward-blooming flower keeps its fragrance from dissipating.",
-            "icon": "assets/material_icons/violetgrass.png",
-            "id": "violetgrass",
-            "name": "Violetgrass",
-            "source": [
-                {
-                    "description": "Found near cliffs in Liyue"
-                }
-            ]
-        },
-        {
-            "description": "A berry with thorns that often gets attached to a wolf's pelt. When you look at it, you can almost hear the echoing cries of the wolves in the woods.",
-            "icon": "assets/material_icons/wolfhook.png",
-            "id": "wolfhook",
-            "name": "Wolfhook",
-            "source": [
-                {
-                    "description": "Found in the wild"
-                },
-                {
-                    "description": "Found in the Wolvendom"
-                },
-                {
-                    "description": "Sold by Chloris (6:00-19:00 at Mondstadt's Windrise area)"
-                }
-            ]
-        },
-        {
-            "description": "Empty seashells brought ashore by the tides. Hold it close to your ear, and hear the longing calls of the sea.",
-            "icon": "assets/material_icons/starconch.png",
-            "id": "starconch",
-            "name": "Starconch",
-            "source": [
-                {
-                    "description": "Found on the beaches of Liyue"
-                }
-            ]
-        },
-        {
-            "description": "A beautiful flower with a name that suits its appearance. It only grows where harsh winds blow, and is just as intangible as the true heart of an unbound soul.",
-            "icon": "assets/material_icons/cecilia.png",
-            "id": "cecilia",
-            "name": "Cecilia",
-            "source": [
-                {
-                    "description": "Found in the wild"
-                },
-                {
-                    "description": "Found on Starsnatch Cliff"
-                },
-                {
-                    "description": "Sold by Flora (6:00-19:00 in the city of Mondstadt)"
-                },
-                {
-                    "description": "Given by an NPC at the top of Starsnatch Cliff"
-                },
-                {
-                    "description": "Given by the nun in front of Mondstadt's cathedral"
-                }
-            ]
-        },
-        {
-            "description": "A spicy plant native to Liyue. Merely smelling it makes one hot and thirsty.",
-            "icon": "assets/material_icons/jueyun_chili.png",
-            "id": "jueyun_chili",
-            "name": "Jueyun Chili",
-            "source": [
-                {
-                    "description": "Found in the wild"
-                },
-                {
-                    "description": "Found in Qingce Village"
-                }
-            ]
-        },
-        {
-            "description": "A crimson flower that blooms like the rainbow clouds in Liyue. It can be made into silky-smooth fabric.",
-            "icon": "assets/material_icons/silk_flower.png",
-            "id": "silk_flower",
-            "name": "Silk Flower",
-            "source": [
-                {
-                    "description": "Found near Yujing Terrace, Liyue Harbor"
-                },
-                {
-                    "description": "Sold by Ms. Bai (Qingce Village)"
-                },
-                {
-                    "description": "Found near Wangshu Inn"
-                }
-            ]
-        },
-        {
-            "description": "A roughly produced arrowhead. Though unimpressive, neither it nor the bow should be underestimated, for even the bravest knight can be felled by an arrow from the rear.",
-            "icon": "assets/material_icons/arrowhead_1.png",
-            "id": "arrowhead_1",
-            "name": "Firm Arrowhead",
-            "source": [
-                {
-                    "description": "Dropped by Ranged Hilichurls"
-                }
-            ]
-        },
-        {
-            "description": "A well-made arrowhead. Sharp enough to penetrate armor with the ease of a rock through the surface of water.",
-            "icon": "assets/material_icons/arrowhead_2.png",
-            "id": "arrowhead_2",
-            "name": "Sharp Arrowhead",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 40+ Ranged Hilichurls"
-                },
-                {
-                    "description": "Crafting"
-                }
-            ]
-        },
-        {
-            "description": "An old arrowhead coated in blood. The arrowhead has long since lost its sharpness and thus its use as a weapon. However it represents the pride of a hunter and acts as both an amulet and a medal.",
-            "icon": "assets/material_icons/arrowhead_3.png",
-            "id": "arrowhead_3",
-            "name": "Weatherd Arrowhead",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 60+ Ranged Hilichurls"
-                },
-                {
-                    "description": "Crafting"
-                }
-            ]
-        },
-        {
-            "description": "A scroll that likely relates to some kind of magic. Exudes an inexplicable but ominous warmth.",
-            "icon": "assets/material_icons/scroll_1.png",
-            "id": "scroll_1",
-            "name": "Divining Scroll",
-            "source": [
-                {
-                    "description": "Dropped by samachurls"
-                }
-            ]
-        },
-        {
-            "description": "An old scroll lacking in detail and clarity. By following the images on it, some magical creatures can recreate a small part of its magic.",
-            "icon": "assets/material_icons/scroll_2.png",
-            "id": "scroll_2",
-            "name": "Sealed Scroll",
-            "source": [
-                {
-                    "description": "Dropped by Lv 40+ samachurls"
-                },
-                {
-                    "description": "Crafting"
-                }
-            ]
-        },
-        {
-            "description": "A scroll inscribed with ancient images. It is said that few can decipher its meaning, and the few scholars that have all went mad.",
-            "icon": "assets/material_icons/scroll_3.png",
-            "id": "scroll_3",
-            "name": "Forbidden Curse Scroll",
-            "source": [
-                {
-                    "description": "Dropped by Lv 60+ samachurls"
-                },
-                {
-                    "description": "Crafting"
-                }
-            ]
-        },
-        {
-            "description": "A signet that proudly represents it's owner's position as a member of the Treasure Hoarders. The pursuit of treasure knows no bounds. That said... is being a thief something to be proud of?",
-            "icon": "assets/material_icons/tinsignia_1.png",
-            "id": "tinsignia_1",
-            "name": "Treasure Hoarder Insignia",
-            "source": [
-                {
-                    "description": "Dropped by Treasure Hoarders"
-                }
-            ]
-        },
-        {
-            "description": "A raven insignia used by members of the Treasure Hoarders to identify each other. The Treasure Hoarders ask for no resume. Anyone who has an insatiable desire for treasure and is backed up by an equal amount of courage can become a worthy member.",
-            "icon": "assets/material_icons/tinsignia_2.png",
-            "id": "tinsignia_2",
-            "name": "Silver Raven Insignia",
-            "source": [
-                {
-                    "description": "Dropped by Lv 40+ Treasure Hoarders"
-                },
-                {
-                    "description": "Crafting"
-                }
-            ]
-        },
-        {
-            "description": "A raven insignia that symbolizes the pride and the guiding principle of the Treasure Hoarders. Whether it's hidden amidst the vastness of the land or in the depths of the seas, as long as there are treasures to be hunted down, the spirit of Treasure Hoarders, who will stop at nothing to acquire them, will never die.",
-            "icon": "assets/material_icons/tinsignia_3.png",
-            "id": "tinsignia_3",
-            "name": "Golden Raven Insignia",
-            "source": [
-                {
-                    "description": "Dropped by Lv 60+ Treasure Hoarders"
-                },
-                {
-                    "description": "Crafting"
-                }
-            ]
-        },
-        {
-            "description": "A broken bone mask that once belonged to some hilichurl. Now more broken than complete, it can no longer perform its primary function.",
-            "icon": "assets/material_icons/mask_1.png",
-            "id": "mask_1",
-            "name": "Damaged Mask",
-            "source": [
-                {
-                    "description": "Dropped by hilichurls"
-                },
-                {
-                    "description": "Dropped by some ranged hilichurls"
-                },
-                {
-                    "description": "Dropped by some samachurls"
-                },
-                {
-                    "description": "Dropped by some mitachurls"
-                }
-            ]
-        },
-        {
-            "description": "A bone mask covered in unidentifiable stains and a mysterious odor. Yet such is the devotion of hilichurls to masks that they will wear it nonetheless.",
-            "icon": "assets/material_icons/mask_2.png",
-            "id": "mask_2",
-            "name": "Stained Mask",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 40+ hilichurls"
-                },
-                {
-                    "description": "Dropped by some Lv. 40+ ranged hilichurls"
-                },
-                {
-                    "description": "Dropped by Lv. 40+ some samachurls"
-                },
-                {
-                    "description": "Dropped by Lv. 40+ some mitachurls"
-                }
-            ]
-        },
-        {
-            "description": "A glossy bone mask with oil markings painted on it, meant to intimidate enemies. No-one really knows why hilichurls are so fascinated with masks. Some say it's because they don't want to see their own reflections in the water.",
-            "icon": "assets/material_icons/mask_3.png",
-            "id": "mask_3",
-            "name": "Ominous Mask",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 60+ hilichurls"
-                },
-                {
-                    "description": "Dropped by some Lv. 60+ ranged hilichurls"
-                },
-                {
-                    "description": "Dropped by Lv. 60+ some samachurls"
-                },
-                {
-                    "description": "Dropped by Lv. 60+ some mitachurls"
-                }
-            ]
-        },
-        {
-            "description": "An insignia to identify the recruits. Makes one wonder about what the ones joining the Fatui's war machine were thinking.",
-            "icon": "assets/material_icons/finsignia_1.png",
-            "id": "finsignia_1",
-            "name": "Recruit's Insignia",
-            "source": [
-                {
-                    "description": "Dropped by Skirmishers"
-                },
-                {
-                    "description": "Dropped by some Agents"
-                },
-                {
-                    "description": "Dropped by some Electro Cicin Mages"
-                }
-            ]
-        },
-        {
-            "description": "An insignia with a different shape to tell the sergeants from new recruits. Perhaps there are complicated emotions behind it.",
-            "icon": "assets/material_icons/finsignia_2.png",
-            "id": "finsignia_2",
-            "name": "Sergeant's Insignia",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 40+ Skirmishers"
-                },
-                {
-                    "description": "Dropped by some Lv. 40+ Agents"
-                },
-                {
-                    "description": "Dropped by some Lv. 40+ Electro Cicin Mages"
-                },
-                {
-                    "description": "Craftable"
-                }
-            ]
-        },
-        {
-            "description": "An armband to identify officers. The Fatui possess a colossal army, so there must be something extraordinary about the ones who achieved this rank within the group.",
-            "icon": "assets/material_icons/finsignia_3.png",
-            "id": "finsignia_3",
-            "name": "Lieutenant's Insignia",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 60+ Skirmishers"
-                },
-                {
-                    "description": "Dropped by some Lv. 60+ Agents"
-                },
-                {
-                    "description": "Dropped by some Lv. 60+ Electro Cicin Mages"
-                },
-                {
-                    "description": "Craftable"
-                }
-            ]
-        },
-        {
-            "description": "Nectar extracted from the stamen of a Whopperflower that contains trace amounts of elements. The taste of the nectar has a hint of Sweet Flower in it.",
-            "icon": "assets/material_icons/nectar_1.png",
-            "id": "nectar_1",
-            "name": "Whopperflower Nectar",
-            "source": [
-                {
-                    "description": "Dropped by Whopperflower"
-                }
-            ]
-        },
-        {
-            "description": "Nectar that is full of pure elements. Scholars generally concur that Whopperflowers are advanced life forms among the elemental plants, but there has yet to be a satisfactory explanation regarding their predatory habits.",
-            "icon": "assets/material_icons/nectar_2.png",
-            "id": "nectar_2",
-            "name": "Shimmering Nectar",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 40+ Whopperflowers"
-                },
-                {
-                    "description": "Craftable"
-                }
-            ]
-        },
-        {
-            "description": "A thick and sticky honey that is full of energy. The Whopperflower hunts by tricking its prey, a process it uses to possibly evolve into a more powerful and pure form.",
-            "icon": "assets/material_icons/nectar_3.png",
-            "id": "nectar_3",
-            "name": "Energy Nectar",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 60+ Whopperflowers"
-                },
-                {
-                    "description": "Craftable"
-                }
-            ]
-        },
-        {
-            "description": "A thick coating found on slimes. Most commonly seen material in elemental workshops.",
-            "icon": "assets/material_icons/slime_1.png",
-            "id": "slime_1",
-            "name": "Slime Condensate",
-            "source": [
-                {
-                    "description": "Dropped by slimes"
-                }
-            ]
-        },
-        {
-            "description": "Mildly purified slime secretions. Harmful to the skin. Please avoid direct exposure.",
-            "icon": "assets/material_icons/slime_2.png",
-            "id": "slime_2",
-            "name": "Slime Secretions",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 40+ slimes"
-                },
-                {
-                    "description": "Craftable"
-                }
-            ]
-        },
-        {
-            "description": "Concentrated slime essence. When left on its own, it will begin to move on its own.",
-            "icon": "assets/material_icons/slime_3.png",
-            "id": "slime_3",
-            "name": "Slime Concentrate",
-            "source": [
-                {
-                    "description": "Dropped by Lv. 60+ slime"
-                },
-                {
-                    "description": "Craftable"
-                }
-            ]
+          "description": "Opening Chests"
         }
-    ]
+      ]
+    },
+    {
+      "description": "Character Ascension Material",
+      "icon": "assets/material_icons/agate_1.png",
+      "id": "agate_1",
+      "sortingRank": 1,
+      "name": "Agnidus Agate Silver",
+      "source": [
+        {
+          "description": "Dropped by Pyro Regisvine"
+        },
+        {
+          "description": "Wolf of the North Challenge Reward"
+        },
+        {
+          "description": "Purchased from the Souvenir Shop"
+        }
+      ]
+    },
+    {
+      "description": "Character Ascension Material",
+      "icon": "assets/material_icons/agate_2.png",
+      "id": "agate_2",
+      "sortingRank": 1,
+      "name": "Agnidus Agate Fragment",
+      "source": [
+        {
+          "description": "Dropped by Lv. 40+ Pyro Regisvine"
+        },
+        {
+          "description": "Lv. 40+ Wolf of the North Challenge Reward"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "description": "Character Ascension Material",
+      "icon": "assets/material_icons/agate_3.png",
+      "id": "agate_3",
+      "sortingRank": 1,
+      "name": "Agnidus Agate Chunk",
+      "source": [
+        {
+          "description": "Dropped by Lv. 60+ Pyro Regisvine"
+        },
+        {
+          "description": "Lv. 60+ Wolf of the North Challenge Reward"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "description": "Character Ascension Material",
+      "icon": "assets/material_icons/agate_4.png",
+      "id": "agate_4",
+      "sortingRank": 1,
+      "name": "Agnidus Agate Gemstone",
+      "source": [
+        {
+          "description": "Dropped by Lv. 75+ Pyro Regisvine"
+        },
+        {
+          "description": "Lv. 75+ Wolf of the North Challenge Reward"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "description": "Character Ascension Material",
+      "icon": "assets/material_icons/lazurite_1.png",
+      "id": "lazurite_1",
+      "sortingRank": 1,
+      "name": "Varunada Lazurite Silver",
+      "source": [
+        {
+          "description": "Dropped by Oceanid"
+        },
+        {
+          "description": "Purchased from the Souvenir Shop"
+        }
+      ]
+    },
+    {
+      "description": "Character Ascension Material",
+      "icon": "assets/material_icons/lazurite_2.png",
+      "id": "lazurite_2",
+      "sortingRank": 1,
+      "name": "Varunada Lazurite Fragment",
+      "source": [
+        {
+          "description": "Dropped by Lv. 40+ Oceanid"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "description": "Character Ascension Material",
+      "icon": "assets/material_icons/lazurite_3.png",
+      "id": "lazurite_3",
+      "sortingRank": 1,
+      "name": "Varunada Lazurite Chunk",
+      "source": [
+        {
+          "description": "Dropped by Lv. 60+ Oceanid"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "description": "Character Ascension Material",
+      "icon": "assets/material_icons/lazurite_4.png",
+      "id": "lazurite_4",
+      "sortingRank": 1,
+      "name": "Varunada Lazurite Gemstone",
+      "source": [
+        {
+          "description": "Dropped by Lv. 75+ Oceanid"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "description": "Character Ascension Material",
+      "icon": "assets/material_icons/amethyst_1.png",
+      "id": "amethyst_1",
+      "sortingRank": 1,
+      "name": "Vajrada Amethyst Silver",
+      "source": [
+        {
+          "description": "Dropped by Electro Hypostasis"
+        },
+        {
+          "description": "Purchased from the Souvenir Shop"
+        }
+      ]
+    },
+    {
+      "description": "Character Ascension Material",
+      "icon": "assets/material_icons/amethyst_2.png",
+      "id": "amethyst_2",
+      "sortingRank": 1,
+      "name": "Vajrada Amethyst Fragment",
+      "source": [
+        {
+          "description": "Dropped by Lv. 40+ Electro Hypostasis"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "description": "Character Ascension Material",
+      "icon": "assets/material_icons/amethyst_3.png",
+      "id": "amethyst_3",
+      "sortingRank": 1,
+      "name": "Vajrada Amethyst Chunk",
+      "source": [
+        {
+          "description": "Dropped by Lv. 60+ Electro Hypostasis"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "description": "Character Ascension Material",
+      "icon": "assets/material_icons/amethyst_4.png",
+      "id": "amethyst_4",
+      "sortingRank": 1,
+      "name": "Vajrada Amethyst Gemstone",
+      "source": [
+        {
+          "description": "Dropped by Lv. 75+ Electro Hypostasis"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "description": "Character Ascension Material",
+      "icon": "assets/material_icons/jade_1.png",
+      "id": "jade_1",
+      "sortingRank": 1,
+      "name": "Shivada Jade Silver",
+      "source": [
+        {
+          "description": "Dropped by Cryo Regisvine"
+        },
+        {
+          "description": "Wolf of the North Challenge Reward"
+        },
+        {
+          "description": "Purchased from the Souvenir Shop"
+        }
+      ]
+    },
+    {
+      "description": "Character Ascension Material",
+      "icon": "assets/material_icons/jade_2.png",
+      "id": "jade_2",
+      "sortingRank": 1,
+      "name": "Shivada Jade Fragment",
+      "source": [
+        {
+          "description": "Dropped by Lv. 40+ Cryo Regisvine"
+        },
+        {
+          "description": "Lv. 40+ Wolf of the North Challenge Reward"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "description": "Character Ascension Material",
+      "icon": "assets/material_icons/jade_3.png",
+      "id": "jade_3",
+      "sortingRank": 1,
+      "name": "Shivada Jade Chunk",
+      "source": [
+        {
+          "description": "Dropped by Lv. 60+ Cryo Regisvine"
+        },
+        {
+          "description": "Lv. 60+ Wolf of the North Challenge Reward"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "description": "Character Ascension Material",
+      "icon": "assets/material_icons/jade_4.png",
+      "id": "jade_4",
+      "sortingRank": 1,
+      "name": "Shivada Jade Gemstone",
+      "source": [
+        {
+          "description": "Dropped by Lv. 75+ Cryo Regisvine"
+        },
+        {
+          "description": "Lv. 75+ Wolf of the North Challenge Reward"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "description": "Character Ascension Material",
+      "icon": "assets/material_icons/turquise_1.png",
+      "id": "turquise_1",
+      "sortingRank": 1,
+      "name": "Vayuda Turquise Silver",
+      "source": [
+        {
+          "description": "Dropped by Anemo Hypostasis"
+        },
+        {
+          "description": "Purchased from the Souvenir Shop"
+        }
+      ]
+    },
+    {
+      "description": "Character Ascension Material",
+      "icon": "assets/material_icons/turquise_2.png",
+      "id": "turquise_2",
+      "sortingRank": 1,
+      "name": "Vayuda Turquise Fragment",
+      "source": [
+        {
+          "description": "Dropped by Lv. 40+ Anemo Hypostasis"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "description": "Character Ascension Material",
+      "icon": "assets/material_icons/turquise_3.png",
+      "id": "turquise_3",
+      "sortingRank": 1,
+      "name": "Vayuda Turquise Chunk",
+      "source": [
+        {
+          "description": "Dropped by Lv. 60+ Anemo Hypostasis"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "description": "Character Ascension Material",
+      "icon": "assets/material_icons/turquise_4.png",
+      "id": "turquise_4",
+      "sortingRank": 1,
+      "name": "Vayuda Turquise Gemstone",
+      "source": [
+        {
+          "description": "Dropped by Lv. 75+ Anemo Hypostasis"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "description": "Character Ascension Material",
+      "icon": "assets/material_icons/topaz_1.png",
+      "id": "topaz_1",
+      "sortingRank": 1,
+      "name": "Prithiva Topaz Silver",
+      "source": [
+        {
+          "description": "Dropped by Geo Hypostasis"
+        },
+        {
+          "description": "Wolf of the North Challenge Reward"
+        },
+        {
+          "description": "Purchased from the Souvenir Shop"
+        }
+      ]
+    },
+    {
+      "description": "Character Ascension Material",
+      "icon": "assets/material_icons/topaz_2.png",
+      "id": "topaz_2",
+      "sortingRank": 1,
+      "name": "Prithiva Topaz Fragment",
+      "source": [
+        {
+          "description": "Dropped by Lv. 40+ Geo Hypostasis"
+        },
+        {
+          "description": "Lv. 40+ Wolf of the North Challenge Reward"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "description": "Character Ascension Material",
+      "icon": "assets/material_icons/topaz_3.png",
+      "id": "topaz_3",
+      "sortingRank": 1,
+      "name": "Prithiva Topaz Chunk",
+      "source": [
+        {
+          "description": "Dropped by Lv. 60+ Geo Hypostasis"
+        },
+        {
+          "description": "Lv. 60+ Wolf of the North Challenge Reward"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "description": "Character Ascension Material",
+      "icon": "assets/material_icons/topaz_4.png",
+      "id": "topaz_4",
+      "sortingRank": 1,
+      "name": "Prithiva Topaz Gemstone",
+      "source": [
+        {
+          "description": "Dropped by Lv. 75+ Geo Hypostasis"
+        },
+        {
+          "description": "Lv. 75+ Wolf of the North Challenge Reward"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "description": "Character Ascension Material",
+      "icon": "assets/material_icons/diamond_1.png",
+      "id": "diamond_1",
+      "sortingRank": 1,
+      "name": "Brilliant Diamond Silver",
+      "source": [
+        {
+          "description": "Adventure Rank 15 Reward (x1)"
+        }
+      ]
+    },
+    {
+      "description": "Character Ascension Material",
+      "icon": "assets/material_icons/diamond_2.png",
+      "id": "diamond_2",
+      "sortingRank": 1,
+      "name": "Brilliant Diamond Fragment",
+      "source": [
+        {
+          "description": "Adventure Rank 25 Reward (x3)"
+        },
+        {
+          "description": "Adventure Rank 26 Reward (x2)"
+        },
+        {
+          "description": "Adventure Rank 28 Reward (x2)"
+        },
+        {
+          "description": "Adventure Rank 30 Reward (x2)"
+        }
+      ]
+    },
+    {
+      "description": "Character Ascension Material",
+      "icon": "assets/material_icons/diamond_3.png",
+      "id": "diamond_3",
+      "sortingRank": 1,
+      "name": "Brilliant Diamond Chunk",
+      "source": [
+        {
+          "description": "Adventure Rank 35 Reward (x3)"
+        },
+        {
+          "description": "Adventure Rank 38 Reward (x3)"
+        },
+        {
+          "description": "Adventure Rank 40 Reward (x3)"
+        }
+      ]
+    },
+    {
+      "description": "Character Ascension Material",
+      "icon": "assets/material_icons/diamond_4.png",
+      "id": "diamond_4",
+      "sortingRank": 1,
+      "name": "Brilliant Diamond Gemstone",
+      "source": [
+        {
+          "description": "Adventure Rank 41 Reward (x2)"
+        },
+        {
+          "description": "Adventure Rank 42 Reward (x2)"
+        },
+        {
+          "description": "Adventure Rank 45 Reward (x2)"
+        }
+      ]
+    },
+    {
+      "description": "The imploded form of an Anemo Hypostasis upon its defeat. It contains the essence of Anemo energy. It is said that the power to create hurricanes resides within its seemingly fragile body. This butterfly of pure Anemo energy must be waiting for the day to conjure up storms once again",
+      "icon": "assets/material_icons/hurricane_seed.png",
+      "id": "hurricane_seed",
+      "sortingRank": 2,
+      "name": "Lightning Prism",
+      "source": [
+        {
+          "description": "Dropped by Lv. 30+ Anemo Hypostasis"
+        }
+      ]
+    },
+    {
+      "description": "An Electro Hypostasis channels nearby elemental energy to repair damaged elemental entities. It contains the essence of Electro energy. A common prism separates white light into component colors; a Lightning Prism, however, channels flowing energy and weaves them into lighting. It will continue to do so even after the Electro Hypostasis has been defeated.",
+      "icon": "assets/material_icons/lightning_prism.png",
+      "id": "lightning_prism",
+      "sortingRank": 2,
+      "name": "Lightning Prism",
+      "source": [
+        {
+          "description": "Dropped by Lv. 30+ Electro Hypostasis"
+        }
+      ]
+    },
+    {
+      "description": "The exposed core of a defeated Cryo Regisvine. Pure cryo elements are contained within it. Energy and thoughts that swell deep within the earth will eventually erupt on the surface. Even the deathly silent frost will attach to creatures on the ground, causing even the vines and branches of vegetation to become huge and fierce, attracting the hunter's gaze.\n",
+      "icon": "assets/material_icons/hoarfrost_core.png",
+      "id": "hoarfrost_core",
+      "sortingRank": 2,
+      "name": "Hoarfrost Core",
+      "source": [
+        {
+          "description": "Dropped by Lv. 30+ Cryo Regisvine"
+        }
+      ]
+    },
+    {
+      "description": "A pillar form by the shell of a Geo Hypostasis. It is composed of high-density Geo energy. This is the heaviest component of a Geo Element. Maybe the reason a Geo Hypostasis creates this polar out of its shell and raises itself is just to get closer to the sky, not to combat enemies.",
+      "icon": "assets/material_icons/basalt_pillar.png",
+      "id": "basalt_pillar",
+      "sortingRank": 2,
+      "name": "Basalt Pillar",
+      "source": [
+        {
+          "description": "Dropped by Lv. 30+ Geo Hypostasis"
+        }
+      ]
+    },
+    {
+      "description": "A scoop of eternal water left by an oceanid. Though it has already diffused among the depths of the lake, its purity remains all the same. But why would a creature so pure and clean as an oceanid desire the appearance of plants born of the ground and assume such a form with pure water? They need not breathe nor do they require sustenance...",
+      "icon": "assets/material_icons/cleansing_heart.png",
+      "id": "cleansing_heart",
+      "sortingRank": 2,
+      "name": "Cleansing Heart",
+      "source": [
+        {
+          "description": "Dropped by Lv. 30+ Oceanids"
+        }
+      ]
+    },
+    {
+      "description": "A seed that fuels the unending flames of the Pyro Regisvine. It emits pyro energy as if it will burn all that has ever sprouted from the ground.\nEndless desires flow among turbulent energy deep within the earth. What desire could steadily hold such fire to the plants and long so eagerly to bathe everything in unquenchable flames?",
+      "icon": "assets/material_icons/everflame_seed.png",
+      "id": "everflame_seed",
+      "sortingRank": 2,
+      "name": "Everflame Seed",
+      "source": [
+        {
+          "description": "Dropped by Lv. 30+ Pyro Regisvines"
+        }
+      ]
+    },
+    {
+      "description": "A wild grass that emits light at night. Used in cooking to enhance other flavors.",
+      "icon": "assets/material_icons/small_lamp_grass.png",
+      "id": "small_lamp_grass",
+      "sortingRank": 3,
+      "name": "Small Lamp Grass",
+      "source": [
+        {
+          "description": "Found in the wild at night"
+        },
+        {
+          "description": "Found in Wolvendom"
+        },
+        {
+          "description": "Found in the Whispering Woods"
+        },
+        {
+          "description": "Sold by Flora (Mondstadt)"
+        }
+      ]
+    },
+    {
+      "description": "A fungus that grows in the warm caress of the wind. It is as everlasting as the wind, nourishing life.",
+      "icon": "assets/material_icons/philanemo_mushroom.png",
+      "id": "philanemo_mushroom",
+      "sortingRank": 3,
+      "name": "Philanemo Mushroom",
+      "source": [
+        {
+          "description": "Found under the eaves of houses"
+        },
+        {
+          "description": "Sold by Chloris (6:00-19:00 at Mondstadt's Windrise area)"
+        }
+      ]
+    },
+    {
+      "description": "A rare mineral that glimmers in the dark. It's said to be a mutated gemstone condensed from the flourishing elements of the world.",
+      "icon": "assets/material_icons/noctilucous_jade.png",
+      "id": "noctilucous_jade",
+      "sortingRank": 3,
+      "name": "Noctilucous Jade",
+      "source": [
+        {
+          "description": "Found in caves in Liyue"
+        },
+        {
+          "description": "Found in Mingyun Village"
+        },
+        {
+          "description": "Sold by Shitou (Liyue Harbor)"
+        }
+      ]
+    },
+    {
+      "description": "A precious crystal of condensed pure Geo element that usually grows along with other minerals. It's also commonly called \"Cor Petrae.\"",
+      "icon": "assets/material_icons/cor_lapis.png",
+      "id": "cor_lapis",
+      "sortingRank": 3,
+      "name": "Cor Lapis",
+      "source": [
+        {
+          "description": "Found under cliffs in Liyue"
+        },
+        {
+          "description": "Found in Mt. Hulao"
+        }
+      ]
+    },
+    {
+      "description": "A plant that adores the wind. To the proud children of the wind, or the citizens of Mondstadt, the Windwheel Asters are the \"visible winds.\"",
+      "icon": "assets/material_icons/windwheel_aster.png",
+      "id": "windwheel_aster",
+      "sortingRank": 3,
+      "name": "Windwheel Aster",
+      "source": [
+        {
+          "description": "Found near the Statue of The Seven at Windrise"
+        },
+        {
+          "description": "Found under trees in the wild"
+        },
+        {
+          "description": "Found in Stormterror's Lair"
+        },
+        {
+          "description": "Sold by Flora (6:00-19:00 in the city of Mondstadt)"
+        }
+      ]
+    },
+    {
+      "description": "A flower that grows near water sources. When cooked the petals have a chunky texture, yet are sweet and a little bitter.",
+      "icon": "assets/material_icons/calla_lily.png",
+      "id": "calla_lily",
+      "sortingRank": 3,
+      "name": "Calla Lily",
+      "source": [
+        {
+          "description": "Found near lakes"
+        },
+        {
+          "description": "Found in Springvale"
+        },
+        {
+          "description": "Sold by Flora (6:00-19:00 in the city of Mondstadt)"
+        }
+      ]
+    },
+    {
+      "description": "A tiny seed that rides on the wind. Even without its feathered wings, it still holds the hope from afar within.",
+      "icon": "assets/material_icons/dandelion_seed.png",
+      "id": "dandelion_seed",
+      "sortingRank": 3,
+      "name": "Dandelion Seed",
+      "source": [
+        {
+          "description": "Found in the wild"
+        },
+        {
+          "description": "Found at Mondstadt gates"
+        }
+      ]
+    },
+    {
+      "description": "A plump and translucent berry that has a fragrant smell and a sweet refreshing taste. In the past, the watchers of the storms found solace in the sweetness of the fruit and the hope for the city's security.",
+      "icon": "assets/material_icons/valberry.png",
+      "id": "valberry",
+      "sortingRank": 3,
+      "name": "Valberry",
+      "source": [
+        {
+          "description": "Found in the wild around Stormbearer Mountains"
+        },
+        {
+          "description": "Sold by Chloris (6:00-19:00 at Mondstadt's Windrise area)"
+        }
+      ]
+    },
+    {
+      "description": "An extremely ancient flower that was said to be commonly seen in Liyue. It transforms the memories of the land into its fragrance during florescence.",
+      "icon": "assets/material_icons/glaze_lily.png",
+      "id": "glaze_lily",
+      "sortingRank": 3,
+      "name": "Glaze Lily",
+      "source": [
+        {
+          "description": "Found in the wild"
+        },
+        {
+          "description": "Sold by Ms. Bai (Qingce Village)"
+        },
+        {
+          "description": "Found in Qingce Village"
+        },
+        {
+          "description": "Found in Yujing Terrace, Liyue Harbor"
+        }
+      ]
+    },
+    {
+      "description": "A small flower with strong vitality. It was said its downward-blooming flower keeps its fragrance from dissipating.",
+      "icon": "assets/material_icons/violetgrass.png",
+      "id": "violetgrass",
+      "sortingRank": 3,
+      "name": "Violetgrass",
+      "source": [
+        {
+          "description": "Found near cliffs in Liyue"
+        }
+      ]
+    },
+    {
+      "description": "A berry with thorns that often gets attached to a wolf's pelt. When you look at it, you can almost hear the echoing cries of the wolves in the woods.",
+      "icon": "assets/material_icons/wolfhook.png",
+      "id": "wolfhook",
+      "sortingRank": 3,
+      "name": "Wolfhook",
+      "source": [
+        {
+          "description": "Found in the wild"
+        },
+        {
+          "description": "Found in the Wolvendom"
+        },
+        {
+          "description": "Sold by Chloris (6:00-19:00 at Mondstadt's Windrise area)"
+        }
+      ]
+    },
+    {
+      "description": "Empty seashells brought ashore by the tides. Hold it close to your ear, and hear the longing calls of the sea.",
+      "icon": "assets/material_icons/starconch.png",
+      "id": "starconch",
+      "sortingRank": 3,
+      "name": "Starconch",
+      "source": [
+        {
+          "description": "Found on the beaches of Liyue"
+        }
+      ]
+    },
+    {
+      "description": "A beautiful flower with a name that suits its appearance. It only grows where harsh winds blow, and is just as intangible as the true heart of an unbound soul.",
+      "icon": "assets/material_icons/cecilia.png",
+      "id": "cecilia",
+      "sortingRank": 3,
+      "name": "Cecilia",
+      "source": [
+        {
+          "description": "Found in the wild"
+        },
+        {
+          "description": "Found on Starsnatch Cliff"
+        },
+        {
+          "description": "Sold by Flora (6:00-19:00 in the city of Mondstadt)"
+        },
+        {
+          "description": "Given by an NPC at the top of Starsnatch Cliff"
+        },
+        {
+          "description": "Given by the nun in front of Mondstadt's cathedral"
+        }
+      ]
+    },
+    {
+      "description": "A spicy plant native to Liyue. Merely smelling it makes one hot and thirsty.",
+      "icon": "assets/material_icons/jueyun_chili.png",
+      "id": "jueyun_chili",
+      "sortingRank": 3,
+      "name": "Jueyun Chili",
+      "source": [
+        {
+          "description": "Found in the wild"
+        },
+        {
+          "description": "Found in Qingce Village"
+        }
+      ]
+    },
+    {
+      "description": "A crimson flower that blooms like the rainbow clouds in Liyue. It can be made into silky-smooth fabric.",
+      "icon": "assets/material_icons/silk_flower.png",
+      "id": "silk_flower",
+      "sortingRank": 3,
+      "name": "Silk Flower",
+      "source": [
+        {
+          "description": "Found near Yujing Terrace, Liyue Harbor"
+        },
+        {
+          "description": "Sold by Ms. Bai (Qingce Village)"
+        },
+        {
+          "description": "Found near Wangshu Inn"
+        }
+      ]
+    },
+    {
+      "description": "A roughly produced arrowhead. Though unimpressive, neither it nor the bow should be underestimated, for even the bravest knight can be felled by an arrow from the rear.",
+      "icon": "assets/material_icons/arrowhead_1.png",
+      "id": "arrowhead_1",
+      "sortingRank": 4,
+      "name": "Firm Arrowhead",
+      "source": [
+        {
+          "description": "Dropped by Ranged Hilichurls"
+        }
+      ]
+    },
+    {
+      "description": "A well-made arrowhead. Sharp enough to penetrate armor with the ease of a rock through the surface of water.",
+      "icon": "assets/material_icons/arrowhead_2.png",
+      "id": "arrowhead_2",
+      "sortingRank": 4,
+      "name": "Sharp Arrowhead",
+      "source": [
+        {
+          "description": "Dropped by Lv. 40+ Ranged Hilichurls"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "description": "An old arrowhead coated in blood. The arrowhead has long since lost its sharpness and thus its use as a weapon. However it represents the pride of a hunter and acts as both an amulet and a medal.",
+      "icon": "assets/material_icons/arrowhead_3.png",
+      "id": "arrowhead_3",
+      "sortingRank": 4,
+      "name": "Weatherd Arrowhead",
+      "source": [
+        {
+          "description": "Dropped by Lv. 60+ Ranged Hilichurls"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "description": "A scroll that likely relates to some kind of magic. Exudes an inexplicable but ominous warmth.",
+      "icon": "assets/material_icons/scroll_1.png",
+      "id": "scroll_1",
+      "sortingRank": 4,
+      "name": "Divining Scroll",
+      "source": [
+        {
+          "description": "Dropped by samachurls"
+        }
+      ]
+    },
+    {
+      "description": "An old scroll lacking in detail and clarity. By following the images on it, some magical creatures can recreate a small part of its magic.",
+      "icon": "assets/material_icons/scroll_2.png",
+      "id": "scroll_2",
+      "sortingRank": 4,
+      "name": "Sealed Scroll",
+      "source": [
+        {
+          "description": "Dropped by Lv 40+ samachurls"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "description": "A scroll inscribed with ancient images. It is said that few can decipher its meaning, and the few scholars that have all went mad.",
+      "icon": "assets/material_icons/scroll_3.png",
+      "id": "scroll_3",
+      "sortingRank": 4,
+      "name": "Forbidden Curse Scroll",
+      "source": [
+        {
+          "description": "Dropped by Lv 60+ samachurls"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "description": "A signet that proudly represents it's owner's position as a member of the Treasure Hoarders. The pursuit of treasure knows no bounds. That said... is being a thief something to be proud of?",
+      "icon": "assets/material_icons/tinsignia_1.png",
+      "id": "tinsignia_1",
+      "sortingRank": 4,
+      "name": "Treasure Hoarder Insignia",
+      "source": [
+        {
+          "description": "Dropped by Treasure Hoarders"
+        }
+      ]
+    },
+    {
+      "description": "A raven insignia used by members of the Treasure Hoarders to identify each other. The Treasure Hoarders ask for no resume. Anyone who has an insatiable desire for treasure and is backed up by an equal amount of courage can become a worthy member.",
+      "icon": "assets/material_icons/tinsignia_2.png",
+      "id": "tinsignia_2",
+      "sortingRank": 4,
+      "name": "Silver Raven Insignia",
+      "source": [
+        {
+          "description": "Dropped by Lv 40+ Treasure Hoarders"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "description": "A raven insignia that symbolizes the pride and the guiding principle of the Treasure Hoarders. Whether it's hidden amidst the vastness of the land or in the depths of the seas, as long as there are treasures to be hunted down, the spirit of Treasure Hoarders, who will stop at nothing to acquire them, will never die.",
+      "icon": "assets/material_icons/tinsignia_3.png",
+      "id": "tinsignia_3",
+      "sortingRank": 4,
+      "name": "Golden Raven Insignia",
+      "source": [
+        {
+          "description": "Dropped by Lv 60+ Treasure Hoarders"
+        },
+        {
+          "description": "Crafting"
+        }
+      ]
+    },
+    {
+      "description": "A broken bone mask that once belonged to some hilichurl. Now more broken than complete, it can no longer perform its primary function.",
+      "icon": "assets/material_icons/mask_1.png",
+      "id": "mask_1",
+      "sortingRank": 4,
+      "name": "Damaged Mask",
+      "source": [
+        {
+          "description": "Dropped by hilichurls"
+        },
+        {
+          "description": "Dropped by some ranged hilichurls"
+        },
+        {
+          "description": "Dropped by some samachurls"
+        },
+        {
+          "description": "Dropped by some mitachurls"
+        }
+      ]
+    },
+    {
+      "description": "A bone mask covered in unidentifiable stains and a mysterious odor. Yet such is the devotion of hilichurls to masks that they will wear it nonetheless.",
+      "icon": "assets/material_icons/mask_2.png",
+      "id": "mask_2",
+      "sortingRank": 4,
+      "name": "Stained Mask",
+      "source": [
+        {
+          "description": "Dropped by Lv. 40+ hilichurls"
+        },
+        {
+          "description": "Dropped by some Lv. 40+ ranged hilichurls"
+        },
+        {
+          "description": "Dropped by Lv. 40+ some samachurls"
+        },
+        {
+          "description": "Dropped by Lv. 40+ some mitachurls"
+        }
+      ]
+    },
+    {
+      "description": "A glossy bone mask with oil markings painted on it, meant to intimidate enemies. No-one really knows why hilichurls are so fascinated with masks. Some say it's because they don't want to see their own reflections in the water.",
+      "icon": "assets/material_icons/mask_3.png",
+      "id": "mask_3",
+      "sortingRank": 4,
+      "name": "Ominous Mask",
+      "source": [
+        {
+          "description": "Dropped by Lv. 60+ hilichurls"
+        },
+        {
+          "description": "Dropped by some Lv. 60+ ranged hilichurls"
+        },
+        {
+          "description": "Dropped by Lv. 60+ some samachurls"
+        },
+        {
+          "description": "Dropped by Lv. 60+ some mitachurls"
+        }
+      ]
+    },
+    {
+      "description": "An insignia to identify the recruits. Makes one wonder about what the ones joining the Fatui's war machine were thinking.",
+      "icon": "assets/material_icons/finsignia_1.png",
+      "id": "finsignia_1",
+      "sortingRank": 4,
+      "name": "Recruit's Insignia",
+      "source": [
+        {
+          "description": "Dropped by Skirmishers"
+        },
+        {
+          "description": "Dropped by some Agents"
+        },
+        {
+          "description": "Dropped by some Electro Cicin Mages"
+        }
+      ]
+    },
+    {
+      "description": "An insignia with a different shape to tell the sergeants from new recruits. Perhaps there are complicated emotions behind it.",
+      "icon": "assets/material_icons/finsignia_2.png",
+      "id": "finsignia_2",
+      "sortingRank": 4,
+      "name": "Sergeant's Insignia",
+      "source": [
+        {
+          "description": "Dropped by Lv. 40+ Skirmishers"
+        },
+        {
+          "description": "Dropped by some Lv. 40+ Agents"
+        },
+        {
+          "description": "Dropped by some Lv. 40+ Electro Cicin Mages"
+        },
+        {
+          "description": "Craftable"
+        }
+      ]
+    },
+    {
+      "description": "An armband to identify officers. The Fatui possess a colossal army, so there must be something extraordinary about the ones who achieved this rank within the group.",
+      "icon": "assets/material_icons/finsignia_3.png",
+      "id": "finsignia_3",
+      "sortingRank": 4,
+      "name": "Lieutenant's Insignia",
+      "source": [
+        {
+          "description": "Dropped by Lv. 60+ Skirmishers"
+        },
+        {
+          "description": "Dropped by some Lv. 60+ Agents"
+        },
+        {
+          "description": "Dropped by some Lv. 60+ Electro Cicin Mages"
+        },
+        {
+          "description": "Craftable"
+        }
+      ]
+    },
+    {
+      "description": "Nectar extracted from the stamen of a Whopperflower that contains trace amounts of elements. The taste of the nectar has a hint of Sweet Flower in it.",
+      "icon": "assets/material_icons/nectar_1.png",
+      "id": "nectar_1",
+      "sortingRank": 4,
+      "name": "Whopperflower Nectar",
+      "source": [
+        {
+          "description": "Dropped by Whopperflower"
+        }
+      ]
+    },
+    {
+      "description": "Nectar that is full of pure elements. Scholars generally concur that Whopperflowers are advanced life forms among the elemental plants, but there has yet to be a satisfactory explanation regarding their predatory habits.",
+      "icon": "assets/material_icons/nectar_2.png",
+      "id": "nectar_2",
+      "name": "Shimmering Nectar",
+      "source": [
+        {
+          "description": "Dropped by Lv. 40+ Whopperflowers"
+        },
+        {
+          "description": "Craftable"
+        }
+      ]
+    },
+    {
+      "description": "A thick and sticky honey that is full of energy. The Whopperflower hunts by tricking its prey, a process it uses to possibly evolve into a more powerful and pure form.",
+      "icon": "assets/material_icons/nectar_3.png",
+      "id": "nectar_3",
+      "sortingRank": 4,
+      "name": "Energy Nectar",
+      "source": [
+        {
+          "description": "Dropped by Lv. 60+ Whopperflowers"
+        },
+        {
+          "description": "Craftable"
+        }
+      ]
+    },
+    {
+      "description": "A thick coating found on slimes. Most commonly seen material in elemental workshops.",
+      "icon": "assets/material_icons/slime_1.png",
+      "id": "slime_1",
+      "sortingRank": 4,
+      "name": "Slime Condensate",
+      "source": [
+        {
+          "description": "Dropped by slimes"
+        }
+      ]
+    },
+    {
+      "description": "Mildly purified slime secretions. Harmful to the skin. Please avoid direct exposure.",
+      "icon": "assets/material_icons/slime_2.png",
+      "id": "slime_2",
+      "sortingRank": 4,
+      "name": "Slime Secretions",
+      "source": [
+        {
+          "description": "Dropped by Lv. 40+ slimes"
+        },
+        {
+          "description": "Craftable"
+        }
+      ]
+    },
+    {
+      "description": "Concentrated slime essence. When left on its own, it will begin to move on its own.",
+      "icon": "assets/material_icons/slime_3.png",
+      "id": "slime_3",
+      "sortingRank": 4,
+      "name": "Slime Concentrate",
+      "source": [
+        {
+          "description": "Dropped by Lv. 60+ slime"
+        },
+        {
+          "description": "Craftable"
+        }
+      ]
+    }
+  ]
 }

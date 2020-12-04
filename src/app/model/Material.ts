@@ -4,4 +4,5 @@ export class Material{
   public id: string;
   public icon: string;
   public source: MaterialSource[];
+  public sortingRank: number;
 }

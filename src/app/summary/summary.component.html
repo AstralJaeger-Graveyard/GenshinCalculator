@@ -11,8 +11,8 @@
   <nz-collapse>
     <nz-collapse-panel nzHeader="Required materials for next ascension rank">
       <div style="display: flex; flex-wrap: wrap; align-items: center">
-        <app-item *ngFor="let item of filterReqItemsNextAsc() | keyvalue"
-                  [entry]="item.value">
+        <app-item *ngFor="let item of filterReqItemsNextAsc()"
+                  [entry]="item">
         </app-item>
       </div>
     </nz-collapse-panel>

@@ -1,8 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {PartyService} from '../services/party.service';
 import {MaterialEntry} from '../model/MaterialEntry';
 import {PartyMember} from '../model/PartyMember';
-import {WeaponService} from '../services/weapon.service';
 import {MaterialService} from '../services/material.service';
 import {LocalizationService} from '../services/localization.service';
 import {CharacterService} from '../services/character.service';
@@ -21,11 +20,9 @@ export class SummaryComponent implements OnInit {
               public characters: CharacterService,
               public materials: MaterialService) { }
 
-  ngOnInit(): void {
-    for(let member of this.party.members) { }
-  }
+  ngOnInit(): void { }
 
-  filterReqItemsNextAsc(): Map<string, MaterialEntry>{
+  filterReqItemsNextAsc(): MaterialEntry[]{
     const entries = new Map<string, MaterialEntry>();
 
     for (const member of this.party.members){
@@ -68,9 +65,24 @@ export class SummaryComponent implements OnInit {
         );
         entries.set(moraKey, newEntry);
       }
-
     }
-    return entries;
+
+    const sortedEntries = [...entries.values()]
+      .sort((a, b) => {
+      const materialA = this.materials.get(a.material_id)
+      const rankA = materialA.sortingRank;
+      const materialB = this.materials.get(b.material_id);
+      const rankB = materialB.sortingRank;
+
+      if (rankA !== rankB)
+        return rankA - rankB;
+
+      return this.localization.get(materialA.id)
+        .name
+        .localeCompare(this.localization.get(materialB.id).name);
+    });
+    console.dir(sortedEntries);
+    return sortedEntries;
   }
 
   filterEnaCharNextAsc(): PartyMember[] {
