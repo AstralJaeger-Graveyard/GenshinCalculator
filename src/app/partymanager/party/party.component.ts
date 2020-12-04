@@ -47,10 +47,7 @@ export class PartyComponent implements OnInit {
 
   onCharacterSelected(character: Character) {
     if (this.party.members.filter(member => member.character_id === character.id).concat().length === 0) {
-      let partyMember = new PartyMember();
-      partyMember.character_id = character.id;
-      partyMember.ascension = 0;
-      partyMember.level = 1;
+      let partyMember = new PartyMember(character.id);
       this.party.members.push(partyMember);
 
       // TODO: Somewhat improve this

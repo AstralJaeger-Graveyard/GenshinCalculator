@@ -44,10 +44,7 @@ export class PartyService{
     const party = [];
     const defaultParty = ['traveler_anemo', 'amber', 'kaeya', 'lisa'];
     for (const member of defaultParty){
-      const partyMember = new PartyMember();
-      partyMember.character_id = member;
-      partyMember.ascension = 0;
-      partyMember.level = 1;
+      const partyMember = new PartyMember(member);
       party.push(partyMember);
     }
     return party;
