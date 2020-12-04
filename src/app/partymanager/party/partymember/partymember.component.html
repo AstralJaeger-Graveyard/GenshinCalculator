@@ -1,7 +1,8 @@
 <div class="list-group-item clearfix" style="display: flex; flex-wrap: wrap; align-items: center">
     <nz-switch [(ngModel)]="member.include"
                nzSize="small"
-               nz-tooltip="Include in Schedule/Summary"></nz-switch>
+               nz-tooltip="Include in Schedule/Summary"
+               (ngModelChange)="onDisabled()"></nz-switch>
     <nz-avatar [nzSrc]="'assets/icons/' + member.character_id + '.png'" nzAlt="icon" nzGap="1" nzSize="large"></nz-avatar>
     <span style="flex-grow: 4">{{ localService.get(member.character_id).name}}</span>
     <nz-button-group>

@@ -7,15 +7,12 @@
                (memberRemoved)="onRemoved($event)"
     ></app-party>
   </div>
-  <div class="row">
-    <app-partymember-detail *ngIf="selectedCharacter; else infoText"
-                            [member]="selectedCharacter"
+  <div class="row" *ngIf="selectedCharacter;">
+    <nz-divider [nzText]=" localization.get(selectedCharacter.character_id).name +  '\'s Setup'" nzOrientation="left"></nz-divider>
+    <app-partymember-detail [member]="selectedCharacter"
                             (closeDetail)="onCloseDetail()"
-    >
+                            (memberChanged)="onMemberChanged()">
     </app-partymember-detail>
-    <ng-template #infoText>
-      <h3 i18n="No character selected" style="text-align: center">Please select a character!</h3>
-    </ng-template>
   </div>
 </div>
 

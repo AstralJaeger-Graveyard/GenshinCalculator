@@ -1,42 +1,54 @@
 <div class="row">
-  <app-member-header [member]="member"></app-member-header>
-  <app-member-nav></app-member-nav>
-  <div class="character-overview">
+  <app-member-header *ngIf="false" [member]="member"></app-member-header>
+  <app-member-nav *ngIf="false"></app-member-nav>
+  <div class="character-overview" *ngIf="false">
     <h2>{{ localization.get(member.character_id).name }}</h2>
     <p class="overview-description">
     {{ localization.get(member.character_id).description }}
   </p>
   </div>
-  <nz-divider nzText="Setup" nzOrientation="left"></nz-divider>
+  <nz-divider *ngIf="false" nzText="Setup" nzOrientation="left"></nz-divider>
+  <!-- Ascension enabled input -->
+  <div nz-row [nzGutter]="{ xs: 8, sm: 16, md: 24, lg: 32 }" style="margin-bottom: 2px">
+    <div nz-col [nzSpan]="6">
+      <label for="include_ascension_input" i18n="Include Ascension">Include ascension: </label>
+    </div>
+    <div nz-col [nzSpan]="6">
+      <nz-switch [(ngModel)]="member.enable_ascension"
+                 id="include_ascension_input"
+                 (ngModelChange)="onMemberChanged()">
+      </nz-switch>
+    </div>
+  </div>
   <!-- Ascension input -->
-  <div nz-row [nzGutter]="{ xs: 8, sm: 16, md: 24, lg: 32 }">
+  <div nz-row [nzGutter]="{ xs: 8, sm: 16, md: 24, lg: 32 }" style="margin-bottom: 2px">
     <div nz-col [nzSpan]="6">
       <label for="ascension_input" i18n="Ascension">Ascension: </label>
     </div>
     <div nz-col [nzSpan]="6">
       <nz-input-number [(ngModel)]="member.ascension"
-                                              [nzMin]="0"
-                                              [nzMax]="6"
-                                              [nzStep]="1"
-                                              id="ascension_input">
+                       [nzMin]="0"
+                       [nzMax]="6"
+                       [nzStep]="1"
+                       id="ascension_input"
+                       (ngModelChange)="onMemberChanged()">
       </nz-input-number>
     </div>
   </div>
-  <!-- Level input -->
-  <div nz-row [nzGutter]="{ xs: 8, sm: 16, md: 24, lg: 32 }">
+  <!-- Ascension enabled input -->
+  <div nz-row [nzGutter]="{ xs: 8, sm: 16, md: 24, lg: 32 }" style="margin-bottom: 2px">
     <div nz-col [nzSpan]="6">
-      <label for="level_input" i18n="Level">Level: </label>
+      <label for="include_weapon_input" i18n="Include weapon">Include weapon: </label>
     </div>
     <div nz-col [nzSpan]="6">
-      <nz-input-number [(ngModel)]="member.level"
-                       [nzMin]="1"
-                       [nzMax]="90"
-                       [nzStep]="1" id="level_input">
-      </nz-input-number>
+      <nz-switch [(ngModel)]="member.enable_weapon"
+                 id="include_weapon_input"
+                 (ngModelChange)="onMemberChanged()">
+      </nz-switch>
     </div>
   </div>
   <!-- Weapon input -->
-  <div nz-row [nzGutter]="{ xs: 8, sm: 16, md: 24, lg: 32 }">
+  <div nz-row *ngIf="member.enable_weapon" [nzGutter]="{ xs: 8, sm: 16, md: 24, lg: 32 }" style="margin-bottom: 2px">
     <div nz-col [nzSpan]="6">
       <label i18n="Weapon">Weapon: </label>
     </div>
@@ -48,26 +60,40 @@
                  class="pseudo-fullwidth"
                  style="min-width: 250px;"
                  [(ngModel)]="member.weapon_id"
+                 (ngModelChange)="onMemberChanged()"
       >
         <nz-option nzCustomContent
                    *ngFor="let entry of weapons.sortedMap.get(characters.characterMap.get(member.character_id).weaponType) | keyvalue"
-                   [nzLabel]="entry.value.id"
-                   [nzValue]="entry.value"
+                   [nzLabel]="localization.get(entry.value.id).name"
+                   [nzValue]="entry.key"
         >
           <div>
             <div class="pull-left">
               <img [src]="entry.value.icon" [alt]="entry.key" style="max-height: 20px;">
-              {{ entry.value.id }}
+              {{ localization.get(entry.value.id).name }}
             </div>
           </div>
         </nz-option>
       </nz-select>
     </div>
   </div>
-  <!-- Weapon ascension input -->
-  <div *ngIf="member.weapon_id"
+  <!-- Weapon output -->
+  <div *ngIf="member.enable_weapon && member.weapon_id"
        nz-row
-       [nzGutter]="{ xs: 8, sm: 16, md: 24, lg: 32 }">
+       [nzGutter]="{ xs: 8, sm: 16, md: 24, lg: 32 }"
+       style="margin-bottom: 2px">
+    <div nz-col [nzSpan]="6">
+      <label for="weapon_output" i18n="Weapon ascension">Selected weapon: </label>
+    </div>
+    <div nz-col [nzSpan]="6">
+      <label id="weapon_output">{{ localization.get(member.weapon_id).name }}</label>
+    </div>
+  </div>
+  <!-- Weapon ascension input -->
+  <div *ngIf="member.enable_weapon && member.weapon_id"
+       nz-row
+       [nzGutter]="{ xs: 8, sm: 16, md: 24, lg: 32 }"
+       style="margin-bottom: 2px">
     <div nz-col [nzSpan]="6">
       <label for="weapon_ascension_input" i18n="Weapon ascension">Weapon ascension: </label>
     </div>
@@ -76,22 +102,8 @@
                        [nzMin]="0"
                        [nzMax]="6"
                        [nzStep]="1"
-                       id="weapon_ascension_input">
-      </nz-input-number>
-    </div>
-  </div>
-  <!-- Weapon level input -->
-  <div *ngIf="member.weapon_id"
-       nz-row
-       [nzGutter]="{ xs: 8, sm: 16, md: 24, lg: 32 }">
-    <div nz-col [nzSpan]="6">
-      <label for="weapon_level_input" i18n="Weapon level">Weapon level: </label>
-    </div>
-    <div nz-col [nzSpan]="6">
-      <nz-input-number [(ngModel)]="member.weaponLvl"
-                       [nzMin]="1"
-                       [nzMax]="90"
-                       [nzStep]="1" id="weapon_level_input">
+                       id="weapon_ascension_input"
+                       (ngModelChange)="onMemberChanged()">
       </nz-input-number>
     </div>
   </div>

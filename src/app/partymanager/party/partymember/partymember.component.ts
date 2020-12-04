@@ -19,6 +19,9 @@ export class PartymemberComponent implements OnInit {
   forceDelete: boolean = false;
 
   @Output()
+  memberDisabled = new EventEmitter<void>();
+
+  @Output()
   memberSelected = new EventEmitter<void>();
 
   @Output()
@@ -28,6 +31,10 @@ export class PartymemberComponent implements OnInit {
               public charService: CharacterService) { }
 
   ngOnInit(): void {
+  }
+
+  onDisabled(): void{
+    this.memberDisabled.emit();
   }
 
   onSelected(): void{

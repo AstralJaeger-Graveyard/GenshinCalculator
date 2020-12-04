@@ -20,14 +20,21 @@ export class MemberDetailComponent implements OnInit {
   @Output()
   closeDetail = new EventEmitter<void>();
 
+  @Output()
+  memberChanged = new EventEmitter<void>();
+
   constructor(public localization: LocalizationService,
               public weapons: WeaponService,
               public characters: CharacterService) { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void { }
 
   onCloseDetail(): void{
     this.closeDetail.emit();
+  }
+
+  onMemberChanged(): void{
+    console.log('Party member changed')
+    this.memberChanged.emit();
   }
 }

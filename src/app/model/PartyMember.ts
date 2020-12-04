@@ -6,13 +6,13 @@ export class PartyMember{
   public character_id: string;
   public character: Character;
 
-  public enable_ascension: boolean;
+  public enable_ascension: boolean = true;
   public ascension: number = 0;
 
   public enable_level: boolean;
   public level: number = 1;
 
-  public enable_weapon: boolean;
+  public enable_weapon: boolean = true;
   public weapon_id: string;
   public weapon: Weapon;
   public weaponAsc: number = 0;

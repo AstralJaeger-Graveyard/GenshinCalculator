@@ -3,6 +3,7 @@ import {Character} from '../model/Character';
 import {PartyMember} from '../model/PartyMember';
 import { CharacterService } from '../services/character.service';
 import {PartyService} from '../services/party.service';
+import {LocalizationService} from '../services/localization.service';
 
 @Component({
   selector: 'app-partymanager',
@@ -10,17 +11,15 @@ import {PartyService} from '../services/party.service';
   styleUrls: ['./partymanager.component.css']
 })
 export class PartymanagerComponent implements OnInit {
-  public characters: Map<string, Character>;
-  public party: PartyMember[] = [];
+
   public selectedCharacter: PartyMember;
 
-  constructor(private characterService: CharacterService,
-              private partyService: PartyService) {
+  constructor(public localization:LocalizationService,
+              public characters: CharacterService,
+              public party: PartyService) {
   }
 
   ngOnInit(): void {
-     this.characters = this.characterService.characterMap;
-     this.party = this.partyService.members;
   }
 
   onSelected(member: PartyMember): void{
@@ -28,12 +27,18 @@ export class PartymanagerComponent implements OnInit {
   }
 
   onRemoved(member: PartyMember): void{
-    const index: number = this.party.indexOf(member);
-    this.party.splice(index, 1);
+    const index: number = this.party.members.indexOf(member);
+    this.party.members.splice(index, 1);
     this.selectedCharacter = null;
+    this.onMemberChanged()
   }
 
   onCloseDetail(): void{
     this.selectedCharacter = null;
+  }
+
+  onMemberChanged(): void{
+    this.party.save()
+    console.log('%cSaving party to local storage', 'color: gray; font-size: 15px;')
   }
 }

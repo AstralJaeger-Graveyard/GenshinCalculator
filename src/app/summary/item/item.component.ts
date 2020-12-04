@@ -13,7 +13,8 @@ export class ItemComponent implements OnInit {
   @Input()
   entry: MaterialEntry;
 
-  constructor(public localizationService: LocalizationService) { }
+  constructor(public localization: LocalizationService,
+              public materials: MaterialService) { }
 
   ngOnInit(): void {
   }

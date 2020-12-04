@@ -16,24 +16,25 @@ export class SummaryComponent implements OnInit {
 
   public ascensionStage: number = 0;
 
-  constructor(public localizationService: LocalizationService,
-              public partyService: PartyService,
-              public characterService: CharacterService,
-              public materialService: MaterialService) { }
+  constructor(public localization: LocalizationService,
+              public party: PartyService,
+              public characters: CharacterService,
+              public materials: MaterialService) { }
 
   ngOnInit(): void {
-    for(let member of this.partyService.members) { }
+    for(let member of this.party.members) { }
   }
 
   filterReqItemsNextAsc(): Map<string, MaterialEntry>{
     const entries = new Map<string, MaterialEntry>();
 
-    for (const member of this.partyService.members){
+    for (const member of this.party.members){
       if (member.ascension === 6 || !member.include){
         continue;
       }
+
       const nextStage = member.ascension;
-      let character = this.characterService.characterMap.get(member.character_id)
+      const character = this.characters.get(member.character_id)
 
       // Compute necessary materials
       for(const entry of character.ascension[nextStage].materials){
@@ -42,27 +43,30 @@ export class SummaryComponent implements OnInit {
           oldEntry.amount = +oldEntry.amount + +entry.amount;
           entries.set(entry.material_id, oldEntry);
         } else {
-          let newEntry = new MaterialEntry();
-          newEntry.material_id = entry.material_id;
-          newEntry.material = entry.material;
-          newEntry.amount = +entry.amount;
+          let newEntry = new MaterialEntry(
+            entry.material_id,
+            entry.material,
+            entry.amount);
           entries.set(entry.material_id, newEntry)
         }
       }
 
+      const moraKey = 'mora';
       // compute necessary mora
-      if(entries.has('mora')){
+      if(entries.has(moraKey)){
         const reqMora = character.ascension[nextStage].cost;
-        let oldEntry = entries.get('mora');
+        let oldEntry = entries.get(moraKey);
         oldEntry.amount = +oldEntry.amount + +reqMora;
-        entries.set('mora', oldEntry);
+        entries.set(moraKey, oldEntry);
       }
       else {
         const reqMora = character.ascension[nextStage].cost;
-        let newEntry = new MaterialEntry();
-        newEntry.material = this.materialService.getMaterialsMap.get('mora');
-        newEntry.amount = reqMora;
-        entries.set('mora', newEntry);
+        let newEntry = new MaterialEntry(
+          moraKey,
+          this.materials.get(moraKey),
+          reqMora
+        );
+        entries.set(moraKey, newEntry);
       }
 
     }
@@ -70,15 +74,15 @@ export class SummaryComponent implements OnInit {
   }
 
   filterEnaCharNextAsc(): PartyMember[] {
-    return this.partyService.members.filter(value => value.include);
+    return this.party.members.filter(value => value.include);
   }
 
   genCharAscTitle(member: PartyMember): string {
-    return `${member.character_id} - Asc. ${member.ascension === 6 ? 6 : member.ascension + 1}`;
+    return `${this.localization.get(member.character_id).name} - Asc. ${member.ascension === 6 ? 'Max.' : member.ascension + 1}`;
   }
 
   onAscStageChange(): void{
-    for(const member of this.partyService.members){
+    for(const member of this.party.members){
       member.ascension = this.ascensionStage;
     }
   }

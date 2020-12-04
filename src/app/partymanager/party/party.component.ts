@@ -30,8 +30,7 @@ export class PartyComponent implements OnInit {
 
   constructor(public localization: LocalizationService,
               public characters: CharacterService,
-              public party: PartyService,
-              public notification: NzNotificationService) { }
+              public party: PartyService) { }
 
   ngOnInit(): void {
   }
@@ -43,7 +42,7 @@ export class PartyComponent implements OnInit {
 
   onRemoved(member: PartyMember): void{
     this.memberRemoved.emit(member);
-    this.onSaveParty();
+    this.onMemberChanged();
   }
 
   onCharacterSelected(character: Character) {
@@ -55,22 +54,19 @@ export class PartyComponent implements OnInit {
       this.party.members.push(partyMember);
 
       // TODO: Somewhat improve this
-      this.onSaveParty()
+      this.onMemberChanged()
     }
     else {
       // TODO: Show some kind of warning
     }
   }
 
-  onSaveParty(){
+  onMemberChanged(){
     this.party.save();
-    this.notification.blank(
-      "Saved party to localstorage",
-      "Your party has been successfully saved to your local storage!"
-    );
+    console.log('%cSaving party to local storage', 'color: gray; font-size: 15px;')
   }
 
-  addDefaultParty(): void {
+  onAddDefaultData(): void {
     this.party.addDefaultParty();
   }
 }

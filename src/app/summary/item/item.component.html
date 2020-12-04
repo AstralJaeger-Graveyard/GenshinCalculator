@@ -1,9 +1,9 @@
 <div class="item-box">
   <div class="item-box-image-wrapper">
-    <img [src]="entry.material.icon"
+    <img [src]="materials.get(entry.material_id).icon"
          [alt]="entry.material.id"
          class="item-box-image">
     <span class="item-box-image-count">{{formatAmount(entry.amount)}}</span>
   </div>
-  {{localizationService.translationsMap.get(entry.material.id).name}}
+  {{localization.get(entry.material.id).name}}
 </div>

@@ -5,11 +5,11 @@
     <h1 class="character-name">{{ localization.get(member.character_id).name }}</h1>
     <div class="character-details">
       <div class="character-details-item" [ngClass]="characters.get(member.character_id).element.toLowerCase()">
-        {{ characters.get(member.character_id).element }}
+        {{ characters.get(member.character_id).element | titlecase}}
       </div>
       •
       <div class="character-details-item">
-        {{ characters.get(member.character_id).weaponType }}
+        {{ characters.get(member.character_id).weaponType | titlecase}}
       </div>
     </div>
   </div>
