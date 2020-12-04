@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Character } from '../model/Character';
 import {MaterialService} from './material.service';
-import * as data from 'src/app/_dataassets/characters_2.json';
+import * as data from 'src/app/_dataassets/characters.json';
 
 @Injectable({
   providedIn: 'root'
@@ -26,6 +26,9 @@ export class CharacterService{
   }
 
   public get(id: string): Character{
+    if(!this.characterMap.has(id)){
+      console.log('%c Could not find item with id: ' + id, 'color: red; font-size: 20px;')
+    }
     return this.characterMap.get(id);
   }
 }

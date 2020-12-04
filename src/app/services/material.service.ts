@@ -33,6 +33,9 @@ export class MaterialService{
 
 
   public get(id: string): Material{
+    if(!this.materialsMap.has(id)){
+      console.log('%c Could not find item with id: ' + id, 'color: red; font-size: 20px;')
+    }
     return this.materialsMap.get(id);
   }
 }

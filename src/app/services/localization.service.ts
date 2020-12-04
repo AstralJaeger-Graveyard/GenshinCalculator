@@ -19,6 +19,9 @@ export class LocalizationService {
   }
 
   public get(id:string): Translation{
+    if(!this.translationsMap.has(id)){
+      console.log('%c Could not find item with id: ' + id, 'color: red; font-size: 20px;')
+    }
     return this.translationsMap.get(id);
   }
 }
