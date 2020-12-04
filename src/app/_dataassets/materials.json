@@ -457,7 +457,7 @@
         {
             "description": "The imploded form of an Anemo Hypostasis upon its defeat. It contains the essence of Anemo energy. It is said that the power to create hurricanes resides within its seemingly fragile body. This butterfly of pure Anemo energy must be waiting for the day to conjure up storms once again",
             "icon": "assets/material_icons/hurricane_seed.png",
-            "id": "lightning_prism",
+            "id": "hurricane_seed",
             "name": "Lightning Prism",
             "source": [
                 {

@@ -736,7 +736,7 @@
             },
             {
               "amount": "3",
-              "material_id": "finsigna_1"
+              "material_id": "finsignia_1"
             }
           ],
           "rank": 1
@@ -759,7 +759,7 @@
             },
             {
               "amount": "10",
-              "material_id": "finsigna_1"
+              "material_id": "finsignia_1"
             }
           ],
           "rank": 2
@@ -782,7 +782,7 @@
             },
             {
               "amount": "12",
-              "material_id": "finsigna_2"
+              "material_id": "finsignia_2"
             }
           ],
           "rank": 3
@@ -805,7 +805,7 @@
             },
             {
               "amount": "18",
-              "material_id": "finsigna_2"
+              "material_id": "finsignia_2"
             }
           ],
           "rank": 4
@@ -828,7 +828,7 @@
             },
             {
               "amount": "12",
-              "material_id": "finsigna_3"
+              "material_id": "finsignia_3"
             }
           ],
           "rank": 5
@@ -851,7 +851,7 @@
             },
             {
               "amount": "24",
-              "material_id": "finsigna_3"
+              "material_id": "finsignia_3"
             }
           ],
           "rank": 6
@@ -2032,7 +2032,7 @@
             },
             {
               "amount": 3,
-              "material_id": "finsigna_1"
+              "material_id": "finsignia_1"
             }
           ],
           "rank": 1
@@ -2055,7 +2055,7 @@
             },
             {
               "amount": 15,
-              "material_id": "finsigna_1"
+              "material_id": "finsignia_1"
             }
           ],
           "rank": 2
@@ -2078,7 +2078,7 @@
             },
             {
               "amount": 12,
-              "material_id": "finsigna_2"
+              "material_id": "finsignia_2"
             }
           ],
           "rank": 3
@@ -2101,7 +2101,7 @@
             },
             {
               "amount": 10,
-              "material_id": "finsigna_2"
+              "material_id": "finsignia_2"
             }
           ],
           "rank": 4
@@ -2124,7 +2124,7 @@
             },
             {
               "amount": 12,
-              "material_id": "finsigna_3"
+              "material_id": "finsignia_3"
             }
           ],
           "rank": 5
@@ -2147,7 +2147,7 @@
             },
             {
               "amount": 24,
-              "material_id": "finsigna_3"
+              "material_id": "finsignia_3"
             }
           ],
           "rank": 6
@@ -2752,7 +2752,7 @@
             },
             {
               "amount": 3,
-              "material_id": "finsigna_1"
+              "material_id": "finsignia_1"
             }
           ],
           "rank": 1
@@ -2775,7 +2775,7 @@
             },
             {
               "amount": 15,
-              "material_id": "finsigna_1"
+              "material_id": "finsignia_1"
             }
           ],
           "rank": 2
@@ -2798,7 +2798,7 @@
             },
             {
               "amount": 12,
-              "material_id": "finsigna_2"
+              "material_id": "finsignia_2"
             }
           ],
           "rank": 3
@@ -2821,7 +2821,7 @@
             },
             {
               "amount": 10,
-              "material_id": "finsigna_2"
+              "material_id": "finsignia_2"
             }
           ],
           "rank": 4
@@ -2844,7 +2844,7 @@
             },
             {
               "amount": 12,
-              "material_id": "finsigna_3"
+              "material_id": "finsignia_3"
             }
           ],
           "rank": 5
@@ -2867,7 +2867,7 @@
             },
             {
               "amount": 24,
-              "material_id": "finsigna_3"
+              "material_id": "finsignia_3"
             }
           ],
           "rank": 6
