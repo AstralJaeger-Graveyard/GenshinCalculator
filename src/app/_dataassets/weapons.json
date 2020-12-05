@@ -490,7 +490,7 @@
         },
         {
             "atk": 46,
-            "icon": "assets/weapon_icons/Wolf_Gravestone.png",
+            "icon": "assets/weapon_icons/wolf_gravestone.png",
             "id": "wolf_gravestone",
             "rarity": 5,
             "secondary": "atk",
