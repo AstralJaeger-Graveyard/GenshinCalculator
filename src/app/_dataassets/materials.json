@@ -575,16 +575,267 @@
     },
 
     {
-      "icon": "assets/material_icons/aerosiderite_1.png",
+      "icon": "assets/material_icons/boreal_wolf_1.png",
+      "id": "boreal_wolf_1",
+      "sortingRank": 4,
+      "source": [ "shop_souvenir_liyue" ]
+    },
+    {
+      "icon": "assets/material_icons/boreal_wolf_2.png",
+      "id": "boreal_wolf_2",
+      "sortingRank": 4,
+      "source": [ "crafting" ]
+    },
+    {
+      "icon": "assets/material_icons/boreal_wolf_3.png",
+      "id": "boreal_wolf_3",
+      "sortingRank": 4,
+      "source": [ "crafting" ]
+    },
+    {
+      "icon": "assets/material_icons/boreal_wolf_4.png",
+      "id": "boreal_wolf_4",
+      "sortingRank": 4,
+      "source": [ "crafting" ]
+    },
+
+    {
+      "icon": "",
+      "id": "decarabian_tower_1",
+      "sortingRank": 4,
+      "source": [ "shop_souvenir_liyue" ]
+    },
+    {
+      "icon": "",
+      "id": "decarabian_tower_2",
+      "sortingRank": 4,
+      "source": [ "crafting" ]
+    },
+    {
+      "icon": "",
+      "id": "decarabian_tower_3",
+      "sortingRank": 4,
+      "source": [ "crafting" ]
+    },
+    {
+      "icon": "",
+      "id": "decarabian_tower_4",
+      "sortingRank": 4,
+      "source": [ "crafting" ]
+    },
+
+    {
+      "icon": "",
+      "id": "dandelion_gladiator_1",
+      "sortingRank": 4,
+      "source": [ "shop_souvenir_liyue" ]
+    },
+    {
+      "icon": "",
+      "id": "dandelion_gladiator_2",
+      "sortingRank": 4,
+      "source": [ "crafting" ]
+    },
+    {
+      "icon": "",
+      "id": "dandelion_gladiator_3",
+      "sortingRank": 4,
+      "source": [ "crafting" ]
+    },
+    {
+      "icon": "",
+      "id": "dandelion_gladiator_4",
+      "sortingRank": 4,
+      "source": [ "crafting" ]
+    },
+
+    {
+      "icon": "",
+      "id": "gunyun_1",
+      "sortingRank": 4,
+      "source": [ "shop_souvenir_liyue" ]
+    },
+    {
+      "icon": "",
+      "id": "gunyun_2",
+      "sortingRank": 4,
+      "source": [ "crafting" ]
+    },
+    {
+      "icon": "",
+      "id": "gunyun_3",
+      "sortingRank": 4,
+      "source": [ "crafting" ]
+    },
+    {
+      "icon": "",
+      "id": "gunyun_4",
+      "sortingRank": 4,
+      "source": [ "crafting" ]
+    },
+
+    {
+      "icon": "",
+      "id": "elixir_1",
+      "sortingRank": 4,
+      "source": [ "shop_souvenir_liyue" ]
+    },
+    {
+      "icon": "",
+      "id": "elixir_2",
+      "sortingRank": 4,
+      "source": [ "crafting" ]
+    },
+    {
+      "icon": "",
+      "id": "elixir_3",
+      "sortingRank": 4,
+      "source": [ "crafting" ]
+    },
+    {
+      "icon": "",
+      "id": "elixir_4",
+      "sortingRank": 4,
+      "source": [ "crafting" ]
+    },
+
+    {
+      "icon": "",
       "id": "aerosiderite_1",
       "sortingRank": 4,
       "source": [ "linshan_formula_1", "shop_souvenir_liyue"]
     },
     {
-      "icon": "assets/material_icons/aerosiderite_2.png",
+      "icon": "",
       "id": "aerosiderite_2",
       "sortingRank": 4,
       "source": [ "linshan_formula_1", "craftable" ]
+    },
+    {
+      "icon": "",
+      "id": "aerosiderite_3",
+      "sortingRank": 4,
+      "source": [ "linshan_formula_1", "craftable" ]
+    },
+    {
+      "icon": "",
+      "id": "aerosiderite_4",
+      "sortingRank": 4,
+      "source": [ "linshan_formula_1", "craftable" ]
+    },
+
+    {
+      "icon": "",
+      "id": "horn_1",
+      "sortingRank": 4,
+      "source": [ "shop_souvenir_liyue" ]
+    },
+    {
+      "icon": "",
+      "id": "horn_2",
+      "sortingRank": 4,
+      "source": [ "shop_souvenir_liyue" ]
+    },
+    {
+      "icon": "",
+      "id": "horn_3",
+      "sortingRank": 4,
+      "source": [ "shop_souvenir_liyue" ]
+    },
+
+    {
+      "icon": "",
+      "id": "abyss_mage_1",
+      "sortingRank": 4,
+      "source": [ "shop_souvenir_liyue" ]
+    },
+    {
+      "icon": "",
+      "id": "abyss_mage_2",
+      "sortingRank": 4,
+      "source": [ "crafting" ]
+    },
+    {
+      "icon": "",
+      "id": "abyss_mage_3",
+      "sortingRank": 4,
+      "source": [ "crafting" ]
+    },
+
+    {
+      "icon": "",
+      "id": "bone_shard_1",
+      "sortingRank": 4,
+      "source": [ "shop_souvenir_liyue" ]
+    },
+    {
+      "icon": "",
+      "id": "bone_shard_1",
+      "sortingRank": 4,
+      "source": [ "crafting" ]
+    },
+    {
+      "icon": "",
+      "id": "bone_shard_3",
+      "sortingRank": 4,
+      "source": [ "crafting" ]
+    },
+
+    {
+      "icon": "",
+      "id": "thunderslut_1",
+      "sortingRank": 4,
+      "source": [ "shop_souvenir_liyue" ]
+    },
+    {
+      "icon": "",
+      "id": "thunderslut_2",
+      "sortingRank": 4,
+      "source": [ "crafting" ]
+    },
+    {
+      "icon": "",
+      "id": "thunderslut_3",
+      "sortingRank": 4,
+      "source": [ "crafting" ]
+    },
+
+    {
+      "icon": "",
+      "id": "sacrificial_knife_1",
+      "sortingRank": 4,
+      "source": [ "shop_souvenir_liyue" ]
+    },
+    {
+      "icon": "",
+      "id": "sacrificial_knife_2",
+      "sortingRank": 4,
+      "source": [ "crafting" ]
+    },
+    {
+      "icon": "",
+      "id": "sacrificial_knife_3",
+      "sortingRank": 4,
+      "source": [ "crafting" ]
+    },
+
+    {
+      "icon": "",
+      "id": "chaos_1",
+      "sortingRank": 4,
+      "source": [ "shop_souvenir_liyue" ]
+    },
+    {
+      "icon": "",
+      "id": "chaos_2",
+      "sortingRank": 4,
+      "source": [ "crafting" ]
+    },
+    {
+      "icon": "",
+      "id": "chaos_3",
+      "sortingRank": 4,
+      "source": [ "crafting" ]
     }
   ]
 }

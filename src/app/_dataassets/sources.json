@@ -247,7 +247,6 @@
       "id": "lakes",
       "description": "Found near lakes"
     },
-
     {
       "id": "caves",
       "description": "Found in the Caves"
@@ -260,7 +259,6 @@
       "id": "caves_liuye",
       "description": "Found in caves in Liuye"
     },
-
     {
       "id": "cliffs",
       "description": "Found under cliffs"
@@ -273,7 +271,6 @@
       "id": "cliffs_liyue",
       "description": "Found under cliffs in Liyue"
     },
-
     {
       "id": "beaches",
       "description": "Found on beaches"
@@ -286,7 +283,6 @@
       "id": "beaches_liyue",
       "description": "Found on the beaches of Liyue"
     },
-
     {
       "id": "stormterror_lair",
       "description": "Found in Stormterror's Lair"

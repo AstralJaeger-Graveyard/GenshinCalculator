@@ -135,7 +135,6 @@
       "id": "zhongli",
       "name": "Zhongli"
     },
-
     {
       "description": "Common currency",
       "id": "mora",
@@ -491,7 +490,6 @@
       "id": "slime_3",
       "name": "Slime Concentrate"
     },
-
     {
       "description": "A black meteor once fell beyond Liyue's Sea of Clouds, said to have fallen to vanquish a monster. However, it was stained by powerful tainted blood, so this item no longer possesses the pure power of Rex Lapis.",
       "id": "aerosiderite_1",
@@ -502,7 +500,6 @@
       "id": "aerosiderite_2",
       "name": "Piece of Aerosiderite"
     },
-
     {
       "description": "",
       "id": "alley_hunter",
@@ -909,89 +906,284 @@
       "name": "Dark Iron Sword"
     },
     {
-      "description": "",
       "id": "dull_blade",
-      "name": "Dull Blade"
+      "name": "Dull Blade",
+      "description": ""
     },
     {
-      "description": "",
       "id": "favonius_sword",
-      "name": "Favonius Sword"
+      "name": "Favonius Sword",
+      "description": ""
     },
     {
-      "description": "",
       "id": "fillet_blade",
-      "name": "Fillet Blade"
+      "name": "Fillet Blade",
+      "description": ""
     },
     {
-      "description": "",
       "id": "harbinger_of_dawn",
-      "name": "Harbinger Of Dawn"
+      "name": "Harbinger Of Dawn",
+      "description": ""
     },
     {
-      "description": "",
       "id": "iron_sting",
-      "name": "Iron Sting"
+      "name": "Iron Sting",
+      "description": ""
     },
     {
-      "description": "",
       "id": "lion_roar",
-      "name": "Lion Roar"
+      "name": "Lion Roar",
+      "description": ""
     },
     {
-      "description": "",
       "id": "prototype_rancour",
-      "name": "Prototype Rancour"
+      "name": "Prototype Rancour",
+      "description": ""
     },
     {
-      "description": "",
       "id": "royal_longsword",
-      "name": "Royal Longsword"
+      "name": "Royal Longsword",
+      "description": ""
     },
     {
-      "description": "",
       "id": "sacrificial_sword",
-      "name": "Sacrificial Sword"
+      "name": "Sacrificial Sword",
+      "description": ""
     },
     {
-      "description": "",
       "id": "silver_sword",
-      "name": "Silver Sword"
+      "name": "Silver Sword",
+      "description": ""
     },
     {
-      "description": "",
       "id": "skyrider_sword",
-      "name": "Skyrider Sword"
+      "name": "Skyrider Sword",
+      "description": ""
     },
     {
-      "description": "",
       "id": "skyward_blade",
-      "name": "Skyward Blade"
+      "name": "Skyward Blade",
+      "description": ""
     },
     {
-      "description": "",
       "id": "the_alley_flash",
-      "name": "The Alley Flash"
+      "name": "The Alley Flash",
+      "description": ""
     },
     {
-      "description": "",
       "id": "the_black_sword",
-      "name": "The Black Sword"
+      "name": "The Black Sword",
+      "description": ""
     },
     {
-      "description": "",
       "id": "the_flute",
-      "name": "The Flute"
+      "name": "The Flute",
+      "description": ""
     },
     {
-      "description": "",
       "id": "traveler_handy_sword",
-      "name": "Traveler Handy Sword"
+      "name": "Traveler Handy Sword",
+      "description": ""
     },
     {
-      "description": "",
-      "id": "",
-      "name": ""
+      "id": "boreal_wolf_1",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "boreal_wolf_2",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "boreal_wolf_3",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "boreal_wolf_4",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "decarabian_tower_1",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "decarabian_tower_2",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "decarabian_tower_3",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "decarabian_tower_4",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "dandelion_gladiator_1",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "dandelion_gladiator_2",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "dandelion_gladiator_3",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "dandelion_gladiator_4",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "gunyun_1",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "gunyun_2",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "gunyun_3",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "gunyun_4",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "elixir_1",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "elixir_2",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "elixir_3",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "elixir_4",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "aerosiderite_3",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "aerosiderite_4",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "horn_1",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "horn_2",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "horn_3",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "abyss_mage_1",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "abyss_mage_2",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "abyss_mage_3",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "bone_shard_1",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "bone_shard_1",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "bone_shard_3",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "thunderslut_1",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "thunderslut_2",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "thunderslut_3",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "sacrificial_knife_1",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "sacrificial_knife_2",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "sacrificial_knife_3",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "chaos_1",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "chaos_2",
+      "name": "",
+      "description": ""
+    },
+    {
+      "id": "chaos_3",
+      "name": "",
+      "description": ""
     }
   ]
 }

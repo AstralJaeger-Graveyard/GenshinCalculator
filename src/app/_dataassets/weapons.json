@@ -1,795 +1,1143 @@
 {
-    "weapons": [
-        {
-            "atk": 41,
-            "icon": "assets/weapon_icons/alley_hunter.png",
-            "id": "alley_hunter",
-            "rarity": 4,
-            "secondary": "crit_rate",
-            "weaponType": "Bow"
-        },
-        {
-            "atk": 46,
-            "icon": "assets/weapon_icons/amos_bow.png",
-            "id": "amos_bow",
-            "rarity": 5,
-            "secondary": "atk",
-            "weaponType": "Bow"
-        },
-        {
-            "atk": 44,
-            "icon": "assets/weapon_icons/blackcliff_warbow.png",
-            "id": "blackcliff_warbow",
-            "rarity": 4,
-            "secondary": "crit_dmg",
-            "weaponType": "Bow"
-        },
-        {
-            "atk": 41,
-            "icon": "assets/weapon_icons/compound_bow.png",
-            "id": "compound_bow",
-            "rarity": 4,
-            "secondary": "physical_dmg_bonus",
-            "weaponType": "Bow"
-        },
-        {
-            "atk": 40,
-            "icon": "assets/weapon_icons/ebony_bow.png",
-            "id": "ebony_bow",
-            "rarity": 3,
-            "secondary": "atk",
-            "weaponType": "Bow"
-        },
-        {
-            "atk": 41,
-            "icon": "assets/weapon_icons/favonius_warbow.png",
-            "id": "favonius_warbow",
-            "rarity": 4,
-            "secondary": "energy_recharge",
-            "weaponType": "Bow"
-        },
-        {
-            "atk": 23,
-            "icon": "assets/weapon_icons/hunter_bow.png",
-            "id": "hunter_bow",
-            "rarity": 1,
-            "secondary": "none",
-            "weaponType": "Bow"
-        },
-        {
-            "atk": 40,
-            "icon": "assets/weapon_icons/messenger.png",
-            "id": "messenger",
-            "rarity": 3,
-            "secondary": "crit_dmg",
-            "weaponType": "Bow"
-        },
-        {
-            "atk": 42,
-            "icon": "assets/weapon_icons/prototype_crescent.png",
-            "id": "prototype_crescent",
-            "rarity": 4,
-            "secondary": "atk",
-            "weaponType": "Bow"
-        },
-        {
-            "atk": 42,
-            "icon": "assets/weapon_icons/raven_bow.png",
-            "id": "raven_bow",
-            "rarity": 3,
-            "secondary": "elemental_mastery",
-            "weaponType": "Bow"
-        },
-        {
-            "atk": 38,
-            "icon": "assets/weapon_icons/recurve_bow.png",
-            "id": "recurve_bow",
-            "rarity": 3,
-            "secondary": "hp",
-            "weaponType": "Bow"
-        },
-        {
-            "atk": 42,
-            "icon": "assets/weapon_icons/royal_bow.png",
-            "id": "royal_bow",
-            "rarity": 4,
-            "secondary": "atk",
-            "weaponType": "Bow"
-        },
-        {
-            "atk": 42,
-            "icon": "assets/weapon_icons/rust.png",
-            "id": "rust",
-            "rarity": 4,
-            "secondary": "atk",
-            "weaponType": "Bow"
-        },
-        {
-            "atk": 44,
-            "icon": "assets/weapon_icons/sacrificial_bow.png",
-            "id": "sacrificial_bow",
-            "rarity": 4,
-            "secondary": "energy_recharge",
-            "weaponType": "Bow"
-        },
-        {
-            "atk": 33,
-            "icon": "assets/weapon_icons/seasoned_hunter_bow.png",
-            "id": "seasoned_hunter_bow",
-            "rarity": 2,
-            "secondary": "none",
-            "weaponType": "Bow"
-        },
-        {
-            "atk": 39,
-            "icon": "assets/weapon_icons/sharpshooter_oath.png",
-            "id": "sharpshooter_oath",
-            "rarity": 3,
-            "secondary": "crit_dmg",
-            "weaponType": "Bow"
-        },
-        {
-            "atk": 45,
-            "icon": "assets/weapon_icons/skyward_harp.png",
-            "id": "skyward_harp",
-            "rarity": 5,
-            "secondary": "crit_rate",
-            "weaponType": "Bow"
-        },
-        {
-            "atk": 38,
-            "icon": "assets/weapon_icons/slingshot.png",
-            "id": "slingshot",
-            "rarity": 3,
-            "secondary": "crit_rate",
-            "weaponType": "Bow"
-        },
-        {
-            "atk": 42,
-            "icon": "assets/weapon_icons/the_stringless.png",
-            "id": "the_stringless",
-            "rarity": 4,
-            "secondary": "elemental_mastery",
-            "weaponType": "Bow"
-        },
-        {
-            "atk": 42,
-            "icon": "assets/weapon_icons/the_viridescent_hunt.png",
-            "id": "the_viridescent_hunt",
-            "rarity": 4,
-            "secondary": "crit_rate",
-            "weaponType": "Bow"
-        },
-        {
-            "atk": 40,
-            "icon": "assets/weapon_icons/amber_catalyst.png",
-            "id": "amber_catalyst",
-            "rarity": 3,
-            "secondary": "elemental_mastery",
-            "weaponType": "Catalyst"
-        },
-        {
-            "atk": 23,
-            "icon": "assets/weapon_icons/amber_catalyst.png",
-            "id": "apprentice_notes",
-            "rarity": 1,
-            "secondary": "none",
-            "weaponType": "Catalyst"
-        },
-        {
-            "atk": 42,
-            "icon": "assets/weapon_icons/blackcliff_amulet.png",
-            "id": "blackcliff_amulet",
-            "rarity": 4,
-            "secondary": "crit_dmg",
-            "weaponType": "Catalyst"
-        },
-        {
-            "atk": 40,
-            "icon": "assets/weapon_icons/emerald_orb.png",
-            "id": "emerald_orb",
-            "rarity": 3,
-            "secondary": "elemental_mastery",
-            "weaponType": "Catalyst"
-        },
-        {
-            "atk": 41,
-            "icon": "assets/weapon_icons/eye_of_perception.png",
-            "id": "eye_of_perception",
-            "rarity": 4,
-            "secondary": "atk",
-            "weaponType": "Catalyst"
-        },
-        {
-            "atk": 42,
-            "icon": "assets/weapon_icons/favonius_codex.png",
-            "id": "favonius_codex",
-            "rarity": 4,
-            "secondary": "energy_recharge",
-            "weaponType": "Catalyst"
-        },
-        {
-            "atk": 44,
-            "icon": "assets/weapon_icons/lost_prayer_to_the_sacred_winds.png",
-            "id": "lost_prayer_to_the_sacred_winds",
-            "rarity": 5,
-            "secondary": "crit_rate",
-            "weaponType": "Catalyst"
-        },
-        {
-            "atk": 38,
-            "icon": "assets/weapon_icons/magic_guide.png",
-            "id": "magic_guide",
-            "rarity": 3,
-            "secondary": "elemental_mastery",
-            "weaponType": "Catalyst"
-        },
-        {
-            "atk": 44,
-            "icon": "assets/weapon_icons/mappa_mare.png",
-            "id": "mappa_mare",
-            "rarity": 4,
-            "secondary": "elemental_mastery",
-            "weaponType": "Catalyst"
-        },
-        {
-            "atk": 46,
-            "icon": "assets/weapon_icons/memory_of_dust.png",
-            "id": "memory_of_dust",
-            "rarity": 5,
-            "secondary": "atk",
-            "weaponType": "Catalyst"
-        },
-        {
-            "atk": 39,
-            "icon": "assets/weapon_icons/otherworldly_story.png",
-            "id": "otherworldly_story",
-            "rarity": 3,
-            "secondary": "elemental_mastery",
-            "weaponType": "Catalyst"
-        },
-        {
-            "atk": 33,
-            "icon": "assets/weapon_icons/pocket_grimoire.png",
-            "id": "pocket_grimoire",
-            "rarity": 2,
-            "secondary": "none",
-            "weaponType": "Catalyst"
-        },
-        {
-            "atk": 42,
-            "icon": "assets/weapon_icons/prototype_malice.png",
-            "id": "prototype_malice",
-            "rarity": 4,
-            "secondary": "hp",
-            "weaponType": "Catalyst"
-        },
-        {
-            "atk": 44,
-            "icon": "assets/weapon_icons/royal_grimoire\n.png",
-            "id": "royal_grimoire",
-            "rarity": 4,
-            "secondary": "atk",
-            "weaponType": "Catalyst"
-        },
-        {
-            "atk": 41,
-            "icon": "assets/weapon_icons/sacrificial_fragments.png",
-            "id": "sacrificial_fragments",
-            "rarity": 4,
-            "secondary": "elemental_mastery",
-            "weaponType": "Catalyst"
-        },
-        {
-            "atk": 45,
-            "icon": "assets/weapon_icons/skyward_atlas.png",
-            "id": "skyward_atlas",
-            "rarity": 5,
-            "secondary": "atk",
-            "weaponType": "Catalyst"
-        },
-        {
-            "atk": 42,
-            "icon": "assets/weapon_icons/solar_pearl.png",
-            "id": "solar_pearl",
-            "rarity": 4,
-            "secondary": "crit_rate",
-            "weaponType": "Catalyst"
-        },
-        {
-            "atk": 41,
-            "icon": "assets/weapon_icons/the_widsith.png",
-            "id": "the_widsith",
-            "rarity": 4,
-            "secondary": "crit_dmg",
-            "weaponType": "Catalyst"
-        },
-        {
-            "atk": 39,
-            "icon": "assets/weapon_icons/thrilling_tales_of_dragon_slayers.png",
-            "id": "thrilling_tales_of_dragon_slayers",
-            "rarity": 3,
-            "secondary": "hp",
-            "weaponType": "Catalyst"
-        },
-        {
-            "atk": 40,
-            "icon": "assets/weapon_icons/twin_nephrite.png",
-            "id": "twin_nephrite",
-            "rarity": 3,
-            "secondary": "crit_rate",
-            "weaponType": "Catalyst"
-        },
-        {
-            "atk": 42,
-            "icon": "assets/weapon_icons/wine_and_song.png",
-            "id": "wine_and_song",
-            "rarity": 4,
-            "secondary": "energy_recharge",
-            "weaponType": "Catalyst"
-        },
-        {
-            "atk": 42,
-            "icon": "assets/weapon_icons/blackcliff_slasher.png",
-            "id": "blackcliff_slasher",
-            "rarity": 4,
-            "secondary": "crit_dmg",
-            "weaponType": "Claymore"
-        },
-        {
-            "atk": 38,
-            "icon": "assets/weapon_icons/bloodtainted_greatsword.png",
-            "id": "bloodtainted_greatsword",
-            "rarity": 3,
-            "secondary": "elemental_mastery",
-            "weaponType": "Claymore"
-        },
-        {
-            "atk": 39,
-            "icon": "assets/weapon_icons/debate_club.png",
-            "id": "debate_club",
-            "rarity": 3,
-            "secondary": "atk",
-            "weaponType": "Claymore"
-        },
-        {
-            "atk": 41,
-            "icon": "assets/weapon_icons/favonius_greatsword.png",
-            "id": "favonius_greatsword",
-            "rarity": 4,
-            "secondary": "energy_recharge",
-            "weaponType": "Claymore"
-        },
-        {
-            "atk": 39,
-            "icon": "assets/weapon_icons/ferrous_shadow.png",
-            "id": "ferrous_shadow",
-            "rarity": 3,
-            "secondary": "hp",
-            "weaponType": "Claymore"
-        },
-        {
-            "atk": 41,
-            "icon": "assets/weapon_icons/lithic_blade.png",
-            "id": "lithic_blade",
-            "rarity": 4,
-            "secondary": "crit_dmg",
-            "weaponType": "Claymore"
-        },
-        {
-            "atk": 33,
-            "icon": "assets/weapon_icons/old_merc_pal.png",
-            "id": "old_merc_pal",
-            "rarity": 2,
-            "secondary": "",
-            "weaponType": "Claymore"
-        },
-        {
-            "atk": 44,
-            "icon": "assets/weapon_icons/prototype_aminus.png",
-            "id": "prototype_aminus",
-            "rarity": 4,
-            "secondary": "atk",
-            "weaponType": "Claymore"
-        },
-        {
-            "atk": 40,
-            "icon": "assets/weapon_icons/quartz.png",
-            "id": "quartz",
-            "rarity": 3,
-            "secondary": "elemental_mastery",
-            "weaponType": "Claymore"
-        },
-        {
-            "atk": 42,
-            "icon": "assets/weapon_icons/rainslasher.png",
-            "id": "rainslasher",
-            "rarity": 4,
-            "secondary": "elemental_mastery",
-            "weaponType": "Claymore"
-        },
-        {
-            "atk": 43,
-            "icon": "assets/weapon_icons/royal_greatsword.png",
-            "id": "royal_greatsword",
-            "rarity": 4,
-            "secondary": "atk",
-            "weaponType": "Claymore"
-        },
-        {
-            "atk": 44,
-            "icon": "assets/weapon_icons/sacrificial_greatsword.png",
-            "id": "sacrificial_greatsword",
-            "rarity": 4,
-            "secondary": "energy_recharge",
-            "weaponType": "Claymore"
-        },
-        {
-            "atk": 42,
-            "icon": "assets/weapon_icons/serpent_spine.png",
-            "id": "serpent_spine",
-            "rarity": 4,
-            "secondary": "crit_rate",
-            "weaponType": "Claymore"
-        },
-        {
-            "atk": 39,
-            "icon": "assets/weapon_icons/skyrider_greatsword.png",
-            "id": "skyrider_greatsword",
-            "rarity": 3,
-            "secondary": "physical_dmg_bonus",
-            "weaponType": "Claymore"
-        },
-        {
-            "atk": 45,
-            "icon": "assets/weapon_icons/skyward_pride.png",
-            "id": "skyward_pride",
-            "rarity": 5,
-            "secondary": "energy_recharge",
-            "weaponType": "Claymore"
-        },
-        {
-            "atk": 42,
-            "icon": "assets/weapon_icons/the_bell.png",
-            "id": "the_bell",
-            "rarity": 4,
-            "secondary": "hp",
-            "weaponType": "Claymore"
-        },
-        {
-            "atk": 46,
-            "icon": "assets/weapon_icons/the_unforged.png",
-            "id": "the_unforged",
-            "rarity": 5,
-            "secondary": "atk",
-            "weaponType": "Claymore"
-        },
-        {
-            "atk": 23,
-            "icon": "assets/weapon_icons/waster_greatsword.png",
-            "id": "waster_greatsword",
-            "rarity": 1,
-            "secondary": "",
-            "weaponType": "Claymore"
-        },
-        {
-            "atk": 39,
-            "icon": "assets/weapon_icons/white_iron_greatsword.png",
-            "id": "white_iron_greatsword",
-            "rarity": 3,
-            "secondary": "def",
-            "weaponType": "Claymore"
-        },
-        {
-            "atk": 42,
-            "icon": "assets/weapon_icons/whiteblind.png",
-            "id": "whiteblind",
-            "rarity": 4,
-            "secondary": "def",
-            "weaponType": "Claymore"
-        },
-        {
-            "atk": 46,
-            "icon": "assets/weapon_icons/wolf_gravestone.png",
-            "id": "wolf_gravestone",
-            "rarity": 5,
-            "secondary": "atk",
-            "weaponType": "Claymore"
-        },
-        {
-            "atk": 42,
-            "icon": "assets/weapon_icons/blackcliff_slasher.png",
-            "id": "blackcliff_slasher",
-            "rarity": 4,
-            "secondary": "crit_dmg",
-            "weaponType": "Claymore"
-        },
-        {
-            "atk": 40,
-            "icon": "assets/weapon_icons/beginner_protector.png",
-            "id": "beginner_protector",
-            "rarity": 1,
-            "secondary": "none",
-            "weaponType": "Polearm"
-        },
-        {
-            "atk": 38,
-            "icon": "assets/weapon_icons/black_tassel.png",
-            "id": "black_tassel",
-            "rarity": 3,
-            "secondary": "hp",
-            "weaponType": "Polearm"
-        },
-        {
-            "atk": 42,
-            "icon": "assets/weapon_icons/blackcliff_pole.png",
-            "id": "blackcliff_pole",
-            "rarity": 4,
-            "secondary": "crit_dmg",
-            "weaponType": "Polearm"
-        },
-        {
-            "atk": 44,
-            "icon": "assets/weapon_icons/crescent_pike.png",
-            "id": "crescent_pike",
-            "rarity": 4,
-            "secondary": "physical_dmg_bonus",
-            "weaponType": "Polearm"
-        },
-        {
-            "atk": 41,
-            "icon": "assets/weapon_icons/deathmatch.png",
-            "id": "deathmatch",
-            "rarity": 4,
-            "secondary": "crit_rate",
-            "weaponType": "Polearm"
-        },
-        {
-            "atk": 41,
-            "icon": "assets/weapon_icons/dragon_bane.png",
-            "id": "dragon_bane",
-            "rarity": 4,
-            "secondary": "elemental_mastery",
-            "weaponType": "Polearm"
-        },
-        {
-            "atk": 44,
-            "icon": "assets/weapon_icons/favonius_lance.png",
-            "id": "favonius_lance",
-            "rarity": 4,
-            "secondary": "energy_recharge",
-            "weaponType": "Polearm"
-        },
-        {
-            "atk": 40,
-            "icon": "assets/weapon_icons/halberd.png",
-            "id": "halberd",
-            "rarity": 3,
-            "secondary": "atk",
-            "weaponType": "Polearm"
-        },
-        {
-            "atk": 33,
-            "icon": "assets/weapon_icons/iron_point.png",
-            "id": "iron_point",
-            "rarity": 2,
-            "secondary": "",
-            "weaponType": "Polearm"
-        },
-        {
-            "atk": 42,
-            "icon": "assets/weapon_icons/lithic_spear.png",
-            "id": "lithic_spear",
-            "rarity": 4,
-            "secondary": "physical_dmg_bonus",
-            "weaponType": "Polearm"
-        },
-        {
-            "atk": 48,
-            "icon": "assets/weapon_icons/primordial_jade_winged_spear.png",
-            "id": "primordial_jade_winged_spear",
-            "rarity": 5,
-            "secondary": "crit_rate",
-            "weaponType": "Polearm"
-        },
-        {
-            "atk": 42,
-            "icon": "assets/weapon_icons/prototype_grudge.png",
-            "id": "prototype_grudge",
-            "rarity": 4,
-            "secondary": "energy_recharge",
-            "weaponType": "Polearm"
-        },
-        {
-            "atk": 48,
-            "icon": "assets/weapon_icons/skyward_spine.png",
-            "id": "skyward_spine",
-            "rarity": 5,
-            "secondary": "energy_recharge",
-            "weaponType": "Polearm"
-        },
-        {
-            "atk": 46,
-            "icon": "assets/weapon_icons/vortex_vanquisher.png",
-            "id": "vortex_vanquisher",
-            "rarity": 5,
-            "secondary": "atk",
-            "weaponType": "Polearm"
-        },
-        {
-            "atk": 39,
-            "icon": "assets/weapon_icons/white_tassel.png",
-            "id": "white_tassel",
-            "rarity": 3,
-            "secondary": "crit_rate",
-            "weaponType": "Polearm"
-        },
-        {
-            "atk": 48,
-            "icon": "assets/weapon_icons/aquila_favonia.png",
-            "id": "aquila_favonia",
-            "rarity": 5,
-            "secondary": "physical_dmg_bonus",
-            "weaponType": "Sword"
-        },
-        {
-            "atk": 44,
-            "icon": "assets/weapon_icons/blackcliff_longsword.png",
-            "id": "blackcliff_longsword",
-            "rarity": 4,
-            "secondary": "crit_dmg",
-            "weaponType": "Sword"
-        },
-        {
-            "atk": 39,
-            "icon": "assets/weapon_icons/cool_steel.png",
-            "id": "cool_steel",
-            "rarity": 3,
-            "secondary": "atk",
-            "weaponType": "Sword"
-        },
-        {
-            "atk": 40,
-            "icon": "assets/weapon_icons/dark_iron_sword.png",
-            "id": "dark_iron_sword",
-            "rarity": 3,
-            "secondary": "elemental_mastery",
-            "weaponType": "Sword"
-        },
-        {
-            "atk": 23,
-            "icon": "assets/weapon_icons/dull_blade.png",
-            "id": "dull_blade",
-            "rarity": 1,
-            "secondary": "",
-            "weaponType": "Sword"
-        },
-        {
-            "atk": 41,
-            "icon": "assets/weapon_icons/favonius_sword.png",
-            "id": "favonius_sword",
-            "rarity": 4,
-            "secondary": "energy_recharge",
-            "weaponType": "Sword"
-        },
-        {
-            "atk": 39,
-            "icon": "assets/weapon_icons/fillet_blade.png",
-            "id": "fillet_blade",
-            "rarity": 3,
-            "secondary": "atk",
-            "weaponType": "Sword"
-        },
-        {
-            "atk": 39,
-            "icon": "assets/weapon_icons/harbinger_of_dawn.png",
-            "id": "harbinger_of_dawn",
-            "rarity": 3,
-            "secondary": "crit_dmg",
-            "weaponType": "Sword"
-        },
-        {
-            "atk": 42,
-            "icon": "assets/weapon_icons/iron_sting.png",
-            "id": "iron_sting",
-            "rarity": 4,
-            "secondary": "elemental_mastery",
-            "weaponType": "Sword"
-        },
-        {
-            "atk": 42,
-            "icon": "assets/weapon_icons/lion_roar.png",
-            "id": "lion_roar",
-            "rarity": 4,
-            "secondary": "atk",
-            "weaponType": "Sword"
-        },
-        {
-            "atk": 44,
-            "icon": "assets/weapon_icons/prototype_rancour.png",
-            "id": "prototype_rancour",
-            "rarity": 4,
-            "secondary": "physical_dmg_bonus",
-            "weaponType": "Sword"
-        },
-        {
-            "atk": 42,
-            "icon": "assets/weapon_icons/royal_longsword.png",
-            "id": "royal_longsword",
-            "rarity": 4,
-            "secondary": "atk",
-            "weaponType": "Sword"
-        },
-        {
-            "atk": 41,
-            "icon": "assets/weapon_icons/sacrificial_sword.png",
-            "id": "sacrificial_sword",
-            "rarity": 4,
-            "secondary": "energy_recharge",
-            "weaponType": "Sword"
-        },
-        {
-            "atk": 33,
-            "icon": "assets/weapon_icons/silver_sword.png",
-            "id": "silver_sword",
-            "rarity": 2,
-            "secondary": "",
-            "weaponType": "Sword"
-        },
-        {
-            "atk": 38,
-            "icon": "assets/weapon_icons/skyrider_sword.png",
-            "id": "skyrider_sword",
-            "rarity": 3,
-            "secondary": "energy_recharge",
-            "weaponType": "Sword"
-        },
-        {
-            "atk": 44,
-            "icon": "assets/weapon_icons/skyward_blade.png",
-            "id": "skyward_blade",
-            "rarity": 5,
-            "secondary": "energy_recharge",
-            "weaponType": "Sword"
-        },
-        {
-            "atk": 44,
-            "icon": "assets/weapon_icons/the_alley_flash.png",
-            "id": "the_alley_flash",
-            "rarity": 4,
-            "secondary": "crit_rate",
-            "weaponType": "Sword"
-        },
-        {
-            "atk": 42,
-            "icon": "assets/weapon_icons/the_black_sword.png",
-            "id": "the_black_sword",
-            "rarity": 4,
-            "secondary": "crit_rate",
-            "weaponType": "Sword"
-        },
-        {
-            "atk": 42,
-            "icon": "assets/weapon_icons/the_flute.png",
-            "id": "the_flute",
-            "rarity": 4,
-            "secondary": "atk",
-            "weaponType": "Sword"
-        },
-        {
-            "atk": 40,
-            "icon": "assets/weapon_icons/traveler_handy_sword.png",
-            "id": "traveler_handy_sword",
-            "rarity": 3,
-            "secondary": "def",
-            "weaponType": "Sword"
-        },
-        {
-            "atk": 40,
-            "icon": "https://dummyimage.com/256/ccc/fff.png&text=Placeholder",
-            "id": "",
-            "secondary": "none",
-            "weaponType": ""
+  "weapons": [
+    {
+      "atk": 41,
+      "icon": "assets/weapon_icons/alley_hunter.png",
+      "id": "alley_hunter",
+      "rarity": 4,
+      "secondary": "crit_rate",
+      "weaponType": "Bow",
+      "ascension": [
+        {
+          "rank": 1,
+          "cost": 10000,
+          "level": 20,
+          "materials": [
+            {
+              "amount": "5",
+              "material_id": ""
+            },
+            {
+              "amount": "5",
+              "material_id": ""
+            },
+            {
+              "amount": "3",
+              "material_id": ""
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "cost": 20000,
+          "level": 40,
+          "materials": [
+            {
+              "amount": "5",
+              "material_id": ""
+            },
+            {
+              "amount": "18",
+              "material_id": ""
+            },
+            {
+              "amount": "12",
+              "material_id": ""
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "cost": 30000,
+          "level": 50,
+          "materials": [
+            {
+              "amount": "9",
+              "material_id": ""
+            },
+            {
+              "amount": "9",
+              "material_id": ""
+            },
+            {
+              "amount": "9",
+              "material_id": ""
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "cost": 45000,
+          "level": 50,
+          "materials": [
+            {
+              "amount": "5",
+              "material_id": ""
+            },
+            {
+              "amount": "18",
+              "material_id": ""
+            },
+            {
+              "amount": "14",
+              "material_id": ""
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "cost": 55000,
+          "level": 70,
+          "materials": [
+            {
+              "amount": "9",
+              "material_id": ""
+            },
+            {
+              "amount": "14",
+              "material_id": ""
+            },
+            {
+              "amount": "9",
+              "material_id": ""
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "cost": 65000,
+          "level": 80,
+          "materials": [
+            {
+              "amount": "6",
+              "material_id": ""
+            },
+            {
+              "amount": "27",
+              "material_id": ""
+            },
+            {
+              "amount": "18",
+              "material_id": ""
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "atk": 46,
+      "icon": "assets/weapon_icons/amos_bow.png",
+      "id": "amos_bow",
+      "rarity": 5,
+      "secondary": "atk",
+      "weaponType": "Bow",
+      "ascension": [
+        {
+          "rank": 1,
+          "cost": 10000,
+          "level": 20,
+          "materials": [
+            {
+              "amount": "5",
+              "material_id": ""
+            },
+            {
+              "amount": "5",
+              "material_id": ""
+            },
+            {
+              "amount": "3",
+              "material_id": ""
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "cost": 20000,
+          "level": 40,
+          "materials": [
+            {
+              "amount": "5",
+              "material_id": ""
+            },
+            {
+              "amount": "18",
+              "material_id": ""
+            },
+            {
+              "amount": "12",
+              "material_id": ""
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "cost": 30000,
+          "level": 50,
+          "materials": [
+            {
+              "amount": "9",
+              "material_id": ""
+            },
+            {
+              "amount": "9",
+              "material_id": ""
+            },
+            {
+              "amount": "9",
+              "material_id": ""
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "cost": 45000,
+          "level": 50,
+          "materials": [
+            {
+              "amount": "5",
+              "material_id": ""
+            },
+            {
+              "amount": "18",
+              "material_id": ""
+            },
+            {
+              "amount": "14",
+              "material_id": ""
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "cost": 55000,
+          "level": 70,
+          "materials": [
+            {
+              "amount": "9",
+              "material_id": ""
+            },
+            {
+              "amount": "14",
+              "material_id": ""
+            },
+            {
+              "amount": "9",
+              "material_id": ""
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "cost": 65000,
+          "level": 80,
+          "materials": [
+            {
+              "amount": "6",
+              "material_id": ""
+            },
+            {
+              "amount": "27",
+              "material_id": ""
+            },
+            {
+              "amount": "18",
+              "material_id": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "atk": 44,
+      "icon": "assets/weapon_icons/blackcliff_warbow.png",
+      "id": "blackcliff_warbow",
+      "rarity": 4,
+      "secondary": "crit_dmg",
+      "weaponType": "Bow",
+      "ascension": [
+        {
+          "rank": 1,
+          "cost": 10000,
+          "level": 20,
+          "materials": [
+            {
+              "amount": "5",
+              "material_id": ""
+            },
+            {
+              "amount": "5",
+              "material_id": ""
+            },
+            {
+              "amount": "3",
+              "material_id": ""
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "cost": 20000,
+          "level": 40,
+          "materials": [
+            {
+              "amount": "5",
+              "material_id": ""
+            },
+            {
+              "amount": "18",
+              "material_id": ""
+            },
+            {
+              "amount": "12",
+              "material_id": ""
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "cost": 30000,
+          "level": 50,
+          "materials": [
+            {
+              "amount": "9",
+              "material_id": ""
+            },
+            {
+              "amount": "9",
+              "material_id": ""
+            },
+            {
+              "amount": "9",
+              "material_id": ""
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "cost": 45000,
+          "level": 50,
+          "materials": [
+            {
+              "amount": "5",
+              "material_id": ""
+            },
+            {
+              "amount": "18",
+              "material_id": ""
+            },
+            {
+              "amount": "14",
+              "material_id": ""
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "cost": 55000,
+          "level": 70,
+          "materials": [
+            {
+              "amount": "9",
+              "material_id": ""
+            },
+            {
+              "amount": "14",
+              "material_id": ""
+            },
+            {
+              "amount": "9",
+              "material_id": ""
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "cost": 65000,
+          "level": 80,
+          "materials": [
+            {
+              "amount": "6",
+              "material_id": ""
+            },
+            {
+              "amount": "27",
+              "material_id": ""
+            },
+            {
+              "amount": "18",
+              "material_id": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "atk": 41,
+      "icon": "assets/weapon_icons/compound_bow.png",
+      "id": "compound_bow",
+      "rarity": 4,
+      "secondary": "physical_dmg_bonus",
+      "weaponType": "Bow"
+    },
+    {
+      "atk": 40,
+      "icon": "assets/weapon_icons/ebony_bow.png",
+      "id": "ebony_bow",
+      "rarity": 3,
+      "secondary": "atk",
+      "weaponType": "Bow"
+    },
+    {
+      "atk": 41,
+      "icon": "assets/weapon_icons/favonius_warbow.png",
+      "id": "favonius_warbow",
+      "rarity": 4,
+      "secondary": "energy_recharge",
+      "weaponType": "Bow"
+    },
+    {
+      "atk": 23,
+      "icon": "assets/weapon_icons/hunter_bow.png",
+      "id": "hunter_bow",
+      "rarity": 1,
+      "secondary": "none",
+      "weaponType": "Bow"
+    },
+    {
+      "atk": 40,
+      "icon": "assets/weapon_icons/messenger.png",
+      "id": "messenger",
+      "rarity": 3,
+      "secondary": "crit_dmg",
+      "weaponType": "Bow"
+    },
+    {
+      "atk": 42,
+      "icon": "assets/weapon_icons/prototype_crescent.png",
+      "id": "prototype_crescent",
+      "rarity": 4,
+      "secondary": "atk",
+      "weaponType": "Bow"
+    },
+    {
+      "atk": 42,
+      "icon": "assets/weapon_icons/raven_bow.png",
+      "id": "raven_bow",
+      "rarity": 3,
+      "secondary": "elemental_mastery",
+      "weaponType": "Bow"
+    },
+    {
+      "atk": 38,
+      "icon": "assets/weapon_icons/recurve_bow.png",
+      "id": "recurve_bow",
+      "rarity": 3,
+      "secondary": "hp",
+      "weaponType": "Bow"
+    },
+    {
+      "atk": 42,
+      "icon": "assets/weapon_icons/royal_bow.png",
+      "id": "royal_bow",
+      "rarity": 4,
+      "secondary": "atk",
+      "weaponType": "Bow"
+    },
+    {
+      "atk": 42,
+      "icon": "assets/weapon_icons/rust.png",
+      "id": "rust",
+      "rarity": 4,
+      "secondary": "atk",
+      "weaponType": "Bow"
+    },
+    {
+      "atk": 44,
+      "icon": "assets/weapon_icons/sacrificial_bow.png",
+      "id": "sacrificial_bow",
+      "rarity": 4,
+      "secondary": "energy_recharge",
+      "weaponType": "Bow"
+    },
+    {
+      "atk": 33,
+      "icon": "assets/weapon_icons/seasoned_hunter_bow.png",
+      "id": "seasoned_hunter_bow",
+      "rarity": 2,
+      "secondary": "none",
+      "weaponType": "Bow"
+    },
+    {
+      "atk": 39,
+      "icon": "assets/weapon_icons/sharpshooter_oath.png",
+      "id": "sharpshooter_oath",
+      "rarity": 3,
+      "secondary": "crit_dmg",
+      "weaponType": "Bow"
+    },
+    {
+      "atk": 45,
+      "icon": "assets/weapon_icons/skyward_harp.png",
+      "id": "skyward_harp",
+      "rarity": 5,
+      "secondary": "crit_rate",
+      "weaponType": "Bow"
+    },
+    {
+      "atk": 38,
+      "icon": "assets/weapon_icons/slingshot.png",
+      "id": "slingshot",
+      "rarity": 3,
+      "secondary": "crit_rate",
+      "weaponType": "Bow"
+    },
+    {
+      "atk": 42,
+      "icon": "assets/weapon_icons/the_stringless.png",
+      "id": "the_stringless",
+      "rarity": 4,
+      "secondary": "elemental_mastery",
+      "weaponType": "Bow"
+    },
+    {
+      "atk": 42,
+      "icon": "assets/weapon_icons/the_viridescent_hunt.png",
+      "id": "the_viridescent_hunt",
+      "rarity": 4,
+      "secondary": "crit_rate",
+      "weaponType": "Bow"
+    },
+    {
+      "atk": 40,
+      "icon": "assets/weapon_icons/amber_catalyst.png",
+      "id": "amber_catalyst",
+      "rarity": 3,
+      "secondary": "elemental_mastery",
+      "weaponType": "Catalyst"
+    },
+    {
+      "atk": 23,
+      "icon": "assets/weapon_icons/amber_catalyst.png",
+      "id": "apprentice_notes",
+      "rarity": 1,
+      "secondary": "none",
+      "weaponType": "Catalyst"
+    },
+    {
+      "atk": 42,
+      "icon": "assets/weapon_icons/blackcliff_amulet.png",
+      "id": "blackcliff_amulet",
+      "rarity": 4,
+      "secondary": "crit_dmg",
+      "weaponType": "Catalyst"
+    },
+    {
+      "atk": 40,
+      "icon": "assets/weapon_icons/emerald_orb.png",
+      "id": "emerald_orb",
+      "rarity": 3,
+      "secondary": "elemental_mastery",
+      "weaponType": "Catalyst"
+    },
+    {
+      "atk": 41,
+      "icon": "assets/weapon_icons/eye_of_perception.png",
+      "id": "eye_of_perception",
+      "rarity": 4,
+      "secondary": "atk",
+      "weaponType": "Catalyst"
+    },
+    {
+      "atk": 42,
+      "icon": "assets/weapon_icons/favonius_codex.png",
+      "id": "favonius_codex",
+      "rarity": 4,
+      "secondary": "energy_recharge",
+      "weaponType": "Catalyst"
+    },
+    {
+      "atk": 44,
+      "icon": "assets/weapon_icons/lost_prayer_to_the_sacred_winds.png",
+      "id": "lost_prayer_to_the_sacred_winds",
+      "rarity": 5,
+      "secondary": "crit_rate",
+      "weaponType": "Catalyst"
+    },
+    {
+      "atk": 38,
+      "icon": "assets/weapon_icons/magic_guide.png",
+      "id": "magic_guide",
+      "rarity": 3,
+      "secondary": "elemental_mastery",
+      "weaponType": "Catalyst"
+    },
+    {
+      "atk": 44,
+      "icon": "assets/weapon_icons/mappa_mare.png",
+      "id": "mappa_mare",
+      "rarity": 4,
+      "secondary": "elemental_mastery",
+      "weaponType": "Catalyst"
+    },
+    {
+      "atk": 46,
+      "icon": "assets/weapon_icons/memory_of_dust.png",
+      "id": "memory_of_dust",
+      "rarity": 5,
+      "secondary": "atk",
+      "weaponType": "Catalyst"
+    },
+    {
+      "atk": 39,
+      "icon": "assets/weapon_icons/otherworldly_story.png",
+      "id": "otherworldly_story",
+      "rarity": 3,
+      "secondary": "elemental_mastery",
+      "weaponType": "Catalyst"
+    },
+    {
+      "atk": 33,
+      "icon": "assets/weapon_icons/pocket_grimoire.png",
+      "id": "pocket_grimoire",
+      "rarity": 2,
+      "secondary": "none",
+      "weaponType": "Catalyst"
+    },
+    {
+      "atk": 42,
+      "icon": "assets/weapon_icons/prototype_malice.png",
+      "id": "prototype_malice",
+      "rarity": 4,
+      "secondary": "hp",
+      "weaponType": "Catalyst"
+    },
+    {
+      "atk": 44,
+      "icon": "assets/weapon_icons/royal_grimoire\n.png",
+      "id": "royal_grimoire",
+      "rarity": 4,
+      "secondary": "atk",
+      "weaponType": "Catalyst"
+    },
+    {
+      "atk": 41,
+      "icon": "assets/weapon_icons/sacrificial_fragments.png",
+      "id": "sacrificial_fragments",
+      "rarity": 4,
+      "secondary": "elemental_mastery",
+      "weaponType": "Catalyst"
+    },
+    {
+      "atk": 45,
+      "icon": "assets/weapon_icons/skyward_atlas.png",
+      "id": "skyward_atlas",
+      "rarity": 5,
+      "secondary": "atk",
+      "weaponType": "Catalyst"
+    },
+    {
+      "atk": 42,
+      "icon": "assets/weapon_icons/solar_pearl.png",
+      "id": "solar_pearl",
+      "rarity": 4,
+      "secondary": "crit_rate",
+      "weaponType": "Catalyst"
+    },
+    {
+      "atk": 41,
+      "icon": "assets/weapon_icons/the_widsith.png",
+      "id": "the_widsith",
+      "rarity": 4,
+      "secondary": "crit_dmg",
+      "weaponType": "Catalyst"
+    },
+    {
+      "atk": 39,
+      "icon": "assets/weapon_icons/thrilling_tales_of_dragon_slayers.png",
+      "id": "thrilling_tales_of_dragon_slayers",
+      "rarity": 3,
+      "secondary": "hp",
+      "weaponType": "Catalyst"
+    },
+    {
+      "atk": 40,
+      "icon": "assets/weapon_icons/twin_nephrite.png",
+      "id": "twin_nephrite",
+      "rarity": 3,
+      "secondary": "crit_rate",
+      "weaponType": "Catalyst"
+    },
+    {
+      "atk": 42,
+      "icon": "assets/weapon_icons/wine_and_song.png",
+      "id": "wine_and_song",
+      "rarity": 4,
+      "secondary": "energy_recharge",
+      "weaponType": "Catalyst"
+    },
+    {
+      "atk": 42,
+      "icon": "assets/weapon_icons/blackcliff_slasher.png",
+      "id": "blackcliff_slasher",
+      "rarity": 4,
+      "secondary": "crit_dmg",
+      "weaponType": "Claymore"
+    },
+    {
+      "atk": 38,
+      "icon": "assets/weapon_icons/bloodtainted_greatsword.png",
+      "id": "bloodtainted_greatsword",
+      "rarity": 3,
+      "secondary": "elemental_mastery",
+      "weaponType": "Claymore"
+    },
+    {
+      "atk": 39,
+      "icon": "assets/weapon_icons/debate_club.png",
+      "id": "debate_club",
+      "rarity": 3,
+      "secondary": "atk",
+      "weaponType": "Claymore"
+    },
+    {
+      "atk": 41,
+      "icon": "assets/weapon_icons/favonius_greatsword.png",
+      "id": "favonius_greatsword",
+      "rarity": 4,
+      "secondary": "energy_recharge",
+      "weaponType": "Claymore"
+    },
+    {
+      "atk": 39,
+      "icon": "assets/weapon_icons/ferrous_shadow.png",
+      "id": "ferrous_shadow",
+      "rarity": 3,
+      "secondary": "hp",
+      "weaponType": "Claymore"
+    },
+    {
+      "atk": 41,
+      "icon": "assets/weapon_icons/lithic_blade.png",
+      "id": "lithic_blade",
+      "rarity": 4,
+      "secondary": "crit_dmg",
+      "weaponType": "Claymore"
+    },
+    {
+      "atk": 33,
+      "icon": "assets/weapon_icons/old_merc_pal.png",
+      "id": "old_merc_pal",
+      "rarity": 2,
+      "secondary": "",
+      "weaponType": "Claymore"
+    },
+    {
+      "atk": 44,
+      "icon": "assets/weapon_icons/prototype_aminus.png",
+      "id": "prototype_aminus",
+      "rarity": 4,
+      "secondary": "atk",
+      "weaponType": "Claymore"
+    },
+    {
+      "atk": 40,
+      "icon": "assets/weapon_icons/quartz.png",
+      "id": "quartz",
+      "rarity": 3,
+      "secondary": "elemental_mastery",
+      "weaponType": "Claymore"
+    },
+    {
+      "atk": 42,
+      "icon": "assets/weapon_icons/rainslasher.png",
+      "id": "rainslasher",
+      "rarity": 4,
+      "secondary": "elemental_mastery",
+      "weaponType": "Claymore"
+    },
+    {
+      "atk": 43,
+      "icon": "assets/weapon_icons/royal_greatsword.png",
+      "id": "royal_greatsword",
+      "rarity": 4,
+      "secondary": "atk",
+      "weaponType": "Claymore"
+    },
+    {
+      "atk": 44,
+      "icon": "assets/weapon_icons/sacrificial_greatsword.png",
+      "id": "sacrificial_greatsword",
+      "rarity": 4,
+      "secondary": "energy_recharge",
+      "weaponType": "Claymore"
+    },
+    {
+      "atk": 42,
+      "icon": "assets/weapon_icons/serpent_spine.png",
+      "id": "serpent_spine",
+      "rarity": 4,
+      "secondary": "crit_rate",
+      "weaponType": "Claymore"
+    },
+    {
+      "atk": 39,
+      "icon": "assets/weapon_icons/skyrider_greatsword.png",
+      "id": "skyrider_greatsword",
+      "rarity": 3,
+      "secondary": "physical_dmg_bonus",
+      "weaponType": "Claymore"
+    },
+    {
+      "atk": 45,
+      "icon": "assets/weapon_icons/skyward_pride.png",
+      "id": "skyward_pride",
+      "rarity": 5,
+      "secondary": "energy_recharge",
+      "weaponType": "Claymore"
+    },
+    {
+      "atk": 42,
+      "icon": "assets/weapon_icons/the_bell.png",
+      "id": "the_bell",
+      "rarity": 4,
+      "secondary": "hp",
+      "weaponType": "Claymore"
+    },
+    {
+      "atk": 46,
+      "icon": "assets/weapon_icons/the_unforged.png",
+      "id": "the_unforged",
+      "rarity": 5,
+      "secondary": "atk",
+      "weaponType": "Claymore"
+    },
+    {
+      "atk": 23,
+      "icon": "assets/weapon_icons/waster_greatsword.png",
+      "id": "waster_greatsword",
+      "rarity": 1,
+      "secondary": "",
+      "weaponType": "Claymore"
+    },
+    {
+      "atk": 39,
+      "icon": "assets/weapon_icons/white_iron_greatsword.png",
+      "id": "white_iron_greatsword",
+      "rarity": 3,
+      "secondary": "def",
+      "weaponType": "Claymore"
+    },
+    {
+      "atk": 42,
+      "icon": "assets/weapon_icons/whiteblind.png",
+      "id": "whiteblind",
+      "rarity": 4,
+      "secondary": "def",
+      "weaponType": "Claymore"
+    },
+    {
+      "atk": 46,
+      "icon": "assets/weapon_icons/wolf_gravestone.png",
+      "id": "wolf_gravestone",
+      "rarity": 5,
+      "secondary": "atk",
+      "weaponType": "Claymore"
+    },
+    {
+      "atk": 42,
+      "icon": "assets/weapon_icons/blackcliff_slasher.png",
+      "id": "blackcliff_slasher",
+      "rarity": 4,
+      "secondary": "crit_dmg",
+      "weaponType": "Claymore"
+    },
+    {
+      "atk": 40,
+      "icon": "assets/weapon_icons/beginner_protector.png",
+      "id": "beginner_protector",
+      "rarity": 1,
+      "secondary": "none",
+      "weaponType": "Polearm"
+    },
+    {
+      "atk": 38,
+      "icon": "assets/weapon_icons/black_tassel.png",
+      "id": "black_tassel",
+      "rarity": 3,
+      "secondary": "hp",
+      "weaponType": "Polearm"
+    },
+    {
+      "atk": 42,
+      "icon": "assets/weapon_icons/blackcliff_pole.png",
+      "id": "blackcliff_pole",
+      "rarity": 4,
+      "secondary": "crit_dmg",
+      "weaponType": "Polearm"
+    },
+    {
+      "atk": 44,
+      "icon": "assets/weapon_icons/crescent_pike.png",
+      "id": "crescent_pike",
+      "rarity": 4,
+      "secondary": "physical_dmg_bonus",
+      "weaponType": "Polearm"
+    },
+    {
+      "atk": 41,
+      "icon": "assets/weapon_icons/deathmatch.png",
+      "id": "deathmatch",
+      "rarity": 4,
+      "secondary": "crit_rate",
+      "weaponType": "Polearm"
+    },
+    {
+      "atk": 41,
+      "icon": "assets/weapon_icons/dragon_bane.png",
+      "id": "dragon_bane",
+      "rarity": 4,
+      "secondary": "elemental_mastery",
+      "weaponType": "Polearm"
+    },
+    {
+      "atk": 44,
+      "icon": "assets/weapon_icons/favonius_lance.png",
+      "id": "favonius_lance",
+      "rarity": 4,
+      "secondary": "energy_recharge",
+      "weaponType": "Polearm"
+    },
+    {
+      "atk": 40,
+      "icon": "assets/weapon_icons/halberd.png",
+      "id": "halberd",
+      "rarity": 3,
+      "secondary": "atk",
+      "weaponType": "Polearm"
+    },
+    {
+      "atk": 33,
+      "icon": "assets/weapon_icons/iron_point.png",
+      "id": "iron_point",
+      "rarity": 2,
+      "secondary": "",
+      "weaponType": "Polearm"
+    },
+    {
+      "atk": 42,
+      "icon": "assets/weapon_icons/lithic_spear.png",
+      "id": "lithic_spear",
+      "rarity": 4,
+      "secondary": "physical_dmg_bonus",
+      "weaponType": "Polearm"
+    },
+    {
+      "atk": 48,
+      "icon": "assets/weapon_icons/primordial_jade_winged_spear.png",
+      "id": "primordial_jade_winged_spear",
+      "rarity": 5,
+      "secondary": "crit_rate",
+      "weaponType": "Polearm"
+    },
+    {
+      "atk": 42,
+      "icon": "assets/weapon_icons/prototype_grudge.png",
+      "id": "prototype_grudge",
+      "rarity": 4,
+      "secondary": "energy_recharge",
+      "weaponType": "Polearm"
+    },
+    {
+      "atk": 48,
+      "icon": "assets/weapon_icons/skyward_spine.png",
+      "id": "skyward_spine",
+      "rarity": 5,
+      "secondary": "energy_recharge",
+      "weaponType": "Polearm"
+    },
+    {
+      "atk": 46,
+      "icon": "assets/weapon_icons/vortex_vanquisher.png",
+      "id": "vortex_vanquisher",
+      "rarity": 5,
+      "secondary": "atk",
+      "weaponType": "Polearm"
+    },
+    {
+      "atk": 39,
+      "icon": "assets/weapon_icons/white_tassel.png",
+      "id": "white_tassel",
+      "rarity": 3,
+      "secondary": "crit_rate",
+      "weaponType": "Polearm"
+    },
+    {
+      "atk": 48,
+      "icon": "assets/weapon_icons/aquila_favonia.png",
+      "id": "aquila_favonia",
+      "rarity": 5,
+      "secondary": "physical_dmg_bonus",
+      "weaponType": "Sword"
+    },
+    {
+      "atk": 44,
+      "icon": "assets/weapon_icons/blackcliff_longsword.png",
+      "id": "blackcliff_longsword",
+      "rarity": 4,
+      "secondary": "crit_dmg",
+      "weaponType": "Sword"
+    },
+    {
+      "atk": 39,
+      "icon": "assets/weapon_icons/cool_steel.png",
+      "id": "cool_steel",
+      "rarity": 3,
+      "secondary": "atk",
+      "weaponType": "Sword"
+    },
+    {
+      "atk": 40,
+      "icon": "assets/weapon_icons/dark_iron_sword.png",
+      "id": "dark_iron_sword",
+      "rarity": 3,
+      "secondary": "elemental_mastery",
+      "weaponType": "Sword"
+    },
+    {
+      "atk": 23,
+      "icon": "assets/weapon_icons/dull_blade.png",
+      "id": "dull_blade",
+      "rarity": 1,
+      "secondary": "",
+      "weaponType": "Sword"
+    },
+    {
+      "atk": 41,
+      "icon": "assets/weapon_icons/favonius_sword.png",
+      "id": "favonius_sword",
+      "rarity": 4,
+      "secondary": "energy_recharge",
+      "weaponType": "Sword"
+    },
+    {
+      "atk": 39,
+      "icon": "assets/weapon_icons/fillet_blade.png",
+      "id": "fillet_blade",
+      "rarity": 3,
+      "secondary": "atk",
+      "weaponType": "Sword"
+    },
+    {
+      "atk": 39,
+      "icon": "assets/weapon_icons/harbinger_of_dawn.png",
+      "id": "harbinger_of_dawn",
+      "rarity": 3,
+      "secondary": "crit_dmg",
+      "weaponType": "Sword"
+    },
+    {
+      "atk": 42,
+      "icon": "assets/weapon_icons/iron_sting.png",
+      "id": "iron_sting",
+      "rarity": 4,
+      "secondary": "elemental_mastery",
+      "weaponType": "Sword"
+    },
+    {
+      "atk": 42,
+      "icon": "assets/weapon_icons/lion_roar.png",
+      "id": "lion_roar",
+      "rarity": 4,
+      "secondary": "atk",
+      "weaponType": "Sword"
+    },
+    {
+      "atk": 44,
+      "icon": "assets/weapon_icons/prototype_rancour.png",
+      "id": "prototype_rancour",
+      "rarity": 4,
+      "secondary": "physical_dmg_bonus",
+      "weaponType": "Sword"
+    },
+    {
+      "atk": 42,
+      "icon": "assets/weapon_icons/royal_longsword.png",
+      "id": "royal_longsword",
+      "rarity": 4,
+      "secondary": "atk",
+      "weaponType": "Sword"
+    },
+    {
+      "atk": 41,
+      "icon": "assets/weapon_icons/sacrificial_sword.png",
+      "id": "sacrificial_sword",
+      "rarity": 4,
+      "secondary": "energy_recharge",
+      "weaponType": "Sword"
+    },
+    {
+      "atk": 33,
+      "icon": "assets/weapon_icons/silver_sword.png",
+      "id": "silver_sword",
+      "rarity": 2,
+      "secondary": "",
+      "weaponType": "Sword"
+    },
+    {
+      "atk": 38,
+      "icon": "assets/weapon_icons/skyrider_sword.png",
+      "id": "skyrider_sword",
+      "rarity": 3,
+      "secondary": "energy_recharge",
+      "weaponType": "Sword"
+    },
+    {
+      "atk": 44,
+      "icon": "assets/weapon_icons/skyward_blade.png",
+      "id": "skyward_blade",
+      "rarity": 5,
+      "secondary": "energy_recharge",
+      "weaponType": "Sword"
+    },
+    {
+      "atk": 44,
+      "icon": "assets/weapon_icons/the_alley_flash.png",
+      "id": "the_alley_flash",
+      "rarity": 4,
+      "secondary": "crit_rate",
+      "weaponType": "Sword"
+    },
+    {
+      "atk": 42,
+      "icon": "assets/weapon_icons/the_black_sword.png",
+      "id": "the_black_sword",
+      "rarity": 4,
+      "secondary": "crit_rate",
+      "weaponType": "Sword"
+    },
+    {
+      "atk": 42,
+      "icon": "assets/weapon_icons/the_flute.png",
+      "id": "the_flute",
+      "rarity": 4,
+      "secondary": "atk",
+      "weaponType": "Sword"
+    },
+    {
+      "atk": 40,
+      "icon": "assets/weapon_icons/traveler_handy_sword.png",
+      "id": "traveler_handy_sword",
+      "rarity": 3,
+      "secondary": "def",
+      "weaponType": "Sword"
+    },
+    {
+      "atk": 40,
+      "icon": "https://dummyimage.com/256/ccc/fff.png&text=Placeholder",
+      "id": "",
+      "secondary": "none",
+      "weaponType": ""
+    }
+  ]
 }
