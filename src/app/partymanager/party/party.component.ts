@@ -1,4 +1,4 @@
-import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
+import {Component, EventEmitter, Input, isDevMode, OnInit, Output} from '@angular/core';
 import {PartyMember} from '../../model/PartyMember';
 import {Character} from '../../model/Character';
 import {CharacterService} from '../../services/character.service';
@@ -36,7 +36,9 @@ export class PartyComponent implements OnInit {
   }
 
   onSelected(member: PartyMember): void{
-    console.log('Switching selected member to: ' + member.character_id);
+    if(isDevMode()) {
+      console.log('Switching selected member to: ' + member.character_id);
+    }
     this.memberSelected.emit(member);
   }
 
@@ -47,20 +49,24 @@ export class PartyComponent implements OnInit {
 
   onCharacterSelected(character: Character) {
     if (this.party.members.filter(member => member.character_id === character.id).concat().length === 0) {
+      if(isDevMode()){
+        console.log("Adding party member: ", character.id);
+      }
+
       let partyMember = new PartyMember(character.id);
       this.party.members.push(partyMember);
 
       // TODO: Somewhat improve this
       this.onMemberChanged()
     }
-    else {
-      // TODO: Show some kind of warning
-    }
   }
 
   onMemberChanged(){
     this.party.save();
-    console.log('%cSaving party to local storage', 'color: gray; font-size: 15px;')
+
+    if(isDevMode()) {
+      console.log('%cSaving party to local storage', 'color: gray; font-size: 15px;');
+    }
   }
 
   onAddDefaultData(): void {

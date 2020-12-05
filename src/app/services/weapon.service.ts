@@ -23,7 +23,10 @@ export class WeaponService {
       const sortedSubMap = new Map([...subMap].sort((a, b) => b[1].rarity - a[1].rarity));
       this.sortedMap.set(weaponType.toLowerCase(), sortedSubMap);
     }
-    console.dir(this.sortedMap);
+
+    if(isDevMode()){
+      console.log("Sorted weapon map: ", this.sortedMap);
+    }
   }
 
   private static genWeaponsMap(map: Map<string, Weapon>, source: Weapon[]): Map<string, Weapon>{
