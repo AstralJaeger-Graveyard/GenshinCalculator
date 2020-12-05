@@ -77,11 +77,8 @@ export class SummaryComponent implements OnInit {
       if (rankA !== rankB)
         return rankA - rankB;
 
-      return this.localization.get(materialA.id)
-        .name
-        .localeCompare(this.localization.get(materialB.id).name);
+      return b.material_id.localeCompare(a.material_id);
     });
-    console.dir(sortedEntries);
     return sortedEntries;
   }
 

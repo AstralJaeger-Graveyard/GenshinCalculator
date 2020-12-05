@@ -1,0 +1,356 @@
+{
+  "sources": [
+    {
+      "id": "quests",
+      "description": "Quests"
+    },
+    {
+      "id": "monsters",
+      "description": "Defeating Monsters"
+    },
+    {
+      "id": "chests",
+      "description": "Opening Chests"
+    },
+    {
+      "id": "crafting",
+      "description": "Crafting"
+    },
+    {
+      "id": "shop_souvenir",
+      "description": "Purchased from the Souvenir Shop"
+    },
+    {
+      "id": "shop_flora",
+      "description": "Sold by Flora (6:00-19:00 in the city of Mondstadt)"
+    },
+    {
+      "id": "shop_chloris",
+      "description": "Sold by Chloris (6:00-19:00 at Mondstadt's Windrise area)"
+    },
+    {
+      "id": "shop_shitou",
+      "description": "Sold by Shitou (Liyue Harbor)"
+    },
+    {
+      "id": "shop_bai",
+      "description": "Sold by Ms. Bai (Qingce Village)"
+    },
+
+    {
+      "id": "pyro_regisvine",
+      "description": "Dropped by Pyro Regisvine"
+    },
+    {
+      "id": "pyro_regisvine_30",
+      "description": "Dropped by Lv. 30+ Pyro Regisvine"
+    },
+    {
+      "id": "pyro_regisvine_40",
+      "description": "Dropped by Lv. 40+ Pyro Regisvine"
+    },
+    {
+      "id": "pyro_regisvine_60",
+      "description": "Dropped by Lv. 60+ Pyro Regisvine"
+    },
+    {
+      "id": "pyro_regisvine_75",
+      "description": "Dropped by Lv. 75+ Pyro Regisvine"
+    },
+    {
+      "id": "cryo_regisvine",
+      "description": "Dropped by Cyro Regisvine"
+    },
+    {
+      "id": "cryo_regisvine_30",
+      "description": "Dropped by Lv. 30 Cyro Regisvine"
+    },
+    {
+      "id": "cryo_regisvine_40",
+      "description": "Dropped by Lv. 40 Cyro Regisvine"
+    },
+    {
+      "id": "cryo_regisvine_60",
+      "description": "Dropped by Lv. 60 Cyro Regisvine"
+    },
+    {
+      "id": "cryo_regisvine_75",
+      "description": "Dropped by Lv. 75 Cyro Regisvine"
+    },
+    {
+      "id": "oceanid",
+      "description": "Dropped by Oceanid"
+    },
+    {
+      "id": "oceanid_30",
+      "description": "Dropped by Lv. 30 Oceanid"
+    },
+    {
+      "id": "oceanid_40",
+      "description": "Dropped by Lv. 40+ Oceanid"
+    },
+    {
+      "id": "oceanid_60",
+      "description": "Dropped by Lv. 60+ Oceanid"
+    },
+    {
+      "id": "oceanid_75",
+      "description": "Dropped by Lv. 75+ Oceanid"
+    },
+    {
+      "id": "ehypostasis",
+      "description": "Dropped by Electro Hypostasis"
+    },
+    {
+      "id": "ehypostasis_30",
+      "description": "Dropped by Lv. 30+ Electro Hypostasis"
+    },
+    {
+      "id": "ehypostasis_40",
+      "description": "Dropped by Lv. 40+ Electro Hypostasis"
+    },
+    {
+      "id": "ehypostasis_60",
+      "description": "Dropped by Lv. 60+ Electro Hypostasis"
+    },
+    {
+      "id": "ehypostasis_75",
+      "description": "Dropped by Lv. 75+ Electro Hypostasis"
+    },
+    {
+      "id": "ahypostasis",
+      "description": "Dropped by Anemo Hypostasis"
+    },
+    {
+      "id": "ahypostasis_30",
+      "description": "Dropped by Lv. 30+ Anemo Hypostasis"
+    },
+    {
+      "id": "ahypostasis_40",
+      "description": "Dropped by Lv. 40+ Anemo Hypostasis"
+    },
+    {
+      "id": "ahypostasis_60",
+      "description": "Dropped by Lv. 60+ Anemo Hypostasis"
+    },
+    {
+      "id": "ahypostasis_75",
+      "description": "Dropped by Lv. 75+ Anemo Hypostasis"
+    },
+    {
+      "id": "ghypostasis",
+      "description": "Dropped by Geo Hypostasis"
+    },
+    {
+      "id": "ghypostasis_30",
+      "description": "Dropped by Lv. 30+ Geo Hypostasis"
+    },
+    {
+      "id": "ghypostasis_40",
+      "description": "Dropped by Lv. 40+ Geo Hypostasis"
+    },
+    {
+      "id": "ghypostasis_60",
+      "description": "Dropped by Lv. 60+ Geo Hypostasis"
+    },
+    {
+      "id": "ghypostasis_75",
+      "description": "Dropped by Lv. 75+ Geo Hypostasis"
+    },
+    {
+      "id": "wolf",
+      "description": "Wolf of the North Challenge Reward"
+    },
+    {
+      "id": "wolf_40",
+      "description": "Lv. 40+ Wolf of the North Challenge Reward"
+    },
+    {
+      "id": "wolf_60",
+      "description": "Lv. 60+ Wolf of the North Challenge Reward"
+    },
+    {
+      "id": "wolf_75",
+      "description": "Lv. 75+ Wolf of the North Challenge Reward"
+    },
+
+    {
+      "id":  "ar_15",
+      "description": "Adventure Rank 15 Reward (x1)"
+    },
+    {
+      "id":  "ar_25",
+      "description": "Adventure Rank 25 Reward (x3)"
+    },
+    {
+      "id":  "ar_26",
+      "description": "Adventure Rank 26 Reward (x2)"
+    },
+    {
+      "id":  "ar_28",
+      "description": "Adventure Rank 28 Reward (x2)"
+    },
+    {
+      "id":  "ar_30",
+      "description": "Adventure Rank 30 Reward (x2)"
+    },
+    {
+      "id":  "ar_35",
+      "description": "Adventure Rank 35 Reward (x3)"
+    },
+    {
+      "id":  "ar_38",
+      "description": "Adventure Rank 38 Reward (x3)"
+    },
+    {
+      "id":  "ar_40",
+      "description": "Adventure Rank 40 Reward (x3)"
+    },
+    {
+      "id":  "ar_41",
+      "description": "Adventure Rank 41 Reward (x2)"
+    },
+    {
+      "id":  "ar_42",
+      "description": "Adventure Rank 42 Reward (x2)"
+    },
+    {
+      "id":  "ar_45",
+      "description": "Adventure Rank 45 Reward (x2)"
+    },
+
+    {
+      "id": "wild",
+      "description": "Found in the wild"
+    },
+    {
+      "id": "wild_night",
+      "description": "Found in the wild at night"
+    },
+    {
+      "id": "houses",
+      "description": "Found under the eaves of houses"
+    },
+    {
+      "id": "trees",
+      "description": "Found under trees in the wild"
+    },
+    {
+      "id": "lakes",
+      "description": "Found near lakes"
+    },
+
+    {
+      "id": "caves",
+      "description": "Found in the Caves"
+    },
+    {
+      "id": "caves_mondstadt",
+      "description": "Found in caves in Mondstadt"
+    },
+    {
+      "id": "caves_liuye",
+      "description": "Found in caves in Liuye"
+    },
+
+    {
+      "id": "cliffs",
+      "description": "Found under cliffs"
+    },
+    {
+      "id": "cliffs_mondstadt",
+      "description": "Found under cliffs in Mondstadt"
+    },
+    {
+      "id": "cliffs_liyue",
+      "description": "Found under cliffs in Liyue"
+    },
+
+    {
+      "id": "beaches",
+      "description": "Found on beaches"
+    },
+    {
+      "id": "beaches_mondstadt",
+      "description": "Found on the beaches of Mondstadt"
+    },
+    {
+      "id": "beaches_liyue",
+      "description": "Found on the beaches of Liyue"
+    },
+
+    {
+      "id": "stormterror_lair",
+      "description": "Found in Stormterror's Lair"
+    },
+    {
+      "id": "springvale",
+      "description": "Found in Springvale"
+    },
+    {
+      "id": "statue7_windrise",
+      "description": "Found near the Statue of The Seven at Windrise"
+    },
+    {
+      "id": "mondstadt_gates",
+      "description": "Found at Mondstadt gates"
+    },
+    {
+      "id": "npc_mondstadt_cathedral",
+      "description": "Given by the nun in front of Mondstadt's cathedral"
+    },
+    {
+      "id": "wolvendom",
+      "description": "Found in Wolvendom"
+    },
+    {
+      "id": "whispering_woods",
+      "description": "Found in the Whispering Woods"
+    },
+    {
+      "id": "stormbearer",
+      "description": "Found in the wild around Stormbearer Mountains"
+    },
+    {
+      "id": "mingyun",
+      "description": "Found in Mingyun Village"
+    },
+    {
+      "id": "mthulao",
+      "description": "Found in Mt. Hulao"
+    },
+    {
+      "id": "qingce",
+      "description": "Found in Qingce Village"
+    },
+    {
+      "id": "yujing",
+      "description": "Found in Yujing Terrace, Liyue Harbor"
+    },
+    {
+      "id": "wangshu",
+      "description": "Found near Wangshu Inn"
+    },
+    {
+      "id": "starsnatch",
+      "description": "Found on Starsnatch Cliff"
+    },
+    {
+      "id": "npc_starsnatch",
+      "description": "Given by an NPC at the top of Starsnatch Cliff"
+    },
+
+    {
+      "id": "hilichurls_ranged",
+      "description": "Dropped by Ranged Hilichurls"
+    },
+    {
+      "id": "hilichurls_ranged_40",
+      "description": "Dropped by Lv. 40+ Ranged Hilichurls"
+    },
+    {
+      "id": "hilichurls_ranged_60",
+      "description": "Dropped by Lv. 60+ Ranged Hilichurls"
+    }
+  ]
+}

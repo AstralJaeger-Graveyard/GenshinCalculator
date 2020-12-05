@@ -135,6 +135,7 @@
       "id": "zhongli",
       "name": "Zhongli"
     },
+
     {
       "description": "Common currency",
       "id": "mora",
@@ -490,6 +491,18 @@
       "id": "slime_3",
       "name": "Slime Concentrate"
     },
+
+    {
+      "description": "A black meteor once fell beyond Liyue's Sea of Clouds, said to have fallen to vanquish a monster. However, it was stained by powerful tainted blood, so this item no longer possesses the pure power of Rex Lapis.",
+      "id": "aerosiderite_1",
+      "name": "Grain of Aerosiderite"
+    },
+    {
+      "description": "Rumors of sea monsters are commonplace in Liyue, since the other-shore is an unknown region that lies outside of Teyvat.\nWithout the protection of The Seven, all that lies beyond is unknown chaos. Only power beyond the order of Teyvat is able to stain the power of Rex Lapis black.",
+      "id": "aerosiderite_2",
+      "name": "Piece of Aerosiderite"
+    },
+
     {
       "description": "",
       "id": "alley_hunter",

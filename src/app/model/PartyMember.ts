@@ -18,6 +18,8 @@ export class PartyMember{
   public weaponAsc: number = 0;
   public weaponLvl: number = 1;
 
+  public enable_talents: boolean = true;
+
   //TODO: Add artifacts, talents
 
   constructor(characterId: string) {

@@ -6,17 +6,7 @@
       "id": "mora",
       "name": "Mora",
       "sortingRank": -1,
-      "source": [
-        {
-          "description": "Quests"
-        },
-        {
-          "description": "Defeating Monsters"
-        },
-        {
-          "description": "Opening Chests"
-        }
-      ]
+      "source": ["quests", "monsters", "chests"]
     },
     {
       "description": "Character Ascension Material",
@@ -24,17 +14,7 @@
       "id": "agate_1",
       "sortingRank": 1,
       "name": "Agnidus Agate Silver",
-      "source": [
-        {
-          "description": "Dropped by Pyro Regisvine"
-        },
-        {
-          "description": "Wolf of the North Challenge Reward"
-        },
-        {
-          "description": "Purchased from the Souvenir Shop"
-        }
-      ]
+      "source": [ "pyro_regisvine", "wolf", "shop_souvenir" ]
     },
     {
       "description": "Character Ascension Material",
@@ -42,17 +22,7 @@
       "id": "agate_2",
       "sortingRank": 1,
       "name": "Agnidus Agate Fragment",
-      "source": [
-        {
-          "description": "Dropped by Lv. 40+ Pyro Regisvine"
-        },
-        {
-          "description": "Lv. 40+ Wolf of the North Challenge Reward"
-        },
-        {
-          "description": "Crafting"
-        }
-      ]
+      "source": [ "pyro_regisvine_40", "wolf_40", "crafting" ]
     },
     {
       "description": "Character Ascension Material",
@@ -60,17 +30,7 @@
       "id": "agate_3",
       "sortingRank": 1,
       "name": "Agnidus Agate Chunk",
-      "source": [
-        {
-          "description": "Dropped by Lv. 60+ Pyro Regisvine"
-        },
-        {
-          "description": "Lv. 60+ Wolf of the North Challenge Reward"
-        },
-        {
-          "description": "Crafting"
-        }
-      ]
+      "source": [ "pyro_regisvine_60", "wolf_60", "crafting" ]
     },
     {
       "description": "Character Ascension Material",
@@ -78,17 +38,7 @@
       "id": "agate_4",
       "sortingRank": 1,
       "name": "Agnidus Agate Gemstone",
-      "source": [
-        {
-          "description": "Dropped by Lv. 75+ Pyro Regisvine"
-        },
-        {
-          "description": "Lv. 75+ Wolf of the North Challenge Reward"
-        },
-        {
-          "description": "Crafting"
-        }
-      ]
+      "source": [ "pyro_regisvine_75", "wolf_75", "crafting" ]
     },
     {
       "description": "Character Ascension Material",
@@ -96,14 +46,7 @@
       "id": "lazurite_1",
       "sortingRank": 1,
       "name": "Varunada Lazurite Silver",
-      "source": [
-        {
-          "description": "Dropped by Oceanid"
-        },
-        {
-          "description": "Purchased from the Souvenir Shop"
-        }
-      ]
+      "source": [ "oceanid", "shop_souvenir" ]
     },
     {
       "description": "Character Ascension Material",
@@ -111,14 +54,7 @@
       "id": "lazurite_2",
       "sortingRank": 1,
       "name": "Varunada Lazurite Fragment",
-      "source": [
-        {
-          "description": "Dropped by Lv. 40+ Oceanid"
-        },
-        {
-          "description": "Crafting"
-        }
-      ]
+      "source": [ "oceanid_40", "crafting" ]
     },
     {
       "description": "Character Ascension Material",
@@ -126,14 +62,7 @@
       "id": "lazurite_3",
       "sortingRank": 1,
       "name": "Varunada Lazurite Chunk",
-      "source": [
-        {
-          "description": "Dropped by Lv. 60+ Oceanid"
-        },
-        {
-          "description": "Crafting"
-        }
-      ]
+      "source": [ "oceanid_60", "crafting" ]
     },
     {
       "description": "Character Ascension Material",
@@ -141,14 +70,7 @@
       "id": "lazurite_4",
       "sortingRank": 1,
       "name": "Varunada Lazurite Gemstone",
-      "source": [
-        {
-          "description": "Dropped by Lv. 75+ Oceanid"
-        },
-        {
-          "description": "Crafting"
-        }
-      ]
+      "source": [ "oceanid_75", "crafting" ]
     },
     {
       "description": "Character Ascension Material",
@@ -156,14 +78,7 @@
       "id": "amethyst_1",
       "sortingRank": 1,
       "name": "Vajrada Amethyst Silver",
-      "source": [
-        {
-          "description": "Dropped by Electro Hypostasis"
-        },
-        {
-          "description": "Purchased from the Souvenir Shop"
-        }
-      ]
+      "source": [ "ehypostasis", "souvenir_shop" ]
     },
     {
       "description": "Character Ascension Material",
@@ -171,14 +86,7 @@
       "id": "amethyst_2",
       "sortingRank": 1,
       "name": "Vajrada Amethyst Fragment",
-      "source": [
-        {
-          "description": "Dropped by Lv. 40+ Electro Hypostasis"
-        },
-        {
-          "description": "Crafting"
-        }
-      ]
+      "source": [ "ehypostasis_40", "crafting" ]
     },
     {
       "description": "Character Ascension Material",
@@ -186,14 +94,7 @@
       "id": "amethyst_3",
       "sortingRank": 1,
       "name": "Vajrada Amethyst Chunk",
-      "source": [
-        {
-          "description": "Dropped by Lv. 60+ Electro Hypostasis"
-        },
-        {
-          "description": "Crafting"
-        }
-      ]
+      "source": [ "ehypostasis_60", "crafting" ]
     },
     {
       "description": "Character Ascension Material",
@@ -201,14 +102,7 @@
       "id": "amethyst_4",
       "sortingRank": 1,
       "name": "Vajrada Amethyst Gemstone",
-      "source": [
-        {
-          "description": "Dropped by Lv. 75+ Electro Hypostasis"
-        },
-        {
-          "description": "Crafting"
-        }
-      ]
+      "source": [ "ehypostasis_75", "crafting" ]
     },
     {
       "description": "Character Ascension Material",
@@ -216,17 +110,7 @@
       "id": "jade_1",
       "sortingRank": 1,
       "name": "Shivada Jade Silver",
-      "source": [
-        {
-          "description": "Dropped by Cryo Regisvine"
-        },
-        {
-          "description": "Wolf of the North Challenge Reward"
-        },
-        {
-          "description": "Purchased from the Souvenir Shop"
-        }
-      ]
+      "source": [ "cryo_regisvine", "wolf", "souvenir_shop" ]
     },
     {
       "description": "Character Ascension Material",
@@ -234,17 +118,7 @@
       "id": "jade_2",
       "sortingRank": 1,
       "name": "Shivada Jade Fragment",
-      "source": [
-        {
-          "description": "Dropped by Lv. 40+ Cryo Regisvine"
-        },
-        {
-          "description": "Lv. 40+ Wolf of the North Challenge Reward"
-        },
-        {
-          "description": "Crafting"
-        }
-      ]
+      "source": [ "cryo_regisvine_40", "wolf_40", "crafting" ]
     },
     {
       "description": "Character Ascension Material",
@@ -252,17 +126,7 @@
       "id": "jade_3",
       "sortingRank": 1,
       "name": "Shivada Jade Chunk",
-      "source": [
-        {
-          "description": "Dropped by Lv. 60+ Cryo Regisvine"
-        },
-        {
-          "description": "Lv. 60+ Wolf of the North Challenge Reward"
-        },
-        {
-          "description": "Crafting"
-        }
-      ]
+      "source": [ "cryo_regisvine_60", "wolf_60", "crafting" ]
     },
     {
       "description": "Character Ascension Material",
@@ -270,17 +134,7 @@
       "id": "jade_4",
       "sortingRank": 1,
       "name": "Shivada Jade Gemstone",
-      "source": [
-        {
-          "description": "Dropped by Lv. 75+ Cryo Regisvine"
-        },
-        {
-          "description": "Lv. 75+ Wolf of the North Challenge Reward"
-        },
-        {
-          "description": "Crafting"
-        }
-      ]
+      "source": [ "cryo_regisvine_75", "wolf_75", "crafting" ]
     },
     {
       "description": "Character Ascension Material",
@@ -288,14 +142,7 @@
       "id": "turquise_1",
       "sortingRank": 1,
       "name": "Vayuda Turquise Silver",
-      "source": [
-        {
-          "description": "Dropped by Anemo Hypostasis"
-        },
-        {
-          "description": "Purchased from the Souvenir Shop"
-        }
-      ]
+      "source": ["ahypostasis", "souvenir_shop"]
     },
     {
       "description": "Character Ascension Material",
@@ -303,14 +150,7 @@
       "id": "turquise_2",
       "sortingRank": 1,
       "name": "Vayuda Turquise Fragment",
-      "source": [
-        {
-          "description": "Dropped by Lv. 40+ Anemo Hypostasis"
-        },
-        {
-          "description": "Crafting"
-        }
-      ]
+      "source": [ "ahypostasis_40", "crafting" ]
     },
     {
       "description": "Character Ascension Material",
@@ -318,14 +158,7 @@
       "id": "turquise_3",
       "sortingRank": 1,
       "name": "Vayuda Turquise Chunk",
-      "source": [
-        {
-          "description": "Dropped by Lv. 60+ Anemo Hypostasis"
-        },
-        {
-          "description": "Crafting"
-        }
-      ]
+      "source": [ "ahypostasis_60", "crafting" ]
     },
     {
       "description": "Character Ascension Material",
@@ -333,14 +166,7 @@
       "id": "turquise_4",
       "sortingRank": 1,
       "name": "Vayuda Turquise Gemstone",
-      "source": [
-        {
-          "description": "Dropped by Lv. 75+ Anemo Hypostasis"
-        },
-        {
-          "description": "Crafting"
-        }
-      ]
+      "source": [ "ahypostasis_75", "crafting" ]
     },
     {
       "description": "Character Ascension Material",
@@ -348,17 +174,7 @@
       "id": "topaz_1",
       "sortingRank": 1,
       "name": "Prithiva Topaz Silver",
-      "source": [
-        {
-          "description": "Dropped by Geo Hypostasis"
-        },
-        {
-          "description": "Wolf of the North Challenge Reward"
-        },
-        {
-          "description": "Purchased from the Souvenir Shop"
-        }
-      ]
+      "source": [ "ghypostasis", "wolf", "souvenir_shop" ]
     },
     {
       "description": "Character Ascension Material",
@@ -366,17 +182,7 @@
       "id": "topaz_2",
       "sortingRank": 1,
       "name": "Prithiva Topaz Fragment",
-      "source": [
-        {
-          "description": "Dropped by Lv. 40+ Geo Hypostasis"
-        },
-        {
-          "description": "Lv. 40+ Wolf of the North Challenge Reward"
-        },
-        {
-          "description": "Crafting"
-        }
-      ]
+      "source": [ "ghypostasis_40", "wolf_40", "crafting" ]
     },
     {
       "description": "Character Ascension Material",
@@ -384,17 +190,7 @@
       "id": "topaz_3",
       "sortingRank": 1,
       "name": "Prithiva Topaz Chunk",
-      "source": [
-        {
-          "description": "Dropped by Lv. 60+ Geo Hypostasis"
-        },
-        {
-          "description": "Lv. 60+ Wolf of the North Challenge Reward"
-        },
-        {
-          "description": "Crafting"
-        }
-      ]
+      "source": [ "ghypostasis_60", "wolf_60", "crafting" ]
     },
     {
       "description": "Character Ascension Material",
@@ -402,17 +198,7 @@
       "id": "topaz_4",
       "sortingRank": 1,
       "name": "Prithiva Topaz Gemstone",
-      "source": [
-        {
-          "description": "Dropped by Lv. 75+ Geo Hypostasis"
-        },
-        {
-          "description": "Lv. 75+ Wolf of the North Challenge Reward"
-        },
-        {
-          "description": "Crafting"
-        }
-      ]
+      "source": [ "ghypostasis_75", "wolf_75", "crafting" ]
     },
     {
       "description": "Character Ascension Material",
@@ -420,11 +206,7 @@
       "id": "diamond_1",
       "sortingRank": 1,
       "name": "Brilliant Diamond Silver",
-      "source": [
-        {
-          "description": "Adventure Rank 15 Reward (x1)"
-        }
-      ]
+      "source": [ "ar_15" ]
     },
     {
       "description": "Character Ascension Material",
@@ -432,20 +214,7 @@
       "id": "diamond_2",
       "sortingRank": 1,
       "name": "Brilliant Diamond Fragment",
-      "source": [
-        {
-          "description": "Adventure Rank 25 Reward (x3)"
-        },
-        {
-          "description": "Adventure Rank 26 Reward (x2)"
-        },
-        {
-          "description": "Adventure Rank 28 Reward (x2)"
-        },
-        {
-          "description": "Adventure Rank 30 Reward (x2)"
-        }
-      ]
+      "source": [ "ar_25", "ar_26", "ar_28", "ar_30" ]
     },
     {
       "description": "Character Ascension Material",
@@ -453,17 +222,7 @@
       "id": "diamond_3",
       "sortingRank": 1,
       "name": "Brilliant Diamond Chunk",
-      "source": [
-        {
-          "description": "Adventure Rank 35 Reward (x3)"
-        },
-        {
-          "description": "Adventure Rank 38 Reward (x3)"
-        },
-        {
-          "description": "Adventure Rank 40 Reward (x3)"
-        }
-      ]
+      "source": [ "ar_35", "ar_38", "ar_40" ]
     },
     {
       "description": "Character Ascension Material",
@@ -471,29 +230,15 @@
       "id": "diamond_4",
       "sortingRank": 1,
       "name": "Brilliant Diamond Gemstone",
-      "source": [
-        {
-          "description": "Adventure Rank 41 Reward (x2)"
-        },
-        {
-          "description": "Adventure Rank 42 Reward (x2)"
-        },
-        {
-          "description": "Adventure Rank 45 Reward (x2)"
-        }
-      ]
+      "source": [ "ar_41", "ar_42", "ar_45" ]
     },
     {
       "description": "The imploded form of an Anemo Hypostasis upon its defeat. It contains the essence of Anemo energy. It is said that the power to create hurricanes resides within its seemingly fragile body. This butterfly of pure Anemo energy must be waiting for the day to conjure up storms once again",
       "icon": "assets/material_icons/hurricane_seed.png",
       "id": "hurricane_seed",
       "sortingRank": 2,
-      "name": "Lightning Prism",
-      "source": [
-        {
-          "description": "Dropped by Lv. 30+ Anemo Hypostasis"
-        }
-      ]
+      "name": "Hurricane Seed",
+      "source": [ "ahypostasis_30" ]
     },
     {
       "description": "An Electro Hypostasis channels nearby elemental energy to repair damaged elemental entities. It contains the essence of Electro energy. A common prism separates white light into component colors; a Lightning Prism, however, channels flowing energy and weaves them into lighting. It will continue to do so even after the Electro Hypostasis has been defeated.",
@@ -501,11 +246,7 @@
       "id": "lightning_prism",
       "sortingRank": 2,
       "name": "Lightning Prism",
-      "source": [
-        {
-          "description": "Dropped by Lv. 30+ Electro Hypostasis"
-        }
-      ]
+      "source": [ "ehypostasis_30" ]
     },
     {
       "description": "The exposed core of a defeated Cryo Regisvine. Pure cryo elements are contained within it. Energy and thoughts that swell deep within the earth will eventually erupt on the surface. Even the deathly silent frost will attach to creatures on the ground, causing even the vines and branches of vegetation to become huge and fierce, attracting the hunter's gaze.\n",
@@ -513,11 +254,7 @@
       "id": "hoarfrost_core",
       "sortingRank": 2,
       "name": "Hoarfrost Core",
-      "source": [
-        {
-          "description": "Dropped by Lv. 30+ Cryo Regisvine"
-        }
-      ]
+      "source": [ "cryo_regisvine_30" ]
     },
     {
       "description": "A pillar form by the shell of a Geo Hypostasis. It is composed of high-density Geo energy. This is the heaviest component of a Geo Element. Maybe the reason a Geo Hypostasis creates this polar out of its shell and raises itself is just to get closer to the sky, not to combat enemies.",
@@ -525,11 +262,7 @@
       "id": "basalt_pillar",
       "sortingRank": 2,
       "name": "Basalt Pillar",
-      "source": [
-        {
-          "description": "Dropped by Lv. 30+ Geo Hypostasis"
-        }
-      ]
+      "source": [ "ghypostasis_30" ]
     },
     {
       "description": "A scoop of eternal water left by an oceanid. Though it has already diffused among the depths of the lake, its purity remains all the same. But why would a creature so pure and clean as an oceanid desire the appearance of plants born of the ground and assume such a form with pure water? They need not breathe nor do they require sustenance...",
@@ -537,11 +270,7 @@
       "id": "cleansing_heart",
       "sortingRank": 2,
       "name": "Cleansing Heart",
-      "source": [
-        {
-          "description": "Dropped by Lv. 30+ Oceanids"
-        }
-      ]
+      "source": [ "oceanid_30" ]
     },
     {
       "description": "A seed that fuels the unending flames of the Pyro Regisvine. It emits pyro energy as if it will burn all that has ever sprouted from the ground.\nEndless desires flow among turbulent energy deep within the earth. What desire could steadily hold such fire to the plants and long so eagerly to bathe everything in unquenchable flames?",
@@ -549,11 +278,7 @@
       "id": "everflame_seed",
       "sortingRank": 2,
       "name": "Everflame Seed",
-      "source": [
-        {
-          "description": "Dropped by Lv. 30+ Pyro Regisvines"
-        }
-      ]
+      "source": [ "pyro_regisvine_30" ]
     },
     {
       "description": "A wild grass that emits light at night. Used in cooking to enhance other flavors.",
@@ -561,20 +286,7 @@
       "id": "small_lamp_grass",
       "sortingRank": 3,
       "name": "Small Lamp Grass",
-      "source": [
-        {
-          "description": "Found in the wild at night"
-        },
-        {
-          "description": "Found in Wolvendom"
-        },
-        {
-          "description": "Found in the Whispering Woods"
-        },
-        {
-          "description": "Sold by Flora (Mondstadt)"
-        }
-      ]
+      "source": [ "wild_night", "wolvendom", "whispering_woods", "shop_flora" ]
     },
     {
       "description": "A fungus that grows in the warm caress of the wind. It is as everlasting as the wind, nourishing life.",
@@ -582,14 +294,7 @@
       "id": "philanemo_mushroom",
       "sortingRank": 3,
       "name": "Philanemo Mushroom",
-      "source": [
-        {
-          "description": "Found under the eaves of houses"
-        },
-        {
-          "description": "Sold by Chloris (6:00-19:00 at Mondstadt's Windrise area)"
-        }
-      ]
+      "source": [ "houses", "chloris" ]
     },
     {
       "description": "A rare mineral that glimmers in the dark. It's said to be a mutated gemstone condensed from the flourishing elements of the world.",
@@ -597,17 +302,7 @@
       "id": "noctilucous_jade",
       "sortingRank": 3,
       "name": "Noctilucous Jade",
-      "source": [
-        {
-          "description": "Found in caves in Liyue"
-        },
-        {
-          "description": "Found in Mingyun Village"
-        },
-        {
-          "description": "Sold by Shitou (Liyue Harbor)"
-        }
-      ]
+      "source": [ "caves_liyue", "mingyun", "shop_shitou" ]
     },
     {
       "description": "A precious crystal of condensed pure Geo element that usually grows along with other minerals. It's also commonly called \"Cor Petrae.\"",
@@ -615,14 +310,7 @@
       "id": "cor_lapis",
       "sortingRank": 3,
       "name": "Cor Lapis",
-      "source": [
-        {
-          "description": "Found under cliffs in Liyue"
-        },
-        {
-          "description": "Found in Mt. Hulao"
-        }
-      ]
+      "source": [ "cliffs_liyue", "mthulao" ]
     },
     {
       "description": "A plant that adores the wind. To the proud children of the wind, or the citizens of Mondstadt, the Windwheel Asters are the \"visible winds.\"",
@@ -630,20 +318,7 @@
       "id": "windwheel_aster",
       "sortingRank": 3,
       "name": "Windwheel Aster",
-      "source": [
-        {
-          "description": "Found near the Statue of The Seven at Windrise"
-        },
-        {
-          "description": "Found under trees in the wild"
-        },
-        {
-          "description": "Found in Stormterror's Lair"
-        },
-        {
-          "description": "Sold by Flora (6:00-19:00 in the city of Mondstadt)"
-        }
-      ]
+      "source": [ "statue7_windrise", "trees", "stormterror_lair", "shop_flora" ]
     },
     {
       "description": "A flower that grows near water sources. When cooked the petals have a chunky texture, yet are sweet and a little bitter.",
@@ -651,17 +326,7 @@
       "id": "calla_lily",
       "sortingRank": 3,
       "name": "Calla Lily",
-      "source": [
-        {
-          "description": "Found near lakes"
-        },
-        {
-          "description": "Found in Springvale"
-        },
-        {
-          "description": "Sold by Flora (6:00-19:00 in the city of Mondstadt)"
-        }
-      ]
+      "source": [ "lakes", "springvale", "shop_flora" ]
     },
     {
       "description": "A tiny seed that rides on the wind. Even without its feathered wings, it still holds the hope from afar within.",
@@ -669,14 +334,7 @@
       "id": "dandelion_seed",
       "sortingRank": 3,
       "name": "Dandelion Seed",
-      "source": [
-        {
-          "description": "Found in the wild"
-        },
-        {
-          "description": "Found at Mondstadt gates"
-        }
-      ]
+      "source": [ "wild", "mondstadt_gates" ]
     },
     {
       "description": "A plump and translucent berry that has a fragrant smell and a sweet refreshing taste. In the past, the watchers of the storms found solace in the sweetness of the fruit and the hope for the city's security.",
@@ -684,14 +342,7 @@
       "id": "valberry",
       "sortingRank": 3,
       "name": "Valberry",
-      "source": [
-        {
-          "description": "Found in the wild around Stormbearer Mountains"
-        },
-        {
-          "description": "Sold by Chloris (6:00-19:00 at Mondstadt's Windrise area)"
-        }
-      ]
+      "source": [ "stormbearer", "shop_chaloris" ]
     },
     {
       "description": "An extremely ancient flower that was said to be commonly seen in Liyue. It transforms the memories of the land into its fragrance during florescence.",
@@ -699,20 +350,7 @@
       "id": "glaze_lily",
       "sortingRank": 3,
       "name": "Glaze Lily",
-      "source": [
-        {
-          "description": "Found in the wild"
-        },
-        {
-          "description": "Sold by Ms. Bai (Qingce Village)"
-        },
-        {
-          "description": "Found in Qingce Village"
-        },
-        {
-          "description": "Found in Yujing Terrace, Liyue Harbor"
-        }
-      ]
+      "source": [ "wild", "shop_bai", "qingce", "yujing" ]
     },
     {
       "description": "A small flower with strong vitality. It was said its downward-blooming flower keeps its fragrance from dissipating.",
@@ -720,11 +358,7 @@
       "id": "violetgrass",
       "sortingRank": 3,
       "name": "Violetgrass",
-      "source": [
-        {
-          "description": "Found near cliffs in Liyue"
-        }
-      ]
+      "source": [ "cliffs_liyue" ]
     },
     {
       "description": "A berry with thorns that often gets attached to a wolf's pelt. When you look at it, you can almost hear the echoing cries of the wolves in the woods.",
@@ -732,17 +366,7 @@
       "id": "wolfhook",
       "sortingRank": 3,
       "name": "Wolfhook",
-      "source": [
-        {
-          "description": "Found in the wild"
-        },
-        {
-          "description": "Found in the Wolvendom"
-        },
-        {
-          "description": "Sold by Chloris (6:00-19:00 at Mondstadt's Windrise area)"
-        }
-      ]
+      "source": [ "wild", "wolvendom", "shop_chloris" ]
     },
     {
       "description": "Empty seashells brought ashore by the tides. Hold it close to your ear, and hear the longing calls of the sea.",
@@ -750,11 +374,7 @@
       "id": "starconch",
       "sortingRank": 3,
       "name": "Starconch",
-      "source": [
-        {
-          "description": "Found on the beaches of Liyue"
-        }
-      ]
+      "source": [ "beaches_liyue" ]
     },
     {
       "description": "A beautiful flower with a name that suits its appearance. It only grows where harsh winds blow, and is just as intangible as the true heart of an unbound soul.",
@@ -762,22 +382,7 @@
       "id": "cecilia",
       "sortingRank": 3,
       "name": "Cecilia",
-      "source": [
-        {
-          "description": "Found in the wild"
-        },
-        {
-          "description": "Found on Starsnatch Cliff"
-        },
-        {
-          "description": "Sold by Flora (6:00-19:00 in the city of Mondstadt)"
-        },
-        {
-          "description": "Given by an NPC at the top of Starsnatch Cliff"
-        },
-        {
-          "description": "Given by the nun in front of Mondstadt's cathedral"
-        }
+      "source": [ "wild", "starsnatch", "shop_flora", "npc_starsnatch", "npc_mondstadt_cathedral"
       ]
     },
     {
@@ -786,14 +391,7 @@
       "id": "jueyun_chili",
       "sortingRank": 3,
       "name": "Jueyun Chili",
-      "source": [
-        {
-          "description": "Found in the wild"
-        },
-        {
-          "description": "Found in Qingce Village"
-        }
-      ]
+      "source": [ "wild", "qingce" ]
     },
     {
       "description": "A crimson flower that blooms like the rainbow clouds in Liyue. It can be made into silky-smooth fabric.",
@@ -801,17 +399,7 @@
       "id": "silk_flower",
       "sortingRank": 3,
       "name": "Silk Flower",
-      "source": [
-        {
-          "description": "Found near Yujing Terrace, Liyue Harbor"
-        },
-        {
-          "description": "Sold by Ms. Bai (Qingce Village)"
-        },
-        {
-          "description": "Found near Wangshu Inn"
-        }
-      ]
+      "source": [ "yujing", "shop_bai", "wangshu" ]
     },
     {
       "description": "A roughly produced arrowhead. Though unimpressive, neither it nor the bow should be underestimated, for even the bravest knight can be felled by an arrow from the rear.",
@@ -819,10 +407,7 @@
       "id": "arrowhead_1",
       "sortingRank": 4,
       "name": "Firm Arrowhead",
-      "source": [
-        {
-          "description": "Dropped by Ranged Hilichurls"
-        }
+      "source": [ "hilichurls_ranged"
       ]
     },
     {
@@ -831,14 +416,7 @@
       "id": "arrowhead_2",
       "sortingRank": 4,
       "name": "Sharp Arrowhead",
-      "source": [
-        {
-          "description": "Dropped by Lv. 40+ Ranged Hilichurls"
-        },
-        {
-          "description": "Crafting"
-        }
-      ]
+      "source": [ "hilichurls_ranged_40", "craftig" ]
     },
     {
       "description": "An old arrowhead coated in blood. The arrowhead has long since lost its sharpness and thus its use as a weapon. However it represents the pride of a hunter and acts as both an amulet and a medal.",
@@ -846,14 +424,7 @@
       "id": "arrowhead_3",
       "sortingRank": 4,
       "name": "Weatherd Arrowhead",
-      "source": [
-        {
-          "description": "Dropped by Lv. 60+ Ranged Hilichurls"
-        },
-        {
-          "description": "Crafting"
-        }
-      ]
+      "source": [ "hilichurls_ranged_60", "craftig" ]
     },
     {
       "description": "A scroll that likely relates to some kind of magic. Exudes an inexplicable but ominous warmth.",
@@ -1142,6 +713,39 @@
         },
         {
           "description": "Craftable"
+        }
+      ]
+    },
+
+    {
+      "icon": "assets/material_icons/aerosiderite_1.png",
+      "id": "aerosiderite_1",
+      "sortingRank": 4,
+      "source": [
+        {
+          "name": "Hidden Place of Lianshan Formula",
+          "description": "Domain of Forgery",
+          "location": "Liyue",
+          "days": [3, 5, 6]
+        },
+        {
+          "description": "Purchased from the Souvenir Shop in Liyue"
+        }
+      ]
+    },
+    {
+      "icon": "assets/material_icons/aerosiderite_2.png",
+      "id": "aerosiderite_2",
+      "sortingRank": 4,
+      "source": [
+        {
+          "name": "Hidden Place of Lianshan Formula",
+          "description": "Domain of Forgery",
+          "location": "Liyue",
+          "days": [3, 5, 6]
+        },
+        {
+          "description": "Purchased from the Souvenir Shop in Liyue"
         }
       ]
     }

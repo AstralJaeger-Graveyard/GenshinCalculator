@@ -31,7 +31,6 @@ export class MaterialService{
     }
   }
 
-
   public get(id: string): Material{
     if (isDevMode() && !this.materialsMap.has(id)){
       console.log('%c Could not find item with id: ' + id, 'color: red; font-size: 20px;')
