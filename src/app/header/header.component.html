@@ -30,5 +30,16 @@
   </nz-page-header-tags>
   <nz-page-header-extra>
     <a href='https://ko-fi.com/T6T11B137' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi2.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+    <button nz-button nz-dropdown [nzDropdownMenu]="menu" nzPlacement="bottomRight">
+      Manage
+      <fa-icon [icon]="['fas','angle-down']" style="margin-left: 5px"></fa-icon>
+    </button>
+    <nz-dropdown-menu #menu="nzDropdownMenu">
+      <ul nz-menu>
+        <li nz-menu-item>Signin</li>
+        <li nz-menu-divider></li>
+        <li nz-menu-item>Settings</li>
+      </ul>
+    </nz-dropdown-menu>
   </nz-page-header-extra>
 </nz-page-header>
