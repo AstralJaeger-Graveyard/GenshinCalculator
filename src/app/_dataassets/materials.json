@@ -407,7 +407,7 @@
       "id": "arrowhead_1",
       "sortingRank": 4,
       "name": "Firm Arrowhead",
-      "source": [ "hilichurls_ranged"
+      "source": [ "hilichurl_ranged"
       ]
     },
     {
@@ -416,7 +416,7 @@
       "id": "arrowhead_2",
       "sortingRank": 4,
       "name": "Sharp Arrowhead",
-      "source": [ "hilichurls_ranged_40", "craftig" ]
+      "source": [ "hilichurl_ranged_40", "craftig" ]
     },
     {
       "description": "An old arrowhead coated in blood. The arrowhead has long since lost its sharpness and thus its use as a weapon. However it represents the pride of a hunter and acts as both an amulet and a medal.",
@@ -424,7 +424,7 @@
       "id": "arrowhead_3",
       "sortingRank": 4,
       "name": "Weatherd Arrowhead",
-      "source": [ "hilichurls_ranged_60", "craftig" ]
+      "source": [ "hilichurl_ranged_60", "craftig" ]
     },
     {
       "description": "A scroll that likely relates to some kind of magic. Exudes an inexplicable but ominous warmth.",
@@ -432,11 +432,7 @@
       "id": "scroll_1",
       "sortingRank": 4,
       "name": "Divining Scroll",
-      "source": [
-        {
-          "description": "Dropped by samachurls"
-        }
-      ]
+      "source": [ "samachurl" ]
     },
     {
       "description": "An old scroll lacking in detail and clarity. By following the images on it, some magical creatures can recreate a small part of its magic.",
@@ -444,14 +440,7 @@
       "id": "scroll_2",
       "sortingRank": 4,
       "name": "Sealed Scroll",
-      "source": [
-        {
-          "description": "Dropped by Lv 40+ samachurls"
-        },
-        {
-          "description": "Crafting"
-        }
-      ]
+      "source": [ "samachurl_40", "crafting" ]
     },
     {
       "description": "A scroll inscribed with ancient images. It is said that few can decipher its meaning, and the few scholars that have all went mad.",
@@ -459,14 +448,7 @@
       "id": "scroll_3",
       "sortingRank": 4,
       "name": "Forbidden Curse Scroll",
-      "source": [
-        {
-          "description": "Dropped by Lv 60+ samachurls"
-        },
-        {
-          "description": "Crafting"
-        }
-      ]
+      "source": [ "samachurl_60", "crafting" ]
     },
     {
       "description": "A signet that proudly represents it's owner's position as a member of the Treasure Hoarders. The pursuit of treasure knows no bounds. That said... is being a thief something to be proud of?",
@@ -474,11 +456,7 @@
       "id": "tinsignia_1",
       "sortingRank": 4,
       "name": "Treasure Hoarder Insignia",
-      "source": [
-        {
-          "description": "Dropped by Treasure Hoarders"
-        }
-      ]
+      "source": [ "thoarder" ]
     },
     {
       "description": "A raven insignia used by members of the Treasure Hoarders to identify each other. The Treasure Hoarders ask for no resume. Anyone who has an insatiable desire for treasure and is backed up by an equal amount of courage can become a worthy member.",
@@ -486,14 +464,7 @@
       "id": "tinsignia_2",
       "sortingRank": 4,
       "name": "Silver Raven Insignia",
-      "source": [
-        {
-          "description": "Dropped by Lv 40+ Treasure Hoarders"
-        },
-        {
-          "description": "Crafting"
-        }
-      ]
+      "source": [ "thoarder_40", "crafting" ]
     },
     {
       "description": "A raven insignia that symbolizes the pride and the guiding principle of the Treasure Hoarders. Whether it's hidden amidst the vastness of the land or in the depths of the seas, as long as there are treasures to be hunted down, the spirit of Treasure Hoarders, who will stop at nothing to acquire them, will never die.",
@@ -501,14 +472,7 @@
       "id": "tinsignia_3",
       "sortingRank": 4,
       "name": "Golden Raven Insignia",
-      "source": [
-        {
-          "description": "Dropped by Lv 60+ Treasure Hoarders"
-        },
-        {
-          "description": "Crafting"
-        }
-      ]
+      "source": [ "thoarder_60", "crafting" ]
     },
     {
       "description": "A broken bone mask that once belonged to some hilichurl. Now more broken than complete, it can no longer perform its primary function.",
@@ -516,20 +480,7 @@
       "id": "mask_1",
       "sortingRank": 4,
       "name": "Damaged Mask",
-      "source": [
-        {
-          "description": "Dropped by hilichurls"
-        },
-        {
-          "description": "Dropped by some ranged hilichurls"
-        },
-        {
-          "description": "Dropped by some samachurls"
-        },
-        {
-          "description": "Dropped by some mitachurls"
-        }
-      ]
+      "source": [ "hilichurl", "some_ranged_hilichurl", "some_samachurl", "some_mitachurl" ]
     },
     {
       "description": "A bone mask covered in unidentifiable stains and a mysterious odor. Yet such is the devotion of hilichurls to masks that they will wear it nonetheless.",
@@ -537,20 +488,7 @@
       "id": "mask_2",
       "sortingRank": 4,
       "name": "Stained Mask",
-      "source": [
-        {
-          "description": "Dropped by Lv. 40+ hilichurls"
-        },
-        {
-          "description": "Dropped by some Lv. 40+ ranged hilichurls"
-        },
-        {
-          "description": "Dropped by Lv. 40+ some samachurls"
-        },
-        {
-          "description": "Dropped by Lv. 40+ some mitachurls"
-        }
-      ]
+      "source": [ "hilichurl_40", "some_ranged_hilichurl_40", "some_samachurl_40", "some_mitachurl_40", "crafting" ]
     },
     {
       "description": "A glossy bone mask with oil markings painted on it, meant to intimidate enemies. No-one really knows why hilichurls are so fascinated with masks. Some say it's because they don't want to see their own reflections in the water.",
@@ -558,20 +496,7 @@
       "id": "mask_3",
       "sortingRank": 4,
       "name": "Ominous Mask",
-      "source": [
-        {
-          "description": "Dropped by Lv. 60+ hilichurls"
-        },
-        {
-          "description": "Dropped by some Lv. 60+ ranged hilichurls"
-        },
-        {
-          "description": "Dropped by Lv. 60+ some samachurls"
-        },
-        {
-          "description": "Dropped by Lv. 60+ some mitachurls"
-        }
-      ]
+      "source": [ "hilichurl_60", "some_ranged_hilichurl_60", "some_samachurl_40", "some_mitachurl_60", "crafting"]
     },
     {
       "description": "An insignia to identify the recruits. Makes one wonder about what the ones joining the Fatui's war machine were thinking.",
@@ -579,17 +504,7 @@
       "id": "finsignia_1",
       "sortingRank": 4,
       "name": "Recruit's Insignia",
-      "source": [
-        {
-          "description": "Dropped by Skirmishers"
-        },
-        {
-          "description": "Dropped by some Agents"
-        },
-        {
-          "description": "Dropped by some Electro Cicin Mages"
-        }
-      ]
+      "source": [ "skirmisher", "some_agent", "some_thunderslut" ]
     },
     {
       "description": "An insignia with a different shape to tell the sergeants from new recruits. Perhaps there are complicated emotions behind it.",
@@ -597,20 +512,7 @@
       "id": "finsignia_2",
       "sortingRank": 4,
       "name": "Sergeant's Insignia",
-      "source": [
-        {
-          "description": "Dropped by Lv. 40+ Skirmishers"
-        },
-        {
-          "description": "Dropped by some Lv. 40+ Agents"
-        },
-        {
-          "description": "Dropped by some Lv. 40+ Electro Cicin Mages"
-        },
-        {
-          "description": "Craftable"
-        }
-      ]
+      "source": [ "skirmisher_40", "some_agent_40", "some_thunderslut_40", "craftable" ]
     },
     {
       "description": "An armband to identify officers. The Fatui possess a colossal army, so there must be something extraordinary about the ones who achieved this rank within the group.",
@@ -618,20 +520,7 @@
       "id": "finsignia_3",
       "sortingRank": 4,
       "name": "Lieutenant's Insignia",
-      "source": [
-        {
-          "description": "Dropped by Lv. 60+ Skirmishers"
-        },
-        {
-          "description": "Dropped by some Lv. 60+ Agents"
-        },
-        {
-          "description": "Dropped by some Lv. 60+ Electro Cicin Mages"
-        },
-        {
-          "description": "Craftable"
-        }
-      ]
+      "source":  [ "skirmisher_60", "some_agent_60", "some_thunderslut_60", "craftable" ]
     },
     {
       "description": "Nectar extracted from the stamen of a Whopperflower that contains trace amounts of elements. The taste of the nectar has a hint of Sweet Flower in it.",
@@ -639,7 +528,7 @@
       "id": "nectar_1",
       "sortingRank": 4,
       "name": "Whopperflower Nectar",
-      "source": [
+      "source": [ "whopperflower",
         {
           "description": "Dropped by Whopperflower"
         }
@@ -650,14 +539,7 @@
       "icon": "assets/material_icons/nectar_2.png",
       "id": "nectar_2",
       "name": "Shimmering Nectar",
-      "source": [
-        {
-          "description": "Dropped by Lv. 40+ Whopperflowers"
-        },
-        {
-          "description": "Craftable"
-        }
-      ]
+      "source": [ "whopperflower_20", "craftable" ]
     },
     {
       "description": "A thick and sticky honey that is full of energy. The Whopperflower hunts by tricking its prey, a process it uses to possibly evolve into a more powerful and pure form.",
@@ -665,14 +547,7 @@
       "id": "nectar_3",
       "sortingRank": 4,
       "name": "Energy Nectar",
-      "source": [
-        {
-          "description": "Dropped by Lv. 60+ Whopperflowers"
-        },
-        {
-          "description": "Craftable"
-        }
-      ]
+      "source": [ "whopperflower_60", "craftable" ]
     },
     {
       "description": "A thick coating found on slimes. Most commonly seen material in elemental workshops.",
@@ -680,11 +555,7 @@
       "id": "slime_1",
       "sortingRank": 4,
       "name": "Slime Condensate",
-      "source": [
-        {
-          "description": "Dropped by slimes"
-        }
-      ]
+      "source": [ "slime" ]
     },
     {
       "description": "Mildly purified slime secretions. Harmful to the skin. Please avoid direct exposure.",
@@ -692,14 +563,7 @@
       "id": "slime_2",
       "sortingRank": 4,
       "name": "Slime Secretions",
-      "source": [
-        {
-          "description": "Dropped by Lv. 40+ slimes"
-        },
-        {
-          "description": "Craftable"
-        }
-      ]
+      "source": [ "slime_40", "craftable" ]
     },
     {
       "description": "Concentrated slime essence. When left on its own, it will begin to move on its own.",
@@ -707,47 +571,20 @@
       "id": "slime_3",
       "sortingRank": 4,
       "name": "Slime Concentrate",
-      "source": [
-        {
-          "description": "Dropped by Lv. 60+ slime"
-        },
-        {
-          "description": "Craftable"
-        }
-      ]
+      "source": [ "slime_60", "craftable" ]
     },
 
     {
       "icon": "assets/material_icons/aerosiderite_1.png",
       "id": "aerosiderite_1",
       "sortingRank": 4,
-      "source": [
-        {
-          "name": "Hidden Place of Lianshan Formula",
-          "description": "Domain of Forgery",
-          "location": "Liyue",
-          "days": [3, 5, 6]
-        },
-        {
-          "description": "Purchased from the Souvenir Shop in Liyue"
-        }
-      ]
+      "source": [ "linshan_formula_1", "shop_souvenir_liyue"]
     },
     {
       "icon": "assets/material_icons/aerosiderite_2.png",
       "id": "aerosiderite_2",
       "sortingRank": 4,
-      "source": [
-        {
-          "name": "Hidden Place of Lianshan Formula",
-          "description": "Domain of Forgery",
-          "location": "Liyue",
-          "days": [3, 5, 6]
-        },
-        {
-          "description": "Purchased from the Souvenir Shop in Liyue"
-        }
-      ]
+      "source": [ "linshan_formula_1", "craftable" ]
     }
   ]
 }

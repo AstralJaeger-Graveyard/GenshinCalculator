@@ -21,6 +21,14 @@
       "description": "Purchased from the Souvenir Shop"
     },
     {
+      "id": "shop_souvenir_mondstadt",
+      "description": "Purchased from the Souvenir Shop in Liyue"
+    },
+    {
+      "id": "shop_souvenir_liyue",
+      "description": "Purchased from the Souvenir Shop in Liyue"
+    },
+    {
       "id": "shop_flora",
       "description": "Sold by Flora (6:00-19:00 in the city of Mondstadt)"
     },
@@ -351,6 +359,148 @@
     {
       "id": "hilichurls_ranged_60",
       "description": "Dropped by Lv. 60+ Ranged Hilichurls"
+    },
+    {
+      "id": "samachurl",
+      "description": "Dropped by Samachurls"
+    },
+    {
+      "id": "samachurl_40",
+      "description": "Dropped by Lv. 40 Samachurls"
+    },
+    {
+      "id": "samachurl_60",
+      "description": "Dropped by Lv. 60+ Samachurls"
+    },
+    {
+      "id": "thoarder",
+      "description": "Dropped by Treasure Hoarders"
+    },
+    {
+      "id": "thoarder_40",
+      "description": "Dropped by Lv 40+ Treasure Hoarders"
+    },
+    {
+      "id": "thoarder_60",
+      "description": "Dropped by Lv 60+ Treasure Hoarders"
+    },
+    {
+      "id": "some_hilichurl",
+      "description": "Dropped by hilichurls"
+    },
+    {
+      "id": "some_ranged_hilichurl",
+      "description": "Dropped by some ranged hilichurls"
+    },
+    {
+      "id": "some_samachurl",
+      "description": "Dropped by some samachurls"
+    },
+    {
+      "id": "some_mitachurl",
+      "description": "Dropped by some mitachurls"
+    },
+    {
+      "id": "some_hilichurl_40",
+      "description": "Dropped by Lv. 40+ hilichurls"
+    },
+    {
+      "id": "some_ranged_hilichurl_40",
+      "description": "Dropped by some Lv. 40+ ranged hilichurls"
+    },
+    {
+      "id": "some_samachurl_40",
+      "description": "Dropped by some Lv. 40+ samachurls"
+    },
+    {
+      "id": "some_mitachurl_40",
+      "description": "Dropped by some Lv. 40+ mitachurls"
+    },
+    {
+      "id": "some_hilichurl_60",
+      "description": "Dropped by Lv. 60+ hilichurls"
+    },
+    {
+      "id": "some_ranged_hilichurl_60",
+      "description": "Dropped by some Lv. 60+ ranged hilichurls"
+    },
+    {
+      "id": "some_samachurl_60",
+      "description": "Dropped by some Lv. 60+ samachurls"
+    },
+    {
+      "id": "some_mitachurl_60",
+      "description": "Dropped by some Lv. 60+ mitachurls"
+    },
+
+    {
+      "id": "skirmisher",
+      "description": "Dropped by Skirmishers"
+    },
+    {
+      "id": "some_agent",
+      "description": "Dropped by some Agents"
+    },
+    {
+      "id": "some_thunderslut",
+      "description": "Dropped by some Electro Cicin Mages"
+    },
+    {
+      "id": "skirmisher_40",
+      "description": "Dropped by Lv. 40+ Skirmishers"
+    },
+    {
+      "id": "some_agent_40",
+      "description": "Dropped by some Lv. 40+ Agents"
+    },
+    {
+      "id": "some_thunderslut_40",
+      "description": "Dropped by some Lv. 40+ Electro Cicin Mages"
+    },
+    {
+      "id": "skirmisher_60",
+      "description": "Dropped by Lv. 40+ Skirmishers"
+    },
+    {
+      "id": "some_agent_60",
+      "description": "Dropped by some Lv. 40+ Agents"
+    },
+    {
+      "id": "some_thunderslut_60",
+      "description": "Dropped by some Lv. 40+ Electro Cicin Mages"
+    },
+    {
+      "id": "whopperflower",
+      "description": "Dropped by Whopperflower"
+    },
+    {
+      "id": "whopperflower_40",
+      "description": "Dropped by Lv. 40+ Whopperflowers"
+    },
+    {
+      "id": "whopperflower_60",
+      "description": "Dropped by Lv. 60+ Whopperflowers"
+    },
+    {
+      "id": "slime",
+      "description": "Dropped by slimes"
+    },
+    {
+      "id": "slime_40",
+      "description": "Dropped by Lv. 40+ slimes"
+    },
+    {
+      "id": "slime_60",
+      "description": "Dropped by Lv. 60+ slimes"
+    },
+
+    {
+      "id": "linshan_formula_1",
+      "name": "Hidden Place of Lianshan Formula",
+      "description": "Domain of Forgery",
+      "location": "Liyue",
+      "days": [3, 5, 6]
     }
+
   ]
 }
