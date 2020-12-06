@@ -528,11 +528,7 @@
       "id": "nectar_1",
       "sortingRank": 4,
       "name": "Whopperflower Nectar",
-      "source": [ "whopperflower",
-        {
-          "description": "Dropped by Whopperflower"
-        }
-      ]
+      "source": [ "whopperflower" ]
     },
     {
       "description": "Nectar that is full of pure elements. Scholars generally concur that Whopperflowers are advanced life forms among the elemental plants, but there has yet to be a satisfactory explanation regarding their predatory habits.",
@@ -783,19 +779,19 @@
 
     {
       "icon": "",
-      "id": "thunderslut_1",
+      "id": "thunderslut_drop_1",
       "sortingRank": 4,
       "source": [ "shop_souvenir_liyue" ]
     },
     {
       "icon": "",
-      "id": "thunderslut_2",
+      "id": "thunderslut_drop_2",
       "sortingRank": 4,
       "source": [ "crafting" ]
     },
     {
       "icon": "",
-      "id": "thunderslut_3",
+      "id": "thunderslut_drop_3",
       "sortingRank": 4,
       "source": [ "crafting" ]
     },
