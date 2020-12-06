@@ -1078,24 +1078,24 @@
       "description": "An elixir of the highest quality. It embodies a state of intertwining order and chaos, and is said to mirror how the world was when it was first created. Of course, a certain someone knows that this was not the case."
     },
     {
-      "description": "A black meteor once fell beyond Liyue's Sea of Clouds, said to have fallen to vanquish a monster. However, it was stained by powerful tainted blood, so this item no longer possesses the pure power of Rex Lapis.",
       "id": "aerosiderite_1",
-      "name": "Grain of Aerosiderite"
+      "name": "Grain of Aerosiderite",
+      "description": "A black meteor once fell beyond Liyue's Sea of Clouds, said to have fallen to vanquish a monster. However, it was stained by powerful tainted blood, so this item no longer possesses the pure power of Rex Lapis."
     },
     {
-      "description": "Rumors of sea monsters are commonplace in Liyue, since the other-shore is an unknown region that lies outside of Teyvat.\nWithout the protection of The Seven, all that lies beyond is unknown chaos. Only power beyond the order of Teyvat is able to stain the power of Rex Lapis black.",
       "id": "aerosiderite_2",
-      "name": "Piece of Aerosiderite"
+      "name": "Piece of Aerosiderite",
+      "description": "Rumors of sea monsters are commonplace in Liyue, since the other-shore is an unknown region that lies outside of Teyvat.\nWithout the protection of The Seven, all that lies beyond is unknown chaos. Only power beyond the order of Teyvat is able to stain the power of Rex Lapis black."
     },
     {
       "id": "aerosiderite_3",
-      "name": "",
-      "description": ""
+      "name": "Bit of Aerosiderite",
+      "description": "The coastal nations of Teyvat refer to the region beyond the protection of The Seven as the Dark Sea. It is said many defeated gods refused to live under the new order of The Seven, so they fled to remote islands and became evil gods. However, their powers came from the same source as Rex Lapis, separate from this all-devouring darkness."
     },
     {
       "id": "aerosiderite_4",
-      "name": "",
-      "description": ""
+      "name": "Chunk of Aerosiderite",
+      "description": "When Khaenri'ah was destroyed, a great sinner created endless monsters with alien, dark blood flowing through their veins. They rampaged across the land, destroying all in their paths. Their lives were mutations, caused by powers beyond this world. The black serpentine dragon Durin that attacked Mondstadt was such a mutation."
     },
     {
       "id": "horn_1",
