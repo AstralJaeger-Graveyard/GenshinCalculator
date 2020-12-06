@@ -1,5 +1,4 @@
 import {Injectable, isDevMode} from '@angular/core';
-// @ts-ignore
 import * as data from 'src/app/_dataassets/translations.en-US.json';
 import {Translation} from '../model/Translation';
 

@@ -50,3 +50,5 @@ Thumbs.db
 *.lxsproj
 
 *.lxsopt
+
+src/app/_dataassets/translations.en-US_unused.json
