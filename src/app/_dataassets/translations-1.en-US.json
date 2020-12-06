@@ -1158,34 +1158,34 @@
       "description": "A rare bundle of Mist Grass that gives off a faint glow. Those who carry it invite both the Cicins and misfortune."
     },
     {
-      "id": "sacrificial_knife_1",
-      "name": "",
-      "description": ""
+      "id": "thunderslut_drop_1",
+      "name": "Hunter's Sacrificial Knife",
+      "description": "A sharp alloy weapon. Though its owner has been lost, it still reflects a disturbingly cold light."
     },
     {
-      "id": "sacrificial_knife_2",
-      "name": "",
-      "description": ""
+      "id": "thunderslut_drop_2",
+      "name": "Agent's Sacrificial Knife",
+      "description": "An oddly-shaped weapon made with superior Snezhnayan technology that once belonged to a senior agent. Proper training is required for using this strange weapon."
     },
     {
-      "id": "sacrificial_knife_3",
-      "name": "",
-      "description": ""
+      "id": "thunderslut_drop_3",
+      "name": "Inspector's Sacrificial Knife",
+      "description": "In the hands of its lord, this fierce weapon has handled many \"debts.\" No-one has eyes in the back of their heads, and this weapon and its related techniques are designed around that weakness."
     },
     {
       "id": "chaos_1",
-      "name": "",
-      "description": ""
+      "name": "Chaos Device",
+      "description": "Comes from ancient defunct relic structures. A part that once held the structure together. Its aesthetically-pleasing engineering is quite exquisite."
     },
     {
       "id": "chaos_2",
-      "name": "",
-      "description": ""
+      "name": "Chaos Circuit",
+      "description": "Comes from ancient defunct relic structures. Was once a logic circuit responsible for movement functions. Sadly, no-one is able to make sense of how it worked."
     },
     {
       "id": "chaos_3",
-      "name": "",
-      "description": ""
+      "name": "Chaos Core",
+      "description": "Comes from ancient defunct relic structures. The core that once drove a mechanical beast. Should you come to understand its workings and reproduce it, you could perhaps change the world."
     }
   ]
 }
