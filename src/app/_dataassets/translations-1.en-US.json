@@ -1099,33 +1099,33 @@
     },
     {
       "id": "horn_1",
-      "name": "",
-      "description": ""
+      "name": "Heavy Horn",
+      "description": "A crude horn used by hilichurls to warn each other. Given the damage to the horn, it won't be warning anyone any time soon."
     },
     {
       "id": "horn_2",
-      "name": "",
-      "description": ""
+      "name": "Black Bronze Horn",
+      "description": "A metallic monster horn that can only be obtained from especially strong hilichurls, since blowing on the horn takes real strength."
     },
     {
       "id": "horn_3",
-      "name": "",
-      "description": ""
+      "name": "Black Crystal Horn",
+      "description": "A metallic horn with an ominous shine decorated with black crystals of an unknown source. It has hardly been used at all. It is likely a ceremonial item of the hilichurls'."
     },
     {
       "id": "abyss_mage_1",
-      "name": "",
-      "description": ""
+      "name": "Dead Ley Line Branch",
+      "description": "Fragile branches from deep within the earth. Even after years of age, from beneath it's mottled surface you can see that its power is not yet entirely lost."
     },
     {
       "id": "abyss_mage_2",
-      "name": "",
-      "description": ""
+      "name": "Dead Ley Line Leaves",
+      "description": "A twig from deep within the earth. Though it is far from where it once lay, its leaves still pulsate with energy."
     },
     {
       "id": "abyss_mage_3",
-      "name": "",
-      "description": ""
+      "name": "Ley Line Sprouts",
+      "description": "It is said that there was a great tree whose roots once spread out to every corner of the world, and this branch is said to be part of it. It is almost if it was never broken off and taken far away, for its vitality is such that it still sprouts new leaves even now."
     },
     {
       "id": "bone_shard_1",
