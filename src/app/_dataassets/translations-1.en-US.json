@@ -490,16 +490,7 @@
       "id": "slime_3",
       "name": "Slime Concentrate"
     },
-    {
-      "description": "A black meteor once fell beyond Liyue's Sea of Clouds, said to have fallen to vanquish a monster. However, it was stained by powerful tainted blood, so this item no longer possesses the pure power of Rex Lapis.",
-      "id": "aerosiderite_1",
-      "name": "Grain of Aerosiderite"
-    },
-    {
-      "description": "Rumors of sea monsters are commonplace in Liyue, since the other-shore is an unknown region that lies outside of Teyvat.\nWithout the protection of The Seven, all that lies beyond is unknown chaos. Only power beyond the order of Teyvat is able to stain the power of Rex Lapis black.",
-      "id": "aerosiderite_2",
-      "name": "Piece of Aerosiderite"
-    },
+
     {
       "description": "",
       "id": "alley_hunter",
@@ -985,6 +976,7 @@
       "name": "Traveler Handy Sword",
       "description": ""
     },
+
     {
       "id": "boreal_wolf_1",
       "name": "Boreal Wolf's Milk Tooth",
@@ -1047,43 +1039,53 @@
     },
     {
       "id": "gunyun_1",
-      "name": "",
-      "description": ""
+      "name": "Luminous Sands from Guyun",
+      "description": "The stone pillars that tower amid the Guyun Stone Forest were once the stone lances Morax used to defeat his enemies. As time passed, the body of these gods penetrated into the pillars, granting them divinity. The pillars would sometimes shed crumbs of hatred and curses."
     },
     {
       "id": "gunyun_2",
-      "name": "",
-      "description": ""
+      "name": "Lustrous Stone from Guyun",
+      "description": "To the informed, Guyun Stone Forest is not some miraculous sight on the sea to behold, but the cemetery of the former gods of Liyue. Hatred and filth have periodically raised up from it, but all have been subdued by a demon-conquering young man."
     },
     {
       "id": "gunyun_3",
-      "name": "",
-      "description": ""
+      "name": "Relic from Guyun",
+      "description": "The stone lance has a glimmering core formed by the power of the defeated gods. Their hatred is not directed at Morax, for they have lost themselves a long time ago and are incapable of holding personal grudges."
     },
     {
       "id": "gunyun_4",
-      "name": "",
-      "description": ""
+      "name": "Divine Body from Guyun",
+      "description": "That which lurks within and animates this relic are the divine remains of lamenting gods. They are unrealized ideals, designs for a prosperous humanity that could never be. They may now lie deep within stone and sea, but they will not go quietly into the night."
     },
     {
       "id": "elixir_1",
-      "name": "",
-      "description": ""
+      "name": "Mist Veiled Lead Elixir",
+      "description": "Jueyun Karst is the realm of the mighty and illuminated adepti. But other than the ability to control the elements of the world, Jueyun Karst is also home to three other untold secrets: Danding (Alchemy), Fulu (Sigils), and Waijing (Sub-Space Creation)."
     },
     {
       "id": "elixir_2",
-      "name": "",
-      "description": ""
+      "name": "Mist Veiled Mercury Elixir",
+      "description": "With Fulu (Sigils), the adepti can store their power in the form of symbols, and with Waijing (Sub-Space Creation) they can fashion a cosmic paradise with the power of their minds. The manufacture of elixirs, however, has always been shrouded in mystery, for certain death follows for any who swallow them."
     },
     {
       "id": "elixir_3",
-      "name": "",
-      "description": ""
+      "name": "Mist Veiled Gold Elixir",
+      "description": "Elixirs are in fact pills made from metal alloys. They were created by the adepti, and are able to grant weapons transcendent powers.\nHowever, they are rarely seen in the world due to the hubris of the practitioners of martial arts, who prized the ways of combat over the paths of the adepti."
     },
     {
       "id": "elixir_4",
-      "name": "",
-      "description": ""
+      "name": "Mist Veiled Primo Elixir",
+      "description": "An elixir of the highest quality. It embodies a state of intertwining order and chaos, and is said to mirror how the world was when it was first created. Of course, a certain someone knows that this was not the case."
+    },
+    {
+      "description": "A black meteor once fell beyond Liyue's Sea of Clouds, said to have fallen to vanquish a monster. However, it was stained by powerful tainted blood, so this item no longer possesses the pure power of Rex Lapis.",
+      "id": "aerosiderite_1",
+      "name": "Grain of Aerosiderite"
+    },
+    {
+      "description": "Rumors of sea monsters are commonplace in Liyue, since the other-shore is an unknown region that lies outside of Teyvat.\nWithout the protection of The Seven, all that lies beyond is unknown chaos. Only power beyond the order of Teyvat is able to stain the power of Rex Lapis black.",
+      "id": "aerosiderite_2",
+      "name": "Piece of Aerosiderite"
     },
     {
       "id": "aerosiderite_3",
