@@ -724,114 +724,114 @@
       "icon": "",
       "id": "horn_1",
       "sortingRank": 4,
-      "source": [ "shop_souvenir_liyue" ]
+      "source": [ "mitachurl", "shop_souvenir_liyue" ]
     },
     {
       "icon": "",
       "id": "horn_2",
       "sortingRank": 4,
-      "source": [ "shop_souvenir_liyue" ]
+      "source": [ "mitachurl_40", "shop_souvenir_liyue" ]
     },
     {
       "icon": "",
       "id": "horn_3",
       "sortingRank": 4,
-      "source": [ "shop_souvenir_liyue" ]
+      "source": [ "mitachurl_60", "shop_souvenir_liyue" ]
     },
 
     {
       "icon": "",
-      "id": "abyss_mage_1",
+      "id": "ley_line_1",
       "sortingRank": 4,
-      "source": [ "shop_souvenir_liyue" ]
+      "source": [ "abyss_mage", "shop_souvenir_liyue" ]
     },
     {
       "icon": "",
-      "id": "abyss_mage_2",
+      "id": "ley_line_2",
       "sortingRank": 4,
-      "source": [ "crafting" ]
+      "source": [ "abyss_mage_40", "crafting" ]
     },
     {
       "icon": "",
-      "id": "abyss_mage_3",
+      "id": "ley_line_3",
       "sortingRank": 4,
-      "source": [ "crafting" ]
+      "source": [ "abyss_mage_60", "crafting" ]
     },
 
     {
       "icon": "",
       "id": "bone_shard_1",
       "sortingRank": 4,
-      "source": [ "shop_souvenir_liyue" ]
+      "source": [ "geo_hatchling", "shop_souvenir_liyue" ]
     },
     {
       "icon": "",
       "id": "bone_shard_1",
       "sortingRank": 4,
-      "source": [ "crafting" ]
+      "source": [ "geo_hatchling_40", "crafting" ]
     },
     {
       "icon": "",
       "id": "bone_shard_3",
       "sortingRank": 4,
-      "source": [ "crafting" ]
+      "source": [ "geo_hatchling_60", "crafting" ]
     },
 
     {
       "icon": "",
       "id": "thunderslut_drop_1",
       "sortingRank": 4,
-      "source": [ "shop_souvenir_liyue" ]
+      "source": [ "thunderslut", "shop_souvenir_liyue" ]
     },
     {
       "icon": "",
       "id": "thunderslut_drop_2",
       "sortingRank": 4,
-      "source": [ "crafting" ]
+      "source": [ "thunderslut_40", "crafting" ]
     },
     {
       "icon": "",
       "id": "thunderslut_drop_3",
       "sortingRank": 4,
-      "source": [ "crafting" ]
+      "source": [ "thunderslut_60", "crafting" ]
     },
 
     {
       "icon": "",
       "id": "sacrificial_knife_1",
       "sortingRank": 4,
-      "source": [ "shop_souvenir_liyue" ]
+      "source": [ "agent" ]
     },
     {
       "icon": "",
       "id": "sacrificial_knife_2",
       "sortingRank": 4,
-      "source": [ "crafting" ]
+      "source": [ "agent_40", "crafting" ]
     },
     {
       "icon": "",
       "id": "sacrificial_knife_3",
       "sortingRank": 4,
-      "source": [ "crafting" ]
+      "source": [ "agent_60", "crafting" ]
     },
 
     {
       "icon": "",
       "id": "chaos_1",
       "sortingRank": 4,
-      "source": [ "shop_souvenir_liyue" ]
+      "source": [ "ruin_guard", "ruin_hunter" ]
     },
     {
       "icon": "",
       "id": "chaos_2",
       "sortingRank": 4,
-      "source": [ "crafting" ]
+      "source": [ "ruin_guard_40", "ruin_hunter_40", "crafting" ]
     },
     {
       "icon": "",
       "id": "chaos_3",
       "sortingRank": 4,
-      "source": [ "crafting" ]
+      "source": [ "ruin_guard_60", "ruin_hunter_60", "crafting" ]
     }
   ]
 }

@@ -491,11 +491,116 @@
     },
 
     {
-      "id": "linshan_formula_1",
+      "id": "mitachurl",
+      "description": "Dropped by Mitachurls"
+    },
+    {
+      "id": "mitachurl_40",
+      "description": "Dropped by Lv. 40+ Mitachurls"
+    },
+    {
+      "id": "mitachurl_60",
+      "description": "Dropped by Lv. 60+ Mitachurls"
+    },
+
+    {
+      "id": "abyss_mage",
+      "description": "Dropped by Geovishap Hatchlings"
+    },
+    {
+      "id": "abyss_mage_40",
+      "description": "Dropped by Lv. 40+ Geovishap Hatchlings"
+    },
+    {
+      "id": "abyss_mage_60",
+      "description": "Dropped by Lv. 60+ Geovishap Hatchlings"
+    },
+
+    {
+      "id": "geo_hatchlings",
+      "description": "Dropped by Geovishap Hatchlings"
+    },
+    {
+      "id": "geo_hatchlings_40",
+      "description": "Dropped by Lv. 40+ Geovishap Hatchlings"
+    },
+    {
+      "id": "geo_hatchlings_60",
+      "description": "Dropped by Lv. 60+ Geovishap Hatchlings"
+    },
+
+    {
+      "id": "thunderslut",
+      "description": "Dropped by Electro Cicin Mage"
+    },
+    {
+      "id": "thunderslut_40",
+      "description": "Dropped by Lv. 40+ Electro Cicin Mage"
+    },
+    {
+      "id": "thunderslut_60",
+      "description": "Dropped by Lv. 60+ Electro Cicin Mage"
+    },
+
+    {
+      "id": "agent",
+      "description": "Dropped by Agents"
+    },
+    {
+      "id": "agent_40",
+      "description": "Dropped by Lv. 40+ Agents"
+    },
+    {
+      "id": "agent_60",
+      "description": "Dropped by Lv. 60+ Agents"
+    },
+
+    {
+      "id": "ruin_guard",
+      "description": "Dropped by Ruin Guards"
+    },
+    {
+      "id": "ruin_guard_40",
+      "description": "Dropped by Lv. 40+ Ruin Guards"
+    },
+    {
+      "id": "ruin_guard_60",
+      "description": "Dropped by Lv. 60+ Ruin Guards"
+    },
+
+    {
+      "id": "ruin_hunter",
+      "description": "Dropped by Ruin Hunter"
+    },
+    {
+      "id": "ruin_hunter_40",
+      "description": "Dropped by Lv. 40+ Ruin Hunter"
+    },
+    {
+      "id": "ruin_hunter_60",
+      "description": "Dropped by Lv. 60+ Ruin Hunter"
+    },
+
+    {
+      "id": "forgery_liyue_mon",
       "name": "Hidden Place of Lianshan Formula",
       "description": "Domain of Forgery",
       "location": "Liyue",
-      "days": [3, 5, 6]
+      "days": [0, 3, 6]
+    },
+    {
+      "id": "forgery_liyue_tue",
+      "name": "Hidden Place of Lianshan Formula",
+      "description": "Domain of Forgery",
+      "location": "Liyue",
+      "days": [1, 4, 6]
+    },
+    {
+      "id": "forgery_liyue_wen",
+      "name": "Hidden Place of Lianshan Formula",
+      "description": "Domain of Forgery",
+      "location": "Liyue",
+      "days": [2, 5, 6]
     }
 
   ]
