@@ -67,19 +67,18 @@ export class SummaryComponent implements OnInit {
       }
     }
 
-    const sortedEntries = [...entries.values()]
+    return [...entries.values()]
       .sort((a, b) => {
-      const materialA = this.materials.get(a.material_id)
-      const rankA = materialA.sortingRank;
-      const materialB = this.materials.get(b.material_id);
-      const rankB = materialB.sortingRank;
+        const materialA = this.materials.get(a.material_id)
+        const rankA = materialA.sortingRank;
+        const materialB = this.materials.get(b.material_id);
+        const rankB = materialB.sortingRank;
 
-      if (rankA !== rankB)
-        return rankA - rankB;
+        if (rankA !== rankB)
+          return rankA - rankB;
 
-      return b.material_id.localeCompare(a.material_id);
-    });
-    return sortedEntries;
+        return b.material_id.localeCompare(a.material_id);
+      });
   }
 
   filterEnaCharNextAsc(): PartyMember[] {
