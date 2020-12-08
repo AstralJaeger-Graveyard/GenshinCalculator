@@ -35,8 +35,8 @@ import { NZ_ICONS } from 'ng-zorro-antd/icon';
 import en from '@angular/common/locales/en';
 
 // Zorro Icons
-import { IconDefinition } from '@ant-design/icons-angular';
-import * as AllIcons from '@ant-design/icons-angular/icons';
+// import { IconDefinition } from '@ant-design/icons-angular';
+// import * as AllIcons from '@ant-design/icons-angular/icons';
 
 // Fontawesome Icons
 import { fas } from '@fortawesome/pro-solid-svg-icons';
@@ -60,10 +60,10 @@ import { ImagekitioAngularModule } from 'imagekitio-angular';
 
 registerLocaleData(en);
 
-const antDesignIcons = AllIcons as {
-  [key: string]: IconDefinition;
-};
-const icons: IconDefinition[] = Object.keys(antDesignIcons).map(key => antDesignIcons[key]);
+// const antDesignIcons = AllIcons as {
+//   [key: string]: IconDefinition;
+// };
+// const icons: IconDefinition[] = Object.keys(antDesignIcons).map(key => antDesignIcons[key]);
 
 @NgModule({
   declarations: [
@@ -98,8 +98,8 @@ const icons: IconDefinition[] = Object.keys(antDesignIcons).map(key => antDesign
     DragDropModule
   ],
   providers: [
+    // { provide: NZ_ICONS, useValue: icons },
     { provide: NZ_I18N, useValue: en_US },
-    { provide: NZ_ICONS, useValue: icons },
      LocalizationService,
      MaterialService,
      CharacterService,
@@ -110,6 +110,7 @@ const icons: IconDefinition[] = Object.keys(antDesignIcons).map(key => antDesign
 })
 export class AppModule {
   constructor(private library: FaIconLibrary) {
-    library.addIconPacks(fas, fal, far, fad);
+    // library.addIconPacks(fas, fal, far, fad);
+    library.addIconPacks(fas);
   }
 }
