@@ -45,9 +45,10 @@ import { CharacterService } from './services/character.service';
 import { PartyService } from './services/party.service';
 import { MaterialService } from './services/material.service';
 import { MemberNavComponent } from './partymanager/member-detail/member-nav/member-nav.component';
-import { WeaponService } from './services/weapon.service';
-import { LocalizationService } from './services/localization.service';
-import { MediaDirective } from './directives/media.directive';
+import {WeaponService} from './services/weapon.service';
+import {LocalizationService} from './services/localization.service';
+import {ImagekitioAngularModule} from 'imagekitio-angular';
+import {environment} from '../environments/environment';
 
 registerLocaleData(en);
 
@@ -74,6 +75,10 @@ const icons: IconDefinition[] = Object.keys(antDesignIcons).map(key => antDesign
     MediaDirective
   ],
   imports: [
+    ImagekitioAngularModule.forRoot({
+      publicKey: environment.imagekit_publickey,
+      urlEndpoint: environment.imagekit_url_endpoint
+    }),
     BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
