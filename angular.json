@@ -30,7 +30,9 @@
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "allowedCommonJsDependencies": [
-              "tinycolor2"
+              "tinycolor2",
+              "lodash",
+              "imagekitio-angular"
             ],
             "assets": [
               "src/favicon.ico",
@@ -67,7 +69,7 @@
                 {
                   "type": "initial",
                   "maximumWarning": "5mb",
-                  "maximumError": "7mb"
+                  "maximumError": "10mb"
                 },
                 {
                   "type": "anyComponentStyle",
