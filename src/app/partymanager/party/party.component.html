@@ -45,13 +45,13 @@
             nzShowPagination="false" >
     <thead>
       <tr>
-        <th>Enabled</th>
-        <th>Name</th>
-        <th>Ascension</th>
-        <th>Talent</th>
-        <th>Weapon</th>
-        <th>Artifacts</th>
-        <th></th>
+        <th id="enabled">Enabled</th>
+        <th id="name">Name</th>
+        <th id="ascension" *appMedia="'(min-width: 600px)'">Ascension</th>
+        <th id="talent" *appMedia="'(min-width: 600px)'">Talent</th>
+        <th id="weapon" *appMedia="'(min-width: 600px)'">Weapon</th>
+        <th id="artifacts" *appMedia="'(min-width: 600px)'">Artifacts</th>
+        <th id="controls"></th>
       </tr>
     </thead>
     <tbody cdkDropList (cdkDropListDropped)="drop($event)">
@@ -63,16 +63,16 @@
           <nz-avatar [nzSrc]="'/assets/icons/' + member.character_id + '.png'"></nz-avatar>
           {{ localization.get(member.character_id).name }}
         </td>
-        <td>
+        <td *appMedia="'(min-width: 600px)'">
           <nz-switch [(ngModel)]="member.enable_ascension"></nz-switch>
         </td>
-        <td>
+        <td *appMedia="'(min-width: 600px)'">
           <nz-switch [(ngModel)]="member.enable_talents"></nz-switch>
         </td>
-        <td>
+        <td *appMedia="'(min-width: 600px)'">
           <nz-switch [(ngModel)]="member.enable_weapon"></nz-switch>
         </td>
-        <td>
+        <td *appMedia="'(min-width: 600px)'">
           <nz-switch [(ngModel)]="member.enable_artifacts"></nz-switch>
         </td>
         <td>
