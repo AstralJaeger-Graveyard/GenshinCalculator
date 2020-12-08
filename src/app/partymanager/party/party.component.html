@@ -16,7 +16,7 @@
       >
         <div>
           <div class="pull-left">
-            <img [src]="'assets/icons/' + character.id + '.png'"
+            <img [src]="'https://ik.imagekit.io/AstralJaeger/tr:w-50,h-50,c-force/GC/character_icons/' + character.id + '.png'"
                  [alt]="character.id"
                  style="max-height: 20px;">
             {{ localization.get(character.id).name }}
@@ -27,10 +27,10 @@
                      [icon]="['fas','exclamation-triangle']"></fa-icon>
           </div>
           <div class="pull-right">
-            <img [src]="'assets/elements/' + character.element + '.png'"
+            <img [src]="'https://ik.imagekit.io/AstralJaeger/tr:w-50,h-50,c-force/GC/elements_icons/' + character.element + '.png'"
                  [alt]="character.element"
                  style="max-height: 20px;">
-            <img [src]="'assets/weapontypes/' + character.weaponType + '.png'"
+            <img [src]="'https://ik.imagekit.io/AstralJaeger/tr:w-50,h-50,c-force/GC/weapontypes_icons/' + character.weaponType + '.png'"
                  [alt]="character.weaponType"
                  style="max-height: 20px;">
           </div>
@@ -60,7 +60,7 @@
           <nz-switch [(ngModel)]="member.include"></nz-switch>
         </td>
         <td>
-          <nz-avatar [nzSrc]="'/assets/icons/' + member.character_id + '.png'"></nz-avatar>
+          <nz-avatar [nzSrc]="'https://ik.imagekit.io/AstralJaeger/GC/character_icons/' + member.character_id + '.png'"></nz-avatar>
           {{ localization.get(member.character_id).name }}
         </td>
         <td *appMedia="'(min-width: 600px)'">
@@ -96,40 +96,3 @@
     </tbody>
   </nz-table>
 </div>
-<!-- Exclude
-<nz-divider></nz-divider>
-<div class="row">
-  <div class="col-xs-12">
-    <div class="list-group-item clearfix" style="display: flex; flex-wrap: wrap; align-items: center">
-        <h4 i18n="Party member list header" style="flex-grow: 4">Your party</h4>
-        <nz-switch nzSize="small"
-                   nz-tooltip="Don't ask again"
-                   [(ngModel)]="forceDelete">
-        </nz-switch>
-    </div>
-    <div *ngIf="party.members.length != 0; else emptyParty">
-      <app-partymember *ngFor="let member of party.members"
-                       [member]="member"
-                       (memberDisabled)="onMemberChanged()"
-                       (memberSelected)="onSelected(member)"
-                       (memberRemoved)="onRemoved(member)"
-                       [forceDelete]="forceDelete"
-      >
-      </app-partymember>
-    </div>
-    <ng-template #emptyParty>
-      <div>
-        <nz-empty [nzNotFoundFooter]="footerTpl">
-          <ng-template #footerTpl>
-            <button nz-button
-                    nzType="primary"
-                    (click)="onAddDefaultData()"
-                    i18n="Add default party">
-              Add default party
-            </button>
-          </ng-template>
-        </nz-empty>
-      </div>
-    </ng-template>
-  </div>
-</div>-->
