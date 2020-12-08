@@ -8,6 +8,7 @@
       "sortingRank": -1,
       "source": ["quests", "monsters", "chests"]
     },
+
     {
       "description": "Character Ascension Material",
       "icon": "assets/material_icons/agate_1.png",
@@ -40,6 +41,7 @@
       "name": "Agnidus Agate Gemstone",
       "source": [ "pyro_regisvine_75", "wolf_75", "crafting" ]
     },
+
     {
       "description": "Character Ascension Material",
       "icon": "assets/material_icons/lazurite_1.png",
@@ -72,6 +74,7 @@
       "name": "Varunada Lazurite Gemstone",
       "source": [ "oceanid_75", "crafting" ]
     },
+
     {
       "description": "Character Ascension Material",
       "icon": "assets/material_icons/amethyst_1.png",
@@ -104,6 +107,7 @@
       "name": "Vajrada Amethyst Gemstone",
       "source": [ "ehypostasis_75", "crafting" ]
     },
+
     {
       "description": "Character Ascension Material",
       "icon": "assets/material_icons/jade_1.png",
@@ -136,6 +140,7 @@
       "name": "Shivada Jade Gemstone",
       "source": [ "cryo_regisvine_75", "wolf_75", "crafting" ]
     },
+
     {
       "description": "Character Ascension Material",
       "icon": "assets/material_icons/turquise_1.png",
@@ -168,6 +173,7 @@
       "name": "Vayuda Turquise Gemstone",
       "source": [ "ahypostasis_75", "crafting" ]
     },
+
     {
       "description": "Character Ascension Material",
       "icon": "assets/material_icons/topaz_1.png",
@@ -200,6 +206,7 @@
       "name": "Prithiva Topaz Gemstone",
       "source": [ "ghypostasis_75", "wolf_75", "crafting" ]
     },
+
     {
       "description": "Character Ascension Material",
       "icon": "assets/material_icons/diamond_1.png",
@@ -232,6 +239,7 @@
       "name": "Brilliant Diamond Gemstone",
       "source": [ "ar_41", "ar_42", "ar_45" ]
     },
+
     {
       "description": "The imploded form of an Anemo Hypostasis upon its defeat. It contains the essence of Anemo energy. It is said that the power to create hurricanes resides within its seemingly fragile body. This butterfly of pure Anemo energy must be waiting for the day to conjure up storms once again",
       "icon": "assets/material_icons/hurricane_seed.png",
@@ -401,6 +409,7 @@
       "name": "Silk Flower",
       "source": [ "yujing", "shop_bai", "wangshu" ]
     },
+
     {
       "description": "A roughly produced arrowhead. Though unimpressive, neither it nor the bow should be underestimated, for even the bravest knight can be felled by an arrow from the rear.",
       "icon": "assets/material_icons/arrowhead_1.png",
@@ -426,6 +435,7 @@
       "name": "Weatherd Arrowhead",
       "source": [ "ranged_hilichurl_60", "crafting" ]
     },
+
     {
       "description": "A scroll that likely relates to some kind of magic. Exudes an inexplicable but ominous warmth.",
       "icon": "assets/material_icons/scroll_1.png",
@@ -450,6 +460,7 @@
       "name": "Forbidden Curse Scroll",
       "source": [ "samachurl_60", "crafting" ]
     },
+
     {
       "description": "A signet that proudly represents it's owner's position as a member of the Treasure Hoarders. The pursuit of treasure knows no bounds. That said... is being a thief something to be proud of?",
       "icon": "assets/material_icons/tinsignia_1.png",
@@ -474,6 +485,7 @@
       "name": "Golden Raven Insignia",
       "source": [ "thoarder_60", "crafting" ]
     },
+
     {
       "description": "A broken bone mask that once belonged to some hilichurl. Now more broken than complete, it can no longer perform its primary function.",
       "icon": "assets/material_icons/mask_1.png",
@@ -498,6 +510,7 @@
       "name": "Ominous Mask",
       "source": [ "hilichurl_60", "some_ranged_hilichurl_60", "some_samachurl_40", "some_mitachurl_60", "crafting"]
     },
+
     {
       "description": "An insignia to identify the recruits. Makes one wonder about what the ones joining the Fatui's war machine were thinking.",
       "icon": "assets/material_icons/finsignia_1.png",
@@ -522,6 +535,7 @@
       "name": "Lieutenant's Insignia",
       "source":  [ "skirmisher_60", "some_agent_60", "some_thunderslut_60", "crafting" ]
     },
+
     {
       "description": "Nectar extracted from the stamen of a Whopperflower that contains trace amounts of elements. The taste of the nectar has a hint of Sweet Flower in it.",
       "icon": "assets/material_icons/nectar_1.png",
@@ -545,6 +559,7 @@
       "name": "Energy Nectar",
       "source": [ "whopperflower_60", "crafting" ]
     },
+
     {
       "description": "A thick coating found on slimes. Most commonly seen material in elemental workshops.",
       "icon": "assets/material_icons/slime_1.png",
@@ -574,150 +589,150 @@
       "icon": "assets/material_icons/boreal_wolf_1.png",
       "id": "boreal_wolf_1",
       "sortingRank": 4,
-      "source": [ "shop_souvenir_liyue" ]
+      "source": [ "forgery_mondstadt_tue" ]
     },
     {
       "icon": "assets/material_icons/boreal_wolf_2.png",
       "id": "boreal_wolf_2",
       "sortingRank": 4,
-      "source": [ "crafting" ]
+      "source": [ "forgery_mondstadt_tue", "crafting" ]
     },
     {
       "icon": "assets/material_icons/boreal_wolf_3.png",
       "id": "boreal_wolf_3",
       "sortingRank": 4,
-      "source": [ "crafting" ]
+      "source": [ "forgery_mondstadt_tue", "crafting" ]
     },
     {
       "icon": "assets/material_icons/boreal_wolf_4.png",
       "id": "boreal_wolf_4",
       "sortingRank": 4,
-      "source": [ "crafting" ]
+      "source": [ "forgery_mondstadt_tue", "crafting" ]
     },
 
     {
       "icon": "",
       "id": "decarabian_tower_1",
       "sortingRank": 4,
-      "source": [ "shop_souvenir_liyue" ]
+      "source": [ "forgery_mondstadt_mon" ]
     },
     {
       "icon": "",
       "id": "decarabian_tower_2",
       "sortingRank": 4,
-      "source": [ "crafting" ]
+      "source": [ "forgery_mondstadt_mon", "crafting" ]
     },
     {
       "icon": "",
       "id": "decarabian_tower_3",
       "sortingRank": 4,
-      "source": [ "crafting" ]
+      "source": [ "forgery_mondstadt_mon", "crafting" ]
     },
     {
       "icon": "",
       "id": "decarabian_tower_4",
       "sortingRank": 4,
-      "source": [ "crafting" ]
+      "source": [ "forgery_mondstadt_mon", "crafting" ]
     },
 
     {
       "icon": "",
       "id": "dandelion_gladiator_1",
       "sortingRank": 4,
-      "source": [ "shop_souvenir_liyue" ]
+      "source": [ "forgery_mondstadt_wen" ]
     },
     {
       "icon": "",
       "id": "dandelion_gladiator_2",
       "sortingRank": 4,
-      "source": [ "crafting" ]
+      "source": [ "forgery_mondstadt_wen", "crafting" ]
     },
     {
       "icon": "",
       "id": "dandelion_gladiator_3",
       "sortingRank": 4,
-      "source": [ "crafting" ]
+      "source": [ "forgery_mondstadt_wen", "crafting" ]
     },
     {
       "icon": "",
       "id": "dandelion_gladiator_4",
       "sortingRank": 4,
-      "source": [ "crafting" ]
+      "source": [ "forgery_mondstadt_wen", "crafting" ]
     },
 
     {
       "icon": "",
-      "id": "gunyun_1",
+      "id": "guyun_1",
       "sortingRank": 4,
-      "source": [ "shop_souvenir_liyue" ]
+      "source": [ "forgery_liyue_mon", "shop_souvenir_liyue" ]
     },
     {
       "icon": "",
-      "id": "gunyun_2",
+      "id": "guyun_2",
       "sortingRank": 4,
-      "source": [ "crafting" ]
+      "source": [ "forgery_liyue_mon", "crafting" ]
     },
     {
       "icon": "",
-      "id": "gunyun_3",
+      "id": "guyun_3",
       "sortingRank": 4,
-      "source": [ "crafting" ]
+      "source": [ "forgery_liyue_mon", "crafting" ]
     },
     {
       "icon": "",
-      "id": "gunyun_4",
+      "id": "guyun_4",
       "sortingRank": 4,
-      "source": [ "crafting" ]
+      "source": [ "forgery_liyue_mon", "crafting" ]
     },
 
     {
       "icon": "",
       "id": "elixir_1",
       "sortingRank": 4,
-      "source": [ "shop_souvenir_liyue" ]
+      "source": [ "forgery_liyue_tue", "shop_souvenir_liyue" ]
     },
     {
       "icon": "",
       "id": "elixir_2",
       "sortingRank": 4,
-      "source": [ "crafting" ]
+      "source": [ "forgery_liyue_tue", "crafting" ]
     },
     {
       "icon": "",
       "id": "elixir_3",
       "sortingRank": 4,
-      "source": [ "crafting" ]
+      "source": [ "forgery_liyue_tue", "crafting" ]
     },
     {
       "icon": "",
       "id": "elixir_4",
       "sortingRank": 4,
-      "source": [ "crafting" ]
+      "source": [ "forgery_liyue_tue", "crafting" ]
     },
 
     {
       "icon": "",
       "id": "aerosiderite_1",
       "sortingRank": 4,
-      "source": [ "linshan_formula_1", "shop_souvenir_liyue"]
+      "source": [ "forgery_liyue_wen", "shop_souvenir_liyue"]
     },
     {
       "icon": "",
       "id": "aerosiderite_2",
       "sortingRank": 4,
-      "source": [ "linshan_formula_1", "crafting" ]
+      "source": [ "forgery_liyue_wen", "crafting" ]
     },
     {
       "icon": "",
       "id": "aerosiderite_3",
       "sortingRank": 4,
-      "source": [ "linshan_formula_1", "crafting" ]
+      "source": [ "forgery_liyue_wen", "crafting" ]
     },
     {
       "icon": "",
       "id": "aerosiderite_4",
       "sortingRank": 4,
-      "source": [ "linshan_formula_1", "crafting" ]
+      "source": [ "forgery_liyue_wen", "crafting" ]
     },
 
     {
@@ -766,7 +781,7 @@
     },
     {
       "icon": "",
-      "id": "bone_shard_1",
+      "id": "bone_shard_2",
       "sortingRank": 4,
       "source": [ "geo_hatchling_40", "crafting" ]
     },

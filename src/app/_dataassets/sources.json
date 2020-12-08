@@ -594,7 +594,33 @@
     },
 
     {
+      "id": "forgery_mondstadt_mon",
+      "isDomain": true,
+      "name": "Cecilia Garden",
+      "description": "Domain of Forgery",
+      "location": "Liyue",
+      "days": [0, 3, 6]
+    },
+    {
+      "id": "forgery_mondstadt_tue",
+      "isDomain": true,
+      "name": "Cecilia Garden",
+      "description": "Domain of Forgery",
+      "location": "Liyue",
+      "days": [1, 4, 6]
+    },
+    {
+      "id": "forgery_mondstadt_wen",
+      "isDomain": true,
+      "name": "Cecilia Garden",
+      "description": "Domain of Forgery",
+      "location": "Liyue",
+      "days": [2, 5, 6]
+    },
+
+    {
       "id": "forgery_liyue_mon",
+      "isDomain": true,
       "name": "Hidden Place of Lianshan Formula",
       "description": "Domain of Forgery",
       "location": "Liyue",
@@ -602,6 +628,7 @@
     },
     {
       "id": "forgery_liyue_tue",
+      "isDomain": true,
       "name": "Hidden Place of Lianshan Formula",
       "description": "Domain of Forgery",
       "location": "Liyue",
@@ -609,6 +636,7 @@
     },
     {
       "id": "forgery_liyue_wen",
+      "isDomain": true,
       "name": "Hidden Place of Lianshan Formula",
       "description": "Domain of Forgery",
       "location": "Liyue",
