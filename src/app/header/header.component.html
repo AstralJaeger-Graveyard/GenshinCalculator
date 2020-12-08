@@ -3,37 +3,37 @@
   <nz-page-header-title>
     Genshin Party Calculator
   </nz-page-header-title>
-  <nz-page-header-subtitle>
+  <nz-page-header-subtitle *appMedia="'(min-width: 600px)'">
     Work in progress! Come back!
   </nz-page-header-subtitle>
-  <nz-page-header-tags>
+  <nz-page-header-tags *appMedia="'(min-width: 600px)'">
 
   </nz-page-header-tags>
   <nz-page-header-extra>
     <div style="display: flex;">
-    <a href='https://ko-fi.com/T6T11B137' target='_blank'>
-      <img height='36'
-           style='border:0; height:36px;'
-           src='https://cdn.ko-fi.com/cdn/kofi2.png?v=2'
-           alt='Buy Me a Coffee at ko-fi.com'/>
-    </a>
-    <a href="https://discord.gg/4xJqpKfAb6" target='_blank'>
-      <img height='36'
-           style='border:0; height:36px;'
-           src="assets/DiscordLogo.png"
-           alt="Discord"/>
-    </a>
-    <button nz-button nz-dropdown [nzDropdownMenu]="menu" nzPlacement="bottomRight">
-      Manage
-      <fa-icon [icon]="['fas','angle-down']" style="margin-left: 5px"></fa-icon>
-    </button>
-    <nz-dropdown-menu #menu="nzDropdownMenu">
-      <ul nz-menu>
-        <li nz-menu-item>Signin</li>
-        <li nz-menu-divider></li>
-        <li nz-menu-item>Settings</li>
-      </ul>
-    </nz-dropdown-menu>
+      <a href='https://ko-fi.com/T6T11B137' target='_blank'>
+        <img height='36'
+             style='border:0; height:36px;'
+             src='https://cdn.ko-fi.com/cdn/kofi2.png?v=2'
+             alt='Buy Me a Coffee at ko-fi.com'/>
+      </a>
+      <a href="https://discord.gg/4xJqpKfAb6" target='_blank'>
+        <img height='36'
+             style='border:0; height:36px;'
+             src="assets/DiscordLogo.png"
+             alt="Discord"/>
+      </a>
+      <button nz-button nz-dropdown [nzDropdownMenu]="menu" nzPlacement="bottomRight">
+        Manage
+        <fa-icon [icon]="['fas','angle-down']" style="margin-left: 5px"></fa-icon>
+      </button>
+      <nz-dropdown-menu #menu="nzDropdownMenu">
+        <ul nz-menu>
+          <li nz-menu-item>Signin</li>
+          <li nz-menu-divider></li>
+          <li nz-menu-item>Settings</li>
+        </ul>
+      </nz-dropdown-menu>
     </div>
   </nz-page-header-extra>
 </nz-page-header>
