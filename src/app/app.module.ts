@@ -25,6 +25,7 @@ import { MemberHeaderComponent } from './partymanager/member-detail/member-heade
 
 // Directives
 import { RepeatDirective } from './directives/repeat.directive';
+import { MediaDirective } from './directives/media.directive';
 
 // I18 localizations
 import { NZ_I18N } from 'ng-zorro-antd/i18n';
@@ -39,16 +40,23 @@ import * as AllIcons from '@ant-design/icons-angular/icons';
 
 // Fontawesome Icons
 import { fas } from '@fortawesome/pro-solid-svg-icons';
+import { fal } from '@fortawesome/pro-light-svg-icons';
+import { far } from '@fortawesome/pro-regular-svg-icons';
+import { fad } from '@fortawesome/pro-duotone-svg-icons';
 
 // Services
 import { CharacterService } from './services/character.service';
 import { PartyService } from './services/party.service';
 import { MaterialService } from './services/material.service';
 import { MemberNavComponent } from './partymanager/member-detail/member-nav/member-nav.component';
-import {WeaponService} from './services/weapon.service';
-import {LocalizationService} from './services/localization.service';
-import {ImagekitioAngularModule} from 'imagekitio-angular';
-import {environment} from '../environments/environment';
+import { WeaponService } from './services/weapon.service';
+import { LocalizationService } from './services/localization.service';
+
+// environment
+import { environment } from '../environments/environment';
+
+//Needs to be sorted
+import { ImagekitioAngularModule } from 'imagekitio-angular';
 
 registerLocaleData(en);
 
@@ -102,6 +110,6 @@ const icons: IconDefinition[] = Object.keys(antDesignIcons).map(key => antDesign
 })
 export class AppModule {
   constructor(private library: FaIconLibrary) {
-    library.addIconPacks(fas);
+    library.addIconPacks(fas, fal, far, fad);
   }
 }
