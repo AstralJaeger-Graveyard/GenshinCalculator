@@ -38,13 +38,16 @@ import { IconDefinition } from '@ant-design/icons-angular';
 import * as AllIcons from '@ant-design/icons-angular/icons';
 
 // Fontawesome Icons
-import {CharacterService} from './services/character.service';
-import {PartyService} from './services/party.service';
-import { MaterialService } from './services/material.service';
 import { fas } from '@fortawesome/pro-solid-svg-icons';
+
+// Services
+import { CharacterService } from './services/character.service';
+import { PartyService } from './services/party.service';
+import { MaterialService } from './services/material.service';
 import { MemberNavComponent } from './partymanager/member-detail/member-nav/member-nav.component';
-import {WeaponService} from './services/weapon.service';
-import {LocalizationService} from './services/localization.service';
+import { WeaponService } from './services/weapon.service';
+import { LocalizationService } from './services/localization.service';
+import { MediaDirective } from './directives/media.directive';
 
 registerLocaleData(en);
 
@@ -55,6 +58,7 @@ const icons: IconDefinition[] = Object.keys(antDesignIcons).map(key => antDesign
 
 @NgModule({
   declarations: [
+    RepeatDirective,
     AppComponent,
     PartymanagerComponent,
     HeaderComponent,
@@ -64,10 +68,10 @@ const icons: IconDefinition[] = Object.keys(antDesignIcons).map(key => antDesign
     PartymemberComponent,
     MemberDetailComponent,
     MemberHeaderComponent,
-    RepeatDirective,
     ItemComponent,
     PortraitComponent,
-    MemberNavComponent
+    MemberNavComponent,
+    MediaDirective
   ],
   imports: [
     BrowserModule,

@@ -1,12 +1,10 @@
 import {Component, EventEmitter, Input, isDevMode, OnInit, Output} from '@angular/core';
 import {PartyMember} from '../../model/PartyMember';
 import {Character} from '../../model/Character';
-import {CharacterService} from '../../services/character.service';
-import {faBell as fasBell} from '@fortawesome/pro-solid-svg-icons';
-import {faExclamationTriangle, faTrashAlt, faEdit} from '@fortawesome/pro-light-svg-icons';
-import {PartyService} from '../../services/party.service';
-import {LocalizationService} from '../../services/localization.service';
-import {NzNotificationService} from 'ng-zorro-antd/notification';
+import { CharacterService } from '../../services/character.service';
+import { PartyService } from '../../services/party.service';
+import { LocalizationService } from '../../services/localization.service';
+import { CdkDragDrop, moveItemInArray } from "@angular/cdk/drag-drop";
 
 @Component({
   selector: 'app-party',
@@ -14,10 +12,6 @@ import {NzNotificationService} from 'ng-zorro-antd/notification';
   styleUrls: ['./party.component.css']
 })
 export class PartyComponent implements OnInit {
-  fasBell = fasBell;
-  faEdit = faEdit;
-  faTrash = faTrashAlt;
-  faExclamation = faExclamationTriangle;
 
   @Output()
   memberSelected = new EventEmitter<PartyMember>();
@@ -71,5 +65,9 @@ export class PartyComponent implements OnInit {
 
   onAddDefaultData(): void {
     this.party.addDefaultParty();
+  }
+
+  drop(event: CdkDragDrop<string[]>): void {
+    moveItemInArray(this.party.members, event.previousIndex, event.currentIndex);
   }
 }

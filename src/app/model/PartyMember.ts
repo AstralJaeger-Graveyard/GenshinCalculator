@@ -18,9 +18,11 @@ export class PartyMember{
   public weaponAsc: number = 0;
   public weaponLvl: number = 1;
 
+  // TODO: Add talents
   public enable_talents: boolean = true;
 
-  //TODO: Add artifacts, talents
+  //TODO: Add talents
+  public enable_artifacts: boolean = true;
 
   constructor(characterId: string) {
     this.character_id = characterId;

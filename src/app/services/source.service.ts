@@ -10,7 +10,7 @@ import * as data from 'src/app/_dataassets/sources.json';
 export class SourceService{
 
   // @ts-ignore
-  public sources: MaterialSource[] = data.characters;
+  public sources: MaterialSource[] = data.sources;
   public sourcesMap: Map<string, MaterialSource> = new Map<string, MaterialSource>();
 
   constructor() {

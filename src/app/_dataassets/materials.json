@@ -78,7 +78,7 @@
       "id": "amethyst_1",
       "sortingRank": 1,
       "name": "Vajrada Amethyst Silver",
-      "source": [ "ehypostasis", "souvenir_shop" ]
+      "source": [ "ehypostasis", "shop_souvenir" ]
     },
     {
       "description": "Character Ascension Material",
@@ -110,7 +110,7 @@
       "id": "jade_1",
       "sortingRank": 1,
       "name": "Shivada Jade Silver",
-      "source": [ "cryo_regisvine", "wolf", "souvenir_shop" ]
+      "source": [ "cryo_regisvine", "wolf", "shop_souvenir" ]
     },
     {
       "description": "Character Ascension Material",
@@ -142,7 +142,7 @@
       "id": "turquise_1",
       "sortingRank": 1,
       "name": "Vayuda Turquise Silver",
-      "source": ["ahypostasis", "souvenir_shop"]
+      "source": ["ahypostasis", "shop_souvenir"]
     },
     {
       "description": "Character Ascension Material",
@@ -174,7 +174,7 @@
       "id": "topaz_1",
       "sortingRank": 1,
       "name": "Prithiva Topaz Silver",
-      "source": [ "ghypostasis", "wolf", "souvenir_shop" ]
+      "source": [ "ghypostasis", "wolf", "shop_souvenir" ]
     },
     {
       "description": "Character Ascension Material",
@@ -294,7 +294,7 @@
       "id": "philanemo_mushroom",
       "sortingRank": 3,
       "name": "Philanemo Mushroom",
-      "source": [ "houses", "chloris" ]
+      "source": [ "houses", "shop_chloris" ]
     },
     {
       "description": "A rare mineral that glimmers in the dark. It's said to be a mutated gemstone condensed from the flourishing elements of the world.",
@@ -407,7 +407,7 @@
       "id": "arrowhead_1",
       "sortingRank": 4,
       "name": "Firm Arrowhead",
-      "source": [ "hilichurl_ranged"
+      "source": [ "ranged_hilichurl"
       ]
     },
     {
@@ -416,7 +416,7 @@
       "id": "arrowhead_2",
       "sortingRank": 4,
       "name": "Sharp Arrowhead",
-      "source": [ "hilichurl_ranged_40", "craftig" ]
+      "source": [ "ranged_hilichurl_40", "crafting" ]
     },
     {
       "description": "An old arrowhead coated in blood. The arrowhead has long since lost its sharpness and thus its use as a weapon. However it represents the pride of a hunter and acts as both an amulet and a medal.",
@@ -424,7 +424,7 @@
       "id": "arrowhead_3",
       "sortingRank": 4,
       "name": "Weatherd Arrowhead",
-      "source": [ "hilichurl_ranged_60", "craftig" ]
+      "source": [ "ranged_hilichurl_60", "crafting" ]
     },
     {
       "description": "A scroll that likely relates to some kind of magic. Exudes an inexplicable but ominous warmth.",
@@ -512,7 +512,7 @@
       "id": "finsignia_2",
       "sortingRank": 4,
       "name": "Sergeant's Insignia",
-      "source": [ "skirmisher_40", "some_agent_40", "some_thunderslut_40", "craftable" ]
+      "source": [ "skirmisher_40", "some_agent_40", "some_thunderslut_40", "crafting" ]
     },
     {
       "description": "An armband to identify officers. The Fatui possess a colossal army, so there must be something extraordinary about the ones who achieved this rank within the group.",
@@ -520,7 +520,7 @@
       "id": "finsignia_3",
       "sortingRank": 4,
       "name": "Lieutenant's Insignia",
-      "source":  [ "skirmisher_60", "some_agent_60", "some_thunderslut_60", "craftable" ]
+      "source":  [ "skirmisher_60", "some_agent_60", "some_thunderslut_60", "crafting" ]
     },
     {
       "description": "Nectar extracted from the stamen of a Whopperflower that contains trace amounts of elements. The taste of the nectar has a hint of Sweet Flower in it.",
@@ -535,7 +535,7 @@
       "icon": "assets/material_icons/nectar_2.png",
       "id": "nectar_2",
       "name": "Shimmering Nectar",
-      "source": [ "whopperflower_20", "craftable" ]
+      "source": [ "whopperflower_40", "crafting" ]
     },
     {
       "description": "A thick and sticky honey that is full of energy. The Whopperflower hunts by tricking its prey, a process it uses to possibly evolve into a more powerful and pure form.",
@@ -543,7 +543,7 @@
       "id": "nectar_3",
       "sortingRank": 4,
       "name": "Energy Nectar",
-      "source": [ "whopperflower_60", "craftable" ]
+      "source": [ "whopperflower_60", "crafting" ]
     },
     {
       "description": "A thick coating found on slimes. Most commonly seen material in elemental workshops.",
@@ -559,7 +559,7 @@
       "id": "slime_2",
       "sortingRank": 4,
       "name": "Slime Secretions",
-      "source": [ "slime_40", "craftable" ]
+      "source": [ "slime_40", "crafting" ]
     },
     {
       "description": "Concentrated slime essence. When left on its own, it will begin to move on its own.",
@@ -567,7 +567,7 @@
       "id": "slime_3",
       "sortingRank": 4,
       "name": "Slime Concentrate",
-      "source": [ "slime_60", "craftable" ]
+      "source": [ "slime_60", "crafting" ]
     },
 
     {
@@ -705,19 +705,19 @@
       "icon": "",
       "id": "aerosiderite_2",
       "sortingRank": 4,
-      "source": [ "linshan_formula_1", "craftable" ]
+      "source": [ "linshan_formula_1", "crafting" ]
     },
     {
       "icon": "",
       "id": "aerosiderite_3",
       "sortingRank": 4,
-      "source": [ "linshan_formula_1", "craftable" ]
+      "source": [ "linshan_formula_1", "crafting" ]
     },
     {
       "icon": "",
       "id": "aerosiderite_4",
       "sortingRank": 4,
-      "source": [ "linshan_formula_1", "craftable" ]
+      "source": [ "linshan_formula_1", "crafting" ]
     },
 
     {

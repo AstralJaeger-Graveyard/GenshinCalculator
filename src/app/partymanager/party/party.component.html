@@ -39,6 +39,64 @@
     </nz-select>
   </div>
 </div>
+<nz-divider nzText="Party" nzOrientation="left"></nz-divider>
+<div class="row">
+  <nz-table [nzData]="party.members"
+            nzShowPagination="false" >
+    <thead>
+      <tr>
+        <th>Enabled</th>
+        <th>Name</th>
+        <th>Ascension</th>
+        <th>Talent</th>
+        <th>Weapon</th>
+        <th>Artifacts</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody cdkDropList (cdkDropListDropped)="drop($event)">
+      <tr *ngFor="let member of party.members" cdkDrag>
+        <td>
+          <nz-switch [(ngModel)]="member.include"></nz-switch>
+        </td>
+        <td>
+          <nz-avatar [nzSrc]="'/assets/icons/' + member.character_id + '.png'"></nz-avatar>
+          {{ localization.get(member.character_id).name }}
+        </td>
+        <td>
+          <nz-switch [(ngModel)]="member.enable_ascension"></nz-switch>
+        </td>
+        <td>
+          <nz-switch [(ngModel)]="member.enable_talents"></nz-switch>
+        </td>
+        <td>
+          <nz-switch [(ngModel)]="member.enable_weapon"></nz-switch>
+        </td>
+        <td>
+          <nz-switch [(ngModel)]="member.enable_artifacts"></nz-switch>
+        </td>
+        <td>
+          <nz-button-group>
+            <button nz-button
+                    nzType="primary"
+                    (click)="onSelected(member)">
+              <fa-icon [icon]="['fas', 'edit']"></fa-icon>
+            </button>
+            <button nz-button
+                    nzType="danger"
+                    nz-popconfirm
+                    [nzCondition] = "forceDelete"
+                    nzPopconfirmTitle="Are you sure you want to remove this character form your party?"
+                    (nzOnConfirm)="onRemoved(member)">
+              <fa-icon [icon]="['fas', 'trash']"></fa-icon>
+            </button>
+          </nz-button-group>
+        </td>
+      </tr>
+    </tbody>
+  </nz-table>
+</div>
+<!-- Exclude
 <nz-divider></nz-divider>
 <div class="row">
   <div class="col-xs-12">
@@ -74,4 +132,4 @@
       </div>
     </ng-template>
   </div>
-</div>
+</div>-->

@@ -428,6 +428,18 @@
       "id": "some_mitachurl_60",
       "description": "Dropped by some Lv. 60+ mitachurls"
     },
+    {
+      "id": "ranged_hilichurl",
+      "description": "Dropped by ranged hilichurls"
+    },
+    {
+      "id": "ranged_hilichurl_40",
+      "description": "Dropped by Lv. 40+ ranged hilichurls"
+    },
+    {
+      "id": "ranged_hilichurl_60",
+      "description": "Dropped by Lv. 60+ ranged hilichurls"
+    },
 
     {
       "id": "skirmisher",
