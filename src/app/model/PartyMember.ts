@@ -1,5 +1,4 @@
 import {Character} from './Character';
-import {Weapon} from './Weapon';
 
 export class PartyMember{
   public include: boolean = true;
@@ -9,14 +8,9 @@ export class PartyMember{
   public enable_ascension: boolean = true;
   public ascension: number = 0;
 
-  public enable_level: boolean;
-  public level: number = 1;
-
-  public enable_weapon: boolean = true;
+  public enable_weapon: boolean = false;
   public weapon_id: string;
-  public weapon: Weapon;
   public weaponAsc: number = 0;
-  public weaponLvl: number = 1;
 
   // TODO: Add talents
   public enable_talents: boolean = true;

@@ -975,6 +975,16 @@
       "name": "Traveler Handy Sword",
       "description": ""
     },
+    {
+      "id": "sword_of_descension",
+      "name": "Sword of Descension",
+      "description": ""
+    },
+    {
+      "id": "royal_spear",
+      "name": "Royal Spear",
+      "description": ""
+    },
 
     {
       "id": "boreal_wolf_1",
@@ -1037,22 +1047,22 @@
       "description": "Vennessa was freed from her slavery, but that which constrained her only grew greater - from her tribesmen to all of Mondstadt, and even to the concept of freedom itself, extending to the whole world.\nWhat she really hoped for, in truth, was that the world might grow stronger."
     },
     {
-      "id": "gunyun_1",
+      "id": "guyun_1",
       "name": "Luminous Sands from Guyun",
       "description": "The stone pillars that tower amid the Guyun Stone Forest were once the stone lances Morax used to defeat his enemies. As time passed, the body of these gods penetrated into the pillars, granting them divinity. The pillars would sometimes shed crumbs of hatred and curses."
     },
     {
-      "id": "gunyun_2",
+      "id": "guyun_2",
       "name": "Lustrous Stone from Guyun",
       "description": "To the informed, Guyun Stone Forest is not some miraculous sight on the sea to behold, but the cemetery of the former gods of Liyue. Hatred and filth have periodically raised up from it, but all have been subdued by a demon-conquering young man."
     },
     {
-      "id": "gunyun_3",
+      "id": "guyun_3",
       "name": "Relic from Guyun",
       "description": "The stone lance has a glimmering core formed by the power of the defeated gods. Their hatred is not directed at Morax, for they have lost themselves a long time ago and are incapable of holding personal grudges."
     },
     {
-      "id": "gunyun_4",
+      "id": "guyun_4",
       "name": "Divine Body from Guyun",
       "description": "That which lurks within and animates this relic are the divine remains of lamenting gods. They are unrealized ideals, designs for a prosperous humanity that could never be. They may now lie deep within stone and sea, but they will not go quietly into the night."
     },
@@ -1132,7 +1142,7 @@
       "description": "A bone shard once carried by a Geovishap Hatchling. Although they are quite fragile, they seem to still harbor some indescribable power."
     },
     {
-      "id": "bone_shard_1",
+      "id": "bone_shard_2",
       "name": "Sturdy Bone Shard",
       "description": "A fragment of an unknown creature's bones that appear to be prized by Geovishap Hatchlings for some reason.\nThe fragment appears to be quite aged. Despite being dragon-like beasts with no spoken language, they still seem to have some sort of special affection for these bone shards."
     },
@@ -1162,12 +1172,12 @@
       "description": "A sharp alloy weapon. Though its owner has been lost, it still reflects a disturbingly cold light."
     },
     {
-      "id": "sacrificial_knife_1",
+      "id": "sacrificial_knife_2",
       "name": "Agent's Sacrificial Knife",
       "description": "An oddly-shaped weapon made with superior Snezhnayan technology that once belonged to a senior agent. Proper training is required for using this strange weapon."
     },
     {
-      "id": "sacrificial_knife_1",
+      "id": "sacrificial_knife_3",
       "name": "Inspector's Sacrificial Knife",
       "description": "In the hands of its lord, this fierce weapon has handled many \"debts.\" No-one has eyes in the back of their heads, and this weapon and its related techniques are designed around that weakness."
     },

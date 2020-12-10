@@ -1,13 +1,11 @@
 import {Material} from './Material';
 
 export class MaterialEntry{
-  public material_id: string;
-  public material: Material;
+  public materialId: string;
   public amount: number;
 
-  constructor(material_id: string, material: Material, amount: number) {
-    this.material_id = material_id;
-    this.material = material;
+  constructor(material_id: string, amount: number) {
+    this.materialId = material_id;
     this.amount = amount;
   }
 }

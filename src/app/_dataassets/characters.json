@@ -8,15 +8,15 @@
           "materials": [
             {
               "amount": "1",
-              "material_id": "agate_1"
+              "materialId": "agate_1"
             },
             {
               "amount": "3",
-              "material_id": "small_lamp_grass"
+              "materialId": "small_lamp_grass"
             },
             {
               "amount": "3",
-              "material_id": "arrowhead_1"
+              "materialId": "arrowhead_1"
             }
           ],
           "rank": 1
@@ -27,19 +27,19 @@
           "materials": [
             {
               "amount": "3",
-              "material_id": "agate_2"
+              "materialId": "agate_2"
             },
             {
               "amount": "2",
-              "material_id": "everflame_seed"
+              "materialId": "everflame_seed"
             },
             {
               "amount": "10",
-              "material_id": "small_lamp_grass"
+              "materialId": "small_lamp_grass"
             },
             {
               "amount": "10",
-              "material_id": "arrowhead_1"
+              "materialId": "arrowhead_1"
             }
           ],
           "rank": 2
@@ -50,19 +50,19 @@
           "materials": [
             {
               "amount": "6",
-              "material_id": "agate_2"
+              "materialId": "agate_2"
             },
             {
               "amount": "4",
-              "material_id": "everflame_seed"
+              "materialId": "everflame_seed"
             },
             {
               "amount": "20",
-              "material_id": "small_lamp_grass"
+              "materialId": "small_lamp_grass"
             },
             {
               "amount": "12",
-              "material_id": "arrowhead_2"
+              "materialId": "arrowhead_2"
             }
           ],
           "rank": 3
@@ -73,19 +73,19 @@
           "materials": [
             {
               "amount": "3",
-              "material_id": "agate_3"
+              "materialId": "agate_3"
             },
             {
               "amount": "8",
-              "material_id": "everflame_seed"
+              "materialId": "everflame_seed"
             },
             {
               "amount": "30",
-              "material_id": "small_lamp_grass"
+              "materialId": "small_lamp_grass"
             },
             {
               "amount": "18",
-              "material_id": "arrowhead_2"
+              "materialId": "arrowhead_2"
             }
           ],
           "rank": 4
@@ -96,19 +96,19 @@
           "materials": [
             {
               "amount": "6",
-              "material_id": "agate_3"
+              "materialId": "agate_3"
             },
             {
               "amount": "12",
-              "material_id": "everflame_seed"
+              "materialId": "everflame_seed"
             },
             {
               "amount": "45",
-              "material_id": "small_lamp_grass"
+              "materialId": "small_lamp_grass"
             },
             {
               "amount": "12",
-              "material_id": "arrowhead_3"
+              "materialId": "arrowhead_3"
             }
           ],
           "rank": 5
@@ -119,19 +119,19 @@
           "materials": [
             {
               "amount": "6",
-              "material_id": "agate_4"
+              "materialId": "agate_4"
             },
             {
               "amount": "20",
-              "material_id": "everflame_seed"
+              "materialId": "everflame_seed"
             },
             {
               "amount": "60",
-              "material_id": "small_lamp_grass"
+              "materialId": "small_lamp_grass"
             },
             {
               "amount": "24",
-              "material_id": "arrowhead_3"
+              "materialId": "arrowhead_3"
             }
           ],
           "rank": 6
@@ -152,15 +152,15 @@
           "materials": [
             {
               "amount": 1,
-              "material_id": "lazurite_1"
+              "materialId": "lazurite_1"
             },
             {
               "amount": 3,
-              "material_id": "philanemo_mushroom"
+              "materialId": "philanemo_mushroom"
             },
             {
               "amount": 3,
-              "material_id": "scroll_1"
+              "materialId": "scroll_1"
             }
           ],
           "rank": 1
@@ -171,19 +171,19 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "lazurite_2"
+              "materialId": "lazurite_2"
             },
             {
               "amount": 2,
-              "material_id": "cleansing_heart"
+              "materialId": "cleansing_heart"
             },
             {
               "amount": 10,
-              "material_id": "philanemo_mushroom"
+              "materialId": "philanemo_mushroom"
             },
             {
               "amount": 15,
-              "material_id": "scroll_1"
+              "materialId": "scroll_1"
             }
           ],
           "rank": 2
@@ -194,19 +194,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "lazurite_2"
+              "materialId": "lazurite_2"
             },
             {
               "amount": 4,
-              "material_id": "cleansing_heart"
+              "materialId": "cleansing_heart"
             },
             {
               "amount": 20,
-              "material_id": "philanemo_mushroom"
+              "materialId": "philanemo_mushroom"
             },
             {
               "amount": 12,
-              "material_id": "scroll_2"
+              "materialId": "scroll_2"
             }
           ],
           "rank": 3
@@ -217,19 +217,19 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "lazurite_3"
+              "materialId": "lazurite_3"
             },
             {
               "amount": 8,
-              "material_id": "cleansing_heart"
+              "materialId": "cleansing_heart"
             },
             {
               "amount": 10,
-              "material_id": "philanemo_mushroom"
+              "materialId": "philanemo_mushroom"
             },
             {
               "amount": 10,
-              "material_id": "scroll_1"
+              "materialId": "scroll_1"
             }
           ],
           "rank": 4
@@ -240,19 +240,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "lazurite_3"
+              "materialId": "lazurite_3"
             },
             {
               "amount": 12,
-              "material_id": "cleansing_heart"
+              "materialId": "cleansing_heart"
             },
             {
               "amount": 45,
-              "material_id": "philanemo_mushroom"
+              "materialId": "philanemo_mushroom"
             },
             {
               "amount": 12,
-              "material_id": "scroll_3"
+              "materialId": "scroll_3"
             }
           ],
           "rank": 5
@@ -263,19 +263,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "lazurite_4"
+              "materialId": "lazurite_4"
             },
             {
               "amount": 20,
-              "material_id": "cleansing_heart"
+              "materialId": "cleansing_heart"
             },
             {
               "amount": 60,
-              "material_id": "philanemo_mushroom"
+              "materialId": "philanemo_mushroom"
             },
             {
               "amount": 24,
-              "material_id": "scroll_3"
+              "materialId": "scroll_3"
             }
           ],
           "rank": 6
@@ -296,15 +296,15 @@
           "materials": [
             {
               "amount": 1,
-              "material_id": "amethyst_1"
+              "materialId": "amethyst_1"
             },
             {
               "amount": 3,
-              "material_id": "noctilucous_jade"
+              "materialId": "noctilucous_jade"
             },
             {
               "amount": 3,
-              "material_id": "tinsignia_1"
+              "materialId": "tinsignia_1"
             }
           ],
           "rank": 1
@@ -315,19 +315,19 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "amethyst_2"
+              "materialId": "amethyst_2"
             },
             {
               "amount": 2,
-              "material_id": "lightning_prism"
+              "materialId": "lightning_prism"
             },
             {
               "amount": 10,
-              "material_id": "noctilucous_jade"
+              "materialId": "noctilucous_jade"
             },
             {
               "amount": 15,
-              "material_id": "tinsignia_1"
+              "materialId": "tinsignia_1"
             }
           ],
           "rank": 2
@@ -338,19 +338,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "amethyst_2"
+              "materialId": "amethyst_2"
             },
             {
               "amount": 4,
-              "material_id": "lightning_prism"
+              "materialId": "lightning_prism"
             },
             {
               "amount": 20,
-              "material_id": "noctilucous_jade"
+              "materialId": "noctilucous_jade"
             },
             {
               "amount": 12,
-              "material_id": "tinsignia_2"
+              "materialId": "tinsignia_2"
             }
           ],
           "rank": 3
@@ -361,19 +361,19 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "amethyst_3"
+              "materialId": "amethyst_3"
             },
             {
               "amount": 8,
-              "material_id": "lightning_prism"
+              "materialId": "lightning_prism"
             },
             {
               "amount": 30,
-              "material_id": "noctilucous_jade"
+              "materialId": "noctilucous_jade"
             },
             {
               "amount": 18,
-              "material_id": "tinsignia_2"
+              "materialId": "tinsignia_2"
             }
           ],
           "rank": 4
@@ -384,19 +384,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "amethyst_3"
+              "materialId": "amethyst_3"
             },
             {
               "amount": 12,
-              "material_id": "lightning_prism"
+              "materialId": "lightning_prism"
             },
             {
               "amount": 45,
-              "material_id": "noctilucous_jade"
+              "materialId": "noctilucous_jade"
             },
             {
               "amount": 12,
-              "material_id": "tinsignia_3"
+              "materialId": "tinsignia_3"
             }
           ],
           "rank": 5
@@ -407,19 +407,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "amethyst_4"
+              "materialId": "amethyst_4"
             },
             {
               "amount": 20,
-              "material_id": "lightning_prism"
+              "materialId": "lightning_prism"
             },
             {
               "amount": 60,
-              "material_id": "noctilucous_jade"
+              "materialId": "noctilucous_jade"
             },
             {
               "amount": 24,
-              "material_id": "tinsignia_3"
+              "materialId": "tinsignia_3"
             }
           ],
           "rank": 6
@@ -440,15 +440,15 @@
           "materials": [
             {
               "amount": "1",
-              "material_id": "agate_1"
+              "materialId": "agate_1"
             },
             {
               "amount": "3",
-              "material_id": "windwheel_aster"
+              "materialId": "windwheel_aster"
             },
             {
               "amount": "3",
-              "material_id": "tinsignia_1"
+              "materialId": "tinsignia_1"
             }
           ],
           "rank": 1
@@ -459,19 +459,19 @@
           "materials": [
             {
               "amount": "3",
-              "material_id": "agate_2"
+              "materialId": "agate_2"
             },
             {
               "amount": "2",
-              "material_id": "everflame_seed"
+              "materialId": "everflame_seed"
             },
             {
               "amount": "10",
-              "material_id": "windwheel_aster"
+              "materialId": "windwheel_aster"
             },
             {
               "amount": "15",
-              "material_id": "tinsignia_1"
+              "materialId": "tinsignia_1"
             }
           ],
           "rank": 2
@@ -482,19 +482,19 @@
           "materials": [
             {
               "amount": "6",
-              "material_id": "agate_2"
+              "materialId": "agate_2"
             },
             {
               "amount": "4",
-              "material_id": "everflame_seed"
+              "materialId": "everflame_seed"
             },
             {
               "amount": "20",
-              "material_id": "windwheel_aster"
+              "materialId": "windwheel_aster"
             },
             {
               "amount": "12",
-              "material_id": "tinsignia_2"
+              "materialId": "tinsignia_2"
             }
           ],
           "rank": 3
@@ -505,19 +505,19 @@
           "materials": [
             {
               "amount": "3",
-              "material_id": "agate_3"
+              "materialId": "agate_3"
             },
             {
               "amount": "8",
-              "material_id": "everflame_seed"
+              "materialId": "everflame_seed"
             },
             {
               "amount": "30",
-              "material_id": "windwheel_aster"
+              "materialId": "windwheel_aster"
             },
             {
               "amount": "18",
-              "material_id": "tinsignia_2"
+              "materialId": "tinsignia_2"
             }
           ],
           "rank": 4
@@ -528,19 +528,19 @@
           "materials": [
             {
               "amount": "6",
-              "material_id": "agate_3"
+              "materialId": "agate_3"
             },
             {
               "amount": "12",
-              "material_id": "everflame_seed"
+              "materialId": "everflame_seed"
             },
             {
               "amount": "45",
-              "material_id": "windwheel_aster"
+              "materialId": "windwheel_aster"
             },
             {
               "amount": "12",
-              "material_id": "tinsignia_3"
+              "materialId": "tinsignia_3"
             }
           ],
           "rank": 5
@@ -551,19 +551,19 @@
           "materials": [
             {
               "amount": "6",
-              "material_id": "agate_4"
+              "materialId": "agate_4"
             },
             {
               "amount": "20",
-              "material_id": "everflame_seed"
+              "materialId": "everflame_seed"
             },
             {
               "amount": "60",
-              "material_id": "windwheel_aster"
+              "materialId": "windwheel_aster"
             },
             {
               "amount": "24",
-              "material_id": "tinsignia_3"
+              "materialId": "tinsignia_3"
             }
           ],
           "rank": 6
@@ -584,15 +584,15 @@
           "materials": [
             {
               "amount": "1",
-              "material_id": "jade_1"
+              "materialId": "jade_1"
             },
             {
               "amount": "3",
-              "material_id": "cor_lapis"
+              "materialId": "cor_lapis"
             },
             {
               "amount": "3",
-              "material_id": "mask_1"
+              "materialId": "mask_1"
             }
           ],
           "rank": 1
@@ -603,19 +603,19 @@
           "materials": [
             {
               "amount": "3",
-              "material_id": "jade_2"
+              "materialId": "jade_2"
             },
             {
               "amount": "2",
-              "material_id": "hoarfrost_core"
+              "materialId": "hoarfrost_core"
             },
             {
               "amount": "10",
-              "material_id": "cor_lapis"
+              "materialId": "cor_lapis"
             },
             {
               "amount": "15",
-              "material_id": "mask_1"
+              "materialId": "mask_1"
             }
           ],
           "rank": 2
@@ -626,19 +626,19 @@
           "materials": [
             {
               "amount": "6",
-              "material_id": "jade_2"
+              "materialId": "jade_2"
             },
             {
               "amount": "4",
-              "material_id": "hoarfrost_core"
+              "materialId": "hoarfrost_core"
             },
             {
               "amount": "20",
-              "material_id": "cor_lapis"
+              "materialId": "cor_lapis"
             },
             {
               "amount": "12",
-              "material_id": "mask_2"
+              "materialId": "mask_2"
             }
           ],
           "rank": 3
@@ -649,19 +649,19 @@
           "materials": [
             {
               "amount": "3",
-              "material_id": "jade_3"
+              "materialId": "jade_3"
             },
             {
               "amount": "8",
-              "material_id": "hoarfrost_core"
+              "materialId": "hoarfrost_core"
             },
             {
               "amount": "30",
-              "material_id": "cor_lapis"
+              "materialId": "cor_lapis"
             },
             {
               "amount": "18",
-              "material_id": "mask_2"
+              "materialId": "mask_2"
             }
           ],
           "rank": 4
@@ -672,19 +672,19 @@
           "materials": [
             {
               "amount": "6",
-              "material_id": "jade_3"
+              "materialId": "jade_3"
             },
             {
               "amount": "12",
-              "material_id": "hoarfrost_core"
+              "materialId": "hoarfrost_core"
             },
             {
               "amount": "45",
-              "material_id": "cor_lapis"
+              "materialId": "cor_lapis"
             },
             {
               "amount": "12",
-              "material_id": "mask_3"
+              "materialId": "mask_3"
             }
           ],
           "rank": 5
@@ -695,19 +695,19 @@
           "materials": [
             {
               "amount": "6",
-              "material_id": "jade_4"
+              "materialId": "jade_4"
             },
             {
               "amount": "20",
-              "material_id": "hoarfrost_core"
+              "materialId": "hoarfrost_core"
             },
             {
               "amount": "60",
-              "material_id": "cor_lapis"
+              "materialId": "cor_lapis"
             },
             {
               "amount": "24",
-              "material_id": "mask_3"
+              "materialId": "mask_3"
             }
           ],
           "rank": 6
@@ -728,15 +728,15 @@
           "materials": [
             {
               "amount": "1",
-              "material_id": "agate_1"
+              "materialId": "agate_1"
             },
             {
               "amount": "3",
-              "material_id": "small_lamp_grass"
+              "materialId": "small_lamp_grass"
             },
             {
               "amount": "3",
-              "material_id": "finsignia_1"
+              "materialId": "finsignia_1"
             }
           ],
           "rank": 1
@@ -747,19 +747,19 @@
           "materials": [
             {
               "amount": "3",
-              "material_id": "agate_2"
+              "materialId": "agate_2"
             },
             {
               "amount": "2",
-              "material_id": "everflame_seed"
+              "materialId": "everflame_seed"
             },
             {
               "amount": "10",
-              "material_id": "small_lamp_grass"
+              "materialId": "small_lamp_grass"
             },
             {
               "amount": "10",
-              "material_id": "finsignia_1"
+              "materialId": "finsignia_1"
             }
           ],
           "rank": 2
@@ -770,19 +770,19 @@
           "materials": [
             {
               "amount": "6",
-              "material_id": "agate_2"
+              "materialId": "agate_2"
             },
             {
               "amount": "4",
-              "material_id": "everflame_seed"
+              "materialId": "everflame_seed"
             },
             {
               "amount": "20",
-              "material_id": "small_lamp_grass"
+              "materialId": "small_lamp_grass"
             },
             {
               "amount": "12",
-              "material_id": "finsignia_2"
+              "materialId": "finsignia_2"
             }
           ],
           "rank": 3
@@ -793,19 +793,19 @@
           "materials": [
             {
               "amount": "3",
-              "material_id": "agate_3"
+              "materialId": "agate_3"
             },
             {
               "amount": "8",
-              "material_id": "everflame_seed"
+              "materialId": "everflame_seed"
             },
             {
               "amount": "30",
-              "material_id": "small_lamp_grass"
+              "materialId": "small_lamp_grass"
             },
             {
               "amount": "18",
-              "material_id": "finsignia_2"
+              "materialId": "finsignia_2"
             }
           ],
           "rank": 4
@@ -816,19 +816,19 @@
           "materials": [
             {
               "amount": "6",
-              "material_id": "agate_3"
+              "materialId": "agate_3"
             },
             {
               "amount": "12",
-              "material_id": "everflame_seed"
+              "materialId": "everflame_seed"
             },
             {
               "amount": "45",
-              "material_id": "small_lamp_grass"
+              "materialId": "small_lamp_grass"
             },
             {
               "amount": "12",
-              "material_id": "finsignia_3"
+              "materialId": "finsignia_3"
             }
           ],
           "rank": 5
@@ -839,19 +839,19 @@
           "materials": [
             {
               "amount": "6",
-              "material_id": "agate_4"
+              "materialId": "agate_4"
             },
             {
               "amount": "20",
-              "material_id": "everflame_seed"
+              "materialId": "everflame_seed"
             },
             {
               "amount": "60",
-              "material_id": "small_lamp_grass"
+              "materialId": "small_lamp_grass"
             },
             {
               "amount": "24",
-              "material_id": "finsignia_3"
+              "materialId": "finsignia_3"
             }
           ],
           "rank": 6
@@ -872,15 +872,15 @@
           "materials": [
             {
               "amount": "1",
-              "material_id": "jade_1"
+              "materialId": "jade_1"
             },
             {
               "amount": "3",
-              "material_id": "calla_lily"
+              "materialId": "calla_lily"
             },
             {
               "amount": "3",
-              "material_id": "arrowhead_1"
+              "materialId": "arrowhead_1"
             }
           ],
           "rank": 1
@@ -891,19 +891,19 @@
           "materials": [
             {
               "amount": "3",
-              "material_id": "jade_2"
+              "materialId": "jade_2"
             },
             {
               "amount": "2",
-              "material_id": "hoarfrost_core"
+              "materialId": "hoarfrost_core"
             },
             {
               "amount": "10",
-              "material_id": "calla_lily"
+              "materialId": "calla_lily"
             },
             {
               "amount": "15",
-              "material_id": "arrowhead_1"
+              "materialId": "arrowhead_1"
             }
           ],
           "rank": 2
@@ -914,19 +914,19 @@
           "materials": [
             {
               "amount": "6",
-              "material_id": "jade_2"
+              "materialId": "jade_2"
             },
             {
               "amount": "4",
-              "material_id": "hoarfrost_core"
+              "materialId": "hoarfrost_core"
             },
             {
               "amount": "20",
-              "material_id": "calla_lily"
+              "materialId": "calla_lily"
             },
             {
               "amount": "12",
-              "material_id": "arrowhead_2"
+              "materialId": "arrowhead_2"
             }
           ],
           "rank": 3
@@ -937,19 +937,19 @@
           "materials": [
             {
               "amount": "3",
-              "material_id": "jade_3"
+              "materialId": "jade_3"
             },
             {
               "amount": "8",
-              "material_id": "hoarfrost_core"
+              "materialId": "hoarfrost_core"
             },
             {
               "amount": "30",
-              "material_id": "calla_lily"
+              "materialId": "calla_lily"
             },
             {
               "amount": "18",
-              "material_id": "arrowhead_2"
+              "materialId": "arrowhead_2"
             }
           ],
           "rank": 4
@@ -960,19 +960,19 @@
           "materials": [
             {
               "amount": "6",
-              "material_id": "jade_3"
+              "materialId": "jade_3"
             },
             {
               "amount": "12",
-              "material_id": "hoarfrost_core"
+              "materialId": "hoarfrost_core"
             },
             {
               "amount": "45",
-              "material_id": "calla_lily"
+              "materialId": "calla_lily"
             },
             {
               "amount": "12",
-              "material_id": "arrowhead_3"
+              "materialId": "arrowhead_3"
             }
           ],
           "rank": 5
@@ -983,19 +983,19 @@
           "materials": [
             {
               "amount": "6",
-              "material_id": "jade_4"
+              "materialId": "jade_4"
             },
             {
               "amount": "20",
-              "material_id": "hoarfrost_core"
+              "materialId": "hoarfrost_core"
             },
             {
               "amount": "60",
-              "material_id": "calla_lily"
+              "materialId": "calla_lily"
             },
             {
               "amount": "24",
-              "material_id": "arrowhead_3"
+              "materialId": "arrowhead_3"
             }
           ],
           "rank": 6
@@ -1016,15 +1016,15 @@
           "materials": [
             {
               "amount": 1,
-              "material_id": "amethyst_1"
+              "materialId": "amethyst_1"
             },
             {
               "amount": 3,
-              "material_id": "small_lamp_grass"
+              "materialId": "small_lamp_grass"
             },
             {
               "amount": 3,
-              "material_id": "arrowhead_1"
+              "materialId": "arrowhead_1"
             }
           ],
           "rank": 1
@@ -1035,19 +1035,19 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "amethyst_2"
+              "materialId": "amethyst_2"
             },
             {
               "amount": 2,
-              "material_id": "lightning_prism"
+              "materialId": "lightning_prism"
             },
             {
               "amount": 10,
-              "material_id": "small_lamp_grass"
+              "materialId": "small_lamp_grass"
             },
             {
               "amount": 15,
-              "material_id": "arrowhead_1"
+              "materialId": "arrowhead_1"
             }
           ],
           "rank": 2
@@ -1058,19 +1058,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "amethyst_2"
+              "materialId": "amethyst_2"
             },
             {
               "amount": 4,
-              "material_id": "lightning_prism"
+              "materialId": "lightning_prism"
             },
             {
               "amount": 20,
-              "material_id": "small_lamp_grass"
+              "materialId": "small_lamp_grass"
             },
             {
               "amount": 12,
-              "material_id": "arrowhead_2"
+              "materialId": "arrowhead_2"
             }
           ],
           "rank": 3
@@ -1081,19 +1081,19 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "amethyst_3"
+              "materialId": "amethyst_3"
             },
             {
               "amount": 8,
-              "material_id": "lightning_prism"
+              "materialId": "lightning_prism"
             },
             {
               "amount": 30,
-              "material_id": "small_lamp_grass"
+              "materialId": "small_lamp_grass"
             },
             {
               "amount": 18,
-              "material_id": "arrowhead_2"
+              "materialId": "arrowhead_2"
             }
           ],
           "rank": 4
@@ -1104,19 +1104,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "amethyst_3"
+              "materialId": "amethyst_3"
             },
             {
               "amount": 12,
-              "material_id": "lightning_prism"
+              "materialId": "lightning_prism"
             },
             {
               "amount": 45,
-              "material_id": "small_lamp_grass"
+              "materialId": "small_lamp_grass"
             },
             {
               "amount": 12,
-              "material_id": "arrowhead_3"
+              "materialId": "arrowhead_3"
             }
           ],
           "rank": 5
@@ -1127,19 +1127,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "amethyst_4"
+              "materialId": "amethyst_4"
             },
             {
               "amount": 20,
-              "material_id": "lightning_prism"
+              "materialId": "lightning_prism"
             },
             {
               "amount": 60,
-              "material_id": "small_lamp_grass"
+              "materialId": "small_lamp_grass"
             },
             {
               "amount": 24,
-              "material_id": "arrowhead_3"
+              "materialId": "arrowhead_3"
             }
           ],
           "rank": 6
@@ -1160,15 +1160,15 @@
           "materials": [
             {
               "amount": 1,
-              "material_id": "turquise_1"
+              "materialId": "turquise_1"
             },
             {
               "amount": 3,
-              "material_id": "dandelion_seed"
+              "materialId": "dandelion_seed"
             },
             {
               "amount": 3,
-              "material_id": "mask_1"
+              "materialId": "mask_1"
             }
           ],
           "rank": 1
@@ -1179,19 +1179,19 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "turquise_2"
+              "materialId": "turquise_2"
             },
             {
               "amount": 2,
-              "material_id": "hurricane_seed"
+              "materialId": "hurricane_seed"
             },
             {
               "amount": 10,
-              "material_id": "dandelion_seed"
+              "materialId": "dandelion_seed"
             },
             {
               "amount": 15,
-              "material_id": "mask_1"
+              "materialId": "mask_1"
             }
           ],
           "rank": 2
@@ -1202,19 +1202,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "turquise_2"
+              "materialId": "turquise_2"
             },
             {
               "amount": 4,
-              "material_id": "hurricane_seed"
+              "materialId": "hurricane_seed"
             },
             {
               "amount": 20,
-              "material_id": "dandelion_seed"
+              "materialId": "dandelion_seed"
             },
             {
               "amount": 12,
-              "material_id": "mask_2"
+              "materialId": "mask_2"
             }
           ],
           "rank": 3
@@ -1225,19 +1225,19 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "turquise_3"
+              "materialId": "turquise_3"
             },
             {
               "amount": 8,
-              "material_id": "hurricane_seed"
+              "materialId": "hurricane_seed"
             },
             {
               "amount": 30,
-              "material_id": "dandelion_seed"
+              "materialId": "dandelion_seed"
             },
             {
               "amount": 18,
-              "material_id": "mask_2"
+              "materialId": "mask_2"
             }
           ],
           "rank": 4
@@ -1248,19 +1248,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "turquise_3"
+              "materialId": "turquise_3"
             },
             {
               "amount": 12,
-              "material_id": "hurricane_seed"
+              "materialId": "hurricane_seed"
             },
             {
               "amount": 45,
-              "material_id": "dandelion_seed"
+              "materialId": "dandelion_seed"
             },
             {
               "amount": 12,
-              "material_id": "mask_3"
+              "materialId": "mask_3"
             }
           ],
           "rank": 5
@@ -1271,19 +1271,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "turquise_4"
+              "materialId": "turquise_4"
             },
             {
               "amount": 20,
-              "material_id": "hurricane_seed"
+              "materialId": "hurricane_seed"
             },
             {
               "amount": 60,
-              "material_id": "dandelion_seed"
+              "materialId": "dandelion_seed"
             },
             {
               "amount": 24,
-              "material_id": "mask_3"
+              "materialId": "mask_3"
             }
           ],
           "rank": 6
@@ -1304,15 +1304,15 @@
           "materials": [
             {
               "amount": "1",
-              "material_id": "jade_1"
+              "materialId": "jade_1"
             },
             {
               "amount": "3",
-              "material_id": "calla_lily"
+              "materialId": "calla_lily"
             },
             {
               "amount": "3",
-              "material_id": "tinsignia_1"
+              "materialId": "tinsignia_1"
             }
           ],
           "rank": 1
@@ -1323,19 +1323,19 @@
           "materials": [
             {
               "amount": "3",
-              "material_id": "jade_2"
+              "materialId": "jade_2"
             },
             {
               "amount": "2",
-              "material_id": "hoarfrost_core"
+              "materialId": "hoarfrost_core"
             },
             {
               "amount": "10",
-              "material_id": "calla_lily"
+              "materialId": "calla_lily"
             },
             {
               "amount": "15",
-              "material_id": "tinsignia_1"
+              "materialId": "tinsignia_1"
             }
           ],
           "rank": 2
@@ -1346,19 +1346,19 @@
           "materials": [
             {
               "amount": "6",
-              "material_id": "jade_2"
+              "materialId": "jade_2"
             },
             {
               "amount": "4",
-              "material_id": "hoarfrost_core"
+              "materialId": "hoarfrost_core"
             },
             {
               "amount": "20",
-              "material_id": "calla_lily"
+              "materialId": "calla_lily"
             },
             {
               "amount": "12",
-              "material_id": "tinsignia_2"
+              "materialId": "tinsignia_2"
             }
           ],
           "rank": 3
@@ -1369,19 +1369,19 @@
           "materials": [
             {
               "amount": "3",
-              "material_id": "jade_3"
+              "materialId": "jade_3"
             },
             {
               "amount": "8",
-              "material_id": "hoarfrost_core"
+              "materialId": "hoarfrost_core"
             },
             {
               "amount": "30",
-              "material_id": "calla_lily"
+              "materialId": "calla_lily"
             },
             {
               "amount": "18",
-              "material_id": "tinsignia_2"
+              "materialId": "tinsignia_2"
             }
           ],
           "rank": 4
@@ -1392,19 +1392,19 @@
           "materials": [
             {
               "amount": "6",
-              "material_id": "jade_3"
+              "materialId": "jade_3"
             },
             {
               "amount": "12",
-              "material_id": "hoarfrost_core"
+              "materialId": "hoarfrost_core"
             },
             {
               "amount": "45",
-              "material_id": "calla_lily"
+              "materialId": "calla_lily"
             },
             {
               "amount": "12",
-              "material_id": "tinsignia_3"
+              "materialId": "tinsignia_3"
             }
           ],
           "rank": 5
@@ -1415,19 +1415,19 @@
           "materials": [
             {
               "amount": "6",
-              "material_id": "jade_4"
+              "materialId": "jade_4"
             },
             {
               "amount": "20",
-              "material_id": "hoarfrost_core"
+              "materialId": "hoarfrost_core"
             },
             {
               "amount": "60",
-              "material_id": "calla_lily"
+              "materialId": "calla_lily"
             },
             {
               "amount": "24",
-              "material_id": "tinsignia_3"
+              "materialId": "tinsignia_3"
             }
           ],
           "rank": 6
@@ -1448,15 +1448,15 @@
           "materials": [
             {
               "amount": 1,
-              "material_id": "amethyst_1"
+              "materialId": "amethyst_1"
             },
             {
               "amount": 3,
-              "material_id": "cor_lapis"
+              "materialId": "cor_lapis"
             },
             {
               "amount": 3,
-              "material_id": "nectar_1"
+              "materialId": "nectar_1"
             }
           ],
           "rank": 1
@@ -1467,19 +1467,19 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "amethyst_2"
+              "materialId": "amethyst_2"
             },
             {
               "amount": 2,
-              "material_id": "lightning_prism"
+              "materialId": "lightning_prism"
             },
             {
               "amount": 10,
-              "material_id": "cor_lapis"
+              "materialId": "cor_lapis"
             },
             {
               "amount": 15,
-              "material_id": "nectar_1"
+              "materialId": "nectar_1"
             }
           ],
           "rank": 2
@@ -1490,19 +1490,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "amethyst_2"
+              "materialId": "amethyst_2"
             },
             {
               "amount": 4,
-              "material_id": "lightning_prism"
+              "materialId": "lightning_prism"
             },
             {
               "amount": 20,
-              "material_id": "cor_lapis"
+              "materialId": "cor_lapis"
             },
             {
               "amount": 12,
-              "material_id": "nectar_2"
+              "materialId": "nectar_2"
             }
           ],
           "rank": 3
@@ -1513,19 +1513,19 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "amethyst_3"
+              "materialId": "amethyst_3"
             },
             {
               "amount": 8,
-              "material_id": "lightning_prism"
+              "materialId": "lightning_prism"
             },
             {
               "amount": 30,
-              "material_id": "cor_lapis"
+              "materialId": "cor_lapis"
             },
             {
               "amount": 18,
-              "material_id": "nectar_2"
+              "materialId": "nectar_2"
             }
           ],
           "rank": 4
@@ -1536,19 +1536,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "amethyst_3"
+              "materialId": "amethyst_3"
             },
             {
               "amount": 12,
-              "material_id": "lightning_prism"
+              "materialId": "lightning_prism"
             },
             {
               "amount": 45,
-              "material_id": "cor_lapis"
+              "materialId": "cor_lapis"
             },
             {
               "amount": 12,
-              "material_id": "nectar_3"
+              "materialId": "nectar_3"
             }
           ],
           "rank": 5
@@ -1559,19 +1559,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "amethyst_4"
+              "materialId": "amethyst_4"
             },
             {
               "amount": 20,
-              "material_id": "lightning_prism"
+              "materialId": "lightning_prism"
             },
             {
               "amount": 60,
-              "material_id": "cor_lapis"
+              "materialId": "cor_lapis"
             },
             {
               "amount": 24,
-              "material_id": "nectar_2"
+              "materialId": "nectar_2"
             }
           ],
           "rank": 6
@@ -1592,15 +1592,15 @@
           "materials": [
             {
               "amount": "1",
-              "material_id": "agate_1"
+              "materialId": "agate_1"
             },
             {
               "amount": "3",
-              "material_id": "philanemo_mushroom"
+              "materialId": "philanemo_mushroom"
             },
             {
               "amount": "3",
-              "material_id": "scroll_1"
+              "materialId": "scroll_1"
             }
           ],
           "rank": 1
@@ -1611,19 +1611,19 @@
           "materials": [
             {
               "amount": "3",
-              "material_id": "agate_2"
+              "materialId": "agate_2"
             },
             {
               "amount": "2",
-              "material_id": "everflame_seed"
+              "materialId": "everflame_seed"
             },
             {
               "amount": "10",
-              "material_id": "philanemo_mushroom"
+              "materialId": "philanemo_mushroom"
             },
             {
               "amount": "10",
-              "material_id": "scroll_1"
+              "materialId": "scroll_1"
             }
           ],
           "rank": 2
@@ -1634,19 +1634,19 @@
           "materials": [
             {
               "amount": "6",
-              "material_id": "agate_2"
+              "materialId": "agate_2"
             },
             {
               "amount": "4",
-              "material_id": "everflame_seed"
+              "materialId": "everflame_seed"
             },
             {
               "amount": "20",
-              "material_id": "philanemo_mushroom"
+              "materialId": "philanemo_mushroom"
             },
             {
               "amount": "12",
-              "material_id": "scroll_2"
+              "materialId": "scroll_2"
             }
           ],
           "rank": 3
@@ -1657,19 +1657,19 @@
           "materials": [
             {
               "amount": "3",
-              "material_id": "agate_3"
+              "materialId": "agate_3"
             },
             {
               "amount": "8",
-              "material_id": "everflame_seed"
+              "materialId": "everflame_seed"
             },
             {
               "amount": "30",
-              "material_id": "philanemo_mushroom"
+              "materialId": "philanemo_mushroom"
             },
             {
               "amount": "18",
-              "material_id": "scroll_2"
+              "materialId": "scroll_2"
             }
           ],
           "rank": 4
@@ -1680,19 +1680,19 @@
           "materials": [
             {
               "amount": "6",
-              "material_id": "agate_3"
+              "materialId": "agate_3"
             },
             {
               "amount": "12",
-              "material_id": "everflame_seed"
+              "materialId": "everflame_seed"
             },
             {
               "amount": "45",
-              "material_id": "philanemo_mushroom"
+              "materialId": "philanemo_mushroom"
             },
             {
               "amount": "12",
-              "material_id": "scroll_3"
+              "materialId": "scroll_3"
             }
           ],
           "rank": 5
@@ -1703,19 +1703,19 @@
           "materials": [
             {
               "amount": "6",
-              "material_id": "agate_4"
+              "materialId": "agate_4"
             },
             {
               "amount": "20",
-              "material_id": "everflame_seed"
+              "materialId": "everflame_seed"
             },
             {
               "amount": "60",
-              "material_id": "philanemo_mushroom"
+              "materialId": "philanemo_mushroom"
             },
             {
               "amount": "24",
-              "material_id": "scroll_3"
+              "materialId": "scroll_3"
             }
           ],
           "rank": 6
@@ -1736,15 +1736,15 @@
           "materials": [
             {
               "amount": 1,
-              "material_id": "amethyst_1"
+              "materialId": "amethyst_1"
             },
             {
               "amount": 3,
-              "material_id": "valberry"
+              "materialId": "valberry"
             },
             {
               "amount": 3,
-              "material_id": "slime_1"
+              "materialId": "slime_1"
             }
           ],
           "rank": 1
@@ -1755,19 +1755,19 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "amethyst_2"
+              "materialId": "amethyst_2"
             },
             {
               "amount": 2,
-              "material_id": "lightning_prism"
+              "materialId": "lightning_prism"
             },
             {
               "amount": 10,
-              "material_id": "valberry"
+              "materialId": "valberry"
             },
             {
               "amount": 15,
-              "material_id": "slime_1"
+              "materialId": "slime_1"
             }
           ],
           "rank": 2
@@ -1778,19 +1778,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "amethyst_2"
+              "materialId": "amethyst_2"
             },
             {
               "amount": 4,
-              "material_id": "lightning_prism"
+              "materialId": "lightning_prism"
             },
             {
               "amount": 20,
-              "material_id": "valberry"
+              "materialId": "valberry"
             },
             {
               "amount": 12,
-              "material_id": "slime_2"
+              "materialId": "slime_2"
             }
           ],
           "rank": 3
@@ -1801,19 +1801,19 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "amethyst_3"
+              "materialId": "amethyst_3"
             },
             {
               "amount": 8,
-              "material_id": "lightning_prism"
+              "materialId": "lightning_prism"
             },
             {
               "amount": 30,
-              "material_id": "valberry"
+              "materialId": "valberry"
             },
             {
               "amount": 18,
-              "material_id": "slime_2"
+              "materialId": "slime_2"
             }
           ],
           "rank": 4
@@ -1824,19 +1824,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "amethyst_3"
+              "materialId": "amethyst_3"
             },
             {
               "amount": 12,
-              "material_id": "lightning_prism"
+              "materialId": "lightning_prism"
             },
             {
               "amount": 45,
-              "material_id": "valberry"
+              "materialId": "valberry"
             },
             {
               "amount": 12,
-              "material_id": "slime_3"
+              "materialId": "slime_3"
             }
           ],
           "rank": 5
@@ -1847,19 +1847,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "amethyst_4"
+              "materialId": "amethyst_4"
             },
             {
               "amount": 20,
-              "material_id": "lightning_prism"
+              "materialId": "lightning_prism"
             },
             {
               "amount": 60,
-              "material_id": "valberry"
+              "materialId": "valberry"
             },
             {
               "amount": 24,
-              "material_id": "slime_3"
+              "materialId": "slime_3"
             }
           ],
           "rank": 6
@@ -1880,15 +1880,15 @@
           "materials": [
             {
               "amount": 1,
-              "material_id": "lazurite_1"
+              "materialId": "lazurite_1"
             },
             {
               "amount": 3,
-              "material_id": "philanemo_mushroom"
+              "materialId": "philanemo_mushroom"
             },
             {
               "amount": 3,
-              "material_id": "nectar_1"
+              "materialId": "nectar_1"
             }
           ],
           "rank": 1
@@ -1899,19 +1899,19 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "lazurite_2"
+              "materialId": "lazurite_2"
             },
             {
               "amount": 2,
-              "material_id": "cleansing_heart"
+              "materialId": "cleansing_heart"
             },
             {
               "amount": 10,
-              "material_id": "philanemo_mushroom"
+              "materialId": "philanemo_mushroom"
             },
             {
               "amount": 15,
-              "material_id": "nectar_1"
+              "materialId": "nectar_1"
             }
           ],
           "rank": 2
@@ -1922,19 +1922,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "lazurite_2"
+              "materialId": "lazurite_2"
             },
             {
               "amount": 4,
-              "material_id": "cleansing_heart"
+              "materialId": "cleansing_heart"
             },
             {
               "amount": 20,
-              "material_id": "philanemo_mushroom"
+              "materialId": "philanemo_mushroom"
             },
             {
               "amount": 12,
-              "material_id": "nectar_2"
+              "materialId": "nectar_2"
             }
           ],
           "rank": 3
@@ -1945,19 +1945,19 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "lazurite_3"
+              "materialId": "lazurite_3"
             },
             {
               "amount": 8,
-              "material_id": "cleansing_heart"
+              "materialId": "cleansing_heart"
             },
             {
               "amount": 10,
-              "material_id": "philanemo_mushroom"
+              "materialId": "philanemo_mushroom"
             },
             {
               "amount": 10,
-              "material_id": "nectar_2"
+              "materialId": "nectar_2"
             }
           ],
           "rank": 4
@@ -1968,19 +1968,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "lazurite_3"
+              "materialId": "lazurite_3"
             },
             {
               "amount": 12,
-              "material_id": "cleansing_heart"
+              "materialId": "cleansing_heart"
             },
             {
               "amount": 45,
-              "material_id": "philanemo_mushroom"
+              "materialId": "philanemo_mushroom"
             },
             {
               "amount": 12,
-              "material_id": "nectar_3"
+              "materialId": "nectar_3"
             }
           ],
           "rank": 5
@@ -1991,19 +1991,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "lazurite_4"
+              "materialId": "lazurite_4"
             },
             {
               "amount": 20,
-              "material_id": "cleansing_heart"
+              "materialId": "cleansing_heart"
             },
             {
               "amount": 60,
-              "material_id": "philanemo_mushroom"
+              "materialId": "philanemo_mushroom"
             },
             {
               "amount": 24,
-              "material_id": "nectar_3"
+              "materialId": "nectar_3"
             }
           ],
           "rank": 6
@@ -2024,15 +2024,15 @@
           "materials": [
             {
               "amount": 1,
-              "material_id": "topaz_1"
+              "materialId": "topaz_1"
             },
             {
               "amount": 3,
-              "material_id": "glaze_lily"
+              "materialId": "glaze_lily"
             },
             {
               "amount": 3,
-              "material_id": "finsignia_1"
+              "materialId": "finsignia_1"
             }
           ],
           "rank": 1
@@ -2043,19 +2043,19 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "topaz_2"
+              "materialId": "topaz_2"
             },
             {
               "amount": 2,
-              "material_id": "basalt_pillar"
+              "materialId": "basalt_pillar"
             },
             {
               "amount": 10,
-              "material_id": "glaze_lily"
+              "materialId": "glaze_lily"
             },
             {
               "amount": 15,
-              "material_id": "finsignia_1"
+              "materialId": "finsignia_1"
             }
           ],
           "rank": 2
@@ -2066,19 +2066,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "topaz_2"
+              "materialId": "topaz_2"
             },
             {
               "amount": 4,
-              "material_id": "basalt_pillar"
+              "materialId": "basalt_pillar"
             },
             {
               "amount": 20,
-              "material_id": "glaze_lily"
+              "materialId": "glaze_lily"
             },
             {
               "amount": 12,
-              "material_id": "finsignia_2"
+              "materialId": "finsignia_2"
             }
           ],
           "rank": 3
@@ -2089,19 +2089,19 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "topaz_3"
+              "materialId": "topaz_3"
             },
             {
               "amount": 8,
-              "material_id": "basalt_pillar"
+              "materialId": "basalt_pillar"
             },
             {
               "amount": 10,
-              "material_id": "glaze_lily"
+              "materialId": "glaze_lily"
             },
             {
               "amount": 10,
-              "material_id": "finsignia_2"
+              "materialId": "finsignia_2"
             }
           ],
           "rank": 4
@@ -2112,19 +2112,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "topaz_3"
+              "materialId": "topaz_3"
             },
             {
               "amount": 12,
-              "material_id": "basalt_pillar"
+              "materialId": "basalt_pillar"
             },
             {
               "amount": 45,
-              "material_id": "glaze_lily"
+              "materialId": "glaze_lily"
             },
             {
               "amount": 12,
-              "material_id": "finsignia_3"
+              "materialId": "finsignia_3"
             }
           ],
           "rank": 5
@@ -2135,19 +2135,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "topaz_4"
+              "materialId": "topaz_4"
             },
             {
               "amount": 20,
-              "material_id": "basalt_pillar"
+              "materialId": "basalt_pillar"
             },
             {
               "amount": 60,
-              "material_id": "glaze_lily"
+              "materialId": "glaze_lily"
             },
             {
               "amount": 24,
-              "material_id": "finsignia_3"
+              "materialId": "finsignia_3"
             }
           ],
           "rank": 6
@@ -2168,15 +2168,15 @@
           "materials": [
             {
               "amount": 1,
-              "material_id": "topaz_1"
+              "materialId": "topaz_1"
             },
             {
               "amount": 3,
-              "material_id": "valberry"
+              "materialId": "valberry"
             },
             {
               "amount": 3,
-              "material_id": "mask_1"
+              "materialId": "mask_1"
             }
           ],
           "rank": 1
@@ -2187,19 +2187,19 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "topaz_2"
+              "materialId": "topaz_2"
             },
             {
               "amount": 2,
-              "material_id": "basalt_pillar"
+              "materialId": "basalt_pillar"
             },
             {
               "amount": 10,
-              "material_id": "valberry"
+              "materialId": "valberry"
             },
             {
               "amount": 15,
-              "material_id": "mask_1"
+              "materialId": "mask_1"
             }
           ],
           "rank": 2
@@ -2210,19 +2210,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "topaz_2"
+              "materialId": "topaz_2"
             },
             {
               "amount": 4,
-              "material_id": "basalt_pillar"
+              "materialId": "basalt_pillar"
             },
             {
               "amount": 20,
-              "material_id": "valberry"
+              "materialId": "valberry"
             },
             {
               "amount": 12,
-              "material_id": "mask_2"
+              "materialId": "mask_2"
             }
           ],
           "rank": 3
@@ -2233,19 +2233,19 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "topaz_3"
+              "materialId": "topaz_3"
             },
             {
               "amount": 8,
-              "material_id": "basalt_pillar"
+              "materialId": "basalt_pillar"
             },
             {
               "amount": 10,
-              "material_id": "valberry"
+              "materialId": "valberry"
             },
             {
               "amount": 10,
-              "material_id": "mask_2"
+              "materialId": "mask_2"
             }
           ],
           "rank": 4
@@ -2256,19 +2256,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "topaz_3"
+              "materialId": "topaz_3"
             },
             {
               "amount": 12,
-              "material_id": "basalt_pillar"
+              "materialId": "basalt_pillar"
             },
             {
               "amount": 45,
-              "material_id": "valberry"
+              "materialId": "valberry"
             },
             {
               "amount": 12,
-              "material_id": "mask_3"
+              "materialId": "mask_3"
             }
           ],
           "rank": 5
@@ -2279,19 +2279,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "topaz_4"
+              "materialId": "topaz_4"
             },
             {
               "amount": 20,
-              "material_id": "basalt_pillar"
+              "materialId": "basalt_pillar"
             },
             {
               "amount": 60,
-              "material_id": "valberry"
+              "materialId": "valberry"
             },
             {
               "amount": 24,
-              "material_id": "mask_3"
+              "materialId": "mask_3"
             }
           ],
           "rank": 6
@@ -2312,15 +2312,15 @@
           "materials": [
             {
               "amount": "1",
-              "material_id": "jade_1"
+              "materialId": "jade_1"
             },
             {
               "amount": "3",
-              "material_id": "violetgrass"
+              "materialId": "violetgrass"
             },
             {
               "amount": "3",
-              "material_id": "scroll_1"
+              "materialId": "scroll_1"
             }
           ],
           "rank": 1
@@ -2331,19 +2331,19 @@
           "materials": [
             {
               "amount": "3",
-              "material_id": "jade_2"
+              "materialId": "jade_2"
             },
             {
               "amount": "2",
-              "material_id": "hoarfrost_core"
+              "materialId": "hoarfrost_core"
             },
             {
               "amount": "10",
-              "material_id": "violetgrass"
+              "materialId": "violetgrass"
             },
             {
               "amount": "15",
-              "material_id": "scroll_1"
+              "materialId": "scroll_1"
             }
           ],
           "rank": 2
@@ -2354,19 +2354,19 @@
           "materials": [
             {
               "amount": "6",
-              "material_id": "jade_2"
+              "materialId": "jade_2"
             },
             {
               "amount": "4",
-              "material_id": "hoarfrost_core"
+              "materialId": "hoarfrost_core"
             },
             {
               "amount": "20",
-              "material_id": "violetgrass"
+              "materialId": "violetgrass"
             },
             {
               "amount": "12",
-              "material_id": "scroll_2"
+              "materialId": "scroll_2"
             }
           ],
           "rank": 3
@@ -2377,19 +2377,19 @@
           "materials": [
             {
               "amount": "3",
-              "material_id": "jade_3"
+              "materialId": "jade_3"
             },
             {
               "amount": "8",
-              "material_id": "hoarfrost_core"
+              "materialId": "hoarfrost_core"
             },
             {
               "amount": "30",
-              "material_id": "violetgrass"
+              "materialId": "violetgrass"
             },
             {
               "amount": "18",
-              "material_id": "scroll_2"
+              "materialId": "scroll_2"
             }
           ],
           "rank": 4
@@ -2400,19 +2400,19 @@
           "materials": [
             {
               "amount": "6",
-              "material_id": "jade_3"
+              "materialId": "jade_3"
             },
             {
               "amount": "12",
-              "material_id": "hoarfrost_core"
+              "materialId": "hoarfrost_core"
             },
             {
               "amount": "45",
-              "material_id": "violetgrass"
+              "materialId": "violetgrass"
             },
             {
               "amount": "12",
-              "material_id": "scroll_3"
+              "materialId": "scroll_3"
             }
           ],
           "rank": 5
@@ -2423,19 +2423,19 @@
           "materials": [
             {
               "amount": "6",
-              "material_id": "jade_4"
+              "materialId": "jade_4"
             },
             {
               "amount": "20",
-              "material_id": "hoarfrost_core"
+              "materialId": "hoarfrost_core"
             },
             {
               "amount": "60",
-              "material_id": "violetgrass"
+              "materialId": "violetgrass"
             },
             {
               "amount": "24",
-              "material_id": "scroll_3"
+              "materialId": "scroll_3"
             }
           ],
           "rank": 6
@@ -2456,15 +2456,15 @@
           "materials": [
             {
               "amount": 1,
-              "material_id": "amethyst_1"
+              "materialId": "amethyst_1"
             },
             {
               "amount": 3,
-              "material_id": "wolfhook"
+              "materialId": "wolfhook"
             },
             {
               "amount": 3,
-              "material_id": "mask_1"
+              "materialId": "mask_1"
             }
           ],
           "rank": 1
@@ -2475,19 +2475,19 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "amethyst_2"
+              "materialId": "amethyst_2"
             },
             {
               "amount": 2,
-              "material_id": "lightning_prism"
+              "materialId": "lightning_prism"
             },
             {
               "amount": 10,
-              "material_id": "wolfhook"
+              "materialId": "wolfhook"
             },
             {
               "amount": 15,
-              "material_id": "mask_1"
+              "materialId": "mask_1"
             }
           ],
           "rank": 2
@@ -2498,19 +2498,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "amethyst_2"
+              "materialId": "amethyst_2"
             },
             {
               "amount": 4,
-              "material_id": "lightning_prism"
+              "materialId": "lightning_prism"
             },
             {
               "amount": 20,
-              "material_id": "wolfhook"
+              "materialId": "wolfhook"
             },
             {
               "amount": 12,
-              "material_id": "mask_2"
+              "materialId": "mask_2"
             }
           ],
           "rank": 3
@@ -2521,19 +2521,19 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "amethyst_3"
+              "materialId": "amethyst_3"
             },
             {
               "amount": 8,
-              "material_id": "lightning_prism"
+              "materialId": "lightning_prism"
             },
             {
               "amount": 30,
-              "material_id": "wolfhook"
+              "materialId": "wolfhook"
             },
             {
               "amount": 18,
-              "material_id": "mask_2"
+              "materialId": "mask_2"
             }
           ],
           "rank": 4
@@ -2544,19 +2544,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "amethyst_3"
+              "materialId": "amethyst_3"
             },
             {
               "amount": 12,
-              "material_id": "lightning_prism"
+              "materialId": "lightning_prism"
             },
             {
               "amount": 45,
-              "material_id": "wolfhook"
+              "materialId": "wolfhook"
             },
             {
               "amount": 12,
-              "material_id": "mask_3"
+              "materialId": "mask_3"
             }
           ],
           "rank": 5
@@ -2567,19 +2567,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "amethyst_4"
+              "materialId": "amethyst_4"
             },
             {
               "amount": 20,
-              "material_id": "lightning_prism"
+              "materialId": "lightning_prism"
             },
             {
               "amount": 60,
-              "material_id": "wolfhook"
+              "materialId": "wolfhook"
             },
             {
               "amount": 24,
-              "material_id": "mask_3"
+              "materialId": "mask_3"
             }
           ],
           "rank": 6
@@ -2600,15 +2600,15 @@
           "materials": [
             {
               "amount": 1,
-              "material_id": "turquise_1"
+              "materialId": "turquise_1"
             },
             {
               "amount": 3,
-              "material_id": "windwheel_aster"
+              "materialId": "windwheel_aster"
             },
             {
               "amount": 3,
-              "material_id": "nectar_1"
+              "materialId": "nectar_1"
             }
           ],
           "rank": 1
@@ -2619,19 +2619,19 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "turquise_2"
+              "materialId": "turquise_2"
             },
             {
               "amount": 2,
-              "material_id": "hurricane_seed"
+              "materialId": "hurricane_seed"
             },
             {
               "amount": 10,
-              "material_id": "windwheel_aster"
+              "materialId": "windwheel_aster"
             },
             {
               "amount": 15,
-              "material_id": "nectar_1"
+              "materialId": "nectar_1"
             }
           ],
           "rank": 2
@@ -2642,19 +2642,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "turquise_2"
+              "materialId": "turquise_2"
             },
             {
               "amount": 4,
-              "material_id": "hurricane_seed"
+              "materialId": "hurricane_seed"
             },
             {
               "amount": 20,
-              "material_id": "windwheel_aster"
+              "materialId": "windwheel_aster"
             },
             {
               "amount": 12,
-              "material_id": "nectar_2"
+              "materialId": "nectar_2"
             }
           ],
           "rank": 3
@@ -2665,19 +2665,19 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "turquise_3"
+              "materialId": "turquise_3"
             },
             {
               "amount": 8,
-              "material_id": "hurricane_seed"
+              "materialId": "hurricane_seed"
             },
             {
               "amount": 30,
-              "material_id": "windwheel_aster"
+              "materialId": "windwheel_aster"
             },
             {
               "amount": 18,
-              "material_id": "nectar_2"
+              "materialId": "nectar_2"
             }
           ],
           "rank": 4
@@ -2688,19 +2688,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "turquise_3"
+              "materialId": "turquise_3"
             },
             {
               "amount": 12,
-              "material_id": "hurricane_seed"
+              "materialId": "hurricane_seed"
             },
             {
               "amount": 45,
-              "material_id": "windwheel_aster"
+              "materialId": "windwheel_aster"
             },
             {
               "amount": 12,
-              "material_id": "nectar_3"
+              "materialId": "nectar_3"
             }
           ],
           "rank": 5
@@ -2711,19 +2711,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "turquise_4"
+              "materialId": "turquise_4"
             },
             {
               "amount": 20,
-              "material_id": "hurricane_seed"
+              "materialId": "hurricane_seed"
             },
             {
               "amount": 60,
-              "material_id": "windwheel_aster"
+              "materialId": "windwheel_aster"
             },
             {
               "amount": 24,
-              "material_id": "nectar_3"
+              "materialId": "nectar_3"
             }
           ],
           "rank": 6
@@ -2744,15 +2744,15 @@
           "materials": [
             {
               "amount": 1,
-              "material_id": "lazurite_1"
+              "materialId": "lazurite_1"
             },
             {
               "amount": 3,
-              "material_id": "starconch"
+              "materialId": "starconch"
             },
             {
               "amount": 3,
-              "material_id": "finsignia_1"
+              "materialId": "finsignia_1"
             }
           ],
           "rank": 1
@@ -2763,19 +2763,19 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "lazurite_2"
+              "materialId": "lazurite_2"
             },
             {
               "amount": 2,
-              "material_id": "cleansing_heart"
+              "materialId": "cleansing_heart"
             },
             {
               "amount": 10,
-              "material_id": "starconch"
+              "materialId": "starconch"
             },
             {
               "amount": 15,
-              "material_id": "finsignia_1"
+              "materialId": "finsignia_1"
             }
           ],
           "rank": 2
@@ -2786,19 +2786,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "lazurite_2"
+              "materialId": "lazurite_2"
             },
             {
               "amount": 4,
-              "material_id": "cleansing_heart"
+              "materialId": "cleansing_heart"
             },
             {
               "amount": 20,
-              "material_id": "starconch"
+              "materialId": "starconch"
             },
             {
               "amount": 12,
-              "material_id": "finsignia_2"
+              "materialId": "finsignia_2"
             }
           ],
           "rank": 3
@@ -2809,19 +2809,19 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "lazurite_3"
+              "materialId": "lazurite_3"
             },
             {
               "amount": 8,
-              "material_id": "cleansing_heart"
+              "materialId": "cleansing_heart"
             },
             {
               "amount": 10,
-              "material_id": "starconch"
+              "materialId": "starconch"
             },
             {
               "amount": 10,
-              "material_id": "finsignia_2"
+              "materialId": "finsignia_2"
             }
           ],
           "rank": 4
@@ -2832,19 +2832,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "lazurite_3"
+              "materialId": "lazurite_3"
             },
             {
               "amount": 12,
-              "material_id": "cleansing_heart"
+              "materialId": "cleansing_heart"
             },
             {
               "amount": 45,
-              "material_id": "starconch"
+              "materialId": "starconch"
             },
             {
               "amount": 12,
-              "material_id": "finsignia_3"
+              "materialId": "finsignia_3"
             }
           ],
           "rank": 5
@@ -2855,19 +2855,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "lazurite_4"
+              "materialId": "lazurite_4"
             },
             {
               "amount": 20,
-              "material_id": "cleansing_heart"
+              "materialId": "cleansing_heart"
             },
             {
               "amount": 60,
-              "material_id": "starconch"
+              "materialId": "starconch"
             },
             {
               "amount": 24,
-              "material_id": "finsignia_3"
+              "materialId": "finsignia_3"
             }
           ],
           "rank": 6
@@ -2888,15 +2888,15 @@
           "materials": [
             {
               "amount": 1,
-              "material_id": "diamond_1"
+              "materialId": "diamond_1"
             },
             {
               "amount": 3,
-              "material_id": "windwheel_aster"
+              "materialId": "windwheel_aster"
             },
             {
               "amount": 3,
-              "material_id": "mask_1"
+              "materialId": "mask_1"
             }
           ],
           "rank": 1
@@ -2907,15 +2907,15 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "diamond_2"
+              "materialId": "diamond_2"
             },
             {
               "amount": 10,
-              "material_id": "windwheel_aster"
+              "materialId": "windwheel_aster"
             },
             {
               "amount": 15,
-              "material_id": "mask_1"
+              "materialId": "mask_1"
             }
           ],
           "rank": 2
@@ -2926,15 +2926,15 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "diamond_2"
+              "materialId": "diamond_2"
             },
             {
               "amount": 20,
-              "material_id": "windwheel_aster"
+              "materialId": "windwheel_aster"
             },
             {
               "amount": 12,
-              "material_id": "mask_2"
+              "materialId": "mask_2"
             }
           ],
           "rank": 3
@@ -2945,15 +2945,15 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "diamond_3"
+              "materialId": "diamond_3"
             },
             {
               "amount": 30,
-              "material_id": "windwheel_aster"
+              "materialId": "windwheel_aster"
             },
             {
               "amount": 18,
-              "material_id": "mask_2"
+              "materialId": "mask_2"
             }
           ],
           "rank": 4
@@ -2964,15 +2964,15 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "diamond_3"
+              "materialId": "diamond_3"
             },
             {
               "amount": 45,
-              "material_id": "windwheel_aster"
+              "materialId": "windwheel_aster"
             },
             {
               "amount": 12,
-              "material_id": "mask_3"
+              "materialId": "mask_3"
             }
           ],
           "rank": 5
@@ -2983,15 +2983,15 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "diamond_4"
+              "materialId": "diamond_4"
             },
             {
               "amount": 60,
-              "material_id": "windwheel_aster"
+              "materialId": "windwheel_aster"
             },
             {
               "amount": 24,
-              "material_id": "mask_3"
+              "materialId": "mask_3"
             }
           ],
           "rank": 6
@@ -3012,15 +3012,15 @@
           "materials": [
             {
               "amount": 1,
-              "material_id": "diamond_1"
+              "materialId": "diamond_1"
             },
             {
               "amount": 3,
-              "material_id": "windwheel_aster"
+              "materialId": "windwheel_aster"
             },
             {
               "amount": 3,
-              "material_id": "mask_1"
+              "materialId": "mask_1"
             }
           ],
           "rank": 1
@@ -3031,15 +3031,15 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "diamond_2"
+              "materialId": "diamond_2"
             },
             {
               "amount": 10,
-              "material_id": "windwheel_aster"
+              "materialId": "windwheel_aster"
             },
             {
               "amount": 15,
-              "material_id": "mask_1"
+              "materialId": "mask_1"
             }
           ],
           "rank": 2
@@ -3050,15 +3050,15 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "diamond_2"
+              "materialId": "diamond_2"
             },
             {
               "amount": 20,
-              "material_id": "windwheel_aster"
+              "materialId": "windwheel_aster"
             },
             {
               "amount": 12,
-              "material_id": "mask_2"
+              "materialId": "mask_2"
             }
           ],
           "rank": 3
@@ -3069,15 +3069,15 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "diamond_3"
+              "materialId": "diamond_3"
             },
             {
               "amount": 30,
-              "material_id": "windwheel_aster"
+              "materialId": "windwheel_aster"
             },
             {
               "amount": 18,
-              "material_id": "mask_2"
+              "materialId": "mask_2"
             }
           ],
           "rank": 4
@@ -3088,15 +3088,15 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "diamond_3"
+              "materialId": "diamond_3"
             },
             {
               "amount": 45,
-              "material_id": "windwheel_aster"
+              "materialId": "windwheel_aster"
             },
             {
               "amount": 12,
-              "material_id": "mask_3"
+              "materialId": "mask_3"
             }
           ],
           "rank": 5
@@ -3107,15 +3107,15 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "diamond_4"
+              "materialId": "diamond_4"
             },
             {
               "amount": 60,
-              "material_id": "windwheel_aster"
+              "materialId": "windwheel_aster"
             },
             {
               "amount": 24,
-              "material_id": "mask_3"
+              "materialId": "mask_3"
             }
           ],
           "rank": 6
@@ -3136,15 +3136,15 @@
           "materials": [
             {
               "amount": 1,
-              "material_id": "turquise_1"
+              "materialId": "turquise_1"
             },
             {
               "amount": 3,
-              "material_id": "cecilia"
+              "materialId": "cecilia"
             },
             {
               "amount": 3,
-              "material_id": "slime_1"
+              "materialId": "slime_1"
             }
           ],
           "rank": 1
@@ -3155,19 +3155,19 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "turquise_2"
+              "materialId": "turquise_2"
             },
             {
               "amount": 2,
-              "material_id": "hurricane_seed"
+              "materialId": "hurricane_seed"
             },
             {
               "amount": 10,
-              "material_id": "cecilia"
+              "materialId": "cecilia"
             },
             {
               "amount": 15,
-              "material_id": "slime_1"
+              "materialId": "slime_1"
             }
           ],
           "rank": 2
@@ -3178,19 +3178,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "turquise_2"
+              "materialId": "turquise_2"
             },
             {
               "amount": 4,
-              "material_id": "hurricane_seed"
+              "materialId": "hurricane_seed"
             },
             {
               "amount": 20,
-              "material_id": "cecilia"
+              "materialId": "cecilia"
             },
             {
               "amount": 12,
-              "material_id": "slime_2"
+              "materialId": "slime_2"
             }
           ],
           "rank": 3
@@ -3201,19 +3201,19 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "turquise_3"
+              "materialId": "turquise_3"
             },
             {
               "amount": 8,
-              "material_id": "hurricane_seed"
+              "materialId": "hurricane_seed"
             },
             {
               "amount": 30,
-              "material_id": "cecilia"
+              "materialId": "cecilia"
             },
             {
               "amount": 18,
-              "material_id": "slime_2"
+              "materialId": "slime_2"
             }
           ],
           "rank": 4
@@ -3224,19 +3224,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "turquise_3"
+              "materialId": "turquise_3"
             },
             {
               "amount": 12,
-              "material_id": "hurricane_seed"
+              "materialId": "hurricane_seed"
             },
             {
               "amount": 45,
-              "material_id": "cecilia"
+              "materialId": "cecilia"
             },
             {
               "amount": 12,
-              "material_id": "slime_3"
+              "materialId": "slime_3"
             }
           ],
           "rank": 5
@@ -3247,19 +3247,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "turquise_4"
+              "materialId": "turquise_4"
             },
             {
               "amount": 20,
-              "material_id": "hurricane_seed"
+              "materialId": "hurricane_seed"
             },
             {
               "amount": 60,
-              "material_id": "cecilia"
+              "materialId": "cecilia"
             },
             {
               "amount": 24,
-              "material_id": "slime_3"
+              "materialId": "slime_3"
             }
           ],
           "rank": 6
@@ -3280,15 +3280,15 @@
           "materials": [
             {
               "amount": "1",
-              "material_id": "agate_1"
+              "materialId": "agate_1"
             },
             {
               "amount": "3",
-              "material_id": "jueyun_chili"
+              "materialId": "jueyun_chili"
             },
             {
               "amount": "3",
-              "material_id": "slime_1"
+              "materialId": "slime_1"
             }
           ],
           "rank": 1
@@ -3299,19 +3299,19 @@
           "materials": [
             {
               "amount": "3",
-              "material_id": "agate_2"
+              "materialId": "agate_2"
             },
             {
               "amount": "2",
-              "material_id": "everflame_seed"
+              "materialId": "everflame_seed"
             },
             {
               "amount": "10",
-              "material_id": "jueyun_chili"
+              "materialId": "jueyun_chili"
             },
             {
               "amount": "10",
-              "material_id": "slime_1"
+              "materialId": "slime_1"
             }
           ],
           "rank": 2
@@ -3322,19 +3322,19 @@
           "materials": [
             {
               "amount": "6",
-              "material_id": "agate_2"
+              "materialId": "agate_2"
             },
             {
               "amount": "4",
-              "material_id": "everflame_seed"
+              "materialId": "everflame_seed"
             },
             {
               "amount": "20",
-              "material_id": "jueyun_chili"
+              "materialId": "jueyun_chili"
             },
             {
               "amount": "12",
-              "material_id": "slime_2"
+              "materialId": "slime_2"
             }
           ],
           "rank": 3
@@ -3345,19 +3345,19 @@
           "materials": [
             {
               "amount": "3",
-              "material_id": "agate_3"
+              "materialId": "agate_3"
             },
             {
               "amount": "8",
-              "material_id": "everflame_seed"
+              "materialId": "everflame_seed"
             },
             {
               "amount": "30",
-              "material_id": "jueyun_chili"
+              "materialId": "jueyun_chili"
             },
             {
               "amount": "18",
-              "material_id": "slime_2"
+              "materialId": "slime_2"
             }
           ],
           "rank": 4
@@ -3368,19 +3368,19 @@
           "materials": [
             {
               "amount": "6",
-              "material_id": "agate_3"
+              "materialId": "agate_3"
             },
             {
               "amount": "12",
-              "material_id": "everflame_seed"
+              "materialId": "everflame_seed"
             },
             {
               "amount": "45",
-              "material_id": "jueyun_chili"
+              "materialId": "jueyun_chili"
             },
             {
               "amount": "12",
-              "material_id": "slime_3"
+              "materialId": "slime_3"
             }
           ],
           "rank": 5
@@ -3391,19 +3391,19 @@
           "materials": [
             {
               "amount": "6",
-              "material_id": "agate_4"
+              "materialId": "agate_4"
             },
             {
               "amount": "20",
-              "material_id": "everflame_seed"
+              "materialId": "everflame_seed"
             },
             {
               "amount": "60",
-              "material_id": "jueyun_chili"
+              "materialId": "jueyun_chili"
             },
             {
               "amount": "24",
-              "material_id": "slime_3"
+              "materialId": "slime_3"
             }
           ],
           "rank": 6
@@ -3424,15 +3424,15 @@
           "materials": [
             {
               "amount": 1,
-              "material_id": "lazurite_1"
+              "materialId": "lazurite_1"
             },
             {
               "amount": 3,
-              "material_id": "silk_flower"
+              "materialId": "silk_flower"
             },
             {
               "amount": 3,
-              "material_id": "mask_1"
+              "materialId": "mask_1"
             }
           ],
           "rank": 1
@@ -3443,19 +3443,19 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "lazurite_2"
+              "materialId": "lazurite_2"
             },
             {
               "amount": 2,
-              "material_id": "cleansing_heart"
+              "materialId": "cleansing_heart"
             },
             {
               "amount": 10,
-              "material_id": "silk_flower"
+              "materialId": "silk_flower"
             },
             {
               "amount": 15,
-              "material_id": "mask_1"
+              "materialId": "mask_1"
             }
           ],
           "rank": 2
@@ -3466,19 +3466,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "lazurite_2"
+              "materialId": "lazurite_2"
             },
             {
               "amount": 4,
-              "material_id": "cleansing_heart"
+              "materialId": "cleansing_heart"
             },
             {
               "amount": 20,
-              "material_id": "silk_flower"
+              "materialId": "silk_flower"
             },
             {
               "amount": 12,
-              "material_id": "mask_2"
+              "materialId": "mask_2"
             }
           ],
           "rank": 3
@@ -3489,19 +3489,19 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "lazurite_3"
+              "materialId": "lazurite_3"
             },
             {
               "amount": 8,
-              "material_id": "cleansing_heart"
+              "materialId": "cleansing_heart"
             },
             {
               "amount": 10,
-              "material_id": "philanemo_mushroom"
+              "materialId": "philanemo_mushroom"
             },
             {
               "amount": 10,
-              "material_id": "mask_2"
+              "materialId": "mask_2"
             }
           ],
           "rank": 4
@@ -3512,19 +3512,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "lazurite_3"
+              "materialId": "lazurite_3"
             },
             {
               "amount": 12,
-              "material_id": "cleansing_heart"
+              "materialId": "cleansing_heart"
             },
             {
               "amount": 45,
-              "material_id": "silk_flower"
+              "materialId": "silk_flower"
             },
             {
               "amount": 12,
-              "material_id": "mask_3"
+              "materialId": "mask_3"
             }
           ],
           "rank": 5
@@ -3535,19 +3535,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "lazurite_4"
+              "materialId": "lazurite_4"
             },
             {
               "amount": 20,
-              "material_id": "cleansing_heart"
+              "materialId": "cleansing_heart"
             },
             {
               "amount": 60,
-              "material_id": "silk_flower"
+              "materialId": "silk_flower"
             },
             {
               "amount": 24,
-              "material_id": "mask_3"
+              "materialId": "mask_3"
             }
           ],
           "rank": 6
@@ -3568,15 +3568,15 @@
           "materials": [
             {
               "amount": 1,
-              "material_id": "agate_1"
+              "materialId": "agate_1"
             },
             {
               "amount": 3,
-              "material_id": "violetgrass"
+              "materialId": "violetgrass"
             },
             {
               "amount": 3,
-              "material_id": "tinsignia_1"
+              "materialId": "tinsignia_1"
             }
           ],
           "rank": 1
@@ -3587,19 +3587,19 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "agate_1"
+              "materialId": "agate_1"
             },
             {
               "amount": 2,
-              "material_id": "everflame_seed"
+              "materialId": "everflame_seed"
             },
             {
               "amount": 10,
-              "material_id": "violetgrass"
+              "materialId": "violetgrass"
             },
             {
               "amount": 15,
-              "material_id": "tinsignia_1"
+              "materialId": "tinsignia_1"
             }
           ],
           "rank": 2
@@ -3610,19 +3610,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "lazurite_2"
+              "materialId": "lazurite_2"
             },
             {
               "amount": 4,
-              "material_id": "everflame_seed"
+              "materialId": "everflame_seed"
             },
             {
               "amount": 20,
-              "material_id": "violetgrass"
+              "materialId": "violetgrass"
             },
             {
               "amount": 12,
-              "material_id": "tinsignia_2"
+              "materialId": "tinsignia_2"
             }
           ],
           "rank": 3
@@ -3633,19 +3633,19 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "lazurite_3"
+              "materialId": "lazurite_3"
             },
             {
               "amount": 8,
-              "material_id": "everflame_seed"
+              "materialId": "everflame_seed"
             },
             {
               "amount": 10,
-              "material_id": "violetgrass"
+              "materialId": "violetgrass"
             },
             {
               "amount": 10,
-              "material_id": "tinsignia_2"
+              "materialId": "tinsignia_2"
             }
           ],
           "rank": 4
@@ -3656,19 +3656,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "lazurite_3"
+              "materialId": "lazurite_3"
             },
             {
               "amount": 12,
-              "material_id": "everflame_seed"
+              "materialId": "everflame_seed"
             },
             {
               "amount": 45,
-              "material_id": "violetgrass"
+              "materialId": "violetgrass"
             },
             {
               "amount": 12,
-              "material_id": "tinsignia_3"
+              "materialId": "tinsignia_3"
             }
           ],
           "rank": 5
@@ -3679,19 +3679,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "lazurite_4"
+              "materialId": "lazurite_4"
             },
             {
               "amount": 20,
-              "material_id": "everflame_seed"
+              "materialId": "everflame_seed"
             },
             {
               "amount": 60,
-              "material_id": "violetgrass"
+              "materialId": "violetgrass"
             },
             {
               "amount": 24,
-              "material_id": "tinsignia_3"
+              "materialId": "tinsignia_3"
             }
           ],
           "rank": 6
@@ -3713,15 +3713,15 @@
           "materials": [
             {
               "amount": 1,
-              "material_id": "topaz_1"
+              "materialId": "topaz_1"
             },
             {
               "amount": 3,
-              "material_id": "cor_lapis"
+              "materialId": "cor_lapis"
             },
             {
               "amount": 3,
-              "material_id": "slime_1"
+              "materialId": "slime_1"
             }
           ],
           "rank": 1
@@ -3732,19 +3732,19 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "topaz_2"
+              "materialId": "topaz_2"
             },
             {
               "amount": 2,
-              "material_id": "basalt_pillar"
+              "materialId": "basalt_pillar"
             },
             {
               "amount": 10,
-              "material_id": "cor_lapis"
+              "materialId": "cor_lapis"
             },
             {
               "amount": 15,
-              "material_id": "slime_1"
+              "materialId": "slime_1"
             }
           ],
           "rank": 2
@@ -3755,19 +3755,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "topaz_2"
+              "materialId": "topaz_2"
             },
             {
               "amount": 4,
-              "material_id": "basalt_pillar"
+              "materialId": "basalt_pillar"
             },
             {
               "amount": 20,
-              "material_id": "cor_lapis"
+              "materialId": "cor_lapis"
             },
             {
               "amount": 12,
-              "material_id": "slime_2"
+              "materialId": "slime_2"
             }
           ],
           "rank": 3
@@ -3778,19 +3778,19 @@
           "materials": [
             {
               "amount": 3,
-              "material_id": "topaz_2"
+              "materialId": "topaz_2"
             },
             {
               "amount": 8,
-              "material_id": "basalt_pillar"
+              "materialId": "basalt_pillar"
             },
             {
               "amount": 10,
-              "material_id": "cor_lapis"
+              "materialId": "cor_lapis"
             },
             {
               "amount": 10,
-              "material_id": "slime_2"
+              "materialId": "slime_2"
             }
           ],
           "rank": 4
@@ -3801,19 +3801,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "topaz_3"
+              "materialId": "topaz_3"
             },
             {
               "amount": 12,
-              "material_id": "basalt_pillar"
+              "materialId": "basalt_pillar"
             },
             {
               "amount": 45,
-              "material_id": "cor_lapis"
+              "materialId": "cor_lapis"
             },
             {
               "amount": 12,
-              "material_id": "slime_3"
+              "materialId": "slime_3"
             }
           ],
           "rank": 5
@@ -3824,19 +3824,19 @@
           "materials": [
             {
               "amount": 6,
-              "material_id": "topaz_4"
+              "materialId": "topaz_4"
             },
             {
               "amount": 20,
-              "material_id": "basalt_pillar"
+              "materialId": "basalt_pillar"
             },
             {
               "amount": 60,
-              "material_id": "cor_lapis"
+              "materialId": "cor_lapis"
             },
             {
               "amount": 24,
-              "material_id": "slime_3"
+              "materialId": "slime_3"
             }
           ],
           "rank": 6
