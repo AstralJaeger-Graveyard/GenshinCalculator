@@ -1,9 +1,9 @@
 <div class="item-box">
   <div class="item-box-image-wrapper">
-    <img [src]="materials.get(entry.material_id).icon"
-         [alt]="entry.material.id"
+    <img [src]="'https://ik.imagekit.io/AstralJaeger/GC/material_icons/' + id + '.png'"
+         [alt]="id"
          class="item-box-image">
-    <span class="item-box-image-count">{{ formatAmount(entry.amount) }}</span>
+    <span class="item-box-image-count">{{ amount | formatNumber }}</span>
   </div>
-  {{ localization.get(entry.material.id).name }}
+  {{ localization.get(id).name }}
 </div>

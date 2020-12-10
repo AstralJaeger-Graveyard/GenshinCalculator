@@ -10,8 +10,11 @@ import {LocalizationService} from '../../services/localization.service';
 })
 export class ItemComponent implements OnInit {
 
-  @Input()
-  entry: MaterialEntry;
+  @Input('materialId')
+  id: string;
+
+  @Input('materialAmount')
+  amount: number
 
   constructor(public localization: LocalizationService,
               public materials: MaterialService) { }
@@ -19,12 +22,4 @@ export class ItemComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  formatAmount(value: number): string{
-    if (value > 1000) {
-      value = value / 1000;
-      return `${value}k`;
-    }
-    else
-      return value + "";
-  }
 }

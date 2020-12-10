@@ -9,14 +9,15 @@
     </nz-input-number>
   </div>
   <nz-collapse>
-    <nz-collapse-panel nzHeader="Required materials for next ascension rank">
+    <nz-collapse-panel nzHeader="Next Character Ascension Rank" [nzExtra]="characterTpl">
       <div style="display: flex; flex-wrap: wrap; align-items: center">
-        <app-item *ngFor="let item of filterReqItemsNextAsc()"
-                  [entry]="item">
+        <app-item *ngFor="let entry of filterReqItemsNextAsc() | keyvalue"
+                  [materialId]="entry.key"
+                  [materialAmount]="entry.value">
         </app-item>
       </div>
     </nz-collapse-panel>
-    <nz-collapse-panel nzHeader="Required materials for next ascension rank by partymember">
+    <nz-collapse-panel nzHeader="Next Ascension Rank By Partymember" [nzExtra]="characterTpl">
       <nz-collapse>
         <nz-collapse-panel *ngFor="let member of filterEnaCharNextAsc()"
                            [nzHeader]="genCharAscTitle(member)">
@@ -25,14 +26,14 @@
             <nz-list-item>
               <nz-list-item-meta [nzAvatar]="materials.get('mora').icon">
                 <nz-list-item-meta-title>
-                  x{{ formatNumber(characters.get(member.character_id).ascension[member.ascension].cost) }} Mora
+                  x{{ characters.get(member.character_id).ascension[member.ascension].cost | formatNumber }} Mora
                 </nz-list-item-meta-title>
               </nz-list-item-meta>
             </nz-list-item>
             <nz-list-item *ngFor="let material of characters.get(member.character_id).ascension[member.ascension].materials">
-              <nz-list-item-meta [nzAvatar]="material.material.icon">
+              <nz-list-item-meta [nzAvatar]="'https://ik.imagekit.io/AstralJaeger/tr:w-50,h-50,c-force/GC/material_icons/' + material.materialId + '.png'">
                 <nz-list-item-meta-title>
-                  x{{ material.amount }} {{ localization.get(material.material_id).name }}
+                  x{{ material.amount }} {{material.materialId}} <!--{{ localization.get(material.materialId).name }}-->
                 </nz-list-item-meta-title>
               </nz-list-item-meta>
             </nz-list-item>
@@ -43,5 +44,50 @@
         </nz-collapse-panel>
       </nz-collapse>
     </nz-collapse-panel>
+    <nz-collapse-panel nzHeader="Next Weapon Ascension Rank"
+                       [nzDisabled]="anyWeaponsEquipped()"
+                       [nzExtra]="weaponTpl">
+      <div style="display: flex; flex-wrap: wrap; align-items: center">
+        <app-item *ngFor="let entry of filterReqItemsNextWeaponAsc() | keyvalue"
+                  [materialId]="entry.key"
+                  [materialAmount]="entry.value">
+        </app-item>
+      </div>
+    </nz-collapse-panel>
+    <nz-collapse-panel nzHeader="Next Ascension Rank By Weapon"
+                       [nzDisabled]="anyWeaponsEquipped()"
+                       [nzExtra]="weaponTpl">
+      <nz-collapse>
+        <nz-collapse-panel *ngFor="let weaponEntry of filterEnaWeapNextAsc() | keyvalue"
+                           [nzHeader]="genWeapAscTitle(weaponEntry)">
+          <nz-list *ngIf="weaponEntry.key.weaponAsc !== weaponEntry.value.ascension.length; else FullAscensionTpl"
+                   nzSize="small">
+            <nz-list-item>
+              <nz-list-item-meta [nzAvatar]="materials.get('mora').icon">
+                <nz-list-item-meta-title>
+                  x{{ weaponEntry.value.ascension[weaponEntry.key.weaponAsc].cost | formatNumber }} Mora
+                </nz-list-item-meta-title>
+              </nz-list-item-meta>
+            </nz-list-item>
+            <nz-list-item *ngFor="let material of weaponEntry.value.ascension[weaponEntry.key.weaponAsc].materials">
+              <nz-list-item-meta [nzAvatar]="'https://ik.imagekit.io/AstralJaeger/tr:w-50,h-50,c-force/GC/material_icons/' + material.materialId + '.png'">
+                <nz-list-item-meta-title>
+                  x{{ material.amount }} {{material.materialId}} <!--{{ localization.get(material.materialId).name }}-->
+                </nz-list-item-meta-title>
+              </nz-list-item-meta>
+            </nz-list-item>
+          </nz-list>
+          <ng-template #FullAscensionTpl>
+            This weapon is already fully ascended!
+          </ng-template>
+        </nz-collapse-panel>
+      </nz-collapse>
+    </nz-collapse-panel>
   </nz-collapse>
+  <ng-template #characterTpl>
+    <fa-icon [icon]="['fas', 'user']"></fa-icon>
+  </ng-template>
+  <ng-template #weaponTpl>
+    <fa-icon [icon]="['fas', 'swords']"></fa-icon>
+  </ng-template>
 </div>

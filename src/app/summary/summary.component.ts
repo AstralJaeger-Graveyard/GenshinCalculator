@@ -1,84 +1,72 @@
-import {Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit} from '@angular/core';
 import {PartyService} from '../services/party.service';
 import {MaterialEntry} from '../model/MaterialEntry';
 import {PartyMember} from '../model/PartyMember';
 import {MaterialService} from '../services/material.service';
 import {LocalizationService} from '../services/localization.service';
 import {CharacterService} from '../services/character.service';
+import {WeaponService} from '../services/weapon.service';
+import {Weapon} from '../model/Weapon';
+import {Character} from '../model/Character';
+import {KeyValue} from '@angular/common';
 
 @Component({
   selector: 'app-summary',
   templateUrl: './summary.component.html',
-  styleUrls: ['./summary.component.css']
+  styleUrls: ['./summary.component.css'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class SummaryComponent implements OnInit {
 
+  private MORA_KEY = 'mora';
+
   public ascensionStage: number = 0;
+  private members: PartyMember[];
 
   constructor(public localization: LocalizationService,
               public party: PartyService,
               public characters: CharacterService,
-              public materials: MaterialService) { }
+              public materials: MaterialService,
+              public weapons: WeaponService,
+              private changeDetector: ChangeDetectorRef) {
+
+    this.party.observable.subscribe(obs => {
+      this.members = obs;
+      this.changeDetector.markForCheck();
+    })
+  }
 
   ngOnInit(): void { }
 
-  filterReqItemsNextAsc(): MaterialEntry[]{
-    const entries = new Map<string, MaterialEntry>();
+  filterReqItemsNextAsc(): Map<string, number>{
+    console.log("rerunning filters")
+    const charMat = new Map<string, number>();
 
-    for (const member of this.party.members){
-      if (member.ascension === 6 || !member.include){
-        continue;
-      }
-
-      const nextStage = member.ascension;
+    for (const member of this.members.filter(member => member.include && member.enable_ascension)){
       const character = this.characters.get(member.character_id)
 
-      // Compute necessary materials
-      for(const entry of character.ascension[nextStage].materials){
-        if (entries.has(entry.material_id)){
-          let oldEntry = entries.get(entry.material_id);
-          oldEntry.amount = +oldEntry.amount + +entry.amount;
-          entries.set(entry.material_id, oldEntry);
+      if (member.ascension === character.ascension.length || !member.include)
+        continue;
+
+      const nextAsc = member.ascension;
+
+      // Compute necessary materials for ascension
+      for(const entry of character.ascension[nextAsc].materials){
+        if (charMat.has(entry.materialId)){
+          charMat.set(entry.materialId, charMat.get(entry.materialId) + entry.amount);
         } else {
-          let newEntry = new MaterialEntry(
-            entry.material_id,
-            entry.material,
-            entry.amount);
-          entries.set(entry.material_id, newEntry)
+          charMat.set(entry.materialId, entry.amount);
         }
       }
 
-      const moraKey = 'mora';
-      // compute necessary mora
-      if(entries.has(moraKey)){
-        const reqMora = character.ascension[nextStage].cost;
-        let oldEntry = entries.get(moraKey);
-        oldEntry.amount = +oldEntry.amount + +reqMora;
-        entries.set(moraKey, oldEntry);
-      }
-      else {
-        const reqMora = character.ascension[nextStage].cost;
-        let newEntry = new MaterialEntry(
-          moraKey,
-          this.materials.get(moraKey),
-          reqMora
-        );
-        entries.set(moraKey, newEntry);
+      // Compute necessary mora for ascension
+      if(charMat.has(this.MORA_KEY)){
+        charMat.set(this.MORA_KEY, charMat.get(this.MORA_KEY) + character.ascension[nextAsc].cost);
+      } else {
+        charMat.set(this.MORA_KEY, character.ascension[nextAsc].cost);
       }
     }
-
-    return [...entries.values()]
-      .sort((a, b) => {
-        const materialA = this.materials.get(a.material_id)
-        const rankA = materialA.sortingRank;
-        const materialB = this.materials.get(b.material_id);
-        const rankB = materialB.sortingRank;
-
-        if (rankA !== rankB)
-          return rankA - rankB;
-
-        return b.material_id.localeCompare(a.material_id);
-      });
+    return charMat;
   }
 
   filterEnaCharNextAsc(): PartyMember[] {
@@ -89,20 +77,56 @@ export class SummaryComponent implements OnInit {
     return `${this.localization.get(member.character_id).name} - Asc. ${member.ascension === 6 ? 'Max.' : member.ascension + 1}`;
   }
 
-  onAscStageChange(): void{
-    for(const member of this.party.members){
-      member.ascension = this.ascensionStage;
-    }
-  }
+  filterReqItemsNextWeaponAsc(): Map<string, number>{
 
-  formatNumber(value: number): string{
-    const dividers = [1_000_000, 1_000];
-    const suffix = ['M', 'k'];
+    // Weapon materials, map where all materials are collected
+    const weapMat = new Map<string, number>();
 
-    for(let i = 0; i < dividers.length; i++) {
-      if (value > dividers[i]) {
-        return value / dividers[i] + suffix[i];
+    for (const member of this.members.filter(member => member.include && member.enable_weapon)){
+      if(!member.weapon_id || member.weapon_id == "")
+        continue;
+
+      const weapon = this.weapons.get(member.weapon_id);
+      const maxAsc = weapon.ascension.length;
+      const nextAsc = member.weaponAsc;
+
+      if(member.weaponAsc == maxAsc)
+        continue;
+
+      // Compute necessary materials for ascension
+      for (const me of weapon.ascension[nextAsc].materials){
+        if(weapMat.has(me.materialId)){
+          weapMat.set(me.materialId, me.amount + weapMat.get(me.materialId));
+        } else {
+          weapMat.set(me.materialId, me.amount);
+        }
+      }
+
+      // Compute necessary mora for ascension
+      if(weapMat.has(this.MORA_KEY)){
+        weapMat.set(this.MORA_KEY, weapMat.get(this.MORA_KEY) + weapon.ascension[nextAsc].cost);
+      } else {
+        weapMat.set(this.MORA_KEY, weapon.ascension[nextAsc].cost);
       }
     }
+
+    return weapMat;
+  }
+
+  filterEnaWeapNextAsc(): Map<PartyMember, Weapon> {
+    const result = new Map<PartyMember, Weapon>();
+    for(const member of this.members.filter(member => member.include && member.enable_weapon && !!member.weapon_id)){
+      result.set(member, this.weapons.get(member.weapon_id));
+    }
+
+    return result;
+  }
+
+  genWeapAscTitle(entry: KeyValue<PartyMember, Weapon>): string {
+    return `${this.localization.get(entry.value.id).name} - Asc. ${entry.key.weaponAsc === entry.value.ascension.length ? 'Max.' : entry.key.weaponAsc + 1}`;
+  }
+
+  anyWeaponsEquipped(): boolean{
+    return this.members.filter(member => member.include && member.enable_weapon && member.weapon_id).length === 0;
   }
 }
