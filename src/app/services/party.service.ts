@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { PartyMember } from '../model/PartyMember';
+import {BehaviorSubject, Observable} from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -10,9 +11,12 @@ export class PartyService{
 
   public members: PartyMember[] = [];
 
+  public observable: BehaviorSubject<PartyMember[]>;
+
   constructor() {
     this.members = PartyService.getPartyFromLS();
     PartyService.storePartyToLS(this.members);
+    this.observable = new BehaviorSubject<PartyMember[]>(this.members);
   }
 
   public get length(): number {
@@ -21,6 +25,7 @@ export class PartyService{
 
   public save(): void{
     PartyService.storePartyToLS(this.members);
+    this.observable.next(this.members);
   }
 
   public addDefaultParty(): void{
