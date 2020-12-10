@@ -58,35 +58,29 @@
                  nzAllowClear
                  nzPlaceHolder="Select a weapon"
                  class="pseudo-fullwidth"
-                 style="min-width: 250px;"
+                 style="min-width: 350px;"
                  [(ngModel)]="member.weapon_id"
                  (ngModelChange)="onMemberChanged()"
       >
         <nz-option nzCustomContent
-                   *ngFor="let entry of weapons.sortedMap.get(characters.characterMap.get(member.character_id).weaponType) | keyvalue"
+                   *ngFor="let entry of weapons.sortedMap.get(characters.characterMap.get(member.character_id).weaponType) | keyvalue: weaponOrder"
                    [nzLabel]="localization.get(entry.value.id).name"
                    [nzValue]="entry.key"
         >
           <div>
             <div class="pull-left">
-              <img [src]="entry.value.icon" [alt]="entry.key" style="max-height: 20px;">
-              {{ localization.get(entry.value.id).name }}
+              <img [src]="'https://ik.imagekit.io/AstralJaeger/tr:w-64,h-64,c-force/GC/weapon_icons/' + entry.key + '.png'"
+                   [alt]="entry.key"
+                   style="max-height: 20px;">
+                {{ localization.get(entry.value.id).name }}
+            </div>
+            <div class="pull-right">
+              [{{ entry.value.rarity }}
+              <fa-icon [icon]="['fas', 'star']" [ngClass]="'rarity-' + entry.value.rarity"></fa-icon>]
             </div>
           </div>
         </nz-option>
       </nz-select>
-    </div>
-  </div>
-  <!-- Weapon output -->
-  <div *ngIf="member.enable_weapon && member.weapon_id"
-       nz-row
-       [nzGutter]="{ xs: 8, sm: 16, md: 24, lg: 32 }"
-       style="margin-bottom: 2px">
-    <div nz-col [nzSpan]="6">
-      <label for="weapon_output" i18n="Weapon ascension">Selected weapon: </label>
-    </div>
-    <div nz-col [nzSpan]="6">
-      <label id="weapon_output">{{ localization.get(member.weapon_id).name }}</label>
     </div>
   </div>
   <!-- Weapon ascension input -->

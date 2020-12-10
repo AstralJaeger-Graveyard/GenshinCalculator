@@ -6,6 +6,8 @@ import {WeaponService} from '../../services/weapon.service';
 import {CharacterService} from '../../services/character.service';
 import {Character} from '../../model/Character';
 import {LocalizationService} from '../../services/localization.service';
+import {Weapon} from '../../model/Weapon';
+import {KeyValue} from '@angular/common';
 
 @Component({
   selector: 'app-partymember-detail',
@@ -22,6 +24,10 @@ export class MemberDetailComponent implements OnInit {
 
   @Output()
   memberChanged = new EventEmitter<void>();
+
+  weaponOrder = (a: KeyValue<string, Weapon>, b: KeyValue<string, Weapon>): number => {
+    return b.value.rarity - a.value.rarity;
+  }
 
   constructor(public localization: LocalizationService,
               public weapons: WeaponService,

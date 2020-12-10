@@ -44,3 +44,23 @@ nz-divider {
   background: #0092ff;
   padding: 8px 0;
 }
+
+.rarity-1 {
+  color: #707172;
+}
+
+.rarity-2 {
+  color: #6b9489;
+}
+
+.rarity-3 {
+  color: #537595;
+}
+
+.rarity-4 {
+  color: #725e8b;
+}
+
+.rarity-5 {
+  color: #d88b26;
+}
