@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {isDevMode, NgModule} from '@angular/core';
 
 // Modules
 import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
@@ -34,10 +34,6 @@ import { registerLocaleData } from '@angular/common';
 import { NZ_ICONS } from 'ng-zorro-antd/icon';
 import en from '@angular/common/locales/en';
 
-// Zorro Icons
-// import { IconDefinition } from '@ant-design/icons-angular';
-// import * as AllIcons from '@ant-design/icons-angular/icons';
-
 // Fontawesome Icons
 import { fas } from '@fortawesome/pro-solid-svg-icons';
 import { fal } from '@fortawesome/pro-light-svg-icons';
@@ -57,13 +53,10 @@ import { environment } from '../environments/environment';
 
 //Needs to be sorted
 import { ImagekitioAngularModule } from 'imagekitio-angular';
+import { FormatNumberPipe } from './pipes/format-number.pipe';
+import { FooterComponent } from './footer/footer.component';
 
 registerLocaleData(en);
-
-// const antDesignIcons = AllIcons as {
-//   [key: string]: IconDefinition;
-// };
-// const icons: IconDefinition[] = Object.keys(antDesignIcons).map(key => antDesignIcons[key]);
 
 @NgModule({
   declarations: [
@@ -80,7 +73,9 @@ registerLocaleData(en);
     ItemComponent,
     PortraitComponent,
     MemberNavComponent,
-    MediaDirective
+    MediaDirective,
+    FormatNumberPipe,
+    FooterComponent
   ],
   imports: [
     ImagekitioAngularModule.forRoot({
@@ -98,7 +93,6 @@ registerLocaleData(en);
     DragDropModule
   ],
   providers: [
-    // { provide: NZ_ICONS, useValue: icons },
     { provide: NZ_I18N, useValue: en_US },
      LocalizationService,
      MaterialService,
@@ -110,7 +104,11 @@ registerLocaleData(en);
 })
 export class AppModule {
   constructor(private library: FaIconLibrary) {
-    // library.addIconPacks(fas, fal, far, fad);
-    library.addIconPacks(fas);
+    if (isDevMode()) {
+      library.addIconPacks(fas, fal, far, fad);
+    }
+    else {
+      library.addIconPacks(fas);
+    }
   }
 }
