@@ -69,5 +69,6 @@ export class PartyComponent implements OnInit {
 
   drop(event: CdkDragDrop<string[]>): void {
     moveItemInArray(this.party.members, event.previousIndex, event.currentIndex);
+    this.onMemberChanged();
   }
 }

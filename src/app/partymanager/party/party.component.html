@@ -45,37 +45,37 @@
             nzShowPagination="false" >
     <thead>
       <tr>
-        <th id="enabled">Enabled</th>
-        <th id="name">Name</th>
-        <th id="ascension" *appMedia="'(min-width: 600px)'">Ascension</th>
-        <th id="talent" *appMedia="'(min-width: 600px)'">Talent</th>
-        <th id="weapon" *appMedia="'(min-width: 600px)'">Weapon</th>
-        <th id="artifacts" *appMedia="'(min-width: 600px)'">Artifacts</th>
-        <th id="controls"></th>
+        <th id="enabled_header">Enabled</th>
+        <th id="name_header">Name</th>
+        <th id="ascension_header" *appMedia="'(min-width: 600px)'">Ascension</th>
+        <th id="talent_header" *appMedia="'(min-width: 600px)'">Talent</th>
+        <th id="weapon_header" *appMedia="'(min-width: 600px)'">Weapon</th>
+        <th id="artifacts_header" *appMedia="'(min-width: 600px)'">Artifacts</th>
+        <th id="controls_header"></th>
       </tr>
     </thead>
     <tbody cdkDropList (cdkDropListDropped)="drop($event)">
       <tr *ngFor="let member of party.members" cdkDrag>
-        <td>
-          <nz-switch [(ngModel)]="member.include"></nz-switch>
+        <td id="enabled_col">
+          <nz-switch [(ngModel)]="member.include" (ngModelChange)="onMemberChanged()"></nz-switch>
         </td>
-        <td>
+        <td id="name_col">
           <nz-avatar [nzSrc]="'https://ik.imagekit.io/AstralJaeger/GC/character_icons/' + member.character_id + '.png'"></nz-avatar>
           {{ localization.get(member.character_id).name }}
         </td>
-        <td *appMedia="'(min-width: 600px)'">
-          <nz-switch [(ngModel)]="member.enable_ascension"></nz-switch>
+        <td id="ascension_col" *appMedia="'(min-width: 600px)'">
+          <nz-switch [(ngModel)]="member.enable_ascension" (ngModelChange)="onMemberChanged()"></nz-switch>
         </td>
-        <td *appMedia="'(min-width: 600px)'">
-          <nz-switch [(ngModel)]="member.enable_talents"></nz-switch>
+        <td id="talent_col" *appMedia="'(min-width: 600px)'">
+          <nz-switch [(ngModel)]="member.enable_talents" (ngModelChange)="onMemberChanged()"></nz-switch>
         </td>
-        <td *appMedia="'(min-width: 600px)'">
-          <nz-switch [(ngModel)]="member.enable_weapon"></nz-switch>
+        <td id="weapon_col" *appMedia="'(min-width: 600px)'">
+          <nz-switch [nzDisabled]="!member.weapon_id" [(ngModel)]="member.enable_weapon" (ngModelChange)="onMemberChanged()"></nz-switch>
         </td>
-        <td *appMedia="'(min-width: 600px)'">
-          <nz-switch [(ngModel)]="member.enable_artifacts"></nz-switch>
+        <td id="artifacts_col" *appMedia="'(min-width: 600px)'">
+          <nz-switch [(ngModel)]="member.enable_artifacts" (ngModelChange)="onMemberChanged()"></nz-switch>
         </td>
-        <td>
+        <td id="controls_col">
           <nz-button-group>
             <button nz-button
                     nzType="primary"
