@@ -12,14 +12,7 @@ export class CharacterService{
   public characters: Character[] = data.characters;
   public characterMap: Map<string, Character> = new Map<string, Character>();
 
-  constructor(private materialService: MaterialService) {
-
-    // TODO: Remove this
-    // Resolve materials
-    for (const character of this.characters){
-      materialService.resolveMaterials(character);
-    }
-
+  constructor() {
     // Build map with characters for easy access via key
     for (const character of this.characters){
       this.characterMap.set(character.id, character);
