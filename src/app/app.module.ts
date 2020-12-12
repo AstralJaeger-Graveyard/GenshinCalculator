@@ -3,11 +3,13 @@ import {isDevMode, NgModule} from '@angular/core';
 
 // Modules
 import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
-import {NgZorroAntdModule} from './ng-zorro-antd.module';
+import { NgZorroAntdModule } from './ng-zorro-antd.module';
 import { HttpClientModule } from '@angular/common/http';
-import {ReactiveFormsModule, FormsModule} from '@angular/forms';
-import {ScrollingModule} from '@angular/cdk/scrolling';
-import {DragDropModule} from '@angular/cdk/drag-drop';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { ScrollingModule } from '@angular/cdk/scrolling';
+import { DragDropModule } from '@angular/cdk/drag-drop';
+import { ImagekitioAngularModule } from 'imagekitio-angular';
+import { NgcCookieConsentModule } from 'ngx-cookieconsent';
 
 // Components
 import { AppComponent } from './app.component';
@@ -22,16 +24,19 @@ import { MemberDetailComponent } from './partymanager/member-detail/member-detai
 import { ItemComponent } from './summary/item/item.component';
 import { PortraitComponent } from './partymanager/member-detail/portrait/portrait.component';
 import { MemberHeaderComponent } from './partymanager/member-detail/member-header/member-header.component';
+import { FooterComponent } from './footer/footer.component';
 
 // Directives
 import { RepeatDirective } from './directives/repeat.directive';
 import { MediaDirective } from './directives/media.directive';
 
+// Pipes
+import { FormatNumberPipe } from './pipes/format-number.pipe';
+
 // I18 localizations
 import { NZ_I18N } from 'ng-zorro-antd/i18n';
 import { en_US } from 'ng-zorro-antd/i18n';
 import { registerLocaleData } from '@angular/common';
-import { NZ_ICONS } from 'ng-zorro-antd/icon';
 import en from '@angular/common/locales/en';
 
 // Fontawesome Icons
@@ -52,9 +57,6 @@ import { LocalizationService } from './services/localization.service';
 import { environment } from '../environments/environment';
 
 //Needs to be sorted
-import { ImagekitioAngularModule } from 'imagekitio-angular';
-import { FormatNumberPipe } from './pipes/format-number.pipe';
-import { FooterComponent } from './footer/footer.component';
 
 registerLocaleData(en);
 
@@ -90,7 +92,25 @@ registerLocaleData(en);
     FormsModule,
     NgZorroAntdModule,
     ScrollingModule,
-    DragDropModule
+    DragDropModule,
+    NgcCookieConsentModule.forRoot({
+      cookie: {
+        domain: isDevMode() ? 'localhost' : 'genshin.eu'
+      },
+      palette: {
+        popup: {
+          background: '#000'
+        },
+        button: {
+          background: '#f1d600'
+        }
+      },
+      theme: 'edgeless',
+      type: 'opt-out',
+      content:{
+        message: 'By using our site, you acknowledge that you accept the usage of cookies '
+      }
+    })
   ],
   providers: [
     { provide: NZ_I18N, useValue: en_US },
@@ -104,11 +124,6 @@ registerLocaleData(en);
 })
 export class AppModule {
   constructor(private library: FaIconLibrary) {
-    if (isDevMode()) {
-      library.addIconPacks(fas, fal, far, fad);
-    }
-    else {
       library.addIconPacks(fas);
-    }
   }
 }

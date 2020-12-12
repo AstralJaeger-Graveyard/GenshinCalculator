@@ -63,8 +63,8 @@ export class PartyComponent implements OnInit {
     }
   }
 
-  onAddDefaultData(): void {
-    this.party.addDefaultParty();
+  onSetDefaultData(): void {
+    this.party.members = this.party.defaultParty();
   }
 
   drop(event: CdkDragDrop<string[]>): void {
