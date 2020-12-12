@@ -1,7 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import {NgcCookieConsentService, NgcInitializeEvent, NgcNoCookieLawEvent} from "ngx-cookieconsent";
 import { Subscription } from "rxjs";
-import {coerceCssPixelValue} from "@angular/cdk/coercion";
 import {PartyService} from "./services/party.service";
 
 @Component({

@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import {isDevMode, NgModule} from '@angular/core';
+import {NgModule} from '@angular/core';
 
 // Modules
 import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
@@ -41,9 +41,6 @@ import en from '@angular/common/locales/en';
 
 // Fontawesome Icons
 import { fas } from '@fortawesome/pro-solid-svg-icons';
-import { fal } from '@fortawesome/pro-light-svg-icons';
-import { far } from '@fortawesome/pro-regular-svg-icons';
-import { fad } from '@fortawesome/pro-duotone-svg-icons';
 
 // Services
 import { CharacterService } from './services/character.service';
@@ -95,7 +92,7 @@ registerLocaleData(en);
     DragDropModule,
     NgcCookieConsentModule.forRoot({
       cookie: {
-        domain: isDevMode() ? 'localhost' : 'genshin.eu'
+        domain: environment.cookie_domain
       },
       palette: {
         popup: {
