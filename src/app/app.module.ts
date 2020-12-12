@@ -9,6 +9,7 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { ScrollingModule } from '@angular/cdk/scrolling';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import { ImagekitioAngularModule } from 'imagekitio-angular';
+import { NgcCookieConsentModule } from 'ngx-cookieconsent';
 
 // Components
 import { AppComponent } from './app.component';
@@ -91,7 +92,25 @@ registerLocaleData(en);
     FormsModule,
     NgZorroAntdModule,
     ScrollingModule,
-    DragDropModule
+    DragDropModule,
+    NgcCookieConsentModule.forRoot({
+      cookie: {
+        domain: isDevMode() ? 'localhost' : 'genshin.eu'
+      },
+      palette: {
+        popup: {
+          background: '#000'
+        },
+        button: {
+          background: '#f1d600'
+        }
+      },
+      theme: 'edgeless',
+      type: 'opt-out',
+      content:{
+        message: 'By using our site, you acknowledge that you accept the usage of cookies '
+      }
+    })
   ],
   providers: [
     { provide: NZ_I18N, useValue: en_US },

@@ -1,6 +1,7 @@
-import { Injectable } from '@angular/core';
+import {Injectable, isDevMode} from '@angular/core';
 import { PartyMember } from '../model/PartyMember';
 import {BehaviorSubject, Observable} from 'rxjs';
+import {NgcCookieConsentService} from "ngx-cookieconsent";
 
 @Injectable({
   providedIn: 'root'
@@ -13,9 +14,11 @@ export class PartyService{
 
   public observable: BehaviorSubject<PartyMember[]>;
 
-  constructor() {
-    this.members = PartyService.getPartyFromLS();
-    PartyService.storePartyToLS(this.members);
+  constructor(private ccService: NgcCookieConsentService) {
+    if(ccService.hasConsented()) {
+      this.members = this.loadParty();
+      this.saveParty(this.members);
+    }
     this.observable = new BehaviorSubject<PartyMember[]>(this.members);
   }
 
@@ -24,12 +27,10 @@ export class PartyService{
   }
 
   public save(): void{
-    PartyService.storePartyToLS(this.members);
+    if(this.ccService.hasConsented()) {
+      this.saveParty(this.members);
+    }
     this.observable.next(this.members);
-  }
-
-  public addDefaultParty(): void{
-    this.members = PartyService.generateDefaultParty();
   }
 
   public contains(id: string): boolean{
@@ -44,26 +45,20 @@ export class PartyService{
     // return false;
   }
 
-  private static generateDefaultParty(): PartyMember[] {
-
-    const party = [];
-    const defaultParty = ['traveler_anemo', 'amber', 'kaeya', 'lisa'];
-    for (const member of defaultParty){
-      const partyMember = new PartyMember(member);
-      party.push(partyMember);
-    }
-    return party;
+  public defaultParty(): PartyMember[] {
+    return ['traveler_anemo', 'amber', 'kaeya', 'lisa']
+      .map(characterId => new PartyMember(characterId));
   }
 
-  private static getPartyFromLS(): PartyMember[] {
+  private loadParty(): PartyMember[] {
     let localParty = JSON.parse(localStorage.getItem('party'));
     if (!localParty){
-      localParty = PartyService.generateDefaultParty();
+      localParty = this.defaultParty();
     }
     return localParty;
   }
 
-  private static storePartyToLS(party: PartyMember[]): void{
+  private saveParty(party: PartyMember[]): void{
     localStorage.setItem(PartyService.LS_KEY, JSON.stringify(party));
   }
 }
