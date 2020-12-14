@@ -11,6 +11,14 @@ export class ProgressComponent implements OnInit {
 
   public upcomingFeatures = [
     {
+      title: "Schedule",
+      description: "When did I have to grind that anoying domain again?"
+    },
+    {
+      title: "Artifacts",
+      description: "Why did it roll into DEF again?"
+    },
+    {
       title: "Dark mode",
       description: "Who dislikes light themes aswell?"
     },

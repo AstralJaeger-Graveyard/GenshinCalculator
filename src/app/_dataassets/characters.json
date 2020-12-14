@@ -3842,9 +3842,9 @@
           "rank": 6
         }
       ],
+      "id": "zhongli",
       "element": "Geo",
       "icon": "assets/icons/zhongli.png",
-      "id": "zhongli",
       "isNew": true,
       "rarity": 5,
       "tier": "B",

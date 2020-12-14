@@ -88,22 +88,23 @@ registerLocaleData(en);
       urlEndpoint: environment.imagekit_url_endpoint
     }),
     NgcCookieConsentModule.forRoot({
-      cookie: {
-        domain: environment.cookie_domain
-      },
-      palette: {
-        popup: {
-          background: '#000'
+        cookie: {
+          domain: environment.cookie_domain
         },
-        button: {
-          background: '#f1d600'
+        palette: {
+          popup: {
+            background: '#000'
+          },
+          button: {
+            background: '#f1d600'
+          }
+        },
+        theme: 'edgeless',
+        type: 'info',
+        content: {
+          message: 'By using our site, you acknowledge that you accept the usage of cookies '
         }
-      },
-      theme: 'edgeless',
-      type: 'info',
-      content:{
-        message: 'By using our site, you acknowledge that you accept the usage of cookies '
-      }
+      }),
     NgxGoogleAnalyticsModule.forRoot(environment.google_analytics),
     BrowserModule,
     BrowserAnimationsModule,
@@ -113,7 +114,7 @@ registerLocaleData(en);
     FormsModule,
     NgZorroAntdModule,
     ScrollingModule,
-    DragDropModule
+    DragDropModule,
     NgPipesModule,
     NgxStructuralsModule,
     SSRExcludeModule,
