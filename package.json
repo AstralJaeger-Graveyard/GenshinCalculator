@@ -37,6 +37,7 @@
     "imagekitio-angular": "^1.0.2",
     "ng-zorro-antd": "^10.1.2",
     "ngx-cookieconsent": "^2.2.3",
+    "ngx-google-analytics": "^11.0.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"

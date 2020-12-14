@@ -10,6 +10,7 @@ import { ScrollingModule } from '@angular/cdk/scrolling';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import { ImagekitioAngularModule } from 'imagekitio-angular';
 import { NgcCookieConsentModule } from 'ngx-cookieconsent';
+import { NgxGoogleAnalyticsModule } from 'ngx-google-analytics';
 
 // Components
 import { AppComponent } from './app.component';
@@ -81,15 +82,6 @@ registerLocaleData(en);
       publicKey: environment.imagekit_publickey,
       urlEndpoint: environment.imagekit_url_endpoint
     }),
-    BrowserModule,
-    BrowserAnimationsModule,
-    HttpClientModule,
-    FontAwesomeModule,
-    ReactiveFormsModule,
-    FormsModule,
-    NgZorroAntdModule,
-    ScrollingModule,
-    DragDropModule,
     NgcCookieConsentModule.forRoot({
       cookie: {
         domain: environment.cookie_domain
@@ -107,7 +99,17 @@ registerLocaleData(en);
       content:{
         message: 'By using our site, you acknowledge that you accept the usage of cookies '
       }
-    })
+    }),
+    NgxGoogleAnalyticsModule.forRoot(environment.ga),
+    BrowserModule,
+    BrowserAnimationsModule,
+    HttpClientModule,
+    FontAwesomeModule,
+    ReactiveFormsModule,
+    FormsModule,
+    NgZorroAntdModule,
+    ScrollingModule,
+    DragDropModule
   ],
   providers: [
     { provide: NZ_I18N, useValue: en_US },
