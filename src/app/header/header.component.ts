@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, isDevMode } from '@angular/core';
 import {PartyService} from '../services/party.service';
 import {GoogleAnalyticsService} from 'ngx-google-analytics';
 
@@ -20,5 +20,9 @@ export class HeaderComponent implements OnInit {
 
   onDiscordClick() {
     this.gAnalytics.event('discord_click', 'Header', 'discord_invite');
+  }
+
+  isDevMode(): boolean {
+    return isDevMode()
   }
 }
