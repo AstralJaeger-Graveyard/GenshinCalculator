@@ -28,10 +28,13 @@ import { MemberHeaderComponent } from './partymanager/member-detail/member-heade
 import { FooterComponent } from './footer/footer.component';
 
 // Directives
+import { NgxStructuralsModule } from "@tngtech/ngx-structurals";
+import { SSRExcludeModule } from "ngx-ssr-exclude";
 import { RepeatDirective } from './directives/repeat.directive';
 import { MediaDirective } from './directives/media.directive';
 
 // Pipes
+import { NgPipesModule } from "ngx-pipes";
 import { FormatNumberPipe } from './pipes/format-number.pipe';
 
 // I18 localizations
@@ -53,6 +56,7 @@ import { LocalizationService } from './services/localization.service';
 
 // environment
 import { environment } from '../environments/environment';
+import { ProgressComponent } from './progress/progress.component';
 
 //Needs to be sorted
 
@@ -61,6 +65,8 @@ registerLocaleData(en);
 @NgModule({
   declarations: [
     RepeatDirective,
+    MediaDirective,
+    FormatNumberPipe,
     AppComponent,
     PartymanagerComponent,
     HeaderComponent,
@@ -73,9 +79,8 @@ registerLocaleData(en);
     ItemComponent,
     PortraitComponent,
     MemberNavComponent,
-    MediaDirective,
-    FormatNumberPipe,
-    FooterComponent
+    FooterComponent,
+    ProgressComponent
   ],
   imports: [
     ImagekitioAngularModule.forRoot({
@@ -99,7 +104,6 @@ registerLocaleData(en);
       content:{
         message: 'By using our site, you acknowledge that you accept the usage of cookies '
       }
-    }),
     NgxGoogleAnalyticsModule.forRoot(environment.google_analytics),
     BrowserModule,
     BrowserAnimationsModule,
@@ -110,6 +114,9 @@ registerLocaleData(en);
     NgZorroAntdModule,
     ScrollingModule,
     DragDropModule
+    NgPipesModule,
+    NgxStructuralsModule,
+    SSRExcludeModule,
   ],
   providers: [
     { provide: NZ_I18N, useValue: en_US },

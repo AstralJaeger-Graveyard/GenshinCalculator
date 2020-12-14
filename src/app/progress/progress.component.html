@@ -1,0 +1,25 @@
+<nz-collapse>
+  <nz-collapse-panel nzHeader="Upcoming Features"
+                     [nzExtra]="upcomingTpl">
+    <nz-steps [nzCurrent]="currentState"
+              nzProgressDot
+              nzDirection="vertical">
+      <nz-step nzTitle="Current state"></nz-step>
+      <nz-step *ngFor="let feature of upcomingFeatures"
+               [nzTitle]="feature.title"
+               [nzDescription]="feature.description">
+      </nz-step>
+    </nz-steps>
+  </nz-collapse-panel>
+  <nz-collapse-panel nzHeader="Genshin News"
+                     [nzExtra]="newsTpl"
+                     nzDisabled>
+
+  </nz-collapse-panel>
+</nz-collapse>
+<ng-template #newsTpl>
+  <fa-icon [icon]="['fas', 'newspaper']"></fa-icon>
+</ng-template>
+<ng-template #upcomingTpl>
+  <fa-icon [icon]="['fas', 'sparkles']"></fa-icon>
+</ng-template>
