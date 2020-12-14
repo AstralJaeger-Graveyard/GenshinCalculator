@@ -95,7 +95,7 @@ registerLocaleData(en);
         }
       },
       theme: 'edgeless',
-      type: 'opt-out',
+      type: 'info',
       content:{
         message: 'By using our site, you acknowledge that you accept the usage of cookies '
       }
