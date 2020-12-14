@@ -1,7 +1,8 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import {Component, OnInit, OnDestroy, isDevMode} from '@angular/core';
 import {NgcCookieConsentService, NgcInitializeEvent, NgcNoCookieLawEvent} from "ngx-cookieconsent";
 import { Subscription } from "rxjs";
 import {PartyService} from "./services/party.service";
+import {Title} from "@angular/platform-browser";
 
 @Component({
   selector: 'app-root',
@@ -20,9 +21,15 @@ export class AppComponent implements OnInit, OnDestroy{
 
   public showAds: boolean = false;
 
-  constructor(private ccService: NgcCookieConsentService, private party: PartyService) { }
+  constructor(private ccService: NgcCookieConsentService,
+              private party: PartyService,
+              private title: Title) { }
 
   ngOnInit(): void {
+
+    if(isDevMode()){
+      this.title.setTitle("[Local] GenshinCalculator")
+    }
     this.popupOpenSubscription = this.ccService.popupOpen$.subscribe(() => {
 
     });
