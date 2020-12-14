@@ -2,6 +2,7 @@ import {Injectable, isDevMode} from '@angular/core';
 import { PartyMember } from '../model/PartyMember';
 import {BehaviorSubject, Observable} from 'rxjs';
 import {NgcCookieConsentService} from "ngx-cookieconsent";
+import {GoogleAnalyticsService} from 'ngx-google-analytics';
 
 @Injectable({
   providedIn: 'root'
@@ -15,10 +16,9 @@ export class PartyService{
   public observable: BehaviorSubject<PartyMember[]>;
 
   constructor(private ccService: NgcCookieConsentService) {
-    if(ccService.hasConsented()) {
-      this.members = this.loadParty();
-      this.saveParty(this.members);
-    }
+
+    this.members = this.loadParty();
+    this.saveParty(this.members);
     this.observable = new BehaviorSubject<PartyMember[]>(this.members);
   }
 
@@ -27,9 +27,7 @@ export class PartyService{
   }
 
   public save(): void{
-    if(this.ccService.hasConsented()) {
-      this.saveParty(this.members);
-    }
+    this.saveParty(this.members);
     this.observable.next(this.members);
   }
 
@@ -37,12 +35,6 @@ export class PartyService{
     return this.members
       .filter(member => member.character_id === id)
       .length === 1;
-    // for (const member of this.members){
-    //   if (member.character_id === id){
-    //     return true;
-    //   }
-    // }
-    // return false;
   }
 
   public defaultParty(): PartyMember[] {

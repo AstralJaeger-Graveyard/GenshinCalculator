@@ -26,7 +26,7 @@
             },
             {
               "amount": 5,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 3,
@@ -45,7 +45,7 @@
             },
             {
               "amount": 18,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 12,
@@ -64,7 +64,7 @@
             },
             {
               "amount": 9,
-              "materialId": "chaos_2"
+              "materialId": "core_2"
             },
             {
               "amount": 9,
@@ -83,7 +83,7 @@
             },
             {
               "amount": 18,
-              "materialId": "chaos_2"
+              "materialId": "core_2"
             },
             {
               "amount": 14,
@@ -102,7 +102,7 @@
             },
             {
               "amount": 14,
-              "materialId": "chaos_3"
+              "materialId": "core_3"
             },
             {
               "amount": 9,
@@ -121,7 +121,7 @@
             },
             {
               "amount": 27,
-              "materialId": "chaos_3"
+              "materialId": "core_3"
             },
             {
               "amount": 18,
@@ -403,7 +403,7 @@
             },
             {
               "amount": 3,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 2,
@@ -422,7 +422,7 @@
             },
             {
               "amount": 12,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 8,
@@ -441,7 +441,7 @@
             },
             {
               "amount": 6,
-              "materialId": "chaos_2"
+              "materialId": "core_2"
             },
             {
               "amount": 6,
@@ -460,7 +460,7 @@
             },
             {
               "amount": 12,
-              "materialId": "chaos_2"
+              "materialId": "core_2"
             },
             {
               "amount": 9,
@@ -479,7 +479,7 @@
             },
             {
               "amount": 9,
-              "materialId": "chaos_3"
+              "materialId": "core_3"
             },
             {
               "amount": 6,
@@ -498,7 +498,7 @@
             },
             {
               "amount": 18,
-              "materialId": "chaos_3"
+              "materialId": "core_3"
             },
             {
               "amount": 12,
@@ -980,7 +980,7 @@
             },
             {
               "amount": 2,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 1,
@@ -999,7 +999,7 @@
             },
             {
               "amount": 8,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 5,
@@ -1018,7 +1018,7 @@
             },
             {
               "amount": 4,
-              "materialId": "chaos_2"
+              "materialId": "core_2"
             },
             {
               "amount": 4,
@@ -1037,7 +1037,7 @@
             },
             {
               "amount": 8,
-              "materialId": "chaos_2"
+              "materialId": "core_2"
             },
             {
               "amount": 6,
@@ -1056,7 +1056,7 @@
             },
             {
               "amount": 6,
-              "materialId": "chaos_3"
+              "materialId": "core_3"
             },
             {
               "amount": 4,
@@ -1075,7 +1075,7 @@
             },
             {
               "amount": 12,
-              "materialId": "chaos_3"
+              "materialId": "core_3"
             },
             {
               "amount": 8,
@@ -1103,7 +1103,7 @@
             },
             {
               "amount": 3,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 2,
@@ -1122,7 +1122,7 @@
             },
             {
               "amount": 12,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 8,
@@ -1141,7 +1141,7 @@
             },
             {
               "amount": 6,
-              "materialId": "chaos_2"
+              "materialId": "core_2"
             },
             {
               "amount": 6,
@@ -1160,7 +1160,7 @@
             },
             {
               "amount": 12,
-              "materialId": "chaos_2"
+              "materialId": "core_2"
             },
             {
               "amount": 9,
@@ -1179,7 +1179,7 @@
             },
             {
               "amount": 9,
-              "materialId": "chaos_3"
+              "materialId": "core_3"
             },
             {
               "amount": 6,
@@ -1198,7 +1198,7 @@
             },
             {
               "amount": 18,
-              "materialId": "chaos_3"
+              "materialId": "core_3"
             },
             {
               "amount": 12,
@@ -2872,7 +2872,7 @@
             },
             {
               "amount": 5,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 3,
@@ -2891,7 +2891,7 @@
             },
             {
               "amount": 18,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 12,
@@ -2910,7 +2910,7 @@
             },
             {
               "amount": 9,
-              "materialId": "chaos_2"
+              "materialId": "core_2"
             },
             {
               "amount": 9,
@@ -2929,7 +2929,7 @@
             },
             {
               "amount": 18,
-              "materialId": "chaos_2"
+              "materialId": "core_2"
             },
             {
               "amount": 14,
@@ -2948,7 +2948,7 @@
             },
             {
               "amount": 14,
-              "materialId": "chaos_3"
+              "materialId": "core_3"
             },
             {
               "amount": 9,
@@ -2967,7 +2967,7 @@
             },
             {
               "amount": 27,
-              "materialId": "chaos_3"
+              "materialId": "core_3"
             },
             {
               "amount": 18,
@@ -3364,7 +3364,7 @@
             },
             {
               "amount": 2,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 1,
@@ -3383,7 +3383,7 @@
             },
             {
               "amount": 8,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 5,
@@ -3402,7 +3402,7 @@
             },
             {
               "amount": 4,
-              "materialId": "chaos_2"
+              "materialId": "core_2"
             },
             {
               "amount": 4,
@@ -3421,7 +3421,7 @@
             },
             {
               "amount": 8,
-              "materialId": "chaos_2"
+              "materialId": "core_2"
             },
             {
               "amount": 6,
@@ -3440,7 +3440,7 @@
             },
             {
               "amount": 6,
-              "materialId": "chaos_3"
+              "materialId": "core_3"
             },
             {
               "amount": 4,
@@ -3459,7 +3459,7 @@
             },
             {
               "amount": 12,
-              "materialId": "chaos_3"
+              "materialId": "core_3"
             },
             {
               "amount": 8,
@@ -3525,7 +3525,7 @@
             },
             {
               "amount": 3,
-              "materialId": "chaos_2"
+              "materialId": "core_2"
             },
             {
               "amount": 3,
@@ -3544,7 +3544,7 @@
             },
             {
               "amount": 5,
-              "materialId": "chaos_2"
+              "materialId": "core_2"
             },
             {
               "amount": 4,
@@ -3818,7 +3818,7 @@
             },
             {
               "amount": 3,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 2,
@@ -3837,7 +3837,7 @@
             },
             {
               "amount": 12,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 8,
@@ -3856,7 +3856,7 @@
             },
             {
               "amount": 6,
-              "materialId": "chaos_2"
+              "materialId": "core_2"
             },
             {
               "amount": 6,
@@ -3875,7 +3875,7 @@
             },
             {
               "amount": 12,
-              "materialId": "chaos_2"
+              "materialId": "core_2"
             },
             {
               "amount": 9,
@@ -3894,7 +3894,7 @@
             },
             {
               "amount": 9,
-              "materialId": "chaos_3"
+              "materialId": "core_3"
             },
             {
               "amount": 6,
@@ -3913,7 +3913,7 @@
             },
             {
               "amount": 18,
-              "materialId": "chaos_3"
+              "materialId": "core_3"
             },
             {
               "amount": 12,
@@ -5526,7 +5526,7 @@
             },
             {
               "amount": 3,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 2,
@@ -5545,7 +5545,7 @@
             },
             {
               "amount": 12,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 8,
@@ -5564,7 +5564,7 @@
             },
             {
               "amount": 6,
-              "materialId": "chaos_2"
+              "materialId": "core_2"
             },
             {
               "amount": 6,
@@ -5583,7 +5583,7 @@
             },
             {
               "amount": 12,
-              "materialId": "chaos_2"
+              "materialId": "core_2"
             },
             {
               "amount": 9,
@@ -5602,7 +5602,7 @@
             },
             {
               "amount": 9,
-              "materialId": "chaos_3"
+              "materialId": "core_3"
             },
             {
               "amount": 6,
@@ -5621,7 +5621,7 @@
             },
             {
               "amount": 18,
-              "materialId": "chaos_3"
+              "materialId": "core_3"
             },
             {
               "amount": 12,
@@ -6472,7 +6472,7 @@
             },
             {
               "amount": 2,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 1,
@@ -6491,7 +6491,7 @@
             },
             {
               "amount": 8,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 5,
@@ -6510,7 +6510,7 @@
             },
             {
               "amount": 4,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 4,
@@ -6529,7 +6529,7 @@
             },
             {
               "amount": 8,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 6,
@@ -6548,7 +6548,7 @@
             },
             {
               "amount": 6,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 4,
@@ -6567,7 +6567,7 @@
             },
             {
               "amount": 12,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 8,
@@ -6718,7 +6718,7 @@
             },
             {
               "amount": 5,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 3,
@@ -6737,7 +6737,7 @@
             },
             {
               "amount": 18,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 12,
@@ -6756,7 +6756,7 @@
             },
             {
               "amount": 9,
-              "materialId": "chaos_2"
+              "materialId": "core_2"
             },
             {
               "amount": 9,
@@ -6775,7 +6775,7 @@
             },
             {
               "amount": 18,
-              "materialId": "chaos_2"
+              "materialId": "core_2"
             },
             {
               "amount": 14,
@@ -6794,7 +6794,7 @@
             },
             {
               "amount": 14,
-              "materialId": "chaos_3"
+              "materialId": "core_3"
             },
             {
               "amount": 9,
@@ -6813,7 +6813,7 @@
             },
             {
               "amount": 27,
-              "materialId": "chaos_3"
+              "materialId": "core_3"
             },
             {
               "amount": 18,
@@ -6964,7 +6964,7 @@
             },
             {
               "amount": 1,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 1,
@@ -6983,7 +6983,7 @@
             },
             {
               "amount": 4,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 2,
@@ -7002,7 +7002,7 @@
             },
             {
               "amount": 2,
-              "materialId": "chaos_2"
+              "materialId": "core_2"
             },
             {
               "amount": 2,
@@ -7021,7 +7021,7 @@
             },
             {
               "amount": 4,
-              "materialId": "chaos_2"
+              "materialId": "core_2"
             },
             {
               "amount": 3,
@@ -7549,7 +7549,7 @@
             },
             {
               "amount": 3,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 2,
@@ -7568,7 +7568,7 @@
             },
             {
               "amount": 12,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 8,
@@ -7587,7 +7587,7 @@
             },
             {
               "amount": 6,
-              "materialId": "chaos_2"
+              "materialId": "core_2"
             },
             {
               "amount": 6,
@@ -7606,7 +7606,7 @@
             },
             {
               "amount": 12,
-              "materialId": "chaos_2"
+              "materialId": "core_2"
             },
             {
               "amount": 9,
@@ -7625,7 +7625,7 @@
             },
             {
               "amount": 9,
-              "materialId": "chaos_3"
+              "materialId": "core_3"
             },
             {
               "amount": 6,
@@ -7795,7 +7795,7 @@
             },
             {
               "amount": 1,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 1,
@@ -7814,7 +7814,7 @@
             },
             {
               "amount": 5,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 4,
@@ -7833,7 +7833,7 @@
             },
             {
               "amount": 3,
-              "materialId": "chaos_2"
+              "materialId": "core_2"
             },
             {
               "amount": 3,
@@ -7852,7 +7852,7 @@
             },
             {
               "amount": 5,
-              "materialId": "chaos_2"
+              "materialId": "core_2"
             },
             {
               "amount": 4,
@@ -7983,7 +7983,7 @@
             },
             {
               "amount": 27,
-              "materialId": "chaos_3"
+              "materialId": "core_3"
             },
             {
               "amount": 18,
@@ -8257,7 +8257,7 @@
             },
             {
               "amount": 5,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 3,
@@ -8276,7 +8276,7 @@
             },
             {
               "amount": 18,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 12,
@@ -8295,7 +8295,7 @@
             },
             {
               "amount": 9,
-              "materialId": "chaos_2"
+              "materialId": "core_2"
             },
             {
               "amount": 9,
@@ -8314,7 +8314,7 @@
             },
             {
               "amount": 18,
-              "materialId": "chaos_2"
+              "materialId": "core_2"
             },
             {
               "amount": 14,
@@ -8333,7 +8333,7 @@
             },
             {
               "amount": 14,
-              "materialId": "chaos_3"
+              "materialId": "core_3"
             },
             {
               "amount": 9,
@@ -8352,7 +8352,7 @@
             },
             {
               "amount": 27,
-              "materialId": "chaos_3"
+              "materialId": "core_3"
             },
             {
               "amount": 18,
@@ -10064,7 +10064,7 @@
             },
             {
               "amount": 3,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 2,
@@ -10083,7 +10083,7 @@
             },
             {
               "amount": 12,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 8,
@@ -10102,7 +10102,7 @@
             },
             {
               "amount": 6,
-              "materialId": "chaos_2"
+              "materialId": "core_2"
             },
             {
               "amount": 6,
@@ -10121,7 +10121,7 @@
             },
             {
               "amount": 12,
-              "materialId": "chaos_2"
+              "materialId": "core_2"
             },
             {
               "amount": 9,
@@ -10140,7 +10140,7 @@
             },
             {
               "amount": 9,
-              "materialId": "chaos_3"
+              "materialId": "core_3"
             },
             {
               "amount": 6,
@@ -10159,7 +10159,7 @@
             },
             {
               "amount": 18,
-              "materialId": "chaos_3"
+              "materialId": "core_3"
             },
             {
               "amount": 12,
@@ -10895,7 +10895,7 @@
             },
             {
               "amount": 2,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 1,
@@ -10914,7 +10914,7 @@
             },
             {
               "amount": 8,
-              "materialId": "chaos_1"
+              "materialId": "core_1"
             },
             {
               "amount": 5,
@@ -10933,7 +10933,7 @@
             },
             {
               "amount": 4,
-              "materialId": "chaos_2"
+              "materialId": "core_2"
             },
             {
               "amount": 4,
@@ -10952,7 +10952,7 @@
             },
             {
               "amount": 8,
-              "materialId": "chaos_2"
+              "materialId": "core_2"
             },
             {
               "amount": 6,
@@ -10971,7 +10971,7 @@
             },
             {
               "amount": 6,
-              "materialId": "chaos_3"
+              "materialId": "core_3"
             },
             {
               "amount": 4,
@@ -10990,7 +10990,7 @@
             },
             {
               "amount": 12,
-              "materialId": "chaos_3"
+              "materialId": "core_3"
             },
             {
               "amount": 8,

@@ -5,6 +5,7 @@ import { CharacterService } from '../../services/character.service';
 import { PartyService } from '../../services/party.service';
 import { LocalizationService } from '../../services/localization.service';
 import { CdkDragDrop, moveItemInArray } from "@angular/cdk/drag-drop";
+import {GoogleAnalyticsService} from 'ngx-google-analytics';
 
 @Component({
   selector: 'app-party',
@@ -24,7 +25,8 @@ export class PartyComponent implements OnInit {
 
   constructor(public localization: LocalizationService,
               public characters: CharacterService,
-              public party: PartyService) { }
+              public party: PartyService,
+              public gAnalytics: GoogleAnalyticsService) { }
 
   ngOnInit(): void {
   }
@@ -33,11 +35,13 @@ export class PartyComponent implements OnInit {
     if(isDevMode()) {
       console.log('Switching selected member to: ' + member.character_id);
     }
+    this.gAnalytics.event('party_member_selected', 'party_overview', 'party_member')
     this.memberSelected.emit(member);
   }
 
   onRemoved(member: PartyMember): void{
     this.memberRemoved.emit(member);
+    this.gAnalytics.event('party_member_removed', 'party_overview', 'party_member')
     this.onMemberChanged();
   }
 
@@ -49,7 +53,7 @@ export class PartyComponent implements OnInit {
 
       let partyMember = new PartyMember(character.id);
       this.party.members.push(partyMember);
-
+      this.gAnalytics.event('party_member_added', 'party_overview', 'party_member');
       // TODO: Somewhat improve this
       this.onMemberChanged()
     }
@@ -59,7 +63,7 @@ export class PartyComponent implements OnInit {
     this.party.save();
 
     if(isDevMode()) {
-      console.log('%cSaving party to local storage', 'color: gray; font-size: 15px;');
+      console.log('%cSaving party to local storage', 'color: gray; font-size: 12px;');
     }
   }
 

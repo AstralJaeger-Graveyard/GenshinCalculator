@@ -1182,17 +1182,17 @@
       "description": "In the hands of its lord, this fierce weapon has handled many \"debts.\" No-one has eyes in the back of their heads, and this weapon and its related techniques are designed around that weakness."
     },
     {
-      "id": "chaos_1",
+      "id": "core_1",
       "name": "Chaos Device",
       "description": "Comes from ancient defunct relic structures. A part that once held the structure together. Its aesthetically-pleasing engineering is quite exquisite."
     },
     {
-      "id": "chaos_2",
+      "id": "core_2",
       "name": "Chaos Circuit",
       "description": "Comes from ancient defunct relic structures. Was once a logic circuit responsible for movement functions. Sadly, no-one is able to make sense of how it worked."
     },
     {
-      "id": "chaos_3",
+      "id": "core_3",
       "name": "Chaos Core",
       "description": "Comes from ancient defunct relic structures. The core that once drove a mechanical beast. Should you come to understand its workings and reproduce it, you could perhaps change the world."
     }

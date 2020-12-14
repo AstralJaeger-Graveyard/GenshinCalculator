@@ -1,7 +1,7 @@
 <div class="row">
   <app-member-header *ngIf="false" [member]="member"></app-member-header>
   <app-member-nav *ngIf="false"></app-member-nav>
-  <div class="character-overview" *ngIf="false">
+  <div *ngIf="false" class="character-overview">
     <h2>{{ localization.get(member.character_id).name }}</h2>
     <p class="overview-description">
     {{ localization.get(member.character_id).description }}
@@ -16,7 +16,7 @@
     <div nz-col [nzSpan]="6">
       <nz-switch [(ngModel)]="member.enable_ascension"
                  id="include_ascension_input"
-                 (ngModelChange)="onMemberChanged()">
+                 (ngModelChange)="onAscensionEnabledChanged()">
       </nz-switch>
     </div>
   </div>
@@ -31,7 +31,7 @@
                        [nzMax]="6"
                        [nzStep]="1"
                        id="ascension_input"
-                       (ngModelChange)="onMemberChanged()">
+                       (ngModelChange)="onAscensionStageChanged()">
       </nz-input-number>
     </div>
   </div>
@@ -43,7 +43,7 @@
     <div nz-col [nzSpan]="6">
       <nz-switch [(ngModel)]="member.enable_weapon"
                  id="include_weapon_input"
-                 (ngModelChange)="onMemberChanged()">
+                 (ngModelChange)="onWeaponAscensionEnabledChanged()">
       </nz-switch>
     </div>
   </div>
@@ -60,7 +60,7 @@
                  class="pseudo-fullwidth"
                  style="min-width: 350px;"
                  [(ngModel)]="member.weapon_id"
-                 (ngModelChange)="onMemberChanged()"
+                 (ngModelChange)="onWeaponChanged()"
       >
         <nz-option nzCustomContent
                    *ngFor="let entry of weapons.sortedMap.get(characters.characterMap.get(member.character_id).weaponType) | keyvalue: weaponOrder"
@@ -97,7 +97,7 @@
                        [nzMax]="6"
                        [nzStep]="1"
                        id="weapon_ascension_input"
-                       (ngModelChange)="onMemberChanged()">
+                       (ngModelChange)="onWeaponAscensionStageChanged()">
       </nz-input-number>
     </div>
   </div>
