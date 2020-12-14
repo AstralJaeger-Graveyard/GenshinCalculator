@@ -100,7 +100,7 @@ registerLocaleData(en);
         message: 'By using our site, you acknowledge that you accept the usage of cookies '
       }
     }),
-    NgxGoogleAnalyticsModule.forRoot(environment.ga),
+    NgxGoogleAnalyticsModule.forRoot(environment.google_analytics),
     BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
