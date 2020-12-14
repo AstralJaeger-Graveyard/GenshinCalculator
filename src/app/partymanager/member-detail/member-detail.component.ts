@@ -1,4 +1,4 @@
-import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
+import {Component, EventEmitter, Input, isDevMode, OnInit, Output} from '@angular/core';
 import {PartyMember} from '../../model/PartyMember';
 import { faStar, faWindowClose } from '@fortawesome/pro-solid-svg-icons';
 import {PartyService} from '../../services/party.service';
@@ -8,6 +8,7 @@ import {Character} from '../../model/Character';
 import {LocalizationService} from '../../services/localization.service';
 import {Weapon} from '../../model/Weapon';
 import {KeyValue} from '@angular/common';
+import {GoogleAnalyticsService} from 'ngx-google-analytics';
 
 @Component({
   selector: 'app-partymember-detail',
@@ -31,7 +32,8 @@ export class MemberDetailComponent implements OnInit {
 
   constructor(public localization: LocalizationService,
               public weapons: WeaponService,
-              public characters: CharacterService) { }
+              public characters: CharacterService,
+              public gAnalytics: GoogleAnalyticsService) { }
 
   ngOnInit(): void { }
 
@@ -39,8 +41,34 @@ export class MemberDetailComponent implements OnInit {
     this.closeDetail.emit();
   }
 
+  onAscensionEnabledChanged(): void {
+    this.gAnalytics.event('ascension_enabled_changed', 'party_member_detail', 'party_member');
+    this.onMemberChanged();
+  }
+
+  onAscensionStageChanged(): void {
+    this.gAnalytics.event('ascension_stage_changed', 'party_member_detail', 'party_member');
+    this.onMemberChanged();
+  }
+
+  onWeaponChanged(): void {
+    this.gAnalytics.event('weapon_changed', 'party_member_detail', 'party_member');
+    this.onMemberChanged();
+  }
+
+  onWeaponAscensionEnabledChanged(): void {
+    this.gAnalytics.event('weapon_ascension_enabled_changed', 'party_member_detail', 'party_member');
+    this.onMemberChanged();
+  }
+
+  onWeaponAscensionStageChanged(): void {
+    this.gAnalytics.event('weapon_ascension_stage_changed', 'party_member_detail', 'party_member');
+    this.onMemberChanged();
+  }
+
   onMemberChanged(): void{
-    console.log('Party member changed')
+    if(isDevMode())
+      console.log('Party member changed')
     this.memberChanged.emit();
   }
 }
