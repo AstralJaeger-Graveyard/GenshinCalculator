@@ -832,19 +832,19 @@
 
     {
       "icon": "",
-      "id": "chaos_1",
+      "id": "core_1",
       "sortingRank": 4,
       "source": [ "ruin_guard", "ruin_hunter" ]
     },
     {
       "icon": "",
-      "id": "chaos_2",
+      "id": "core_2",
       "sortingRank": 4,
       "source": [ "ruin_guard_40", "ruin_hunter_40", "crafting" ]
     },
     {
       "icon": "",
-      "id": "chaos_3",
+      "id": "core_3",
       "sortingRank": 4,
       "source": [ "ruin_guard_60", "ruin_hunter_60", "crafting" ]
     }
