@@ -12,6 +12,9 @@ import {SourceService} from "../services/source.service";
 })
 export class ScheduleComponent implements OnInit {
 
+  public onlyToday = false;
+  public days: string[] = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+
   constructor(public party: PartyService,
               public characters: CharacterService,
               public materials: MaterialService,
@@ -20,6 +23,4 @@ export class ScheduleComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
-
 }

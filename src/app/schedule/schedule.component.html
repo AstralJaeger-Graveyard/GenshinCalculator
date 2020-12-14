@@ -1,3 +1,22 @@
 <div class="row">
-
+  <div nz-row>
+    <div nz-col nzSpan="6" nzOffset="18">
+      <nz-switch [(ngModel)]="onlyToday"></nz-switch> Only show current day
+    </div>
+  </div>
+  <div nz-row>
+    <div nz-col nzSpan="6"><strong>Ascension</strong></div>
+    <div nz-col nzSpan="6"><strong>Talents</strong></div>
+    <div nz-col nzSpan="6"><strong>Weapons</strong></div>
+    <div nz-col nzSpan="6"><strong>Artifacts</strong></div>
+  </div>
+  <div *ngFor="let day of days">
+    <nz-divider [nzText]="day" nzOrientation="left"></nz-divider>
+    <div nz-row>
+      <div nz-col nzSpan="6"> - </div>
+      <div nz-col nzSpan="6"> - </div>
+      <div nz-col nzSpan="6"> - </div>
+      <div nz-col nzSpan="6"> - </div>
+    </div>
+  </div>
 </div>
