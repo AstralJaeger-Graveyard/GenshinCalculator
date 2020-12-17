@@ -10,8 +10,9 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "deploy": "firebase deploy --only hosting",
-    "deploy:live": "ng build --prod && firebase deploy --only hosting",
-    "deploy:preview": "firebase hosting:channel:deploy alpha"
+    "deploy:preview": "firebase hosting:channel:deploy alpha",
+    "purge_cf_cache": "newman run Util.postman_collection.json",
+    "deploy:live": "npm run build:ci && npm run deploy && npm run purge_cf_cache"
   },
   "private": true,
   "dependencies": {

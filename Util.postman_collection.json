@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "0f5ce2b5-f69c-4259-8a33-71c0a0f6a089",
+		"name": "Util",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Purge Genshin.eu cache",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Auth-Email",
+						"value": "97hilfel@gmail.com",
+						"type": "text"
+					},
+					{
+						"key": "X-Auth-Key",
+						"value": "51f257ca39f48029d1758d71073e90170f349",
+						"type": "text"
+					},
+					{
+						"key": "Content",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"purge_everything\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.cloudflare.com/client/v4/zones/eb5557fb8f535c567185256a63505ac8/purge_cache",
+					"protocol": "https",
+					"host": [
+						"api",
+						"cloudflare",
+						"com"
+					],
+					"path": [
+						"client",
+						"v4",
+						"zones",
+						"eb5557fb8f535c567185256a63505ac8",
+						"purge_cache"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

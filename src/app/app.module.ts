@@ -57,6 +57,7 @@ import { LocalizationService } from './services/localization.service';
 // environment
 import { environment } from '../environments/environment';
 import { ProgressComponent } from './progress/progress.component';
+import { OnlyDevModeDirective } from './directives/only-dev-mode.directive';
 
 //Needs to be sorted
 
@@ -80,7 +81,8 @@ registerLocaleData(en);
     PortraitComponent,
     MemberNavComponent,
     FooterComponent,
-    ProgressComponent
+    ProgressComponent,
+    OnlyDevModeDirective
   ],
   imports: [
     ImagekitioAngularModule.forRoot({
