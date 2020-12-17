@@ -1,8 +1,10 @@
 {
   "sources": [
+
     {
       "id": "quests",
-      "description": "Quests"
+      "description": "Quests",
+      "isSuperSource": true
     },
     {
       "id": "monsters",
@@ -14,592 +16,789 @@
     },
     {
       "id": "crafting",
-      "description": "Crafting"
+      "description": "Crafting",
+      "isIgnoreSource": true
     },
     {
       "id": "shop_souvenir",
-      "description": "Purchased from the Souvenir Shop"
+      "description": "Purchased from the Souvenir Shop",
+      "isIgnoreSource": true
     },
     {
       "id": "shop_souvenir_mondstadt",
-      "description": "Purchased from the Souvenir Shop in Liyue"
+      "description": "Purchased from the Souvenir Shop in Liyue",
+      "isIgnoreSource": true
     },
     {
       "id": "shop_souvenir_liyue",
-      "description": "Purchased from the Souvenir Shop in Liyue"
+      "description": "Purchased from the Souvenir Shop in Liyue",
+      "isIgnoreSource": true
     },
     {
       "id": "shop_flora",
-      "description": "Sold by Flora (6:00-19:00 in the city of Mondstadt)"
+      "description": "Sold by Flora (6:00-19:00 in the city of Mondstadt)",
+      "isIgnoreSource": true
     },
     {
       "id": "shop_chloris",
-      "description": "Sold by Chloris (6:00-19:00 at Mondstadt's Windrise area)"
+      "description": "Sold by Chloris (6:00-19:00 at Mondstadt's Windrise area)",
+      "isIgnoreSource": true
     },
     {
       "id": "shop_shitou",
-      "description": "Sold by Shitou (Liyue Harbor)"
+      "description": "Sold by Shitou (Liyue Harbor)",
+      "isIgnoreSource": true
     },
     {
       "id": "shop_bai",
-      "description": "Sold by Ms. Bai (Qingce Village)"
+      "description": "Sold by Ms. Bai (Qingce Village)",
+      "isIgnoreSource": true
     },
 
     {
       "id": "pyro_regisvine",
-      "description": "Dropped by Pyro Regisvine"
+      "description": "Dropped by Pyro Regisvine",
+      "isSuperSource": true
     },
     {
       "id": "pyro_regisvine_30",
-      "description": "Dropped by Lv. 30+ Pyro Regisvine"
+      "description": "Dropped by Lv. 30+ Pyro Regisvine",
+      "superSource": "pyro_regisvine"
     },
     {
       "id": "pyro_regisvine_40",
-      "description": "Dropped by Lv. 40+ Pyro Regisvine"
+      "description": "Dropped by Lv. 40+ Pyro Regisvine",
+      "superSource": "pyro_regisvine"
     },
     {
       "id": "pyro_regisvine_60",
-      "description": "Dropped by Lv. 60+ Pyro Regisvine"
+      "description": "Dropped by Lv. 60+ Pyro Regisvine",
+      "superSource": "pyro_regisvine"
     },
     {
       "id": "pyro_regisvine_75",
-      "description": "Dropped by Lv. 75+ Pyro Regisvine"
+      "description": "Dropped by Lv. 75+ Pyro Regisvine",
+      "superSource": "pyro_regisvine"
     },
+
     {
       "id": "cryo_regisvine",
-      "description": "Dropped by Cyro Regisvine"
+      "description": "Dropped by Cyro Regisvine",
+      "isSuperSource": true
     },
     {
       "id": "cryo_regisvine_30",
-      "description": "Dropped by Lv. 30 Cyro Regisvine"
+      "description": "Dropped by Lv. 30 Cyro Regisvine",
+      "superSource": "cryo_regisvine"
     },
     {
       "id": "cryo_regisvine_40",
-      "description": "Dropped by Lv. 40 Cyro Regisvine"
+      "description": "Dropped by Lv. 40 Cyro Regisvine",
+      "superSource": "cryo_regisvine"
     },
     {
       "id": "cryo_regisvine_60",
-      "description": "Dropped by Lv. 60 Cyro Regisvine"
+      "description": "Dropped by Lv. 60 Cyro Regisvine",
+      "superSource": "cryo_regisvine"
     },
     {
       "id": "cryo_regisvine_75",
-      "description": "Dropped by Lv. 75 Cyro Regisvine"
+      "description": "Dropped by Lv. 75 Cyro Regisvine",
+      "superSource": "cryo_regisvine"
     },
+
     {
       "id": "oceanid",
-      "description": "Dropped by Oceanid"
+      "description": "Dropped by Oceanid",
+      "isSuperSource": true
     },
     {
       "id": "oceanid_30",
-      "description": "Dropped by Lv. 30 Oceanid"
+      "description": "Dropped by Lv. 30 Oceanid",
+      "superSource": "oceanid"
     },
     {
       "id": "oceanid_40",
-      "description": "Dropped by Lv. 40+ Oceanid"
+      "description": "Dropped by Lv. 40+ Oceanid",
+      "superSource": "oceanid"
     },
     {
       "id": "oceanid_60",
-      "description": "Dropped by Lv. 60+ Oceanid"
+      "description": "Dropped by Lv. 60+ Oceanid",
+      "superSource": "oceanid"
     },
     {
       "id": "oceanid_75",
-      "description": "Dropped by Lv. 75+ Oceanid"
+      "description": "Dropped by Lv. 75+ Oceanid",
+      "superSource": "oceanid"
     },
+
     {
       "id": "ehypostasis",
-      "description": "Dropped by Electro Hypostasis"
+      "description": "Dropped by Electro Hypostasis",
+      "isSuperSource": true
     },
     {
       "id": "ehypostasis_30",
-      "description": "Dropped by Lv. 30+ Electro Hypostasis"
+      "description": "Dropped by Lv. 30+ Electro Hypostasis",
+      "superSource": "ehypostasis"
     },
     {
       "id": "ehypostasis_40",
-      "description": "Dropped by Lv. 40+ Electro Hypostasis"
+      "description": "Dropped by Lv. 40+ Electro Hypostasis",
+      "superSource": "ehypostasis"
     },
     {
       "id": "ehypostasis_60",
-      "description": "Dropped by Lv. 60+ Electro Hypostasis"
+      "description": "Dropped by Lv. 60+ Electro Hypostasis",
+      "superSource": "ehypostasis"
     },
     {
       "id": "ehypostasis_75",
-      "description": "Dropped by Lv. 75+ Electro Hypostasis"
+      "description": "Dropped by Lv. 75+ Electro Hypostasis",
+      "superSource": "ehypostasis"
     },
+
     {
       "id": "ahypostasis",
-      "description": "Dropped by Anemo Hypostasis"
+      "description": "Dropped by Anemo Hypostasis",
+      "isSuperSource": true
     },
     {
       "id": "ahypostasis_30",
-      "description": "Dropped by Lv. 30+ Anemo Hypostasis"
+      "description": "Dropped by Lv. 30+ Anemo Hypostasis",
+      "superSource": "ahypostasis"
     },
     {
       "id": "ahypostasis_40",
-      "description": "Dropped by Lv. 40+ Anemo Hypostasis"
+      "description": "Dropped by Lv. 40+ Anemo Hypostasis",
+      "superSource": "ahypostasis"
     },
     {
       "id": "ahypostasis_60",
-      "description": "Dropped by Lv. 60+ Anemo Hypostasis"
+      "description": "Dropped by Lv. 60+ Anemo Hypostasis",
+      "superSource": "ahypostasis"
     },
     {
       "id": "ahypostasis_75",
-      "description": "Dropped by Lv. 75+ Anemo Hypostasis"
+      "description": "Dropped by Lv. 75+ Anemo Hypostasis",
+      "superSource": "ahypostasis"
     },
+
     {
       "id": "ghypostasis",
-      "description": "Dropped by Geo Hypostasis"
+      "description": "Dropped by Geo Hypostasis",
+      "isSuperSource": true
     },
     {
       "id": "ghypostasis_30",
-      "description": "Dropped by Lv. 30+ Geo Hypostasis"
+      "description": "Dropped by Lv. 30+ Geo Hypostasis",
+      "superSource": "ghypostasis"
     },
     {
       "id": "ghypostasis_40",
-      "description": "Dropped by Lv. 40+ Geo Hypostasis"
+      "description": "Dropped by Lv. 40+ Geo Hypostasis",
+      "superSource": "ghypostasis"
     },
     {
       "id": "ghypostasis_60",
-      "description": "Dropped by Lv. 60+ Geo Hypostasis"
+      "description": "Dropped by Lv. 60+ Geo Hypostasis",
+      "superSource": "ghypostasis"
     },
     {
       "id": "ghypostasis_75",
-      "description": "Dropped by Lv. 75+ Geo Hypostasis"
+      "description": "Dropped by Lv. 75+ Geo Hypostasis",
+      "superSource": "ghypostasis"
     },
+
     {
       "id": "wolf",
-      "description": "Wolf of the North Challenge Reward"
+      "description": "Wolf of the North Challenge Reward",
+      "isSuperSource": true
     },
     {
       "id": "wolf_40",
-      "description": "Lv. 40+ Wolf of the North Challenge Reward"
+      "description": "Lv. 40+ Wolf of the North Challenge Reward",
+      "superSource": "wolf"
     },
     {
       "id": "wolf_60",
-      "description": "Lv. 60+ Wolf of the North Challenge Reward"
+      "description": "Lv. 60+ Wolf of the North Challenge Reward",
+      "superSource": "wolf"
     },
     {
       "id": "wolf_75",
-      "description": "Lv. 75+ Wolf of the North Challenge Reward"
+      "description": "Lv. 75+ Wolf of the North Challenge Reward",
+      "superSource": "wolf"
     },
 
     {
+      "id": "ar",
+      "description": "Adventure Rank Reward",
+      "isSuperSource": true
+    },
+    {
       "id":  "ar_15",
-      "description": "Adventure Rank 15 Reward (x1)"
+      "description": "Adventure Rank 15 Reward (x1)",
+      "superSource": "ar"
     },
     {
       "id":  "ar_25",
-      "description": "Adventure Rank 25 Reward (x3)"
+      "description": "Adventure Rank 25 Reward (x3)",
+      "superSource": "ar"
     },
     {
       "id":  "ar_26",
-      "description": "Adventure Rank 26 Reward (x2)"
+      "description": "Adventure Rank 26 Reward (x2)",
+      "superSource": "ar"
     },
     {
       "id":  "ar_28",
-      "description": "Adventure Rank 28 Reward (x2)"
+      "description": "Adventure Rank 28 Reward (x2)",
+      "superSource": "ar"
     },
     {
       "id":  "ar_30",
-      "description": "Adventure Rank 30 Reward (x2)"
+      "description": "Adventure Rank 30 Reward (x2)",
+      "superSource": "ar"
     },
     {
       "id":  "ar_35",
-      "description": "Adventure Rank 35 Reward (x3)"
+      "description": "Adventure Rank 35 Reward (x3)",
+      "superSource": "ar"
     },
     {
       "id":  "ar_38",
-      "description": "Adventure Rank 38 Reward (x3)"
+      "description": "Adventure Rank 38 Reward (x3)",
+      "superSource": "ar"
     },
     {
       "id":  "ar_40",
-      "description": "Adventure Rank 40 Reward (x3)"
+      "description": "Adventure Rank 40 Reward (x3)",
+      "superSource": "ar"
     },
     {
       "id":  "ar_41",
-      "description": "Adventure Rank 41 Reward (x2)"
+      "description": "Adventure Rank 41 Reward (x2)",
+      "superSource": "ar"
     },
     {
       "id":  "ar_42",
-      "description": "Adventure Rank 42 Reward (x2)"
+      "description": "Adventure Rank 42 Reward (x2)",
+      "superSource": "ar"
     },
     {
       "id":  "ar_45",
-      "description": "Adventure Rank 45 Reward (x2)"
+      "description": "Adventure Rank 45 Reward (x2)",
+      "superSource": "ar"
     },
 
     {
+      "id": "world",
+      "description": "",
+      "isSuperSource": true
+    },
+    {
       "id": "wild",
-      "description": "Found in the wild"
+      "description": "Found in the wild",
+      "superSource": "world"
     },
     {
       "id": "wild_night",
-      "description": "Found in the wild at night"
+      "description": "Found in the wild at night",
+      "superSource": "world"
     },
     {
       "id": "houses",
-      "description": "Found under the eaves of houses"
+      "description": "Found under the eaves of houses",
+      "superSource": "world"
     },
     {
       "id": "trees",
-      "description": "Found under trees in the wild"
+      "description": "Found under trees in the wild",
+      "superSource": "world"
     },
     {
       "id": "lakes",
-      "description": "Found near lakes"
+      "description": "Found near lakes",
+      "superSource": "world"
     },
     {
       "id": "caves",
-      "description": "Found in the Caves"
+      "description": "Found in the Caves",
+      "superSource": "world"
     },
     {
       "id": "caves_mondstadt",
-      "description": "Found in caves in Mondstadt"
+      "description": "Found in caves in Mondstadt",
+      "superSource": "world"
     },
     {
-      "id": "caves_liuye",
-      "description": "Found in caves in Liuye"
+      "id": "caves_liyue",
+      "description": "Found in caves in Liyue",
+      "superSource": "world"
     },
     {
       "id": "cliffs",
-      "description": "Found under cliffs"
+      "description": "Found under cliffs",
+      "superSource": "world"
     },
     {
       "id": "cliffs_mondstadt",
-      "description": "Found under cliffs in Mondstadt"
+      "description": "Found under cliffs in Mondstadt",
+      "superSource": "world"
     },
     {
       "id": "cliffs_liyue",
-      "description": "Found under cliffs in Liyue"
+      "description": "Found under cliffs in Liyue",
+      "superSource": "world"
     },
     {
       "id": "beaches",
-      "description": "Found on beaches"
+      "description": "Found on beaches",
+      "superSource": "world"
     },
     {
       "id": "beaches_mondstadt",
-      "description": "Found on the beaches of Mondstadt"
+      "description": "Found on the beaches of Mondstadt",
+      "superSource": "world"
     },
     {
       "id": "beaches_liyue",
-      "description": "Found on the beaches of Liyue"
+      "description": "Found on the beaches of Liyue",
+      "superSource": "world"
     },
     {
       "id": "stormterror_lair",
-      "description": "Found in Stormterror's Lair"
+      "description": "Found in Stormterror's Lair",
+      "superSource": "world"
     },
     {
       "id": "springvale",
-      "description": "Found in Springvale"
+      "description": "Found in Springvale",
+      "superSource": "world"
     },
     {
       "id": "statue7_windrise",
-      "description": "Found near the Statue of The Seven at Windrise"
+      "description": "Found near the Statue of The Seven at Windrise",
+      "superSource": "world"
     },
     {
       "id": "mondstadt_gates",
-      "description": "Found at Mondstadt gates"
+      "description": "Found at Mondstadt gates",
+      "superSource": "world"
     },
     {
       "id": "npc_mondstadt_cathedral",
-      "description": "Given by the nun in front of Mondstadt's cathedral"
+      "description": "Given by the nun in front of Mondstadt's cathedral",
+      "superSource": "world"
     },
     {
       "id": "wolvendom",
-      "description": "Found in Wolvendom"
+      "description": "Found in Wolvendom",
+      "superSource": "world"
     },
     {
       "id": "whispering_woods",
-      "description": "Found in the Whispering Woods"
+      "description": "Found in the Whispering Woods",
+      "superSource": "world"
     },
     {
       "id": "stormbearer",
-      "description": "Found in the wild around Stormbearer Mountains"
+      "description": "Found in the wild around Stormbearer Mountains",
+      "superSource": "world"
     },
     {
       "id": "mingyun",
-      "description": "Found in Mingyun Village"
+      "description": "Found in Mingyun Village",
+      "superSource": "world"
     },
     {
       "id": "mthulao",
-      "description": "Found in Mt. Hulao"
+      "description": "Found in Mt. Hulao",
+      "superSource": "world"
     },
     {
       "id": "qingce",
-      "description": "Found in Qingce Village"
+      "description": "Found in Qingce Village",
+      "superSource": "world"
     },
     {
       "id": "yujing",
-      "description": "Found in Yujing Terrace, Liyue Harbor"
+      "description": "Found in Yujing Terrace, Liyue Harbor",
+      "superSource": "world"
     },
     {
       "id": "wangshu",
-      "description": "Found near Wangshu Inn"
+      "description": "Found near Wangshu Inn",
+      "superSource": "world"
     },
     {
       "id": "starsnatch",
-      "description": "Found on Starsnatch Cliff"
+      "description": "Found on Starsnatch Cliff",
+      "superSource": "world"
     },
     {
       "id": "npc_starsnatch",
-      "description": "Given by an NPC at the top of Starsnatch Cliff"
+      "description": "Given by an NPC at the top of Starsnatch Cliff",
+      "superSource": "world"
     },
 
     {
+      "id": "common_enemy",
+      "description": "",
+      "isSuperSource": true
+    },
+    {
       "id": "hilichurls_ranged",
-      "description": "Dropped by Ranged Hilichurls"
+      "description": "Dropped by Ranged Hilichurls",
+      "superSource": "common_enemy"
     },
     {
       "id": "hilichurls_ranged_40",
-      "description": "Dropped by Lv. 40+ Ranged Hilichurls"
+      "description": "Dropped by Lv. 40+ Ranged Hilichurls",
+      "superSource": "common_enemy"
     },
     {
       "id": "hilichurls_ranged_60",
-      "description": "Dropped by Lv. 60+ Ranged Hilichurls"
-    },
-    {
-      "id": "samachurl",
-      "description": "Dropped by Samachurls"
-    },
-    {
-      "id": "samachurl_40",
-      "description": "Dropped by Lv. 40 Samachurls"
-    },
-    {
-      "id": "samachurl_60",
-      "description": "Dropped by Lv. 60+ Samachurls"
-    },
-    {
-      "id": "thoarder",
-      "description": "Dropped by Treasure Hoarders"
-    },
-    {
-      "id": "thoarder_40",
-      "description": "Dropped by Lv 40+ Treasure Hoarders"
-    },
-    {
-      "id": "thoarder_60",
-      "description": "Dropped by Lv 60+ Treasure Hoarders"
-    },
-    {
-      "id": "some_hilichurl",
-      "description": "Dropped by hilichurls"
-    },
-    {
-      "id": "some_ranged_hilichurl",
-      "description": "Dropped by some ranged hilichurls"
-    },
-    {
-      "id": "some_samachurl",
-      "description": "Dropped by some samachurls"
-    },
-    {
-      "id": "some_mitachurl",
-      "description": "Dropped by some mitachurls"
-    },
-    {
-      "id": "some_hilichurl_40",
-      "description": "Dropped by Lv. 40+ hilichurls"
-    },
-    {
-      "id": "some_ranged_hilichurl_40",
-      "description": "Dropped by some Lv. 40+ ranged hilichurls"
-    },
-    {
-      "id": "some_samachurl_40",
-      "description": "Dropped by some Lv. 40+ samachurls"
-    },
-    {
-      "id": "some_mitachurl_40",
-      "description": "Dropped by some Lv. 40+ mitachurls"
-    },
-    {
-      "id": "some_hilichurl_60",
-      "description": "Dropped by Lv. 60+ hilichurls"
-    },
-    {
-      "id": "some_ranged_hilichurl_60",
-      "description": "Dropped by some Lv. 60+ ranged hilichurls"
-    },
-    {
-      "id": "some_samachurl_60",
-      "description": "Dropped by some Lv. 60+ samachurls"
-    },
-    {
-      "id": "some_mitachurl_60",
-      "description": "Dropped by some Lv. 60+ mitachurls"
-    },
-    {
-      "id": "ranged_hilichurl",
-      "description": "Dropped by ranged hilichurls"
-    },
-    {
-      "id": "ranged_hilichurl_40",
-      "description": "Dropped by Lv. 40+ ranged hilichurls"
-    },
-    {
-      "id": "ranged_hilichurl_60",
-      "description": "Dropped by Lv. 60+ ranged hilichurls"
+      "description": "Dropped by Lv. 60+ Ranged Hilichurls",
+      "superSource": "common_enemy"
     },
 
     {
+      "id": "samachurl",
+      "description": "Dropped by Samachurls",
+      "superSource": "common_enemy"
+    },
+    {
+      "id": "samachurl_40",
+      "description": "Dropped by Lv. 40 Samachurls",
+      "superSource": "common_enemy"
+    },
+    {
+      "id": "samachurl_60",
+      "description": "Dropped by Lv. 60+ Samachurls",
+      "superSource": "common_enemy"
+    },
+
+    {
+      "id": "thoarder",
+      "description": "Dropped by Treasure Hoarders",
+      "superSource": "common_enemy"
+    },
+    {
+      "id": "thoarder_40",
+      "description": "Dropped by Lv 40+ Treasure Hoarders",
+      "superSource": "common_enemy"
+    },
+    {
+      "id": "thoarder_60",
+      "description": "Dropped by Lv 60+ Treasure Hoarders",
+      "superSource": "common_enemy"
+    },
+
+    {
+      "id": "hilichurl",
+      "description": "Dropped by hilichurls",
+      "superSource": "common_enemy"
+    },
+    {
+      "id": "hilichurl_40",
+      "description": "Dropped by Lv. 40+ hilichurls",
+      "superSource": "common_enemy"
+    },
+    {
+      "id": "hilichurl_60",
+      "description": "Dropped by Lv. 60+ hilichurls",
+      "superSource": "common_enemy"
+    },
+
+    {
+      "id": "some_hilichurl",
+      "description": "Dropped by hilichurls",
+      "superSource": "common_enemy"
+    },
+    {
+      "id": "some_hilichurl_40",
+      "description": "Dropped by Lv. 40+ hilichurls",
+      "superSource": "common_enemy"
+    },
+    {
+      "id": "some_hilichurl_60",
+      "description": "Dropped by Lv. 60+ hilichurls",
+      "superSource": "common_enemy"
+    },
+
+    {
+      "id": "some_ranged_hilichurl",
+      "description": "Dropped by some ranged hilichurls",
+      "superSource": "common_enemy"
+    },
+    {
+      "id": "some_ranged_hilichurl_40",
+      "description": "Dropped by some Lv. 40+ ranged hilichurls",
+      "superSource": "common_enemy"
+    },
+    {
+      "id": "some_ranged_hilichurl_60",
+      "description": "Dropped by some Lv. 60+ ranged hilichurls",
+      "superSource": "common_enemy"
+    },
+
+    {
+      "id": "some_samachurl",
+      "description": "Dropped by some samachurls",
+      "superSource": "common_enemy"
+    },
+    {
+      "id": "some_samachurl_40",
+      "description": "Dropped by some Lv. 40+ samachurls",
+      "superSource": "common_enemy"
+    },
+    {
+      "id": "some_samachurl_60",
+      "description": "Dropped by some Lv. 60+ samachurls",
+      "superSource": "common_enemy"
+    },
+
+    {
+      "id": "some_mitachurl",
+      "description": "Dropped by some mitachurls",
+      "superSource": "common_enemy"
+    },
+    {
+      "id": "some_mitachurl_40",
+      "description": "Dropped by some Lv. 40+ mitachurls",
+      "superSource": "common_enemy"
+    },
+    {
+      "id": "some_mitachurl_60",
+      "description": "Dropped by some Lv. 60+ mitachurls",
+      "superSource": "common_enemy"
+    },
+
+    {
+      "id": "ranged_hilichurl",
+      "description": "Dropped by ranged hilichurls",
+      "superSource": "common_enemy"
+    },
+    {
+      "id": "ranged_hilichurl_40",
+      "description": "Dropped by Lv. 40+ ranged hilichurls",
+      "superSource": "common_enemy"
+    },
+    {
+      "id": "ranged_hilichurl_60",
+      "description": "Dropped by Lv. 60+ ranged hilichurls",
+      "superSource": "common_enemy"
+    },
+
+
+    {
+      "id": "elite_enemy",
+      "description": "",
+      "isSuperSource": true
+    },
+    {
       "id": "skirmisher",
-      "description": "Dropped by Skirmishers"
+      "description": "Dropped by Skirmishers",
+      "superSource": "common_enemy"
     },
     {
       "id": "some_agent",
-      "description": "Dropped by some Agents"
+      "description": "Dropped by some Agents",
+      "superSource": "elite_enemy"
     },
     {
       "id": "some_thunderslut",
-      "description": "Dropped by some Electro Cicin Mages"
+      "description": "Dropped by some Electro Cicin Mages",
+      "superSource": "elite_enemy"
     },
     {
       "id": "skirmisher_40",
-      "description": "Dropped by Lv. 40+ Skirmishers"
+      "description": "Dropped by Lv. 40+ Skirmishers",
+      "superSource": "common_enemy"
     },
     {
       "id": "some_agent_40",
-      "description": "Dropped by some Lv. 40+ Agents"
+      "description": "Dropped by some Lv. 40+ Agents",
+      "superSource": "elite_enemy"
     },
     {
       "id": "some_thunderslut_40",
-      "description": "Dropped by some Lv. 40+ Electro Cicin Mages"
+      "description": "Dropped by some Lv. 40+ Electro Cicin Mages",
+      "superSource": "elite_enemy"
     },
     {
       "id": "skirmisher_60",
-      "description": "Dropped by Lv. 40+ Skirmishers"
+      "description": "Dropped by Lv. 40+ Skirmishers",
+      "superSource": "common_enemy"
     },
     {
       "id": "some_agent_60",
-      "description": "Dropped by some Lv. 40+ Agents"
+      "description": "Dropped by some Lv. 40+ Agents",
+      "superSource": "elite_enemy"
     },
     {
       "id": "some_thunderslut_60",
-      "description": "Dropped by some Lv. 40+ Electro Cicin Mages"
+      "description": "Dropped by some Lv. 40+ Electro Cicin Mages",
+      "superSource": "elite_enemy"
     },
     {
       "id": "whopperflower",
-      "description": "Dropped by Whopperflower"
+      "description": "Dropped by Whopperflower",
+      "superSource": "elite_enemy"
     },
     {
       "id": "whopperflower_40",
-      "description": "Dropped by Lv. 40+ Whopperflowers"
+      "description": "Dropped by Lv. 40+ Whopperflowers",
+      "superSource": "elite_enemy"
     },
     {
       "id": "whopperflower_60",
-      "description": "Dropped by Lv. 60+ Whopperflowers"
+      "description": "Dropped by Lv. 60+ Whopperflowers",
+      "superSource": "elite_enemy"
     },
     {
       "id": "slime",
-      "description": "Dropped by slimes"
+      "description": "Dropped by slimes",
+      "superSource": "common_enemy"
     },
     {
       "id": "slime_40",
-      "description": "Dropped by Lv. 40+ slimes"
+      "description": "Dropped by Lv. 40+ slimes",
+      "superSource": "common_enemy"
     },
     {
       "id": "slime_60",
-      "description": "Dropped by Lv. 60+ slimes"
+      "description": "Dropped by Lv. 60+ slimes",
+      "superSource": "common_enemy"
     },
 
     {
       "id": "mitachurl",
-      "description": "Dropped by Mitachurls"
+      "description": "Dropped by Mitachurls",
+      "superSource": "elite_enemy"
     },
     {
       "id": "mitachurl_40",
-      "description": "Dropped by Lv. 40+ Mitachurls"
+      "description": "Dropped by Lv. 40+ Mitachurls",
+      "superSource": "elite_enemy"
     },
     {
       "id": "mitachurl_60",
-      "description": "Dropped by Lv. 60+ Mitachurls"
+      "description": "Dropped by Lv. 60+ Mitachurls",
+      "superSource": "elite_enemy"
     },
 
     {
       "id": "abyss_mage",
-      "description": "Dropped by Geovishap Hatchlings"
+      "description": "Dropped by Geovishap Hatchlings",
+      "superSource": "elite_enemy"
     },
     {
       "id": "abyss_mage_40",
-      "description": "Dropped by Lv. 40+ Geovishap Hatchlings"
+      "description": "Dropped by Lv. 40+ Geovishap Hatchlings",
+      "superSource": "elite_enemy"
     },
     {
       "id": "abyss_mage_60",
-      "description": "Dropped by Lv. 60+ Geovishap Hatchlings"
+      "description": "Dropped by Lv. 60+ Geovishap Hatchlings",
+      "superSource": "elite_enemy"
     },
 
     {
       "id": "geo_hatchlings",
-      "description": "Dropped by Geovishap Hatchlings"
+      "description": "Dropped by Geovishap Hatchlings",
+      "superSource": "elite_enemy"
     },
     {
       "id": "geo_hatchlings_40",
-      "description": "Dropped by Lv. 40+ Geovishap Hatchlings"
+      "description": "Dropped by Lv. 40+ Geovishap Hatchlings",
+      "superSource": "elite_enemy"
     },
     {
       "id": "geo_hatchlings_60",
-      "description": "Dropped by Lv. 60+ Geovishap Hatchlings"
+      "description": "Dropped by Lv. 60+ Geovishap Hatchlings",
+      "superSource": "elite_enemy"
     },
 
     {
       "id": "thunderslut",
-      "description": "Dropped by Electro Cicin Mage"
+      "description": "Dropped by Electro Cicin Mage",
+      "superSource": "elite_enemy"
     },
     {
       "id": "thunderslut_40",
-      "description": "Dropped by Lv. 40+ Electro Cicin Mage"
+      "description": "Dropped by Lv. 40+ Electro Cicin Mage",
+      "superSource": "elite_enemy"
     },
     {
       "id": "thunderslut_60",
-      "description": "Dropped by Lv. 60+ Electro Cicin Mage"
+      "description": "Dropped by Lv. 60+ Electro Cicin Mage",
+      "superSource": "elite_enemy"
     },
 
     {
       "id": "agent",
-      "description": "Dropped by Agents"
+      "description": "Dropped by Agents",
+      "superSource": "elite_enemy"
     },
     {
       "id": "agent_40",
-      "description": "Dropped by Lv. 40+ Agents"
+      "description": "Dropped by Lv. 40+ Agents",
+      "superSource": "elite_enemy"
     },
     {
       "id": "agent_60",
-      "description": "Dropped by Lv. 60+ Agents"
+      "description": "Dropped by Lv. 60+ Agents",
+      "superSource": "elite_enemy"
     },
 
     {
       "id": "ruin_guard",
-      "description": "Dropped by Ruin Guards"
+      "description": "Dropped by Ruin Guards",
+      "superSource": "elite_enemy"
     },
     {
       "id": "ruin_guard_40",
-      "description": "Dropped by Lv. 40+ Ruin Guards"
+      "description": "Dropped by Lv. 40+ Ruin Guards",
+      "superSource": "elite_enemy"
     },
     {
       "id": "ruin_guard_60",
-      "description": "Dropped by Lv. 60+ Ruin Guards"
+      "description": "Dropped by Lv. 60+ Ruin Guards",
+      "superSource": "elite_enemy"
     },
 
     {
       "id": "ruin_hunter",
-      "description": "Dropped by Ruin Hunter"
+      "description": "Dropped by Ruin Hunter",
+      "superSource": "elite_enemy"
     },
     {
       "id": "ruin_hunter_40",
-      "description": "Dropped by Lv. 40+ Ruin Hunter"
+      "description": "Dropped by Lv. 40+ Ruin Hunter",
+      "superSource": "elite_enemy"
     },
     {
       "id": "ruin_hunter_60",
-      "description": "Dropped by Lv. 60+ Ruin Hunter"
+      "description": "Dropped by Lv. 60+ Ruin Hunter",
+      "superSource": "elite_enemy"
     },
 
+    {
+      "id": "forgery",
+      "isSuperSource": true
+    },
     {
       "id": "forgery_mondstadt_mon",
       "isDomain": true,
       "name": "Cecilia Garden",
       "description": "Domain of Forgery",
       "location": "Liyue",
-      "days": [0, 3, 6]
+      "days": [0, 3, 6],
+      "superSource": "forgery"
     },
     {
       "id": "forgery_mondstadt_tue",
@@ -607,7 +806,8 @@
       "name": "Cecilia Garden",
       "description": "Domain of Forgery",
       "location": "Liyue",
-      "days": [1, 4, 6]
+      "days": [1, 4, 6],
+      "superSource": "forgery"
     },
     {
       "id": "forgery_mondstadt_wen",
@@ -615,7 +815,8 @@
       "name": "Cecilia Garden",
       "description": "Domain of Forgery",
       "location": "Liyue",
-      "days": [2, 5, 6]
+      "days": [2, 5, 6],
+      "superSource": "forgery"
     },
 
     {
@@ -624,7 +825,8 @@
       "name": "Hidden Place of Lianshan Formula",
       "description": "Domain of Forgery",
       "location": "Liyue",
-      "days": [0, 3, 6]
+      "days": [0, 3, 6],
+      "superSource": "forgery"
     },
     {
       "id": "forgery_liyue_tue",
@@ -632,7 +834,8 @@
       "name": "Hidden Place of Lianshan Formula",
       "description": "Domain of Forgery",
       "location": "Liyue",
-      "days": [1, 4, 6]
+      "days": [1, 4, 6],
+      "superSource": "forgery"
     },
     {
       "id": "forgery_liyue_wen",
@@ -640,7 +843,8 @@
       "name": "Hidden Place of Lianshan Formula",
       "description": "Domain of Forgery",
       "location": "Liyue",
-      "days": [2, 5, 6]
+      "days": [2, 5, 6],
+      "superSource": "forgery"
     }
 
   ]
