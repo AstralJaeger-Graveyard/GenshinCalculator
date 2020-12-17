@@ -7,7 +7,7 @@
     Work in progress! Come back!
   </nz-page-header-subtitle>
   <nz-page-header-tags *appMedia="'(min-width: 600px)'">
-    <nz-tag *ngIf="isDevMode()" nzColor="magenta">Developer Mode</nz-tag>
+    <nz-tag *onlyDevMode nzColor="magenta">Developer Mode</nz-tag>
   </nz-page-header-tags>
   <nz-page-header-extra>
     <div style="display: flex;">
