@@ -4,19 +4,30 @@
       <nz-switch [(ngModel)]="onlyToday"></nz-switch> Only show current day
     </div>
   </div>
-  <div nz-row>
-    <div nz-col nzSpan="6"><strong>Ascension</strong></div>
-    <div nz-col nzSpan="6"><strong>Talents</strong></div>
-    <div nz-col nzSpan="6"><strong>Weapons</strong></div>
-    <div nz-col nzSpan="6"><strong>Artifacts</strong></div>
-  </div>
-  <div *ngFor="let day of days">
-    <nz-divider [nzText]="day" nzOrientation="left"></nz-divider>
-    <div nz-row>
-      <div nz-col nzSpan="6"> - </div>
-      <div nz-col nzSpan="6"> - </div>
-      <div nz-col nzSpan="6"> - </div>
-      <div nz-col nzSpan="6"> - </div>
+  <ng-template *ngIf="false">
+    <div *ngFor="let day of days; let i = index">
+      <nz-divider [nzText]="day" nzOrientation="left"></nz-divider>
+      <div nz-row>
+        <div nz-col nzSpan="6"><strong>Ascension</strong></div>
+        <div nz-col nzSpan="6"><strong>Talents</strong></div>
+        <div nz-col nzSpan="6"><strong>Weapons</strong></div>
+        <div nz-col nzSpan="6"><strong>Artifacts</strong></div>
+      </div>
+      <div nz-row>
+        <div nz-col nzSpan="6"> {{ i }} </div>
+        <div nz-col nzSpan="6"> {{ i }} </div>
+        <div nz-col nzSpan="6"> {{ i }} </div>
+        <div nz-col nzSpan="6"> {{ i }} </div>
+      </div>
     </div>
+  </ng-template>
+  <div>
+    <ul>
+      <li *ngFor="let entry of computeAscensionMaterialSchedule() | keyvalue; trackBy: trackAscMatScheduleBy"> {{entry.key}}
+        <ul>
+          <li *ngFor="let material of entry.value.materials | keyvalue">{{ material.key }}</li>
+        </ul>
+      </li>
+    </ul>
   </div>
 </div>
