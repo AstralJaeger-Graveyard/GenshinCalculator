@@ -2,7 +2,7 @@
   <nz-collapse>
     <nz-collapse-panel nzHeader="Next Character Ascension Rank" [nzExtra]="characterTpl">
       <div style="display: flex; flex-wrap: wrap; align-items: center">
-        <app-item *ngFor="let entry of filterReqItemsNextAsc() | keyvalue"
+        <app-item *ngFor="let entry of filterReqItemsNextAsc() | keyvalue; trackBy: trackReqItemsNextAscBy"
                   [materialId]="entry.key"
                   [materialAmount]="entry.value">
         </app-item>
@@ -10,7 +10,8 @@
     </nz-collapse-panel>
     <nz-collapse-panel nzHeader="Next Ascension Rank By Partymember" [nzExtra]="characterTpl">
       <nz-collapse>
-        <nz-collapse-panel *ngFor="let member of filterEnaCharNextAsc()"
+        <nz-collapse-panel *ngFor="let member of filterEnaCharNextAsc(); trackBy: trackEnaCharNextAsc"
+                           [id]="member.character_id"
                            [nzHeader]="genCharAscTitle(member)">
           <nz-list *ngIf="member.ascension !== 6; else FullAscensionTpl"
                    nzSize="small">

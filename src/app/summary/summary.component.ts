@@ -38,8 +38,11 @@ export class SummaryComponent implements OnInit {
 
   ngOnInit(): void { }
 
+  trackReqItemsNextAscBy(index: number, item: KeyValue<string, number>){
+    return item;
+  }
+
   filterReqItemsNextAsc(): Map<string, number>{
-    console.log("rerunning filters")
     const charMat = new Map<string, number>();
 
     for (const member of this.members.filter(member => member.include && member.enable_ascension)){
@@ -67,6 +70,10 @@ export class SummaryComponent implements OnInit {
       }
     }
     return charMat;
+  }
+
+  trackEnaCharNextAsc(index: number, item: PartyMember){
+    return index;
   }
 
   filterEnaCharNextAsc(): PartyMember[] {
