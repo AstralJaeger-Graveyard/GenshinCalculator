@@ -49,7 +49,7 @@ export class MediaDirective {
   }
 
   private onMediaMatchChange(matches: boolean){
-    // this has been tagen verbatin from NgIf implementation
+    // this has been taken verbatim from NgIf implementation
     if (matches && (this.isBlank(this.previousCondition) || !this.previousCondition)){
       this.previousCondition = true;
       this.viewContainer.createEmbeddedView(this.templateRef);
