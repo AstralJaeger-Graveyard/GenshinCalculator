@@ -30,7 +30,7 @@ export class ScheduleComponent implements OnInit {
     'Friday',
     'Saturday'
   ];
-  private sourceBins: Map<string, ScheduleSource[]>
+  private sourceBins: Map<string, ScheduleSource>
 
   constructor(public party: PartyService,
               public characters: CharacterService,
@@ -39,7 +39,7 @@ export class ScheduleComponent implements OnInit {
               public localization: LocalizationService,
               private changeDetector: ChangeDetectorRef) {
 
-    this.sourceBins = new Map<string, Material[]>();
+    this.sourceBins = new Map<string, ScheduleSource>();
 
     this.party.observable.subscribe(observable => {
       changeDetector.markForCheck();
@@ -58,9 +58,9 @@ export class ScheduleComponent implements OnInit {
 
   public computeAscensionMaterialSchedule(): Map<string, ScheduleSource>{
     const sSources = new Map<string, ScheduleSource>();
-    for (let member of this.party.members.filter(m => m.include && m.enable_ascension && m.ascension !== this.getMaxAsc(m.character_id))){
+    for (let member of this.party.members.filter(m => m.include && m.enable_ascension && m.ascension !== this.getMaxAsc(m.characterId))){
       const nextAsc = member.ascension;
-      const materials = this.characters.get(member.character_id).ascension[nextAsc].materials;
+      const materials = this.characters.get(member.characterId).ascension[nextAsc].materials;
       for (let me of materials){
         const sources = this.materials.get(me.materialId)
           .source
@@ -71,7 +71,7 @@ export class ScheduleComponent implements OnInit {
 
           if(!sSources.has(actualSrc.id)){
             const materials = new Map<string, Character[]>();
-            materials.set(me.materialId, [this.characters.get(member.character_id)]);
+            materials.set(me.materialId, [this.characters.get(member.characterId)]);
             const amounts = new Map<string, number>();
             amounts.set(me.materialId, me.amount);
             sSources.set(actualSrc.id, new ScheduleSource(actualSrc, materials, amounts));
@@ -82,11 +82,11 @@ export class ScheduleComponent implements OnInit {
             const amounts = sSource.amounts;
 
             if(!materials.has(me.materialId)){
-              materials.set(me.materialId, [this.characters.get(member.character_id)]);
+              materials.set(me.materialId, [this.characters.get(member.characterId)]);
               amounts.set(me.materialId, me.amount);
             }
             else {
-              materials.set(me.materialId, [...materials.get(me.materialId), this.characters.get(member.character_id)]);
+              materials.set(me.materialId, [...materials.get(me.materialId), this.characters.get(member.characterId)]);
               amounts.set(me.materialId, amounts.get(me.materialId) + me.amount);
             }
           }
@@ -109,7 +109,7 @@ export class ScheduleComponent implements OnInit {
           this.addMaterialToBin(
             this.getActualSrc(src),
             this.materials.get(matEntry.materialId),
-            member.character_id
+            member.characterId
           );
         }
       }
@@ -125,11 +125,12 @@ export class ScheduleComponent implements OnInit {
       const amo = new Map<string, number>();
       amo.set(mat.id, 1);
       const scheduleSrc = new ScheduleSource(src, chars, amo);
-      this.sourceBins.set(src.id, [scheduleSrc]);
+      this.sourceBins.set(src.id, scheduleSrc);
     }
     else {
       let scheduleSrc = this.sourceBins.get(src.id);
-      
+      const chars = scheduleSrc.materials;
+      const amo = scheduleSrc.amounts;
     }
   }
 
@@ -148,7 +149,7 @@ export class ScheduleComponent implements OnInit {
   }
 
   private getNextAscMat(member: PartyMember): MaterialEntry[]{
-    return this.characters.get(member.character_id).ascension[this.getNextAsc(member)].materials;
+    return this.characters.get(member.characterId).ascension[this.getNextAsc(member)].materials;
   }
 
 }
