@@ -46,7 +46,7 @@ export class SummaryComponent implements OnInit {
     const charMat = new Map<string, number>();
 
     for (const member of this.members.filter(member => member.include && member.enable_ascension)){
-      const character = this.characters.get(member.character_id)
+      const character = this.characters.get(member.characterId)
 
       if (member.ascension === character.ascension.length || !member.include)
         continue;
@@ -81,7 +81,7 @@ export class SummaryComponent implements OnInit {
   }
 
   genCharAscTitle(member: PartyMember): string {
-    return `${this.localization.get(member.character_id).name} - Asc. ${member.ascension === 6 ? 'Max.' : member.ascension + 1}`;
+    return `${this.localization.get(member.characterId).name} - Asc. ${member.ascension === 6 ? 'Max.' : member.ascension + 1}`;
   }
 
   filterReqItemsNextWeaponAsc(): Map<string, number>{

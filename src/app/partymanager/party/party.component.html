@@ -60,8 +60,8 @@
           <nz-switch [(ngModel)]="member.include" (ngModelChange)="onMemberChanged()"></nz-switch>
         </td>
         <td id="name_col">
-          <nz-avatar [nzSrc]="'https://ik.imagekit.io/AstralJaeger/GC/character_icons/' + member.character_id + '.png'"></nz-avatar>
-          {{ localization.get(member.character_id).name }}
+          <nz-avatar [nzSrc]="'https://ik.imagekit.io/AstralJaeger/GC/character_icons/' + member.characterId + '.png'"></nz-avatar>
+          {{ localization.get(member.characterId).name }}
         </td>
         <td id="ascension_col" *appMedia="'(min-width: 600px)'">
           <nz-switch [(ngModel)]="member.enable_ascension" (ngModelChange)="onMemberChanged()"></nz-switch>

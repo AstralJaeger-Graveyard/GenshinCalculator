@@ -11,18 +11,18 @@
     <nz-collapse-panel nzHeader="Next Ascension Rank By Partymember" [nzExtra]="characterTpl">
       <nz-collapse>
         <nz-collapse-panel *ngFor="let member of filterEnaCharNextAsc(); trackBy: trackEnaCharNextAsc"
-                           [id]="member.character_id"
+                           [id]="member.characterId"
                            [nzHeader]="genCharAscTitle(member)">
           <nz-list *ngIf="member.ascension !== 6; else FullAscensionTpl"
                    nzSize="small">
             <nz-list-item>
               <nz-list-item-meta [nzAvatar]="materials.get('mora').icon">
                 <nz-list-item-meta-title>
-                  x{{ characters.get(member.character_id).ascension[member.ascension].cost | formatNumber }} Mora
+                  x{{ characters.get(member.characterId).ascension[member.ascension].cost | formatNumber }} Mora
                 </nz-list-item-meta-title>
               </nz-list-item-meta>
             </nz-list-item>
-            <nz-list-item *ngFor="let material of characters.get(member.character_id).ascension[member.ascension].materials">
+            <nz-list-item *ngFor="let material of characters.get(member.characterId).ascension[member.ascension].materials">
               <nz-list-item-meta [nzAvatar]="'https://ik.imagekit.io/AstralJaeger/tr:w-50,h-50,c-force/GC/material_icons/' + material.materialId + '.png'">
                 <nz-list-item-meta-title>
                   x{{ material.amount }} {{material.materialId}} <!--{{ localization.get(material.materialId).name }}-->
