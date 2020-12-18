@@ -2,7 +2,11 @@ import {Character} from './Character';
 
 export class PartyMember{
   public include: boolean = true;
+  /*
+   * This field is depriciated, use characterId now, will still be deserialized
+   */
   public character_id: string;
+  public characterId: string;
   public character: Character;
 
   public enable_ascension: boolean = true;

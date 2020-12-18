@@ -43,9 +43,16 @@ export class PartyService{
   }
 
   private loadParty(): PartyMember[] {
-    let localParty = JSON.parse(localStorage.getItem('party'));
+    let localParty: PartyMember[] = JSON.parse(localStorage.getItem('party'));
     if (!localParty){
       localParty = this.defaultParty();
+    }
+    for (let member of localParty){
+      if (member.character_id){
+        member.characterId = member.character_id;
+        delete member.character_id;
+      }
+
     }
     return localParty;
   }
