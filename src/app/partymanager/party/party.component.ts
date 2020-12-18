@@ -21,12 +21,16 @@ export class PartyComponent implements OnInit {
   memberRemoved = new EventEmitter<PartyMember>();
 
   selectValue = null;
-  forceDelete: boolean;
+  forceDelete: boolean = false;
 
   constructor(public localization: LocalizationService,
               public characters: CharacterService,
               public party: PartyService,
-              public gAnalytics: GoogleAnalyticsService) { }
+              public gAnalytics: GoogleAnalyticsService) {
+    if (isDevMode()){
+      this.forceDelete = true;
+    }
+  }
 
   ngOnInit(): void {
   }
