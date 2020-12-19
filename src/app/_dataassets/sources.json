@@ -3,19 +3,23 @@
 
     {
       "id": "quests",
+      "name": "Quests",
       "description": "Quests",
       "isSuperSource": true
     },
     {
       "id": "monsters",
+      "name": "Monsters",
       "description": "Defeating Monsters"
     },
     {
       "id": "chests",
+      "name": "Chests",
       "description": "Opening Chests"
     },
     {
       "id": "crafting",
+      "name": "Crafting",
       "description": "Crafting",
       "isIgnoreSource": true
     },
@@ -57,6 +61,7 @@
 
     {
       "id": "pyro_regisvine",
+      "name": "Pyro Regisvine",
       "description": "Dropped by Pyro Regisvine",
       "isSuperSource": true
     },
@@ -83,6 +88,7 @@
 
     {
       "id": "cryo_regisvine",
+      "name": "Cryo Regisvine",
       "description": "Dropped by Cyro Regisvine",
       "isSuperSource": true
     },
@@ -109,6 +115,7 @@
 
     {
       "id": "oceanid",
+      "name": "Oceanid",
       "description": "Dropped by Oceanid",
       "isSuperSource": true
     },
@@ -135,6 +142,7 @@
 
     {
       "id": "ehypostasis",
+      "name": "Electro Hypostasis",
       "description": "Dropped by Electro Hypostasis",
       "isSuperSource": true
     },
@@ -161,6 +169,7 @@
 
     {
       "id": "ahypostasis",
+      "name": "Anemo Hypostasis",
       "description": "Dropped by Anemo Hypostasis",
       "isSuperSource": true
     },
@@ -187,6 +196,7 @@
 
     {
       "id": "ghypostasis",
+      "name": "Geo Hypostasis",
       "description": "Dropped by Geo Hypostasis",
       "isSuperSource": true
     },
@@ -213,6 +223,7 @@
 
     {
       "id": "wolf",
+      "name": "Wolf",
       "description": "Wolf of the North Challenge Reward",
       "isSuperSource": true
     },
@@ -234,6 +245,7 @@
 
     {
       "id": "ar",
+      "name": "Adventure Rank",
       "description": "Adventure Rank Reward",
       "isSuperSource": true
     },
@@ -295,6 +307,7 @@
 
     {
       "id": "world",
+      "name": "Open World",
       "description": "",
       "isSuperSource": true
     },
@@ -446,6 +459,7 @@
 
     {
       "id": "common_enemy",
+      "name": "Common Enemy",
       "description": "",
       "isSuperSource": true
     },
@@ -593,9 +607,9 @@
       "superSource": "common_enemy"
     },
 
-
     {
       "id": "elite_enemy",
+      "name": "Elite Enemy",
       "description": "",
       "isSuperSource": true
     },
@@ -789,6 +803,7 @@
 
     {
       "id": "forgery",
+      "name": "Domain of Forgery",
       "isSuperSource": true
     },
     {
