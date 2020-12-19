@@ -1,20 +1,23 @@
 <app-header></app-header>
 <div class="container">
+  <div *ngIf="showAds" class="row" style="display: block; margin-left: auto; margin-right: auto; width: 50%; padding: 10px;">
+
+  </div>
   <app-progress>
   </app-progress>
-  <div *ngIf="showAds" class="row" style="display: block; margin-left: auto; margin-right: auto; width: 50%; padding: 10px;">
-    <img src="https://via.placeholder.com/468x60?text=468x60+Full+Banner" alt="Placeholder">
+  <div *ngIf="showAds" class="row" style="display: block; margin-left: auto; margin-right: auto; padding: 10px;">
+    <img src="https://via.placeholder.com/970x90?text=970x90+Full+Banner" alt="Placeholder">
   </div>
   <app-partymanager></app-partymanager>
   <nz-divider nzText="Summary" nzOrientation="left"></nz-divider>
-  <div *ngIf="showAds" class="row" style="display: block; margin-left: auto; margin-right: auto; width: 50%; padding: 10px;">
-    <img src="https://via.placeholder.com/468x60?text=468x60+Full+Banner" alt="Placeholder">
+  <div *ngIf="showAds" class="row" style="display: block; margin-left: auto; margin-right: auto;padding: 10px;">
+    <img src="https://via.placeholder.com/970x90?text=970x90+Full+Banner" alt="Placeholder">
   </div>
   <app-summary></app-summary>
   <nz-divider nzText="Schedule" nzOrientation="left"></nz-divider>
   <app-schedule></app-schedule>
-  <div *ngIf="showAds" class="row" style="display: block; margin-left: auto; margin-right: auto; width: 50%; padding: 10px;">
-    <img src="https://via.placeholder.com/468x60?text=468x60+Full+Banner" alt="Placeholder">
+  <div *ngIf="showAds" class="row" style="display: block; margin-left: auto; margin-right: auto; padding: 10px;">
+    <img src="https://via.placeholder.com/970x90?text=970x90+Full+Banner" alt="Placeholder">
   </div>
   <app-footer>
   </app-footer>
