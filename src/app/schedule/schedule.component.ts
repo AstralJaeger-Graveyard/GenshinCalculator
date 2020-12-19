@@ -11,6 +11,7 @@ import {KeyValue} from '@angular/common';
 import {Material} from "../model/Material";
 import {PartyMember} from "../model/PartyMember";
 import {MaterialEntry} from "../model/MaterialEntry";
+import {Observable} from "rxjs";
 
 @Component({
   selector: 'app-schedule',
@@ -20,6 +21,7 @@ import {MaterialEntry} from "../model/MaterialEntry";
 })
 export class ScheduleComponent implements OnInit {
 
+  private readonly DAILY_INDEX = 7;
   public onlyToday = false;
   public days: string[] = [
     'Sunday',
@@ -28,9 +30,13 @@ export class ScheduleComponent implements OnInit {
     'Wednesday',
     'Thursday',
     'Friday',
-    'Saturday'
+    'Saturday',
+    'Daily'
   ];
   private sourceBins: Map<string, ScheduleSource>
+  public dayBins: Map<number, ScheduleSource[]>;
+
+  public today: number = 0;
 
   constructor(public party: PartyService,
               public characters: CharacterService,
@@ -40,12 +46,19 @@ export class ScheduleComponent implements OnInit {
               private changeDetector: ChangeDetectorRef) {
 
     this.sourceBins = new Map<string, ScheduleSource>();
+    this.dayBins = new Map<number, ScheduleSource[]>();
+    for (let i = 0; i < this.days.length; i++){
+      this.dayBins.set(i, []);
+    }
+    console.log('DayBins: ', this.dayBins);
 
     this.party.observable.subscribe(observable => {
       changeDetector.markForCheck();
-      this.computeSouceBins();
-      // const d = new Date();
-      // console.log('Current day: ' + d.getDay());
+      this.computeSourceBins();
+      this.computeDayBins();
+
+      const d = new Date();
+      this.today = d.getDay();
     })
   }
 
@@ -96,7 +109,9 @@ export class ScheduleComponent implements OnInit {
     return sSources
   }
 
-  private computeSouceBins(){
+  private computeSourceBins(): void{
+    this.sourceBins.clear();
+
     for (const member of this.party.members.filter(m => m.include)){
       for (const matEntry of this.getNextAscMat(member)){
         // console.log('MaterialEntry: ' + matEntry.materialId);
@@ -109,6 +124,7 @@ export class ScheduleComponent implements OnInit {
           this.addMaterialToBin(
             this.getActualSrc(src),
             this.materials.get(matEntry.materialId),
+            matEntry.amount,
             member.characterId
           );
         }
@@ -117,7 +133,21 @@ export class ScheduleComponent implements OnInit {
     console.dir(this.sourceBins);
   }
 
-  private addMaterialToBin(src: MaterialSource, mat: Material, char: string){
+  private computeDayBins(){
+    for(const key of this.sourceBins.keys()){
+      const value = this.sourceBins.get(key);
+      if(value.source.available){
+        for (let i of value.source.available) {
+          this.dayBins.get(i).push(value);
+        }
+      } else {
+        this.dayBins.get(this.DAILY_INDEX).push(value);
+      }
+    }
+    console.dir(this.dayBins);
+  }
+
+  private addMaterialToBin(src: MaterialSource, mat: Material, amount: number, char: string){
     if(!this.sourceBins.has(src.id)){
       console.log('Source: ' + src.id);
       const chars = new Map<string, Character[]>();
@@ -130,7 +160,12 @@ export class ScheduleComponent implements OnInit {
     else {
       let scheduleSrc = this.sourceBins.get(src.id);
       const chars = scheduleSrc.materials;
+      const charsValue = chars.get(mat.id);
+      charsValue.push(this.characters.get(char));
       const amo = scheduleSrc.amounts;
+      let amoValue = amo.get(mat.id);
+      amoValue += amount;
+      amo.set(mat.id, amoValue);
     }
   }
 

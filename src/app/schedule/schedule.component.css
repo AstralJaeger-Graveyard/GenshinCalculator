@@ -1,0 +1,11 @@
+.column {
+  padding: 0 2.5px 0 2.5px;
+}
+
+.column-header {
+  margin-bottom: 5px;
+}
+
+.column-empty {
+  text-align: center;
+}

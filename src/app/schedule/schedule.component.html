@@ -4,28 +4,60 @@
       <nz-switch [(ngModel)]="onlyToday"></nz-switch> Only show current day
     </div>
   </div>
-  <ng-template *ngIf="false">
     <div *ngFor="let day of days; let i = index">
-      <nz-divider [nzText]="day" nzOrientation="left"></nz-divider>
-      <div nz-row>
-        <div nz-col nzSpan="6"><strong>Ascension</strong></div>
-        <div nz-col nzSpan="6"><strong>Talents</strong></div>
-        <div nz-col nzSpan="6"><strong>Weapons</strong></div>
-        <div nz-col nzSpan="6"><strong>Artifacts</strong></div>
+      <nz-divider [nzText]="day"
+                  [nzDashed]="i === today && !onlyToday"
+                  nzOrientation="left">
+      </nz-divider>
+      <div nz-row class="column-header">
+        <div nz-col nzSpan="8" class="column"><strong>Character</strong></div>
+        <div nz-col nzSpan="8" class="column"><strong>Weapons</strong></div>
+        <div nz-col nzSpan="8" class="column"><strong>Artifacts</strong></div>
       </div>
       <div nz-row>
-        <div nz-col nzSpan="6"> {{ i }} </div>
-        <div nz-col nzSpan="6"> {{ i }} </div>
-        <div nz-col nzSpan="6"> {{ i }} </div>
-        <div nz-col nzSpan="6"> {{ i }} </div>
+        <div nz-col nzSpan="8" class="column">
+            <ng-container *ngIf="dayBins.get(i).length !== 0; else emptyTpl">
+              <ng-container *ngFor="let src of dayBins.get(i); let i = index">
+                <nz-card [nzTitle]="src.source.name ? src.source.name : src.source.id"
+                         [ngStyle]="{'margin-top': i === 0 ? '0' : '5px'}">
+
+                </nz-card>
+              </ng-container>
+            </ng-container>
+            <ng-template #emptyTpl>
+            </ng-template>
+          </div>
+        <div nz-col nzSpan="8" class="column">
+          <ng-container *ngIf="false; else emptyTpl">
+            <nz-card nzTitle="Test"></nz-card>
+          </ng-container>
+          <ng-template #emptyTpl>
+          </ng-template>
+        </div>
+        <div nz-col nzSpan="8" class="column">
+          <ng-container *ngIf="false; else emptyTpl">
+            <nz-card nzTitle="Test"></nz-card>
+          </ng-container>
+          <ng-template #emptyTpl>
+          </ng-template>
+        </div>
       </div>
     </div>
-  </ng-template>
-  <div>
+  <div *onlyDevMode style="margin-top: 20px;">
     <ul>
-      <li *ngFor="let entry of computeAscensionMaterialSchedule() | keyvalue; trackBy: trackAscMatScheduleBy"> {{entry.key}}
+      <li *ngFor="let entry of computeAscensionMaterialSchedule() | keyvalue; trackBy: trackAscMatScheduleBy">
+        {{ entry.key | uppercase }}
         <ul>
-          <li *ngFor="let material of entry.value.materials | keyvalue">{{ material.key }}</li>
+          <li *ngFor="let material of entry.value.materials | keyvalue">{{ material.key | uppercase}}</li>
+        </ul>
+      </li>
+    </ul>
+    <ul>
+      <li *ngFor="let entries of dayBins | keyvalue; let i = index">{{ days[i] }}
+        <ul *ngIf="entries !== null || entries !== undefined">
+          <li *ngFor="let srcEntry of entries.value">
+            {{ srcEntry.source.id | uppercase}}
+          </li>
         </ul>
       </li>
     </ul>
