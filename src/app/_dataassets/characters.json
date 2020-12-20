@@ -1,6 +1,7 @@
 {
   "characters": [
     {
+      "id": "amber",
       "ascension": [
         {
           "cost": 20000,
@@ -138,13 +139,12 @@
         }
       ],
       "element": "Pyro",
-      "icon": "assets/icons/amber.png",
-      "id": "amber",
       "rarity": 4,
       "tier": "D",
       "weaponType": "bow"
     },
     {
+      "id": "barbara",
       "ascension": [
         {
           "cost": 20000,
@@ -282,8 +282,6 @@
         }
       ],
       "element": "Hydro",
-      "icon": "assets/icons/barbara.png",
-      "id": "barbara",
       "rarity": 4,
       "tier": "B",
       "weaponType": "catalyst"
@@ -426,13 +424,13 @@
         }
       ],
       "element": "Electro",
-      "icon": "assets/icons/beidou.png",
       "id": "beidou",
       "rarity": 4,
       "tier": "B",
       "weaponType": "claymore"
     },
     {
+      "id": "bennett",
       "ascension": [
         {
           "cost": 20000,
@@ -570,13 +568,12 @@
         }
       ],
       "element": "Pyro",
-      "icon": "assets/icons/bennett.png",
-      "id": "bennett",
       "rarity": 4,
       "tier": "S",
       "weaponType": "sword"
     },
     {
+      "id": "chongyun",
       "ascension": [
         {
           "cost": 20000,
@@ -714,13 +711,12 @@
         }
       ],
       "element": "Cryo",
-      "icon": "assets/icons/chongyun.png",
-      "id": "chongyun",
       "rarity": 4,
       "tier": "B",
       "weaponType": "claymore"
     },
     {
+      "id": "diluc",
       "ascension": [
         {
           "cost": 20000,
@@ -858,13 +854,12 @@
         }
       ],
       "element": "Pyro",
-      "icon": "assets/icons/diluc.png",
-      "id": "diluc",
       "rarity": 5,
       "tier": "S",
       "weaponType": "claymore"
     },
     {
+      "id": "diona",
       "ascension": [
         {
           "cost": 20000,
@@ -1002,13 +997,12 @@
         }
       ],
       "element": "Cryo",
-      "icon": "assets/icons/diona.png",
-      "id": "diona",
       "rarity": 4,
       "tier": "A",
       "weaponType": "bow"
     },
     {
+      "id": "fischl",
       "ascension": [
         {
           "cost": 20000,
@@ -1146,13 +1140,12 @@
         }
       ],
       "element": "Electro",
-      "icon": "assets/icons/fischl.png",
-      "id": "fischl",
       "rarity": 4,
       "tier": "A",
       "weaponType": "bow"
     },
     {
+      "id": "jean",
       "ascension": [
         {
           "cost": 20000,
@@ -1290,13 +1283,12 @@
         }
       ],
       "element": "Anemo",
-      "icon": "assets/icons/jean.png",
-      "id": "jean",
       "rarity": 5,
       "tier": "A",
       "weaponType": "sword"
     },
     {
+      "id": "kaeya",
       "ascension": [
         {
           "cost": 20000,
@@ -1434,13 +1426,12 @@
         }
       ],
       "element": "Cryo",
-      "icon": "assets/icons/kaeya.png",
-      "id": "kaeya",
       "rarity": 4,
       "tier": "C",
       "weaponType": "sword"
     },
     {
+      "id": "keqing",
       "ascension": [
         {
           "cost": 20000,
@@ -1578,13 +1569,12 @@
         }
       ],
       "element": "Electro",
-      "icon": "assets/icons/keqing.png",
-      "id": "keqing",
       "rarity": 5,
       "tier": "A",
       "weaponType": "sword"
     },
     {
+      "id": "klee",
       "ascension": [
         {
           "cost": 20000,
@@ -1722,8 +1712,6 @@
         }
       ],
       "element": "Pyro",
-      "icon": "assets/icons/klee.png",
-      "id": "klee",
       "rarity": 5,
       "tier": "S",
       "weaponType": "catalyst"
@@ -1866,13 +1854,13 @@
         }
       ],
       "element": "Electro",
-      "icon": "assets/icons/lisa.png",
       "id": "lisa",
       "rarity": 4,
       "tier": "C",
       "weaponType": "catalyst"
     },
     {
+      "id": "mona",
       "ascension": [
         {
           "cost": 20000,
@@ -2010,13 +1998,12 @@
         }
       ],
       "element": "Hydro",
-      "icon": "assets/icons/mona.png",
-      "id": "mona",
       "rarity": 5,
       "tier": "S",
       "weaponType": "catalyst"
     },
     {
+      "id": "ningguang",
       "ascension": [
         {
           "cost": 20000,
@@ -2154,13 +2141,12 @@
         }
       ],
       "element": "Geo",
-      "icon": "assets/icons/ningguang.png",
-      "id": "ningguang",
       "rarity": 4,
       "tier": "A",
       "weaponType": "catalyst"
     },
     {
+      "id": "noelle",
       "ascension": [
         {
           "cost": 20000,
@@ -2298,13 +2284,12 @@
         }
       ],
       "element": "Geo",
-      "icon": "assets/icons/noelle.png",
-      "id": "noelle",
       "rarity": 4,
       "tier": "C",
       "weaponType": "claymore"
     },
     {
+      "id": "qiqi",
       "ascension": [
         {
           "cost": 20000,
@@ -2442,8 +2427,6 @@
         }
       ],
       "element": "Cryo",
-      "icon": "assets/icons/qiqi.png",
-      "id": "qiqi",
       "rarity": 5,
       "tier": "S",
       "weaponType": "sword"
@@ -2586,13 +2569,13 @@
         }
       ],
       "element": "Electro",
-      "icon": "assets/icons/razor.png",
       "id": "razor",
       "rarity": 4,
       "tier": "A",
       "weaponType": "claymore"
     },
     {
+      "id": "sucrose",
       "ascension": [
         {
           "cost": 20000,
@@ -2730,13 +2713,12 @@
         }
       ],
       "element": "Anemo",
-      "icon": "assets/icons/sucrose.png",
-      "id": "sucrose",
       "rarity": 4,
       "tier": "B",
       "weaponType": "catalyst"
     },
     {
+      "id": "tartaglia",
       "ascension": [
         {
           "cost": 20000,
@@ -2874,13 +2856,12 @@
         }
       ],
       "element": "Hydro",
-      "icon": "assets/icons/tartaglia.png",
-      "id": "tartaglia",
       "rarity": 5,
       "tier": "S",
       "weaponType": "bow"
     },
     {
+      "id": "traveler_anemo",
       "ascension": [
         {
           "cost": 20000,
@@ -2998,13 +2979,12 @@
         }
       ],
       "element": "Anemo",
-      "icon": "assets/icons/traveler.png",
-      "id": "traveler_anemo",
       "rarity": 5,
       "tier": "C",
       "weaponType": "sword"
     },
     {
+      "id": "traveler_geo",
       "ascension": [
         {
           "cost": 20000,
@@ -3122,13 +3102,12 @@
         }
       ],
       "element": "Geo",
-      "icon": "assets/icons/traveler.png",
-      "id": "traveler_geo",
       "rarity": 5,
       "tier": "C",
       "weaponType": "sword"
     },
     {
+      "id": "venti",
       "ascension": [
         {
           "cost": 20000,
@@ -3266,13 +3245,12 @@
         }
       ],
       "element": "Anemo",
-      "icon": "assets/icons/venti.png",
-      "id": "venti",
       "rarity": 4,
       "tier": "S",
       "weaponType": "bow"
     },
     {
+      "id": "xiangling",
       "ascension": [
         {
           "cost": 20000,
@@ -3410,13 +3388,12 @@
         }
       ],
       "element": "Pyro",
-      "icon": "assets/icons/xiangling.png",
-      "id": "xiangling",
       "rarity": 4,
       "tier": "A",
       "weaponType": "polearm"
     },
     {
+      "id": "xingqiu",
       "ascension": [
         {
           "cost": 20000,
@@ -3554,13 +3531,12 @@
         }
       ],
       "element": "Hydro",
-      "icon": "assets/icons/xingqiu.png",
-      "id": "xingqiu",
       "rarity": 4,
       "tier": "S",
       "weaponType": "sword"
     },
     {
+      "id": "xinyan",
       "ascension": [
         {
           "cost": 20000,
@@ -3698,14 +3674,13 @@
         }
       ],
       "element": "Pyro",
-      "icon": "assets/icons/xinyan.png",
-      "id": "xinyan",
       "isNew": true,
       "rarity": 4,
       "tier": "B",
       "weaponType": "claymore"
     },
     {
+      "id": "zhongli",
       "ascension": [
         {
           "cost": 20000,
@@ -3842,9 +3817,7 @@
           "rank": 6
         }
       ],
-      "id": "zhongli",
       "element": "Geo",
-      "icon": "assets/icons/zhongli.png",
       "isNew": true,
       "rarity": 5,
       "tier": "B",
