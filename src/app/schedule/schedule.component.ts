@@ -11,7 +11,7 @@ import {KeyValue} from '@angular/common';
 import {Material} from "../model/Material";
 import {PartyMember} from "../model/PartyMember";
 import {MaterialEntry} from "../model/MaterialEntry";
-import {Observable} from "rxjs";
+import {Element} from "../model/Element";
 
 @Component({
   selector: 'app-schedule',
@@ -47,13 +47,12 @@ export class ScheduleComponent implements OnInit {
 
     this.sourceBins = new Map<string, ScheduleSource>();
     this.dayBins = new Map<number, ScheduleSource[]>();
-    for (let i = 0; i < this.days.length; i++){
-      this.dayBins.set(i, []);
-    }
-    console.log('DayBins: ', this.dayBins);
 
     this.party.observable.subscribe(observable => {
       changeDetector.markForCheck();
+      for (let i = 0; i < this.days.length; i++) {
+        this.dayBins.set(i, []);
+      }
       this.computeSourceBins();
       this.computeDayBins();
 
@@ -71,7 +70,7 @@ export class ScheduleComponent implements OnInit {
 
   public computeAscensionMaterialSchedule(): Map<string, ScheduleSource>{
     const sSources = new Map<string, ScheduleSource>();
-    for (let member of this.party.members.filter(m => m.include && m.enable_ascension && m.ascension !== this.getMaxAsc(m.characterId))){
+    for (let member of this.party.members.filter(m => m.include && m.enableAscension && m.ascension !== this.getMaxAsc(m.characterId))){
       const nextAsc = member.ascension;
       const materials = this.characters.get(member.characterId).ascension[nextAsc].materials;
       for (let me of materials){
@@ -111,10 +110,8 @@ export class ScheduleComponent implements OnInit {
 
   private computeSourceBins(): void{
     this.sourceBins.clear();
-
     for (const member of this.party.members.filter(m => m.include)){
       for (const matEntry of this.getNextAscMat(member)){
-        // console.log('MaterialEntry: ' + matEntry.materialId);
         const srcs: MaterialSource[] = this.materials
           .get(matEntry.materialId)
           .source
@@ -130,7 +127,6 @@ export class ScheduleComponent implements OnInit {
         }
       }
     }
-    console.dir(this.sourceBins);
   }
 
   private computeDayBins(){
@@ -144,28 +140,37 @@ export class ScheduleComponent implements OnInit {
         this.dayBins.get(this.DAILY_INDEX).push(value);
       }
     }
-    console.dir(this.dayBins);
   }
 
   private addMaterialToBin(src: MaterialSource, mat: Material, amount: number, char: string){
     if(!this.sourceBins.has(src.id)){
-      console.log('Source: ' + src.id);
       const chars = new Map<string, Character[]>();
       chars.set(mat.id, [this.characters.get(char)]);
       const amo = new Map<string, number>();
-      amo.set(mat.id, 1);
+      amo.set(mat.id, amount);
       const scheduleSrc = new ScheduleSource(src, chars, amo);
       this.sourceBins.set(src.id, scheduleSrc);
     }
     else {
       let scheduleSrc = this.sourceBins.get(src.id);
-      const chars = scheduleSrc.materials;
-      const charsValue = chars.get(mat.id);
-      charsValue.push(this.characters.get(char));
+      const mats = scheduleSrc.materials;
+      if (!mats.has(mat.id)){
+        mats.set(mat.id, [this.characters.get(char)]);
+      }
+      else {
+        const matsValue = mats.get(mat.id);
+        if(matsValue.filter(c => c.id === char).length === 0) {
+          matsValue.push(this.characters.get(char));
+        }
+      }
+
       const amo = scheduleSrc.amounts;
-      let amoValue = amo.get(mat.id);
-      amoValue += amount;
-      amo.set(mat.id, amoValue);
+      if (!amo.has(mat.id)){
+        amo.set(mat.id, amount);
+      }
+      else {
+        amo.set(mat.id, +amo.get(mat.id) + +amount);
+      }
     }
   }
 

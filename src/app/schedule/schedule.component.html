@@ -19,8 +19,17 @@
             <ng-container *ngIf="dayBins.get(i).length !== 0; else emptyTpl">
               <ng-container *ngFor="let src of dayBins.get(i); let i = index">
                 <nz-card [nzTitle]="src.source.name ? src.source.name : src.source.id"
-                         [ngStyle]="{'margin-top': i === 0 ? '0' : '5px'}">
-
+                         [ngStyle]="{'margin-top': i === 0 ? '0' : '5px'}"
+                         [nzBodyStyle]="{'padding': '0px 5px 0px 5px'}">
+                  <nz-list nzSize="small">
+                      <nz-list-item *ngFor="let entry of src.materials | keyvalue" style="display: flex; flex-wrap: wrap">
+                        <nz-list-item-meta [nzAvatar]="'https://ik.imagekit.io/AstralJaeger/tr:w-50,h-50,c-force/GC/material_icons/' + entry.key + '.png'"></nz-list-item-meta>
+                        <nz-list-item-meta-title style="flex-grow: 2">{{ src.amounts.get(entry.key) }}x {{ localization.get(entry.key).name }}</nz-list-item-meta-title>
+                        <nz-item-meta-description>
+                          <nz-tag *ngFor="let char of entry.value">{{ localization.get(char.id).name }}</nz-tag>
+                        </nz-item-meta-description>
+                      </nz-list-item>
+                  </nz-list>
                 </nz-card>
               </ng-container>
             </ng-container>
