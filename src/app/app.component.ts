@@ -30,18 +30,16 @@ export class AppComponent implements OnInit, OnDestroy{
     if(isDevMode()){
       this.title.setTitle("[Local] GenshinCalculator")
     }
+
     this.popupOpenSubscription = this.ccService.popupOpen$.subscribe(() => {
 
     });
-
     this.popupCloseSubscription = this.ccService.popupClose$.subscribe(()=>{
 
     });
-
     this.initializeSubscription = this.ccService.initialize$.subscribe((event: NgcInitializeEvent) => {
 
     });
-
     this.statusChangeSubscription = this.ccService.statusChange$.subscribe(()=>{
         if(this.ccService.hasConsented()){
           // TODO: save other necessary things to localstorage
@@ -50,15 +48,12 @@ export class AppComponent implements OnInit, OnDestroy{
           localStorage.clear();
         }
     });
-
     this.revokeChoiceSubscription = this.ccService.revokeChoice$.subscribe(()=>{
 
     })
-
     this.noCookieLawSubscription = this.ccService.noCookieLaw$.subscribe((event: NgcNoCookieLawEvent)=>{
 
     })
-
   }
 
   ngOnDestroy(): void {

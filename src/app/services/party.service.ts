@@ -9,7 +9,7 @@ import {GoogleAnalyticsService} from 'ngx-google-analytics';
 })
 export class PartyService{
 
-  private static LS_KEY = 'party';
+  private static LS_KEY = 'party_v2';
 
   public members: PartyMember[] = [];
 
@@ -33,7 +33,7 @@ export class PartyService{
 
   public contains(id: string): boolean{
     return this.members
-      .filter(member => member.character_id === id)
+      .filter(member => member.characterId === id)
       .length === 1;
   }
 
@@ -43,16 +43,11 @@ export class PartyService{
   }
 
   private loadParty(): PartyMember[] {
-    let localParty: PartyMember[] = JSON.parse(localStorage.getItem('party'));
+
+    localStorage.removeItem('party');
+    let localParty: PartyMember[] = JSON.parse(localStorage.getItem(PartyService.LS_KEY));
     if (!localParty){
       localParty = this.defaultParty();
-    }
-    for (let member of localParty){
-      if (member.character_id){
-        member.characterId = member.character_id;
-        delete member.character_id;
-      }
-
     }
     return localParty;
   }

@@ -5,7 +5,7 @@
     ></app-party>
   </div>
   <div class="row" *ngIf="selectedCharacter;">
-    <nz-divider [nzText]=" localization.get(selectedCharacter.character_id).name +  '\'s Setup'" nzOrientation="left"></nz-divider>
+    <nz-divider [nzText]=" localization.get(selectedCharacter.characterId).name +  '\'s Setup'" nzOrientation="left"></nz-divider>
     <app-partymember-detail [member]="selectedCharacter"
                             (closeDetail)="onCloseDetail()"
                             (memberChanged)="onMemberChanged()">

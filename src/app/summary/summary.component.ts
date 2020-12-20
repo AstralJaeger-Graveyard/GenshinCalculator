@@ -45,7 +45,7 @@ export class SummaryComponent implements OnInit {
   filterReqItemsNextAsc(): Map<string, number>{
     const charMat = new Map<string, number>();
 
-    for (const member of this.members.filter(member => member.include && member.enable_ascension)){
+    for (const member of this.members.filter(member => member.include && member.enableAscension)){
       const character = this.characters.get(member.characterId)
 
       if (member.ascension === character.ascension.length || !member.include)
@@ -89,11 +89,11 @@ export class SummaryComponent implements OnInit {
     // Weapon materials, map where all materials are collected
     const weapMat = new Map<string, number>();
 
-    for (const member of this.members.filter(member => member.include && member.enable_weapon)){
-      if(!member.weapon_id || member.weapon_id == "")
+    for (const member of this.members.filter(member => member.include && member.enableWeapon)){
+      if(!member.weaponId || member.weaponId == "")
         continue;
 
-      const weapon = this.weapons.get(member.weapon_id);
+      const weapon = this.weapons.get(member.weaponId);
       const maxAsc = weapon.ascension.length;
       const nextAsc = member.weaponAsc;
 
@@ -122,8 +122,8 @@ export class SummaryComponent implements OnInit {
 
   filterEnaWeapNextAsc(): Map<PartyMember, Weapon> {
     const result = new Map<PartyMember, Weapon>();
-    for(const member of this.members.filter(member => member.include && member.enable_weapon && !!member.weapon_id)){
-      result.set(member, this.weapons.get(member.weapon_id));
+    for(const member of this.members.filter(member => member.include && member.enableWeapon && !!member.weaponId)){
+      result.set(member, this.weapons.get(member.weaponId));
     }
 
     return result;
@@ -134,6 +134,6 @@ export class SummaryComponent implements OnInit {
   }
 
   anyWeaponsEquipped(): boolean{
-    return this.members.filter(member => member.include && member.enable_weapon && member.weapon_id).length === 0;
+    return this.members.filter(member => member.include && member.enableWeapon && member.weaponId).length === 0;
   }
 }

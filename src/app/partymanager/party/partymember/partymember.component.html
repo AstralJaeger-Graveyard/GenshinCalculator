@@ -3,8 +3,8 @@
                nzSize="small"
                nz-tooltip="Include in Schedule/Summary"
                (ngModelChange)="onDisabled()"></nz-switch>
-    <nz-avatar [nzSrc]="'assets/icons/' + member.character_id + '.png'" nzAlt="icon" nzGap="1" nzSize="large"></nz-avatar>
-    <span style="flex-grow: 4">{{ localService.get(member.character_id).name}}</span>
+    <nz-avatar [nzSrc]="'assets/icons/' + member.characterId + '.png'" nzAlt="icon" nzGap="1" nzSize="large"></nz-avatar>
+    <span style="flex-grow: 4">{{ localService.get(member.characterId).name}}</span>
     <nz-button-group>
       <button nz-button
               nzType="primary"

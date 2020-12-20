@@ -14,7 +14,7 @@
       <label for="include_ascension_input" i18n="Include Ascension">Include ascension: </label>
     </div>
     <div nz-col [nzSpan]="6">
-      <nz-switch [(ngModel)]="member.enable_ascension"
+      <nz-switch [(ngModel)]="member.enableAscension"
                  id="include_ascension_input"
                  (ngModelChange)="onAscensionEnabledChanged()">
       </nz-switch>
@@ -41,14 +41,14 @@
       <label for="include_weapon_input" i18n="Include weapon">Include weapon: </label>
     </div>
     <div nz-col [nzSpan]="6">
-      <nz-switch [(ngModel)]="member.enable_weapon"
+      <nz-switch [(ngModel)]="member.enableWeapon"
                  id="include_weapon_input"
                  (ngModelChange)="onWeaponAscensionEnabledChanged()">
       </nz-switch>
     </div>
   </div>
   <!-- Weapon input -->
-  <div nz-row *ngIf="member.enable_weapon" [nzGutter]="{ xs: 8, sm: 16, md: 24, lg: 32 }" style="margin-bottom: 2px">
+  <div nz-row *ngIf="member.enableWeapon" [nzGutter]="{ xs: 8, sm: 16, md: 24, lg: 32 }" style="margin-bottom: 2px">
     <div nz-col [nzSpan]="6">
       <label i18n="Weapon">Weapon: </label>
     </div>
@@ -59,11 +59,11 @@
                  nzPlaceHolder="Select a weapon"
                  class="pseudo-fullwidth"
                  style="min-width: 350px;"
-                 [(ngModel)]="member.weapon_id"
+                 [(ngModel)]="member.weaponId"
                  (ngModelChange)="onWeaponChanged()"
       >
         <nz-option nzCustomContent
-                   *ngFor="let entry of weapons.sortedMap.get(characters.characterMap.get(member.character_id).weaponType) | keyvalue: weaponOrder"
+                   *ngFor="let entry of weapons.sortedMap.get(characters.get(member.characterId).weaponType) | keyvalue: weaponOrder"
                    [nzLabel]="localization.get(entry.value.id).name"
                    [nzValue]="entry.key"
         >
@@ -84,7 +84,7 @@
     </div>
   </div>
   <!-- Weapon ascension input -->
-  <div *ngIf="member.enable_weapon && member.weapon_id"
+  <div *ngIf="member.enableWeapon && member.weaponId"
        nz-row
        [nzGutter]="{ xs: 8, sm: 16, md: 24, lg: 32 }"
        style="margin-bottom: 2px">

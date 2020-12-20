@@ -37,7 +37,7 @@ export class PartyComponent implements OnInit {
 
   onSelected(member: PartyMember): void{
     if(isDevMode()) {
-      console.log('Switching selected member to: ' + member.character_id);
+      console.log('Switching selected member to: ' + member.characterId);
     }
     this.gAnalytics.event('party_member_selected', 'party_overview', 'party_member')
     this.memberSelected.emit(member);
@@ -50,7 +50,7 @@ export class PartyComponent implements OnInit {
   }
 
   onCharacterSelected(character: Character) {
-    if (this.party.members.filter(member => member.character_id === character.id).concat().length === 0) {
+    if (this.party.members.filter(member => member.characterId === character.id).concat().length === 0) {
       if(isDevMode()){
         console.log("Adding party member: ", character.id);
       }

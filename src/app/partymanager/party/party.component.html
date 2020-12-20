@@ -64,16 +64,16 @@
           {{ localization.get(member.characterId).name }}
         </td>
         <td id="ascension_col" *appMedia="'(min-width: 600px)'">
-          <nz-switch [(ngModel)]="member.enable_ascension" (ngModelChange)="onMemberChanged()"></nz-switch>
+          <nz-switch [(ngModel)]="member.enableAscension" (ngModelChange)="onMemberChanged()"></nz-switch>
         </td>
         <td id="talent_col" *appMedia="'(min-width: 600px)'">
-          <nz-switch [(ngModel)]="member.enable_talents" (ngModelChange)="onMemberChanged()"></nz-switch>
+          <nz-switch [(ngModel)]="member.enableTalents" (ngModelChange)="onMemberChanged()"></nz-switch>
         </td>
         <td id="weapon_col" *appMedia="'(min-width: 600px)'">
-          <nz-switch [nzDisabled]="!member.weapon_id" [(ngModel)]="member.enable_weapon" (ngModelChange)="onMemberChanged()"></nz-switch>
+          <nz-switch [nzDisabled]="!member.weaponId" [(ngModel)]="member.enableWeapon" (ngModelChange)="onMemberChanged()"></nz-switch>
         </td>
         <td id="artifacts_col" *appMedia="'(min-width: 600px)'">
-          <nz-switch [(ngModel)]="member.enable_artifacts" (ngModelChange)="onMemberChanged()"></nz-switch>
+          <nz-switch [(ngModel)]="member.enableArtifacts" (ngModelChange)="onMemberChanged()"></nz-switch>
         </td>
         <td id="controls_col">
           <nz-button-group>
