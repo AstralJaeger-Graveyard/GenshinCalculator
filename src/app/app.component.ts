@@ -7,7 +7,7 @@ import {Title} from "@angular/platform-browser";
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit, OnDestroy{
 
@@ -21,6 +21,8 @@ export class AppComponent implements OnInit, OnDestroy{
 
   public showAds: boolean = false;
 
+  private favIcon: HTMLLinkElement = document.querySelector('#appIcon');
+
   constructor(private ccService: NgcCookieConsentService,
               private party: PartyService,
               private title: Title) { }
@@ -28,7 +30,8 @@ export class AppComponent implements OnInit, OnDestroy{
   ngOnInit(): void {
 
     if(isDevMode()){
-      this.title.setTitle("[Local] GenshinCalculator")
+      this.title.setTitle("[Local] GenshinCalculator");
+      this.favIcon.href = '/assets/favicon_dev.ico';
     }
 
     this.popupOpenSubscription = this.ccService.popupOpen$.subscribe(() => {

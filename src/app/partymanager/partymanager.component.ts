@@ -8,7 +8,7 @@ import {LocalizationService} from '../services/localization.service';
 @Component({
   selector: 'app-partymanager',
   templateUrl: './partymanager.component.html',
-  styleUrls: ['./partymanager.component.css']
+  styleUrls: ['./partymanager.component.scss']
 })
 export class PartymanagerComponent implements OnInit {
 

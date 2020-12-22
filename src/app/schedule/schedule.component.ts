@@ -16,7 +16,7 @@ import {Element} from "../model/Element";
 @Component({
   selector: 'app-schedule',
   templateUrl: './schedule.component.html',
-  styleUrls: ['./schedule.component.css'],
+  styleUrls: ['./schedule.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class ScheduleComponent implements OnInit {
@@ -33,7 +33,7 @@ export class ScheduleComponent implements OnInit {
     'Saturday',
     'Daily'
   ];
-  private sourceBins: Map<string, ScheduleSource>
+  private characterSourceBins: Map<string, ScheduleSource>
   public dayBins: Map<number, ScheduleSource[]>;
 
   public today: number = 0;
@@ -45,7 +45,7 @@ export class ScheduleComponent implements OnInit {
               public localization: LocalizationService,
               private changeDetector: ChangeDetectorRef) {
 
-    this.sourceBins = new Map<string, ScheduleSource>();
+    this.characterSourceBins = new Map<string, ScheduleSource>();
     this.dayBins = new Map<number, ScheduleSource[]>();
 
     this.party.observable.subscribe(observable => {
@@ -64,52 +64,8 @@ export class ScheduleComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  public trackAscMatScheduleBy(index, item: KeyValue<string, ScheduleSource>){
-    return item.key;
-  }
-
-  public computeAscensionMaterialSchedule(): Map<string, ScheduleSource>{
-    const sSources = new Map<string, ScheduleSource>();
-    for (let member of this.party.members.filter(m => m.include && m.enableAscension && m.ascension !== this.getMaxAsc(m.characterId))){
-      const nextAsc = member.ascension;
-      const materials = this.characters.get(member.characterId).ascension[nextAsc].materials;
-      for (let me of materials){
-        const sources = this.materials.get(me.materialId)
-          .source
-          .map(src => this.sources.get(src))
-          .filter(src => !src.isIgnoreSource);
-        for (let src of sources){
-          const actualSrc: MaterialSource = this.getActualSrc(src);
-
-          if(!sSources.has(actualSrc.id)){
-            const materials = new Map<string, Character[]>();
-            materials.set(me.materialId, [this.characters.get(member.characterId)]);
-            const amounts = new Map<string, number>();
-            amounts.set(me.materialId, me.amount);
-            sSources.set(actualSrc.id, new ScheduleSource(actualSrc, materials, amounts));
-          }
-          else {
-            const sSource = sSources.get(actualSrc.id);
-            const materials = sSource.materials;
-            const amounts = sSource.amounts;
-
-            if(!materials.has(me.materialId)){
-              materials.set(me.materialId, [this.characters.get(member.characterId)]);
-              amounts.set(me.materialId, me.amount);
-            }
-            else {
-              materials.set(me.materialId, [...materials.get(me.materialId), this.characters.get(member.characterId)]);
-              amounts.set(me.materialId, amounts.get(me.materialId) + me.amount);
-            }
-          }
-        }
-      }
-    }
-    return sSources
-  }
-
   private computeSourceBins(): void{
-    this.sourceBins.clear();
+    this.characterSourceBins.clear();
     for (const member of this.party.members.filter(m => m.include)){
       for (const matEntry of this.getNextAscMat(member)){
         const srcs: MaterialSource[] = this.materials
@@ -130,8 +86,8 @@ export class ScheduleComponent implements OnInit {
   }
 
   private computeDayBins(){
-    for(const key of this.sourceBins.keys()){
-      const value = this.sourceBins.get(key);
+    for(const key of this.characterSourceBins.keys()){
+      const value = this.characterSourceBins.get(key);
       if(value.source.available){
         for (let i of value.source.available) {
           this.dayBins.get(i).push(value);
@@ -143,16 +99,16 @@ export class ScheduleComponent implements OnInit {
   }
 
   private addMaterialToBin(src: MaterialSource, mat: Material, amount: number, char: string){
-    if(!this.sourceBins.has(src.id)){
+    if(!this.characterSourceBins.has(src.id)){
       const chars = new Map<string, Character[]>();
       chars.set(mat.id, [this.characters.get(char)]);
       const amo = new Map<string, number>();
       amo.set(mat.id, amount);
       const scheduleSrc = new ScheduleSource(src, chars, amo);
-      this.sourceBins.set(src.id, scheduleSrc);
+      this.characterSourceBins.set(src.id, scheduleSrc);
     }
     else {
-      let scheduleSrc = this.sourceBins.get(src.id);
+      let scheduleSrc = this.characterSourceBins.get(src.id);
       const mats = scheduleSrc.materials;
       if (!mats.has(mat.id)){
         mats.set(mat.id, [this.characters.get(char)]);

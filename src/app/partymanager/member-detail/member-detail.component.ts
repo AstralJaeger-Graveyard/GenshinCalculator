@@ -13,7 +13,7 @@ import {GoogleAnalyticsService} from 'ngx-google-analytics';
 @Component({
   selector: 'app-partymember-detail',
   templateUrl: './member-detail.component.html',
-  styleUrls: ['./member-detail.component.css']
+  styleUrls: ['./member-detail.component.scss']
 })
 export class MemberDetailComponent implements OnInit {
 

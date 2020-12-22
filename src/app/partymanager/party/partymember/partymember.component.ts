@@ -8,7 +8,7 @@ import {CharacterService} from '../../../services/character.service';
 @Component({
   selector: 'app-partymember',
   templateUrl: './partymember.component.html',
-  styleUrls: ['./partymember.component.css']
+  styleUrls: ['./partymember.component.scss']
 })
 export class PartymemberComponent implements OnInit {
 

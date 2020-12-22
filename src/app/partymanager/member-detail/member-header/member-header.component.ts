@@ -6,7 +6,7 @@ import {LocalizationService} from '../../../services/localization.service';
 @Component({
   selector: 'app-member-header',
   templateUrl: './member-header.component.html',
-  styleUrls: ['./member-header.component.css']
+  styleUrls: ['./member-header.component.scss']
 })
 export class MemberHeaderComponent implements OnInit {
 

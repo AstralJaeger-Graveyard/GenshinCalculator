@@ -5,7 +5,7 @@ import {Element} from '../../../model/Element';
 @Component({
   selector: 'app-portrait',
   templateUrl: './portrait.component.html',
-  styleUrls: ['./portrait.component.css']
+  styleUrls: ['./portrait.component.scss']
 })
 export class PortraitComponent implements OnInit {
 

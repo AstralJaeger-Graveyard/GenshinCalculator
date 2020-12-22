@@ -13,7 +13,7 @@ import {KeyValue} from '@angular/common';
 @Component({
   selector: 'app-summary',
   templateUrl: './summary.component.html',
-  styleUrls: ['./summary.component.css'],
+  styleUrls: ['./summary.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class SummaryComponent implements OnInit {

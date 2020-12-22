@@ -10,7 +10,7 @@ import {GoogleAnalyticsService} from 'ngx-google-analytics';
 @Component({
   selector: 'app-party',
   templateUrl: './party.component.html',
-  styleUrls: ['./party.component.css']
+  styleUrls: ['./party.component.scss']
 })
 export class PartyComponent implements OnInit {
 
