@@ -722,17 +722,17 @@
     },
 
     {
-      "id": "geo_hatchlings",
+      "id": "geo_hatchling",
       "description": "Dropped by Geovishap Hatchlings",
       "superSource": "elite_enemy"
     },
     {
-      "id": "geo_hatchlings_40",
+      "id": "geo_hatchling_40",
       "description": "Dropped by Lv. 40+ Geovishap Hatchlings",
       "superSource": "elite_enemy"
     },
     {
-      "id": "geo_hatchlings_60",
+      "id": "geo_hatchling_60",
       "description": "Dropped by Lv. 60+ Geovishap Hatchlings",
       "superSource": "elite_enemy"
     },
@@ -812,7 +812,7 @@
       "name": "Cecilia Garden",
       "description": "Domain of Forgery",
       "location": "Liyue",
-      "days": [0, 3, 6],
+      "available": [0, 3, 6],
       "superSource": "forgery"
     },
     {
@@ -821,7 +821,7 @@
       "name": "Cecilia Garden",
       "description": "Domain of Forgery",
       "location": "Liyue",
-      "days": [1, 4, 6],
+      "available": [1, 4, 6],
       "superSource": "forgery"
     },
     {
@@ -830,7 +830,7 @@
       "name": "Cecilia Garden",
       "description": "Domain of Forgery",
       "location": "Liyue",
-      "days": [2, 5, 6],
+      "available": [2, 5, 6],
       "superSource": "forgery"
     },
 
@@ -840,7 +840,7 @@
       "name": "Hidden Place of Lianshan Formula",
       "description": "Domain of Forgery",
       "location": "Liyue",
-      "days": [0, 3, 6],
+      "available": [0, 3, 6],
       "superSource": "forgery"
     },
     {
@@ -849,7 +849,7 @@
       "name": "Hidden Place of Lianshan Formula",
       "description": "Domain of Forgery",
       "location": "Liyue",
-      "days": [1, 4, 6],
+      "available": [1, 4, 6],
       "superSource": "forgery"
     },
     {
@@ -858,7 +858,7 @@
       "name": "Hidden Place of Lianshan Formula",
       "description": "Domain of Forgery",
       "location": "Liyue",
-      "days": [2, 5, 6],
+      "available": [2, 5, 6],
       "superSource": "forgery"
     }
 
