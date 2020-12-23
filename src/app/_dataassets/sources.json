@@ -813,7 +813,7 @@
       "name": "Cecilia Garden",
       "description": "Domain of Forgery",
       "location": "Liyue",
-      "available": [0, 3, 6],
+      "available": [1, 4, 0],
       "superSource": "forgery_mondstadt"
     },
     {
@@ -822,7 +822,7 @@
       "name": "Cecilia Garden",
       "description": "Domain of Forgery",
       "location": "Liyue",
-      "available": [1, 4, 6],
+      "available": [2, 5, 0],
       "superSource": "forgery_mondstadt"
     },
     {
@@ -831,7 +831,7 @@
       "name": "Cecilia Garden",
       "description": "Domain of Forgery",
       "location": "Liyue",
-      "available": [2, 5, 6],
+      "available": [3, 6, 0],
       "superSource": "forgery_mondstadt"
     },
 
@@ -847,7 +847,7 @@
       "name": "Hidden Place of Lianshan Formula",
       "description": "Domain of Forgery",
       "location": "Liyue",
-      "available": [0, 3, 6],
+      "available": [1, 4, 0],
       "superSource": "forgery_liyue"
     },
     {
@@ -856,7 +856,7 @@
       "name": "Hidden Place of Lianshan Formula",
       "description": "Domain of Forgery",
       "location": "Liyue",
-      "available": [1, 4, 6],
+      "available": [2, 5, 0],
       "superSource": "forgery_liyue"
     },
     {
@@ -865,7 +865,7 @@
       "name": "Hidden Place of Lianshan Formula",
       "description": "Domain of Forgery",
       "location": "Liyue",
-      "available": [2, 5, 6],
+      "available": [3, 6, 0],
       "superSource": "forgery_liyue"
     }
 
