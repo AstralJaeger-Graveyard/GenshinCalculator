@@ -10,6 +10,7 @@ export class MaterialSource{
   public description: string;
   public isDomain: boolean = false;
   public location: string;
+  public isRestrictedSource: boolean = false
   public available: Day[] = [];
   public cost: number;
 }
