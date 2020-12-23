@@ -56,7 +56,7 @@ export class SummaryComponent implements OnInit {
       // Compute necessary materials for ascension
       for(const entry of character.ascension[nextAsc].materials){
         if (charMat.has(entry.materialId)){
-          charMat.set(entry.materialId, charMat.get(entry.materialId) + entry.amount);
+          charMat.set(entry.materialId, +charMat.get(entry.materialId) + +entry.amount);
         } else {
           charMat.set(entry.materialId, entry.amount);
         }
@@ -64,7 +64,7 @@ export class SummaryComponent implements OnInit {
 
       // Compute necessary mora for ascension
       if(charMat.has(this.MORA_KEY)){
-        charMat.set(this.MORA_KEY, charMat.get(this.MORA_KEY) + character.ascension[nextAsc].cost);
+        charMat.set(this.MORA_KEY, +charMat.get(this.MORA_KEY) + +character.ascension[nextAsc].cost);
       } else {
         charMat.set(this.MORA_KEY, character.ascension[nextAsc].cost);
       }
