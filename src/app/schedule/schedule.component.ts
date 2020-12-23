@@ -7,11 +7,9 @@ import {SourceService} from '../services/source.service';
 import {ScheduleSource} from '../model/ScheduleSource';
 import {MaterialSource} from '../model/MaterialSource';
 import {Character} from '../model/Character';
-import {KeyValue} from '@angular/common';
 import {Material} from "../model/Material";
 import {PartyMember} from "../model/PartyMember";
 import {MaterialEntry} from "../model/MaterialEntry";
-import {Element} from "../model/Element";
 import {WeaponService} from "../services/weapon.service";
 
 @Component({
@@ -79,44 +77,22 @@ export class ScheduleComponent implements OnInit {
   private computeCharSourceBins(): void{
     this.characterSourceBins.clear();
     for (const member of this.party.members.filter(m => m.include)){
-      for (const matEntry of this.getNextAscMat(member)){
-        const srcs: MaterialSource[] = this.materials
-          .get(matEntry.materialId)
-          .source
-          .map(src => this.sources.get(src))
-          .filter(src => !src.isIgnoreSource);
-        for (const src of srcs){
-          this.addMaterialToBin(
-            this.characterSourceBins,
-            this.getActualSrc(src),
-            this.materials.get(matEntry.materialId),
-            matEntry.amount,
-            member.characterId
-          );
-        }
-      }
+      this.constructBins(
+        this.characterSourceBins,
+        this.getNextAscMat(member),
+        member
+      );
     }
   }
 
   private computeWeapSourceBins(): void{
     this.weaponSourceBins.clear();
     for (const member of this.party.members.filter(m => m.include && m.enableWeapon && !!m.weaponId)){
-      for (const matEntry of this.getNextWeapAscMat(member)){
-        const srcs: MaterialSource[] = this.materials
-          .get(matEntry.materialId)
-          .source
-          .map(src => this.sources.get(src))
-          .filter(src => !src.isIgnoreSource);
-        for (const src of srcs) {
-          this.addMaterialToBin(
-            this.weaponSourceBins,
-            this.getActualSrc(src),
-            this.materials.get(matEntry.materialId),
-            matEntry.amount,
-            member.characterId
-          );
-        }
-      }
+      this.constructBins(
+        this.weaponSourceBins,
+        this.getNextWeapAscMat(member),
+        member
+      );
     }
   }
 
@@ -133,17 +109,50 @@ export class ScheduleComponent implements OnInit {
     }
   }
 
-  private computeWeapDayBins(): void{
+  private computeWeapDayBins(): void {
     for (const key of this.weaponSourceBins.keys()){
       const value = this.weaponSourceBins.get(key);
-      
-      console.log('Item availability: ' + value.source.available + ' src: ' + value.source.id);
-      if(value.source.available){
-        for (let i of value.source.available) {
-          this.weaponDayBins.get(i).push(value);
+      this.categorizeIntoDay(this.weaponDayBins, value);
+    }
+  }
+
+  private categorizeIntoDay(bins: Map<number, ScheduleSource[]>, value: ScheduleSource){
+    if(value.source.isRestrictedSource){
+      const materials = Array.from(value.materials.keys()).map(m => this.materials.get(m));
+      for (let material of materials) {
+        const sources = material.source
+          .map(s => this.sources.get(s))
+          .filter(s => !s.isIgnoreSource);
+        for (let src of sources) {
+          for (let day of src.available) {
+            const binValue = bins.get(day);
+            if (!binValue.find(bV => bV.source.id === src.superSource)){
+              binValue.push(value);
+            }
+          }
         }
-      } else {
-        this.weaponDayBins.get(this.DAILY_INDEX).push(value);
+      }
+    }
+    else {
+      bins.get(this.DAILY_INDEX).push(value);
+    }
+  }
+
+  private constructBins(bin: Map<string, ScheduleSource>, data: MaterialEntry[], member: PartyMember): void {
+    for (const matEntry of data){
+      const srcs: MaterialSource[] = this.materials
+        .get(matEntry.materialId)
+        .source
+        .map(src => this.sources.get(src))
+        .filter(src => !src.isIgnoreSource);
+      for (const src of srcs) {
+        this.addMaterialToBin(
+          bin,
+          this.getActualSrc(src),
+          this.materials.get(matEntry.materialId),
+          matEntry.amount,
+          member.characterId
+        );
       }
     }
   }
