@@ -802,9 +802,10 @@
     },
 
     {
-      "id": "forgery",
+      "id": "forgery_mondstadt",
       "name": "Domain of Forgery",
-      "isSuperSource": true
+      "isSuperSource": true,
+      "isRestrictedSource": true
     },
     {
       "id": "forgery_mondstadt_mon",
@@ -813,7 +814,7 @@
       "description": "Domain of Forgery",
       "location": "Liyue",
       "available": [0, 3, 6],
-      "superSource": "forgery"
+      "superSource": "forgery_mondstadt"
     },
     {
       "id": "forgery_mondstadt_tue",
@@ -822,7 +823,7 @@
       "description": "Domain of Forgery",
       "location": "Liyue",
       "available": [1, 4, 6],
-      "superSource": "forgery"
+      "superSource": "forgery_mondstadt"
     },
     {
       "id": "forgery_mondstadt_wen",
@@ -831,9 +832,15 @@
       "description": "Domain of Forgery",
       "location": "Liyue",
       "available": [2, 5, 6],
-      "superSource": "forgery"
+      "superSource": "forgery_mondstadt"
     },
 
+    {
+      "id": "forgery_liyue",
+      "name": "Domain of Forgery",
+      "isSuperSource": true,
+      "isRestrictedSource": true
+    },
     {
       "id": "forgery_liyue_mon",
       "isDomain": true,
@@ -841,7 +848,7 @@
       "description": "Domain of Forgery",
       "location": "Liyue",
       "available": [0, 3, 6],
-      "superSource": "forgery"
+      "superSource": "forgery_liyue"
     },
     {
       "id": "forgery_liyue_tue",
@@ -850,7 +857,7 @@
       "description": "Domain of Forgery",
       "location": "Liyue",
       "available": [1, 4, 6],
-      "superSource": "forgery"
+      "superSource": "forgery_liyue"
     },
     {
       "id": "forgery_liyue_wen",
@@ -859,7 +866,7 @@
       "description": "Domain of Forgery",
       "location": "Liyue",
       "available": [2, 5, 6],
-      "superSource": "forgery"
+      "superSource": "forgery_liyue"
     }
 
   ]
