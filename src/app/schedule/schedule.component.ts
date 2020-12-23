@@ -12,6 +12,7 @@ import {Material} from "../model/Material";
 import {PartyMember} from "../model/PartyMember";
 import {MaterialEntry} from "../model/MaterialEntry";
 import {Element} from "../model/Element";
+import {WeaponService} from "../services/weapon.service";
 
 @Component({
   selector: 'app-schedule',
@@ -34,27 +35,38 @@ export class ScheduleComponent implements OnInit {
     'Daily'
   ];
   private characterSourceBins: Map<string, ScheduleSource>
-  public dayBins: Map<number, ScheduleSource[]>;
+  public characterDayBins: Map<number, ScheduleSource[]>;
+
+  private weaponSourceBins: Map<string, ScheduleSource>;
+  public weaponDayBins: Map<number, ScheduleSource[]>;
 
   public today: number = 0;
 
   constructor(public party: PartyService,
               public characters: CharacterService,
+              public weapons: WeaponService,
               public materials: MaterialService,
               public sources: SourceService,
               public localization: LocalizationService,
               private changeDetector: ChangeDetectorRef) {
 
     this.characterSourceBins = new Map<string, ScheduleSource>();
-    this.dayBins = new Map<number, ScheduleSource[]>();
+    this.weaponSourceBins = new Map<string, ScheduleSource>();
+
+    this.characterDayBins = new Map<number, ScheduleSource[]>();
+    this.weaponDayBins = new Map<number, ScheduleSource[]>();
 
     this.party.observable.subscribe(observable => {
       changeDetector.markForCheck();
       for (let i = 0; i < this.days.length; i++) {
-        this.dayBins.set(i, []);
+        this.characterDayBins.set(i, []);
+        this.weaponDayBins.set(i, []);
       }
-      this.computeSourceBins();
-      this.computeDayBins();
+
+      this.computeCharSourceBins();
+      this.computeWeapSourceBins();
+      this.computeCharDayBins();
+      this.computeWeapDayBins();
 
       const d = new Date();
       this.today = d.getDay();
@@ -64,7 +76,7 @@ export class ScheduleComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  private computeSourceBins(): void{
+  private computeCharSourceBins(): void{
     this.characterSourceBins.clear();
     for (const member of this.party.members.filter(m => m.include)){
       for (const matEntry of this.getNextAscMat(member)){
@@ -75,6 +87,7 @@ export class ScheduleComponent implements OnInit {
           .filter(src => !src.isIgnoreSource);
         for (const src of srcs){
           this.addMaterialToBin(
+            this.characterSourceBins,
             this.getActualSrc(src),
             this.materials.get(matEntry.materialId),
             matEntry.amount,
@@ -85,30 +98,67 @@ export class ScheduleComponent implements OnInit {
     }
   }
 
-  private computeDayBins(){
-    for(const key of this.characterSourceBins.keys()){
-      const value = this.characterSourceBins.get(key);
-      if(value.source.available){
-        for (let i of value.source.available) {
-          this.dayBins.get(i).push(value);
+  private computeWeapSourceBins(): void{
+    this.weaponSourceBins.clear();
+    for (const member of this.party.members.filter(m => m.include && m.enableWeapon && !!m.weaponId)){
+      for (const matEntry of this.getNextWeapAscMat(member)){
+        const srcs: MaterialSource[] = this.materials
+          .get(matEntry.materialId)
+          .source
+          .map(src => this.sources.get(src))
+          .filter(src => !src.isIgnoreSource);
+        for (const src of srcs) {
+          this.addMaterialToBin(
+            this.weaponSourceBins,
+            this.getActualSrc(src),
+            this.materials.get(matEntry.materialId),
+            matEntry.amount,
+            member.characterId
+          );
         }
-      } else {
-        this.dayBins.get(this.DAILY_INDEX).push(value);
       }
     }
   }
 
-  private addMaterialToBin(src: MaterialSource, mat: Material, amount: number, char: string){
-    if(!this.characterSourceBins.has(src.id)){
+  private computeCharDayBins(): void {
+    for(const key of this.characterSourceBins.keys()){
+      const value = this.characterSourceBins.get(key);
+      if(value.source.available){
+        for (let i of value.source.available) {
+          this.characterDayBins.get(i).push(value);
+        }
+      } else {
+        this.characterDayBins.get(this.DAILY_INDEX).push(value);
+      }
+    }
+  }
+
+  private computeWeapDayBins(): void{
+    for (const key of this.weaponSourceBins.keys()){
+      const value = this.weaponSourceBins.get(key);
+      
+      console.log('Item availability: ' + value.source.available + ' src: ' + value.source.id);
+      if(value.source.available){
+        for (let i of value.source.available) {
+          this.weaponDayBins.get(i).push(value);
+        }
+      } else {
+        this.weaponDayBins.get(this.DAILY_INDEX).push(value);
+      }
+    }
+  }
+
+  private addMaterialToBin(bin: Map<string, ScheduleSource>, src: MaterialSource, mat: Material, amount: number, char: string){
+    if(!bin.has(src.id)){
       const chars = new Map<string, Character[]>();
       chars.set(mat.id, [this.characters.get(char)]);
       const amo = new Map<string, number>();
       amo.set(mat.id, amount);
       const scheduleSrc = new ScheduleSource(src, chars, amo);
-      this.characterSourceBins.set(src.id, scheduleSrc);
+      bin.set(src.id, scheduleSrc);
     }
     else {
-      let scheduleSrc = this.characterSourceBins.get(src.id);
+      let scheduleSrc = bin.get(src.id);
       const mats = scheduleSrc.materials;
       if (!mats.has(mat.id)){
         mats.set(mat.id, [this.characters.get(char)]);
@@ -144,8 +194,22 @@ export class ScheduleComponent implements OnInit {
     return member.ascension;
   }
 
+  private getNextWeapAsc(member: PartyMember): number {
+    return member.weaponAsc;
+  }
+
   private getNextAscMat(member: PartyMember): MaterialEntry[]{
-    return this.characters.get(member.characterId).ascension[this.getNextAsc(member)].materials;
+    return this.characters
+      .get(member.characterId)
+      .ascension[this.getNextAsc(member)]
+      .materials;
+  }
+
+  private getNextWeapAscMat(member: PartyMember): MaterialEntry[] {
+    return this.weapons
+      .get(member.weaponId)
+      .ascension[this.getNextWeapAsc(member)]
+      .materials;
   }
 
 }

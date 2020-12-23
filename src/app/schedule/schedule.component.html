@@ -15,9 +15,9 @@
         <div nz-col nzSpan="8" class="column"><strong>Artifacts</strong></div>
       </div>
       <div nz-row>
-        <div nz-col nzSpan="8" class="column">
-            <ng-container *ngIf="dayBins.get(i).length !== 0; else emptyTpl">
-              <ng-container *ngFor="let src of dayBins.get(i); let i = index">
+        <div nz-col id="schedule_character" nzSpan="8" class="column">
+            <ng-container *ngIf="characterDayBins.get(i).length !== 0; else emptyTpl">
+              <ng-container *ngFor="let src of characterDayBins.get(i); let i = index">
                 <nz-card [nzTitle]="src.source.name ? src.source.name : src.source.id"
                          [ngStyle]="{'margin-top': i === 0 ? '0' : '5px'}"
                          [nzBodyStyle]="{'padding': '0px 5px 0px 5px'}">
@@ -26,7 +26,10 @@
                         <nz-list-item-meta [nzAvatar]="'https://ik.imagekit.io/AstralJaeger/tr:w-50,h-50,c-force/GC/material_icons/' + entry.key + '.png'"></nz-list-item-meta>
                         <nz-list-item-meta-title style="flex-grow: 2">{{ src.amounts.get(entry.key) }}x {{ localization.get(entry.key).name }}</nz-list-item-meta-title>
                         <nz-item-meta-description>
-                          <nz-tag *ngFor="let char of entry.value">{{ localization.get(char.id).name }}</nz-tag>
+                          <nz-tag *ngFor="let char of entry.value"
+                                  [ngClass]="char.element.toLowerCase()">
+                            {{ localization.get(char.id).name }}
+                          </nz-tag>
                         </nz-item-meta-description>
                       </nz-list-item>
                   </nz-list>
@@ -36,14 +39,31 @@
             <ng-template #emptyTpl>
             </ng-template>
           </div>
-        <div nz-col nzSpan="8" class="column">
-          <ng-container *ngIf="false; else emptyTpl">
-            <nz-card nzTitle="Test"></nz-card>
+        <div nz-col id="schedule_weapon" nzSpan="8" class="column">
+          <ng-container *ngIf="weaponDayBins.get(i).length !== 0; else emptyTpl">
+            <ng-container *ngFor="let src of weaponDayBins.get(i); let i = index">
+              <nz-card [nzTitle]="src.source.name ? src.source.name : src.source.id"
+                       [ngStyle]="{'margin-top': i === 0 ? '0' : '5px'}"
+                       [nzBodyStyle]="{'padding': '0px 5px'}">
+                <nz-list nzSize="small">
+                  <nz-list-item *ngFor="let entry of src.materials | keyvalue" style="display: flex; flex-wrap: wrap">
+                    <nz-list-item-meta [nzAvatar]="'https://ik.imagekit.io/AstralJaeger/tr:w-50,h-50,c-force/GC/material_icons/' + entry.key + '.png'"></nz-list-item-meta>
+                    <nz-list-item-meta-title style="flex-grow: 2">{{ src.amounts.get(entry.key) }}x {{ localization.get(entry.key).name }}</nz-list-item-meta-title>
+                    <nz-item-meta-description>
+                      <nz-tag *ngFor="let weapon of entry.value"
+                              [ngClass]="weapon.element.toLowerCase()">
+                        {{ localization.get(weapon.id).name }}
+                      </nz-tag>
+                    </nz-item-meta-description>
+                  </nz-list-item>
+                </nz-list>
+              </nz-card>
+            </ng-container>
           </ng-container>
           <ng-template #emptyTpl>
           </ng-template>
         </div>
-        <div nz-col nzSpan="8" class="column">
+        <div nz-col id="schedule_artifact" nzSpan="8" class="column">
           <ng-container *ngIf="false; else emptyTpl">
             <nz-card nzTitle="Test"></nz-card>
           </ng-container>
@@ -54,21 +74,16 @@
     </div>
   <div *onlyDevMode style="margin-top: 20px;">
     <ul>
-      <li *ngFor="let entry of computeAscensionMaterialSchedule() | keyvalue; trackBy: trackAscMatScheduleBy">
-        {{ entry.key | uppercase }}
-        <ul>
-          <li *ngFor="let material of entry.value.materials | keyvalue">{{ material.key | uppercase}}</li>
-        </ul>
-      </li>
-    </ul>
-    <ul>
-      <li *ngFor="let entries of dayBins | keyvalue; let i = index">{{ days[i] }}
+      <li *ngFor="let entries of characterDayBins | keyvalue; let i = index">{{ days[i] }}
         <ul *ngIf="entries !== null || entries !== undefined">
           <li *ngFor="let srcEntry of entries.value">
             {{ srcEntry.source.id | uppercase}}
           </li>
         </ul>
       </li>
+    </ul>
+    <ul>
+      <li *ngFor="let entry of weaponSourceBins | keyvalue">{{ entry.key }}</li>
     </ul>
   </div>
 </div>

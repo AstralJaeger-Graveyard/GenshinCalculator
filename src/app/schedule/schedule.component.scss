@@ -1,5 +1,21 @@
+$anemo-fg: #80ffd7;
+$anemo-bg: lighten($anemo-fg, 65%);
+$cryo-fg: #9ff;
+$cryo-bg: lighten($cryo-fg, 45%);
+$electro-fg: #ffacff;
+$electro-bg: lighten($electro-fg, 65%);
+$dendro-fg: #008000;
+$dendro-bg: lighten($dendro-fg, 65%);
+$geo-fg: #ffe699;
+$geo-bg: lighten($geo-fg, 65%);
+$hydro-fg: #80c0ff;
+$hydro-bg: lighten($hydro-fg, 45%);
+$pyro-fg: #f99;
+$pyro-bg: lighten($pyro-fg, 45%);
+
+
 .column {
-  padding: 0 2.5px 0 2.5px;
+  padding: 0 2.5px;
 }
 
 .column-header {
@@ -11,7 +27,47 @@
 }
 
 .ant-tag {
-  color: red;
-  background-color: lighten(red, 25%);
-  border: red;
+  font-weight: bold;
+}
+
+.anemo {
+  background-color: $anemo-bg;
+  border: $anemo-fg solid 1px;
+  color: $anemo-fg;
+}
+
+.cryo{
+  background-color: $cryo-bg;
+  border: $cryo-fg solid 1px;
+  color: $cryo-fg;
+}
+
+.electro {
+  background-color: $electro-bg;
+  border: $electro-fg solid 1px;
+  color: $electro-fg;
+}
+
+.dendro {
+  background-color: $dendro-bg;
+  border: $dendro-fg solid 1px;
+  color: $dendro-fg;
+}
+
+.geo {
+  background-color: $geo-bg;
+  border: $geo-fg solid 1px;
+  color: $geo-fg;
+}
+
+.hydro {
+  background-color: $hydro-bg;
+  border: $hydro-fg solid 1px;
+  color: $hydro-fg;
+}
+
+.pyro {
+  background-color: $pyro-bg;
+  border: $pyro-fg solid 1px;
+  color: $pyro-fg;
 }
