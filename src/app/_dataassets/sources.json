@@ -804,6 +804,7 @@
     {
       "id": "forgery_mondstadt",
       "name": "Domain of Forgery",
+      "description": "Cecilia Garden",
       "isSuperSource": true,
       "isRestrictedSource": true
     },
@@ -838,6 +839,7 @@
     {
       "id": "forgery_liyue",
       "name": "Domain of Forgery",
+      "description": "Hidden Place of Lianshan Formula",
       "isSuperSource": true,
       "isRestrictedSource": true
     },
@@ -845,7 +847,6 @@
       "id": "forgery_liyue_mon",
       "isDomain": true,
       "name": "Hidden Place of Lianshan Formula",
-      "description": "Domain of Forgery",
       "location": "Liyue",
       "available": [1, 4, 0],
       "superSource": "forgery_liyue"
