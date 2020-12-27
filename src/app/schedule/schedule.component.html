@@ -4,7 +4,7 @@
       <nz-switch [(ngModel)]="onlyToday"></nz-switch> Only show current day
     </div>
   </div>
-    <div *ngFor="let day of days; let i = index">
+    <div *ngFor="let day of (onlyToday ? [days[today], days[days.length - 1]] : days); let i = index">
       <nz-divider [nzText]="day"
                   [nzDashed]="i === today && !onlyToday"
                   nzOrientation="left">
