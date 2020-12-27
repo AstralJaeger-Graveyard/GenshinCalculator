@@ -52,3 +52,5 @@ Thumbs.db
 *.lxsopt
 
 src/app/_dataassets/translations.en-US_unused.json
+
+firebase-debug.log
