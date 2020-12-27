@@ -13,7 +13,6 @@ $hydro-bg: lighten($hydro-fg, 45%);
 $pyro-fg: #f99;
 $pyro-bg: lighten($pyro-fg, 45%);
 
-
 .column {
   padding: 0 2.5px;
 }
@@ -36,7 +35,7 @@ $pyro-bg: lighten($pyro-fg, 45%);
   color: $anemo-fg;
 }
 
-.cryo{
+.cryo {
   background-color: $cryo-bg;
   border: $cryo-fg solid 1px;
   color: $cryo-fg;

@@ -99,13 +99,7 @@ export class ScheduleComponent implements OnInit {
   private computeCharDayBins(): void {
     for(const key of this.characterSourceBins.keys()){
       const value = this.characterSourceBins.get(key);
-      if(value.source.available){
-        for (let i of value.source.available) {
-          this.characterDayBins.get(i).push(value);
-        }
-      } else {
-        this.characterDayBins.get(this.DAILY_INDEX).push(value);
-      }
+      this.categorizeIntoDay(this.characterDayBins, value)
     }
   }
 
