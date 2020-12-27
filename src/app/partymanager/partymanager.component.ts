@@ -1,5 +1,4 @@
 import {Component, OnInit} from '@angular/core';
-import {Character} from '../model/Character';
 import {PartyMember} from '../model/PartyMember';
 import { CharacterService } from '../services/character.service';
 import {PartyService} from '../services/party.service';
