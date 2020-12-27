@@ -1,0 +1,42 @@
+$anemo-fg: #80ffd7;
+$anemo-bg: lighten($anemo-fg, 65%);
+$cryo-fg: #9ff;
+$cryo-bg: lighten($cryo-fg, 45%);
+$electro-fg: #ffacff;
+$electro-bg: lighten($electro-fg, 65%);
+$dendro-fg: #80c0ff;
+$dendro-bg: lighten($dendro-fg, 65%);
+$geo-fg: #ffe699;
+$geo-bg: lighten($geo-fg, 65%);
+$hydro-fg: #80c0ff;
+$hydro-bg: lighten($hydro-fg, 45%);
+$pyro-fg: #f99;
+$pyro-bg: lighten($pyro-fg, 45%);
+
+.anemo {
+  color: $anemo-fg;
+}
+
+.cryo {
+  color: $cryo-fg;
+}
+
+.dendro {
+  color: $dendro-fg;
+}
+
+.electro {
+  color: $electro-fg;
+}
+
+.geo {
+  color: $geo-fg;
+}
+
+.hydro {
+  color: $hydro-fg;
+}
+
+.pyro {
+  color: $pyro-fg;
+}
