@@ -1,17 +1,4 @@
-$anemo-fg: #80ffd7;
-$anemo-bg: lighten($anemo-fg, 65%);
-$cryo-fg: #9ff;
-$cryo-bg: lighten($cryo-fg, 45%);
-$electro-fg: #ffacff;
-$electro-bg: lighten($electro-fg, 65%);
-$dendro-fg: #008000;
-$dendro-bg: lighten($dendro-fg, 65%);
-$geo-fg: #ffe699;
-$geo-bg: lighten($geo-fg, 65%);
-$hydro-fg: #80c0ff;
-$hydro-bg: lighten($hydro-fg, 45%);
-$pyro-fg: #f99;
-$pyro-bg: lighten($pyro-fg, 45%);
+@import 'src/element_colors';
 
 .column {
   padding: 0 2.5px;
@@ -25,8 +12,30 @@ $pyro-bg: lighten($pyro-fg, 45%);
   text-align: center;
 }
 
+.list-item-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.list-item-avatar {
+  flex-grow: 0;
+}
+
+.list-item-title {
+  flex-grow: 4;
+}
+
+.list-item-tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .ant-tag {
+  flex-grow: 2;
   font-weight: bold;
+  margin: 2px;
 }
 
 .anemo {

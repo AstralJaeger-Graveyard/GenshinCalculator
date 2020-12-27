@@ -47,15 +47,19 @@
                        [nzBodyStyle]="{'padding': '0px 5px'}">
                 <nz-list nzSize="small">
                   <nz-list-item *ngFor="let entry of src.materials | keyvalue">
-                    <div>
-                      <nz-list-item-meta [nzAvatar]="'https://ik.imagekit.io/AstralJaeger/tr:w-50,h-50,c-force/GC/material_icons/' + entry.key + '.png'"></nz-list-item-meta>
-                      <nz-list-item-meta-title >{{ src.amounts.get(entry.key) }}x {{ localization.get(entry.key).name }}</nz-list-item-meta-title>
-                      <div>
-                        <nz-tag *ngFor="let weapon of entry.value"
-                                [ngClass]="weapon.element.toLowerCase()">
-                          {{ localization.get(weapon.id).name }}
-                        </nz-tag>
-                      </div>
+                    <div class="list-item-container">
+                      <nz-list-item-meta class="list-item-avatar"
+                                         [nzAvatar]="'https://ik.imagekit.io/AstralJaeger/tr:w-50,h-50,c-force/GC/material_icons/' + entry.key + '.png'">
+                      </nz-list-item-meta>
+                      <nz-list-item-meta-title class="list-item-title">
+                        {{ src.amounts.get(entry.key) }}x {{ localization.get(entry.key).name }}
+                      </nz-list-item-meta-title>
+                    </div>
+                    <div class="list-item-tags">
+                      <nz-tag *ngFor="let weapon of entry.value"
+                              [ngClass]="weapon.element.toLowerCase()">
+                        {{ localization.get(weapon.id).name }}
+                      </nz-tag>
                     </div>
                   </nz-list-item>
                 </nz-list>
