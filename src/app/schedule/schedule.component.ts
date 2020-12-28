@@ -21,7 +21,7 @@ import {WeaponService} from "../services/weapon.service";
 export class ScheduleComponent implements OnInit {
 
   private readonly DAILY_INDEX = 7;
-  public onlyToday = false;
+  public onlyToday = true;
   public days: string[] = [
     'Sunday',
     'Monday',
@@ -32,11 +32,15 @@ export class ScheduleComponent implements OnInit {
     'Saturday',
     'Daily'
   ];
+
   private characterSourceBins: Map<string, ScheduleSource>
   public characterDayBins: Map<number, ScheduleSource[]>;
 
   private weaponSourceBins: Map<string, ScheduleSource>;
   public weaponDayBins: Map<number, ScheduleSource[]>;
+
+  private artifactSourceBins: Map<string, ScheduleSource>;
+  public artifactDayBins: Map<number, ScheduleSource[]>;
 
   public today: number = 0;
 
@@ -50,15 +54,18 @@ export class ScheduleComponent implements OnInit {
 
     this.characterSourceBins = new Map<string, ScheduleSource>();
     this.weaponSourceBins = new Map<string, ScheduleSource>();
+    this.artifactSourceBins = new Map<string, ScheduleSource>();
 
     this.characterDayBins = new Map<number, ScheduleSource[]>();
     this.weaponDayBins = new Map<number, ScheduleSource[]>();
+    this.artifactDayBins = new Map<number, ScheduleSource[]>();
 
     this.party.observable.subscribe(observable => {
       changeDetector.markForCheck();
       for (let i = 0; i < this.days.length; i++) {
         this.characterDayBins.set(i, []);
         this.weaponDayBins.set(i, []);
+        this.artifactDayBins.set(i, []);
       }
 
       this.computeCharSourceBins();
