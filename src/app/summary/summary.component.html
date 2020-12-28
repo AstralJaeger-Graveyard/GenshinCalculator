@@ -18,14 +18,14 @@
             <nz-list-item>
               <nz-list-item-meta [nzAvatar]="materials.get('mora').icon">
                 <nz-list-item-meta-title>
-                  x{{ characters.get(member.characterId).ascension[member.ascension].cost | formatNumber }} Mora
+                  {{ characters.get(member.characterId).ascension[member.ascension].cost | formatNumber }}&#215; Mora
                 </nz-list-item-meta-title>
               </nz-list-item-meta>
             </nz-list-item>
             <nz-list-item *ngFor="let material of characters.get(member.characterId).ascension[member.ascension].materials">
               <nz-list-item-meta [nzAvatar]="'https://ik.imagekit.io/AstralJaeger/tr:w-50,h-50,c-force/GC/material_icons/' + material.materialId + '.png'">
                 <nz-list-item-meta-title>
-                  x{{ material.amount }} {{material.materialId}} <!--{{ localization.get(material.materialId).name }}-->
+                  {{ material.amount }}&#215; {{ localization.get(material.materialId).name }}
                 </nz-list-item-meta-title>
               </nz-list-item-meta>
             </nz-list-item>
@@ -57,14 +57,14 @@
             <nz-list-item>
               <nz-list-item-meta [nzAvatar]="materials.get('mora').icon">
                 <nz-list-item-meta-title>
-                  x{{ weaponEntry.value.ascension[weaponEntry.key.weaponAsc].cost | formatNumber }} Mora
+                  {{ weaponEntry.value.ascension[weaponEntry.key.weaponAsc].cost | formatNumber }}&#215; Mora
                 </nz-list-item-meta-title>
               </nz-list-item-meta>
             </nz-list-item>
             <nz-list-item *ngFor="let material of weaponEntry.value.ascension[weaponEntry.key.weaponAsc].materials">
               <nz-list-item-meta [nzAvatar]="'https://ik.imagekit.io/AstralJaeger/tr:w-50,h-50,c-force/GC/material_icons/' + material.materialId + '.png'">
                 <nz-list-item-meta-title>
-                  x{{ material.amount }} {{material.materialId}} <!--{{ localization.get(material.materialId).name }}-->
+                  {{ material.amount }}&#215; {{ localization.get(material.materialId).name }}
                 </nz-list-item-meta-title>
               </nz-list-item-meta>
             </nz-list-item>
