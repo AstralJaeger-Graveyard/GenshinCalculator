@@ -1,6 +1,11 @@
 {
   "translations": [
     {
+      "description": "An alchemist based in Mondstadt, in the service of the Knights of Favonius.",
+      "id": "albedo",
+      "name": "Albedo"
+    },
+    {
       "description": "Always energetic and full of life, Amber's the best - albeit only - Outrider of the Knights of Favonius.",
       "id": "amber",
       "name": "Amber"

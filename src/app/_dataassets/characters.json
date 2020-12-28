@@ -1,6 +1,150 @@
 {
   "characters": [
     {
+      "id": "albedo",
+      "ascension": [
+        {
+          "cost": 20000,
+          "level": 20,
+          "materials": [
+            {
+              "amount": "1",
+              "materialId": "topaz_1"
+            },
+            {
+              "amount": "3",
+              "materialId": "cecilia"
+            },
+            {
+              "amount": "3",
+              "materialId": "scroll_1"
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "cost": 40000,
+          "level": 40,
+          "materials": [
+            {
+              "amount": "3",
+              "materialId": "topaz_2"
+            },
+            {
+              "amount": "2",
+              "materialId": "basalt_pillar"
+            },
+            {
+              "amount": "10",
+              "materialId": "cecilia"
+            },
+            {
+              "amount": "10",
+              "materialId": "scroll_1"
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "cost": 60000,
+          "level": 50,
+          "materials": [
+            {
+              "amount": "6",
+              "materialId": "topaz_2"
+            },
+            {
+              "amount": "4",
+              "materialId": "basalt_pillar"
+            },
+            {
+              "amount": "20",
+              "materialId": "cecilia"
+            },
+            {
+              "amount": "12",
+              "materialId": "scroll_2"
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "cost": 80000,
+          "level": 60,
+          "materials": [
+            {
+              "amount": "3",
+              "materialId": "topaz_3"
+            },
+            {
+              "amount": "8",
+              "materialId": "basalt_pillar"
+            },
+            {
+              "amount": "30",
+              "materialId": "cecilia"
+            },
+            {
+              "amount": "18",
+              "materialId": "scroll_2"
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "cost": 100000,
+          "level": 70,
+          "materials": [
+            {
+              "amount": "6",
+              "materialId": "topaz_3"
+            },
+            {
+              "amount": "12",
+              "materialId": "basalt_pillar"
+            },
+            {
+              "amount": "45",
+              "materialId": "cecilia"
+            },
+            {
+              "amount": "12",
+              "materialId": "scroll_3"
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "cost": 120000,
+          "level": 80,
+          "materials": [
+            {
+              "amount": "6",
+              "materialId": "topaz_4"
+            },
+            {
+              "amount": "20",
+              "materialId": "basalt_pillar"
+            },
+            {
+              "amount": "60",
+              "materialId": "cecilia"
+            },
+            {
+              "amount": "24",
+              "materialId": "scroll_3"
+            }
+          ],
+          "rank": 6
+        }
+      ],
+      "element": "Geo",
+      "isNew": true,
+      "rarity": 5,
+      "tier": "S",
+      "weaponType": "sword"
+    },
+    {
       "id": "amber",
       "ascension": [
         {
@@ -3674,7 +3818,6 @@
         }
       ],
       "element": "Pyro",
-      "isNew": true,
       "rarity": 4,
       "tier": "B",
       "weaponType": "claymore"
@@ -3818,7 +3961,6 @@
         }
       ],
       "element": "Geo",
-      "isNew": true,
       "rarity": 5,
       "tier": "B",
       "weaponType": "polearm"
