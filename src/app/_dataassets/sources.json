@@ -60,6 +60,18 @@
     },
 
     {
+      "id": "bosses",
+      "name": "Bosses",
+      "description": "Dropped by Bosses",
+      "isSuperSource": true
+    },
+    {
+      "id": "elite_bosses",
+      "name": "Elite Bosses",
+      "description": "Dropped by Elite Bosses",
+      "isSuperSource": true
+    },
+    {
       "id": "pyro_regisvine",
       "name": "Pyro Regisvine",
       "description": "Dropped by Pyro Regisvine",
@@ -222,6 +234,12 @@
     },
 
     {
+      "id": "weekly_bosses",
+      "name": "Weekly Bosses",
+      "description": "Weekly Bosses at World Level 2+",
+      "isSuperSource": true
+    },
+    {
       "id": "wolf",
       "name": "Wolf",
       "description": "Wolf of the North Challenge Reward",
@@ -241,6 +259,13 @@
       "id": "wolf_75",
       "description": "Lv. 75+ Wolf of the North Challenge Reward",
       "superSource": "wolf"
+    },
+
+    {
+      "id": "stormterror",
+      "name": "Confront Stormterror",
+      "description": "Confront Stormterror",
+      "isSuperSource": true
     },
 
     {
@@ -837,6 +862,13 @@
     },
 
     {
+      "id": "blessing_mondstadt_midsummer",
+      "name": "Domain of Blessing",
+      "description": "Midsummer Courtyard",
+      "isSuperSource": true
+    },
+
+    {
       "id": "forgery_liyue",
       "name": "Domain of Forgery",
       "description": "Hidden Place of Lianshan Formula",
@@ -868,7 +900,37 @@
       "location": "Liyue",
       "available": [3, 6, 0],
       "superSource": "forgery_liyue"
-    }
+    },
 
+    {
+      "id": "blessing_liyue_guyun",
+      "name": "Domain of Blessing",
+      "description": "Domain of Guyun",
+      "isSuperSource": true
+    },
+    {
+      "id": "blessing_liyue_remembrance",
+      "name": "Domain of Blessing",
+      "description": "Valley of Remembrance",
+      "isSuperSource": true
+    },
+    {
+      "id": "blessing_liyue_zhou_formula",
+      "name": "Domain of Blessing",
+      "description": "Hidden Palace of Zhou Formula",
+      "isSuperSource": true
+    },
+    {
+      "id": "blessing_liyue_vindagnyr",
+      "name": "Domain of Blessing",
+      "description": "Peak of Vindagnyr",
+      "isSuperSource": true
+    },
+    {
+      "id": "blessing_liyue_pool_and_mountain",
+      "name": "Domain of Blessing",
+      "description": "Clear Pool and Mountain Cavern",
+      "isSuperSource": true
+    }
   ]
 }

@@ -1,0 +1,1004 @@
+{
+  "artifacts": [
+    {
+      "id": "adventurer_flower",
+      "setId": "adventurer",
+      "kind": "flower_of_life",
+      "name": "Adevnturer's Flower",
+      "sources": ["oceanid", "pyro_regisvine"]
+    },
+    {
+      "id": "adventurer_tail_feather",
+      "setId": "adventurer",
+      "kind": "plume_of_death",
+      "name": "Adventurer's Tail Feather",
+      "sources": ["oceanid", "pyro_regisvine"]
+    },
+    {
+      "id": "adventurer_pocket_watch",
+      "setId": "adventurer",
+      "kind": "sands_of_eon",
+      "name": "Adventurer's Pocket Watch",
+      "sources": ["oceanid", "pyro_regisvine"]
+    },
+    {
+      "id": "adventurer_golden_goblet",
+      "setId": "adventurer",
+      "kind": "goblet_of_enotherm",
+      "name": "Adventurer's Golden Goblet",
+      "sources": ["oceanid", "pyro_regisvine"]
+    },
+    {
+      "id": "adventurer_bandana",
+      "setId": "adventurer",
+      "kind": "circlet_of_logos",
+      "name": "Adventurer's Bandana",
+      "sources": ["oceanid", "pyro_regisvine"]
+    },
+
+    {
+      "id": "lucky_dog_flower",
+      "setId": "lucky_dog",
+      "kind": "flower_of_life",
+      "name": "Lucky Dog's  Flower",
+      "sources": ["blessing_liyue_guyun"]
+    },
+    {
+      "id": "lucky_dog_eagle_feather",
+      "setId": "lucky_dog",
+      "kind": "plume_of_death",
+      "name": "Lucky Dog's Eagle Feather",
+      "sources": ["blessing_liyue_guyun"]
+    },
+    {
+      "id": "lucky_dog_hourglass",
+      "setId": "lucky_dog",
+      "kind": "sands_of_eon",
+      "name": "Lucky Dog's Hourglass",
+      "sources": ["blessing_liyue_guyun"]
+    },
+    {
+      "id": "lucky_dog_goblet",
+      "setId": "lucky_dog",
+      "kind": "goblet_of_enotherm",
+      "name": "Lucky Dog's Goblet",
+      "sources": ["blessing_liyue_guyun"]
+    },
+    {
+      "id": "lucky_dog_silver_circlet",
+      "setId": "lucky_dog",
+      "kind": "circlet_of_logos",
+      "name": "Lucky Dog's Silver Circlet",
+      "sources": ["blessing_liyue_guyun"]
+    },
+
+    {
+      "id": "traveling_doctor_silver_lotus",
+      "setId": "traveling_doctor",
+      "kind": "flower_of_life",
+      "name": "Traveling Doctor's Silver Lotus",
+      "sources": ["blessing_liyue_remembrance"]
+    },
+    {
+      "id": "traveling_doctor_owl_feather",
+      "setId": "traveling_doctor",
+      "kind": "plume_of_death",
+      "name": "Traveling Doctor's Owl Feather",
+      "sources": ["blessing_liyue_remembrance"]
+    },
+    {
+      "id": "traveling_doctor_pocket_watch",
+      "setId": "traveling_doctor",
+      "kind": "sands_of_eon",
+      "name": "Traveling Doctor's Pocket Watch",
+      "sources": ["blessing_liyue_remembrance"]
+    },
+    {
+      "id": "traveling_doctor_medicine_pot",
+      "setId": "traveling_doctor",
+      "kind": "goblet_of_enotherm",
+      "name": "Traveling Doctor's Medicine Pot",
+      "sources": ["blessing_liyue_remembrance"]
+    },
+    {
+      "id": "traveling_doctor_handkerchief",
+      "setId": "traveling_doctor",
+      "kind": "circlet_of_logos",
+      "name": "Traveling Doctor's Handkerchief",
+      "sources": ["blessing_liyue_remembrance"]
+    },
+
+    {
+      "id": "instructor_brooch",
+      "setId": "instructor",
+      "kind": "flower_of_life",
+      "name": "Instructor's Brooch",
+      "sources": ["blessing_liyue_remembrance", "stormterror"]
+    },
+    {
+      "id": "instructor_feather_accessory",
+      "setId": "instructor",
+      "kind": "plume_of_death",
+      "name": "Instructor's Feather Accessory",
+      "sources": ["blessing_liyue_remembrance", "stormterror"]
+    },
+    {
+      "id": "instructor_pocket_watch",
+      "setId": "instructor",
+      "kind": "sands_of_eon",
+      "name": "Instructor's Pocket Watch",
+      "sources": ["blessing_liyue_remembrance", "stormterror"]
+    },
+    {
+      "id": "instructor_tea_cup",
+      "setId": "instructor",
+      "kind": "goblet_of_enotherm",
+      "name": "Instructor's Tea Cup",
+      "sources": ["blessing_liyue_remembrance", "stormterror"]
+    },
+    {
+      "id": "instructor_cap",
+      "setId": "instructor",
+      "kind": "circlet_of_logos",
+      "name": "Instructor's Cap",
+      "sources": ["blessing_liyue_remembrance", "stormterror"]
+    },
+
+    {
+      "id": "berserker_rose",
+      "setId": "berserker",
+      "kind": "flower_of_life",
+      "name": "Berserker's Rose",
+      "sources": ["bosses"]
+    },
+    {
+      "id": "berserker_feather_accessory",
+      "setId": "berserker",
+      "kind": "plume_of_death",
+      "name": "Berserker's Indigo Feather",
+      "sources": ["bosses"]
+    },
+    {
+      "id": "berserker_timepiece",
+      "setId": "berserker",
+      "kind": "sands_of_eon",
+      "name": "Berserker's Timepiece",
+      "sources": ["bosses"]
+    },
+    {
+      "id": "berserker_bone_goblet",
+      "setId": "berserker",
+      "kind": "goblet_of_enotherm",
+      "name": "Berserker's Bone Goblet",
+      "sources": ["bosses"]
+    },
+    {
+      "id": "berserker_battle_mask",
+      "setId": "berserker",
+      "kind": "circlet_of_logos",
+      "name": "Berserker's Battle Mask",
+      "sources": ["bosses"]
+    },
+
+    {
+      "id": "the_exile_flower",
+      "setId": "the_exile",
+      "kind": "flower_of_life",
+      "name": "Exile's Flower",
+      "sources": ["stormterror", "elite_bosses"]
+    },
+    {
+      "id": "the_exile_feather",
+      "setId": "the_exile",
+      "kind": "plume_of_death",
+      "name": "Exile's Feather",
+      "sources": ["stormterror", "elite_bosses"]
+    },
+    {
+      "id": "the_exile_pocket_watch",
+      "setId": "the_exile",
+      "kind": "sands_of_eon",
+      "name": "Exile's Pocket Watch",
+      "sources": ["stormterror", "elite_bosses"]
+    },
+    {
+      "id": "the_exile_goblet",
+      "setId": "the_exile",
+      "kind": "goblet_of_enotherm",
+      "name": "Exile's Goblet",
+      "sources": ["stormterror", "elite_bosses"]
+    },
+    {
+      "id": "the_exile_circlet",
+      "setId": "the_exile",
+      "kind": "circlet_of_logos",
+      "name": "Exile's Circlet",
+      "sources": ["stormterror", "elite_bosses"]
+    },
+
+    {
+      "id": "resolution_of_sojourner_heart_of_comradeship",
+      "setId": "resolution_of_sojourner",
+      "kind": "flower_of_life",
+      "name": "Heart of Comradeship",
+      "sources": ["blessing_mondstadt_midsummer"]
+    },
+    {
+      "id": "resolution_of_sojourner_feather_of_homecoming",
+      "setId": "resolution_of_sojourner",
+      "kind": "plume_of_death",
+      "name": "Feather of Homecoming",
+      "sources": ["blessing_mondstadt_midsummer"]
+    },
+    {
+      "id": "resolution_of_sojourner_pocket_watch",
+      "setId": "resolution_of_sojourner",
+      "kind": "sands_of_eon",
+      "name": "Sundial of the Sojourner",
+      "sources": ["blessing_mondstadt_midsummer"]
+    },
+    {
+      "id": "resolution_of_sojourner_goblet_of_the_sojourner",
+      "setId": "resolution_of_sojourner",
+      "kind": "goblet_of_enotherm",
+      "name": "Goblet of the Sojourner",
+      "sources": ["blessing_mondstadt_midsummer"]
+    },
+    {
+      "id": "resolution_of_sojourner_crown_of_parting",
+      "setId": "resolution_of_sojourner",
+      "kind": "circlet_of_logos",
+      "name": "Crown of Parting",
+      "sources": ["blessing_mondstadt_midsummer"]
+    },
+
+    {
+      "id": "martial_artist_flower_of_life",
+      "setId": "martial_artist",
+      "kind": "flower_of_life",
+      "name": "Martial Artist's Red Flower",
+      "sources": ["blessing_liyue_zhou_formula"]
+    },
+    {
+      "id": "martial_artist_feather_accessory",
+      "setId": "martial_artist",
+      "kind": "plume_of_death",
+      "name": "Martial Artist's Feather Accessory",
+      "sources": ["blessing_liyue_zhou_formula"]
+    },
+    {
+      "id": "martial_artist_water_hourglass",
+      "setId": "martial_artist",
+      "kind": "sands_of_eon",
+      "name": "Martial Artist's Water Hourglass",
+      "sources": ["blessing_liyue_zhou_formula"]
+    },
+    {
+      "id": "martial_artist_wine_cup",
+      "setId": "martial_artist",
+      "kind": "goblet_of_enotherm",
+      "name": "Martial Artist's Wine Cup",
+      "sources": ["blessing_liyue_zhou_formula"]
+    },
+    {
+      "id": "martial_artist_bandana",
+      "setId": "martial_artist",
+      "kind": "circlet_of_logos",
+      "name": "Martial Artist's Bandana",
+      "sources": ["blessing_liyue_zhou_formula"]
+    },
+
+    {
+      "id": "defender_will_guardian_flower",
+      "setId": "defender_will",
+      "kind": "flower_of_life",
+      "name": "Guardian's Flower",
+      "sources": ["blessing_liyue_zhou_formula", "blessing_liyue_vindagnyr"]
+    },
+    {
+      "id": "defender_will_guardian_sigil",
+      "setId": "defender_will",
+      "kind": "plume_of_death",
+      "name": "Guardian's Sigil",
+      "sources": ["blessing_liyue_zhou_formula", "blessing_liyue_vindagnyr"]
+    },
+    {
+      "id": "defender_will_guardian_clock",
+      "setId": "defender_will",
+      "kind": "sands_of_eon",
+      "name": "Guardian's Clock",
+      "sources": ["blessing_liyue_zhou_formula", "blessing_liyue_vindagnyr"]
+    },
+    {
+      "id": "defender_will_guardian_vessel",
+      "setId": "defender_will",
+      "kind": "goblet_of_enotherm",
+      "name": "Guardian's Vessel",
+      "sources": ["blessing_liyue_zhou_formula", "blessing_liyue_vindagnyr"]
+    },
+    {
+      "id": "defender_will_guardian_band",
+      "setId": "defender_will",
+      "kind": "circlet_of_logos",
+      "name": "Guardian's Band",
+      "sources": ["blessing_liyue_zhou_formula", "blessing_liyue_vindagnyr"]
+    },
+
+    {
+      "id": "tiny_miracle_flower",
+      "setId": "tiny_miracle",
+      "kind": "flower_of_life",
+      "name": "Tiny Miracle's Flower",
+      "sources": ["blessing_liyue_remembrance"]
+    },
+    {
+      "id": "tiny_miracle_feather",
+      "setId": "tiny_miracle",
+      "kind": "plume_of_death",
+      "name": "Tiny Miracle's Feather",
+      "sources": ["blessing_liyue_remembrance"]
+    },
+    {
+      "id": "tiny_miracle_hourglass",
+      "setId": "tiny_miracle",
+      "kind": "sands_of_eon",
+      "name": "Tiny Miracle's Hourglass",
+      "sources": ["blessing_liyue_remembrance"]
+    },
+    {
+      "id": "tiny_miracle_goblet",
+      "setId": "tiny_miracle",
+      "kind": "goblet_of_enotherm",
+      "name": "Tiny Miracle's Goblet",
+      "sources": ["blessing_liyue_remembrance"]
+    },
+    {
+      "id": "tiny_miracle_earrings",
+      "setId": "tiny_miracle",
+      "kind": "circlet_of_logos",
+      "name": "Tiny Miracle's Earrings",
+      "sources": ["blessing_liyue_remembrance"]
+    },
+
+    {
+      "id": "heart_of_bravery_medal_of_the_brave",
+      "setId": "heart_of_bravery",
+      "kind": "flower_of_life",
+      "name": "Medal of the Brave",
+      "sources": ["blessing_liyue_guyun"]
+    },
+    {
+      "id": "heart_of_bravery_prospect_of_the_brave",
+      "setId": "heart_of_bravery",
+      "kind": "plume_of_death",
+      "name": "Prospect of the Brave",
+      "sources": ["blessing_liyue_guyun"]
+    },
+    {
+      "id": "heart_of_bravery_fortitude_of_the_brave",
+      "setId": "heart_of_bravery",
+      "kind": "sands_of_eon",
+      "name": "Fortitude of the Brave",
+      "sources": ["blessing_liyue_guyun"]
+    },
+    {
+      "id": "heart_of_bravery_outset_of_the_brave",
+      "setId": "heart_of_bravery",
+      "kind": "goblet_of_enotherm",
+      "name": "Outset of the Brave",
+      "sources": ["blessing_liyue_guyun"]
+    },
+    {
+      "id": "heart_of_bravery_crown_of_the_brave",
+      "setId": "heart_of_bravery",
+      "kind": "circlet_of_logos",
+      "name": "Crown of the Brave",
+      "sources": ["blessing_liyue_guyun"]
+    },
+
+    {
+      "id": "gambler_brooch",
+      "setId": "gambler",
+      "kind": "flower_of_life",
+      "name": "Gambler's Brooch",
+      "sources": ["blessing_liyue_vindagnyr", "blessing_liyue_pool_and_mountain"]
+    },
+    {
+      "id": "gambler_feather_accessory",
+      "setId": "gambler",
+      "kind": "plume_of_death",
+      "name": "Gambler's Feather Accessory",
+      "sources": ["blessing_liyue_vindagnyr", "blessing_liyue_pool_and_mountain"]
+    },
+    {
+      "id": "gambler_pocket_watch",
+      "setId": "gambler",
+      "kind": "sands_of_eon",
+      "name": "Gambler's Pocket Watch",
+      "sources": ["blessing_liyue_vindagnyr", "blessing_liyue_pool_and_mountain"]
+    },
+    {
+      "id": "gambler_dice_cup",
+      "setId": "gambler",
+      "kind": "goblet_of_enotherm",
+      "name": "Gambler's Dice Cup",
+      "sources": ["blessing_liyue_vindagnyr", "blessing_liyue_pool_and_mountain"]
+    },
+    {
+      "id": "gambler_earrings",
+      "setId": "gambler",
+      "kind": "circlet_of_logos",
+      "name": "Gambler's Earrings",
+      "sources": ["blessing_liyue_vindagnyr", "blessing_liyue_pool_and_mountain"]
+    },
+
+    {
+      "id": "scholar_bookmark",
+      "setId": "scholar",
+      "kind": "flower_of_life",
+      "name": "Scholar's Bookmark",
+      "sources": ["blessing_liyue_pool_and_mountain"]
+    },
+    {
+      "id": "scholar_quill_pen",
+      "setId": "scholar",
+      "kind": "plume_of_death",
+      "name": "Scholar's Quill Pen",
+      "sources": ["blessing_liyue_pool_and_mountain"]
+    },
+    {
+      "id": "scholar_clock",
+      "setId": "scholar",
+      "kind": "sands_of_eon",
+      "name": "Scholar's Clock",
+      "sources": ["blessing_liyue_pool_and_mountain"]
+    },
+    {
+      "id": "scholar_ink_cup",
+      "setId": "scholar",
+      "kind": "goblet_of_enotherm",
+      "name": "Scholar's Ink Cup",
+      "sources": ["blessing_liyue_pool_and_mountain"]
+    },
+    {
+      "id": "scholar_lens",
+      "setId": "scholar",
+      "kind": "circlet_of_logos",
+      "name": "Scholar's Lens",
+      "sources": ["blessing_liyue_pool_and_mountain"]
+    },
+
+    {
+      "id": "gladiator_finale_nostalgia",
+      "setId": "gladiator_finale",
+      "kind": "flower_of_life",
+      "name": "Gladiator's Nostalgia",
+      "sources": ["elite_bosses", "weekly_bosses"]
+    },
+    {
+      "id": "gladiator_finale_destiny",
+      "setId": "gladiator_finale",
+      "kind": "plume_of_death",
+      "name": "Gladiator's Destiny",
+      "sources": ["elite_bosses", "weekly_bosses"]
+    },
+    {
+      "id": "gladiator_finale_longing",
+      "setId": "gladiator_finale",
+      "kind": "sands_of_eon",
+      "name": "Gladiator's Longing",
+      "sources": ["elite_bosses", "weekly_bosses"]
+    },
+    {
+      "id": "gladiator_finale_intoxication",
+      "setId": "gladiator_finale",
+      "kind": "goblet_of_enotherm",
+      "name": "Gladiator's Intoxication",
+      "sources": ["elite_bosses", "weekly_bosses"]
+    },
+    {
+      "id": "gladiator_finale_triumphus",
+      "setId": "gladiator_finale",
+      "kind": "circlet_of_logos",
+      "name": "Gladiator's Triumphus",
+      "sources": ["elite_bosses", "weekly_bosses"]
+    },
+
+    {
+      "id": "wanderer_troupe_troupe_dawnlight",
+      "setId": "wanderer_troupe",
+      "kind": "flower_of_life",
+      "name": "Troupe's Dawnlight",
+      "sources": ["elite_bosses", "weekly_bosses"]
+    },
+    {
+      "id": "wanderer_troupe_bard_arrow_feather",
+      "setId": "wanderer_troupe",
+      "kind": "plume_of_death",
+      "name": "Bard's Arrow Feather",
+      "sources": ["elite_bosses", "weekly_bosses"]
+    },
+    {
+      "id": "wanderer_troupe_concert_final_hour",
+      "setId": "wanderer_troupe",
+      "kind": "sands_of_eon",
+      "name": "Concert's Final Hour",
+      "sources": ["elite_bosses", "weekly_bosses"]
+    },
+    {
+      "id": "wanderer_troupe_wanderer_string_kettle",
+      "setId": "wanderer_troupe",
+      "kind": "goblet_of_enotherm",
+      "name": "Wanderer's String Kettle",
+      "sources": ["elite_bosses", "weekly_bosses"]
+    },
+    {
+      "id": "wanderer_troupe_conductor_top_hat",
+      "setId": "wanderer_troupe",
+      "kind": "circlet_of_logos",
+      "name": "Conductor's Top Hat",
+      "sources": ["elite_bosses", "weekly_bosses"]
+    },
+
+    {
+      "id": "viridescent_venerer_in_remembrance_of_viridescent_fields",
+      "setId": "viridescent_venerer",
+      "kind": "flower_of_life",
+      "name": "In Remembrance of Viridescent Fields",
+      "sources": ["blessing_liyue_remembrance"]
+    },
+    {
+      "id": "viridescent_venerer_arrow_feather",
+      "setId": "viridescent_venerer",
+      "kind": "plume_of_death",
+      "name": "Viridescent Arrow Feather",
+      "sources": ["blessing_liyue_remembrance"]
+    },
+    {
+      "id": "viridescent_venerer_determination",
+      "setId": "viridescent_venerer",
+      "kind": "sands_of_eon",
+      "name": "Viridescent Venerer's Determination",
+      "sources": ["blessing_liyue_remembrance"]
+    },
+    {
+      "id": "viridescent_venerer_vessel",
+      "setId": "viridescent_venerer",
+      "kind": "goblet_of_enotherm",
+      "name": "Viridescent Venerer's Vessel",
+      "sources": ["blessing_liyue_remembrance"]
+    },
+    {
+      "id": "viridescent_venerer_diadem",
+      "setId": "viridescent_venerer",
+      "kind": "circlet_of_logos",
+      "name": "Viridescent Venerer's Diadem",
+      "sources": ["blessing_liyue_remembrance"]
+    },
+
+    {
+      "id": "thundering_fury_thunderbird_mercy",
+      "setId": "thundering_fury",
+      "kind": "flower_of_life",
+      "name": "Thunderbird's Mercy",
+      "sources": ["blessing_mondstadt_midsummer"]
+    },
+    {
+      "id": "thundering_fury_survivor_catastrophe",
+      "setId": "thundering_fury",
+      "kind": "plume_of_death",
+      "name": "Survivor of Catastrophe",
+      "sources": ["blessing_mondstadt_midsummer"]
+    },
+    {
+      "id": "thundering_fury_hourglass_of_thunder",
+      "setId": "thundering_fury",
+      "kind": "sands_of_eon",
+      "name": "Hourglass of Thunder",
+      "sources": ["blessing_mondstadt_midsummer"]
+    },
+    {
+      "id": "thundering_fury_omen_of_thunderstorm",
+      "setId": "thundering_fury",
+      "kind": "goblet_of_enotherm",
+      "name": "Omen of Thunderstorm",
+      "sources": ["blessing_mondstadt_midsummer"]
+    },
+    {
+      "id": "thundering_fury_thunder_summoner_crown",
+      "setId": "thundering_fury",
+      "kind": "circlet_of_logos",
+      "name": "Thunder Summoner's Crown",
+      "sources": ["blessing_mondstadt_midsummer"]
+    },
+
+    {
+      "id": "thundersoother_heart",
+      "setId": "thundersoother",
+      "kind": "flower_of_life",
+      "name": "Thundersoother's Heart",
+      "sources": ["blessing_mondstadt_midsummer"]
+    },
+    {
+      "id": "thundersoother_plume",
+      "setId": "thundersoother",
+      "kind": "plume_of_death",
+      "name": "Thundersoother's Plume",
+      "sources": ["blessing_mondstadt_midsummer"]
+    },
+    {
+      "id": "thundersoother_hour_of_soothing_thunder",
+      "setId": "thundersoother",
+      "kind": "sands_of_eon",
+      "name": "Hour of Soothing Thunder",
+      "sources": ["blessing_mondstadt_midsummer"]
+    },
+    {
+      "id": "thundersoother_goblet",
+      "setId": "thundersoother",
+      "kind": "goblet_of_enotherm",
+      "name": "Thundersoother's Goblet",
+      "sources": ["blessing_mondstadt_midsummer"]
+    },
+    {
+      "id": "thundersoother_diadem",
+      "setId": "thundersoother",
+      "kind": "circlet_of_logos",
+      "name": "Thundersoother's Diadem",
+      "sources": ["blessing_mondstadt_midsummer"]
+    },
+
+    {
+      "id": "crimson_witch_of_flames_flower_of_blaze",
+      "setId": "crimson_witch_of_flames",
+      "kind": "flower_of_life",
+      "name": "Witch's Flower of Blaze",
+      "sources": ["blessing_liyue_zhou_formula"]
+    },
+    {
+      "id": "crimson_witch_of_flames_ever_burning_plume",
+      "setId": "crimson_witch_of_flames",
+      "kind": "plume_of_death",
+      "name": "Witch's Ever-Burning Plume",
+      "sources": ["blessing_liyue_zhou_formula"]
+    },
+    {
+      "id": "crimson_witch_of_flames_end_time",
+      "setId": "crimson_witch_of_flames",
+      "kind": "sands_of_eon",
+      "name": "Witch's End Time",
+      "sources": ["blessing_liyue_zhou_formula"]
+    },
+    {
+      "id": "crimson_witch_of_flames_heart_flames",
+      "setId": "crimson_witch_of_flames",
+      "kind": "goblet_of_enotherm",
+      "name": "Witch's Heart Flames",
+      "sources": ["blessing_liyue_zhou_formula"]
+    },
+    {
+      "id": "crimson_witch_of_flames_scortching_hat",
+      "setId": "crimson_witch_of_flames",
+      "kind": "circlet_of_logos",
+      "name": "Witch's Scorching Hat",
+      "sources": ["blessing_liyue_zhou_formula"]
+    },
+
+    {
+      "id": "lavawalker_resolution",
+      "setId": "lavawalker",
+      "kind": "flower_of_life",
+      "name": "Lavawalker's Resolution",
+      "sources": ["blessing_liyue_zhou_formula"]
+    },
+    {
+      "id": "lavawalker_salvation",
+      "setId": "lavawalker",
+      "kind": "plume_of_death",
+      "name": "Lavawalker's Salvation",
+      "sources": ["blessing_liyue_zhou_formula"]
+    },
+    {
+      "id": "lavawalker_torment",
+      "setId": "lavawalker",
+      "kind": "sands_of_eon",
+      "name": "Lavawalker's Torment",
+      "sources": ["blessing_liyue_zhou_formula"]
+    },
+    {
+      "id": "lavawalker_epiphany",
+      "setId": "lavawalker",
+      "kind": "goblet_of_enotherm",
+      "name": "Lavawalker's Epiphany",
+      "sources": ["blessing_liyue_zhou_formula"]
+    },
+    {
+      "id": "lavawalker_wisdom",
+      "setId": "lavawalker",
+      "kind": "circlet_of_logos",
+      "name": "Lavawalker's Wisdom",
+      "sources": ["blessing_liyue_zhou_formula"]
+    },
+
+    {
+      "id": "archaic_petra_flower_of_cerviced_cliff",
+      "setId": "archaic_petra",
+      "kind": "flower_of_life",
+      "name": "Flower of Creviced Cliff",
+      "sources": ["blessing_liyue_guyun"]
+    },
+    {
+      "id": "archaic_petra_feather_of_jagged_perks",
+      "setId": "archaic_petra",
+      "kind": "plume_of_death",
+      "name": "Feather of Jagged Peaks",
+      "sources": ["blessing_liyue_guyun"]
+    },
+    {
+      "id": "archaic_petra_sundial_of_enduring_jade",
+      "setId": "archaic_petra",
+      "kind": "sands_of_eon",
+      "name": "Sundial of Enduring Jade",
+      "sources": ["blessing_liyue_guyun"]
+    },
+    {
+      "id": "archaic_petra_goblet_of_chiseld_crag",
+      "setId": "archaic_petra",
+      "kind": "goblet_of_enotherm",
+      "name": "Goblet of Chiseled Crag",
+      "sources": ["blessing_liyue_guyun"]
+    },
+    {
+      "id": "archaic_petra_mask_of_solitude_basalt",
+      "setId": "archaic_petra",
+      "kind": "circlet_of_logos",
+      "name": "Mask of Solitude Basalt",
+      "sources": ["blessing_liyue_guyun"]
+    },
+
+    {
+      "id": "retracing_bolide_summer_night_bloom",
+      "setId": "retracing_bolide",
+      "kind": "flower_of_life",
+      "name": "Summer Night's Bloom",
+      "sources": ["blessing_liyue_guyun"]
+    },
+    {
+      "id": "retracing_bolide_summer_night_finale",
+      "setId": "retracing_bolide",
+      "kind": "plume_of_death",
+      "name": "Summer Night's Finale",
+      "sources": ["blessing_liyue_guyun"]
+    },
+    {
+      "id": "retracing_bolide_summer_night_moment",
+      "setId": "retracing_bolide",
+      "kind": "sands_of_eon",
+      "name": "Summer Night's Moment",
+      "sources": ["blessing_liyue_guyun"]
+    },
+    {
+      "id": "retracing_bolide_summer_night_waterballoon",
+      "setId": "retracing_bolide",
+      "kind": "goblet_of_enotherm",
+      "name": "Summer Night's Waterballoon",
+      "sources": ["blessing_liyue_guyun"]
+    },
+    {
+      "id": "retracing_bolide_summer_night_mask",
+      "setId": "retracing_bolide",
+      "kind": "circlet_of_logos",
+      "name": "Summer Night's Mask",
+      "sources": ["blessing_liyue_guyun"]
+    },
+
+    {
+      "id": "maiden_beloved_distant_love",
+      "setId": "maiden_beloved",
+      "kind": "flower_of_life",
+      "name": "Maiden's Distant Love",
+      "sources": ["blessing_liyue_remembrance"]
+    },
+    {
+      "id": "maiden_beloved_heart_stricken_infatuation",
+      "setId": "maiden_beloved",
+      "kind": "plume_of_death",
+      "name": "Maiden's Heart-stricken Infatuation",
+      "sources": ["blessing_liyue_remembrance"]
+    },
+    {
+      "id": "maiden_beloved_passing_youth",
+      "setId": "maiden_beloved",
+      "kind": "sands_of_eon",
+      "name": "Maiden's Passing Youth",
+      "sources": ["blessing_liyue_remembrance"]
+    },
+    {
+      "id": "maiden_beloved_fleeting_leisure",
+      "setId": "maiden_beloved",
+      "kind": "goblet_of_enotherm",
+      "name": "Maiden's Fleeting Leisure",
+      "sources": ["blessing_liyue_remembrance"]
+    },
+    {
+      "id": "maiden_beloved_fading_beauty",
+      "setId": "maiden_beloved",
+      "kind": "circlet_of_logos",
+      "name": "Maiden's Fading Beauty",
+      "sources": ["blessing_liyue_remembrance"]
+    },
+
+    {
+      "id": "noblesse_oblige_royal_flower",
+      "setId": "noblesse_oblige",
+      "kind": "flower_of_life",
+      "name": "Royal Flora",
+      "sources": ["blessing_liyue_pool_and_mountain"]
+    },
+    {
+      "id": "noblesse_oblige_royal_plume",
+      "setId": "noblesse_oblige",
+      "kind": "plume_of_death",
+      "name": "Royal Plume",
+      "sources": ["blessing_liyue_pool_and_mountain"]
+    },
+    {
+      "id": "noblesse_oblige_royal_pocket_watch",
+      "setId": "noblesse_oblige",
+      "kind": "sands_of_eon",
+      "name": "Royal Pocket Watch",
+      "sources": ["blessing_liyue_pool_and_mountain"]
+    },
+    {
+      "id": "noblesse_oblige_royal_silver_urn",
+      "setId": "noblesse_oblige",
+      "kind": "goblet_of_enotherm",
+      "name": "Royal Silver Urn",
+      "sources": ["blessing_liyue_pool_and_mountain"]
+    },
+    {
+      "id": "noblesse_oblige_royal_masque",
+      "setId": "noblesse_oblige",
+      "kind": "circlet_of_logos",
+      "name": "Royal Masque",
+      "sources": ["blessing_liyue_pool_and_mountain"]
+    },
+
+    {
+      "id": "bloodstained_chivalry_flower_of_iron",
+      "setId": "bloodstained_chivalry",
+      "kind": "flower_of_life",
+      "name": "Bloodstained Flower of Iron",
+      "sources": ["blessing_liyue_pool_and_mountain"]
+    },
+    {
+      "id": "bloodstained_chivalry_black_plume",
+      "setId": "bloodstained_chivalry",
+      "kind": "plume_of_death",
+      "name": "Bloodstained Black Plume",
+      "sources": ["blessing_liyue_pool_and_mountain"]
+    },
+    {
+      "id": "bloodstained_chivalry_final_hour",
+      "setId": "bloodstained_chivalry",
+      "kind": "sands_of_eon",
+      "name": "Bloodstained Final Hour",
+      "sources": ["blessing_liyue_pool_and_mountain"]
+    },
+    {
+      "id": "bloodstained_chivalry_chevalier_goblet",
+      "setId": "bloodstained_chivalry",
+      "kind": "goblet_of_enotherm",
+      "name": "Bloodstained Chevalier's Goblet",
+      "sources": ["blessing_liyue_pool_and_mountain"]
+    },
+    {
+      "id": "bloodstained_chivalry_iron_mask",
+      "setId": "bloodstained_chivalry",
+      "kind": "circlet_of_logos",
+      "name": "Bloodstained Iron Mask",
+      "sources": ["blessing_liyue_pool_and_mountain"]
+    },
+
+    {
+      "id": "blizzard_strayer_snowswept_memory",
+      "setId": "blizzard_strayer",
+      "kind": "flower_of_life",
+      "name": "Snowswept Memory",
+      "sources": ["blessing_liyue_vindagnyr"]
+    },
+    {
+      "id": "blizzard_strayer_icebreaker_resolve",
+      "setId": "blizzard_strayer",
+      "kind": "plume_of_death",
+      "name": "Icebreaker's Resolve",
+      "sources": ["blessing_liyue_vindagnyr"]
+    },
+    {
+      "id": "blizzard_strayer_frozen_homeland_demise",
+      "setId": "blizzard_strayer",
+      "kind": "sands_of_eon",
+      "name": "Frozen Homeland's Demise",
+      "sources": ["blessing_liyue_vindagnyr"]
+    },
+    {
+      "id": "blizzard_strayer_frost_weaved_dignity",
+      "setId": "blizzard_strayer",
+      "kind": "goblet_of_enotherm",
+      "name": "Frost-Weaved Dignity",
+      "sources": ["blessing_liyue_vindagnyr"]
+    },
+    {
+      "id": "blizzard_strayer_broken_rime_echo",
+      "setId": "blizzard_strayer",
+      "kind": "circlet_of_logos",
+      "name": "Broken Rime's Echo",
+      "sources": ["blessing_liyue_vindagnyr"]
+    },
+
+    {
+      "id": "heart_of_depth_gilded_corsage",
+      "setId": "heart_of_depth",
+      "kind": "flower_of_life",
+      "name": "Gilded Corsage",
+      "sources": ["blessing_liyue_vindagnyr"]
+    },
+    {
+      "id": "heart_of_depth_gust_of_nostalgia",
+      "setId": "heart_of_depth",
+      "kind": "plume_of_death",
+      "name": "Gust of Nostalgia",
+      "sources": ["blessing_liyue_vindagnyr"]
+    },
+    {
+      "id": "heart_of_depth_copper_compass",
+      "setId": "heart_of_depth",
+      "kind": "sands_of_eon",
+      "name": "Copper Compass",
+      "sources": ["blessing_liyue_vindagnyr"]
+    },
+    {
+      "id": "heart_of_depth_goblet_of_thundering_deep",
+      "setId": "heart_of_depth",
+      "kind": "goblet_of_enotherm",
+      "name": "Goblet of Thundering Deep",
+      "sources": ["blessing_liyue_vindagnyr"]
+    },
+    {
+      "id": "heart_of_depth_wine_stained_tricone",
+      "setId": "heart_of_depth",
+      "kind": "circlet_of_logos",
+      "name": "Wine-Stained Tricorne",
+      "sources": ["blessing_liyue_vindagnyr"]
+    },
+
+    {
+      "id": "prayers_for_wisdom_tira_of_thunder",
+      "setId": "prayers_for_wisdom",
+      "kind": "circlet_of_logos",
+      "name": "Tira of Thunder",
+      "sources": ["ehypostasis"]
+    },
+    {
+      "id": "prayers_to_springtime_tira_of_frost",
+      "setId": "prayers_to_springtime",
+      "kind": "circlet_of_logos",
+      "name": "Tiara of Frost",
+      "sources": ["cryo_regisvine"]
+    },
+    {
+      "id": "prayers_for_illumination_tira_of_flame",
+      "setId": "prayers_for_illumination",
+      "kind": "circlet_of_logos",
+      "name": "Tiara of Flame",
+      "sources": ["pyro_regisvine"]
+    },
+    {
+      "id": "prayers_for_destiny_tira_of_flame",
+      "setId": "prayers_for_destiny",
+      "kind": "circlet_of_logos",
+      "name": "Tiara of Torrents",
+      "sources": ["oceanid"]
+    }
+  ]
+}
