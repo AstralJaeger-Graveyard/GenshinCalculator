@@ -2,9 +2,9 @@
   <app-member-header *ngIf="false" [member]="member"></app-member-header>
   <app-member-nav *ngIf="false"></app-member-nav>
   <div *ngIf="false" class="character-overview">
-    <h2>{{ localization.get(member.character_id).name }}</h2>
+    <h2>{{ localization.get(member.characterId).name }}</h2>
     <p class="overview-description">
-    {{ localization.get(member.character_id).description }}
+    {{ localization.get(member.characterId).description }}
   </p>
   </div>
   <nz-divider *ngIf="false" nzText="Setup" nzOrientation="left"></nz-divider>
@@ -99,6 +99,42 @@
                        id="weapon_ascension_input"
                        (ngModelChange)="onWeaponAscensionStageChanged()">
       </nz-input-number>
+    </div>
+  </div>
+  <!-- Artifact input -->
+  <div nz-row
+       [nzGutter]="{ xs: 8, sm: 16, md: 24, lg: 32 }"
+       style="margin-bottom: 2px">
+    <div nz-col [nzSpan]="6">
+      <label for="artifact_input" i18n="Weapon ascension">Artifacts: </label>
+    </div>
+    <div nz-col [nzSpan]="6">
+      <nz-switch [(ngModel)]="member.enableArtifacts"
+                 id="artifact_input"
+                 (ngModelChange)="onArtifactEnabledChanged()">
+      </nz-switch>
+    </div>
+  </div>
+  <!-- Artifact select input -->
+  <div nz-row *ngIf="member.enableArtifacts" [nzGutter]="{ xs: 8, sm: 16, md: 24, lg: 32 }" style="margin-bottom: 2px">
+    <div nz-col [nzSpan]="6" nzOffset="6">
+      <nz-select nzShowSearch
+                 nzAutoClearSearchValue
+                 nzAllowClear
+                 nzPlaceHolder="Select artifacts"
+                 class="pseudo-fullwidth"
+                 nzMode="tags"
+                 style="min-width: 350px;"
+                 [(ngModel)]="member.artifacts"
+                 (ngModelChange)="onArtifactChanged()"
+      >
+        <nz-option nzCustomContent
+                   *ngFor="let entry of artifacts.artifactMap | keyvalue"
+                   [nzLabel]="entry.value.name"
+                   [nzValue]="entry.key">
+          {{entry.value.name}}
+        </nz-option>
+      </nz-select>
     </div>
   </div>
 
