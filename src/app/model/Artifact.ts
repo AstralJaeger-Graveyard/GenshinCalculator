@@ -5,5 +5,5 @@ export class Artifact {
   public setId: string;
   public name: string;
   public kind: string;
-  public sources: MaterialSource[];
+  public sources: string[];
 }

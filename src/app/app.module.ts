@@ -58,6 +58,7 @@ import { LocalizationService } from './services/localization.service';
 import { environment } from '../environments/environment';
 import { ProgressComponent } from './progress/progress.component';
 import { OnlyDevModeDirective } from './directives/only-dev-mode.directive';
+import {ArtifactService} from "./services/artifact.service";
 
 //Needs to be sorted
 
@@ -127,6 +128,7 @@ registerLocaleData(en);
      MaterialService,
      CharacterService,
      WeaponService,
+     ArtifactService,
      PartyService
   ],
   bootstrap: [AppComponent]

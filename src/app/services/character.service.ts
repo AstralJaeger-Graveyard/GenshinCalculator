@@ -1,6 +1,5 @@
 import {Injectable, isDevMode} from '@angular/core';
 import { Character } from '../model/Character';
-import {MaterialService} from './material.service';
 import * as data from 'src/app/_dataassets/characters.json';
 
 @Injectable({
