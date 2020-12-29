@@ -11,6 +11,7 @@ import {Material} from "../model/Material";
 import {PartyMember} from "../model/PartyMember";
 import {MaterialEntry} from "../model/MaterialEntry";
 import {WeaponService} from "../services/weapon.service";
+import {ArtifactService} from "../services/artifact.service";
 
 @Component({
   selector: 'app-schedule',
@@ -48,6 +49,7 @@ export class ScheduleComponent implements OnInit {
               public characters: CharacterService,
               public weapons: WeaponService,
               public materials: MaterialService,
+              public artifacts: ArtifactService,
               public sources: SourceService,
               public localization: LocalizationService,
               private changeDetector: ChangeDetectorRef) {
@@ -70,8 +72,10 @@ export class ScheduleComponent implements OnInit {
 
       this.computeCharSourceBins();
       this.computeWeapSourceBins();
+      this.computeArtiSourceBins();
       this.computeCharDayBins();
       this.computeWeapDayBins();
+      this.computeArtiDayBins();
 
       const d = new Date();
       this.today = d.getDay();
@@ -103,6 +107,22 @@ export class ScheduleComponent implements OnInit {
     }
   }
 
+  private computeArtiSourceBins(): void {
+    this.artifactSourceBins.clear();
+    for(const member of this.party.members.filter(m => m.include && m.enableArtifacts && m.artifacts.length !== 0)){
+        const artifacts = member.artifacts.map(a => this.artifacts.get(a));
+        for(const artifact of artifacts){
+          const sources = artifact.sources.map(s => this.sources.get(s));
+          for (const source of sources){
+            if (!this.artifactSourceBins.has(source.id)){
+              this.artifactSourceBins.set(source.id, null);
+            }
+          }
+          console.dir(this.artifactSourceBins);
+        }
+    }
+  }
+
   private computeCharDayBins(): void {
     for(const key of this.characterSourceBins.keys()){
       const value = this.characterSourceBins.get(key);
@@ -115,6 +135,10 @@ export class ScheduleComponent implements OnInit {
       const value = this.weaponSourceBins.get(key);
       this.categorizeIntoDay(this.weaponDayBins, value);
     }
+  }
+
+  private computeArtiDayBins(): void {
+
   }
 
   private categorizeIntoDay(bins: Map<number, ScheduleSource[]>, value: ScheduleSource){
@@ -169,24 +193,7 @@ export class ScheduleComponent implements OnInit {
     }
     else {
       let scheduleSrc = bin.get(src.id);
-      const mats = scheduleSrc.materials;
-      if (!mats.has(mat.id)){
-        mats.set(mat.id, [this.characters.get(char)]);
-      }
-      else {
-        const matsValue = mats.get(mat.id);
-        if(matsValue.filter(c => c.id === char).length === 0) {
-          matsValue.push(this.characters.get(char));
-        }
-      }
-
-      const amo = scheduleSrc.amounts;
-      if (!amo.has(mat.id)){
-        amo.set(mat.id, amount);
-      }
-      else {
-        amo.set(mat.id, +amo.get(mat.id) + +amount);
-      }
+      scheduleSrc.addMaterial(mat.id, this.characters.get(char), amount);
     }
   }
 
