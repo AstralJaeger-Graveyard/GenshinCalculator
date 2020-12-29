@@ -7,6 +7,7 @@ import {Weapon} from '../../model/Weapon';
 import {KeyValue} from '@angular/common';
 import {GoogleAnalyticsService} from 'ngx-google-analytics';
 import {ArtifactService} from "../../services/artifact.service";
+import {NzNotificationService} from 'ng-zorro-antd/notification';
 
 @Component({
   selector: 'app-partymember-detail',
@@ -24,6 +25,9 @@ export class MemberDetailComponent implements OnInit {
   @Output()
   memberChanged = new EventEmitter<void>();
 
+  maxArtifactCount = 2;
+  userKind: string = 'anon';
+
   weaponOrder = (a: KeyValue<string, Weapon>, b: KeyValue<string, Weapon>): number => {
     return b.value.rarity - a.value.rarity;
   }
@@ -32,7 +36,8 @@ export class MemberDetailComponent implements OnInit {
               public weapons: WeaponService,
               public artifacts: ArtifactService,
               public characters: CharacterService,
-              public gAnalytics: GoogleAnalyticsService) { }
+              public gAnalytics: GoogleAnalyticsService,
+              public notifications: NzNotificationService) { }
 
   ngOnInit(): void { }
 
@@ -71,6 +76,19 @@ export class MemberDetailComponent implements OnInit {
   }
 
   onArtifactChanged(): void {
+    if (this.userKind === 'anon' && this.member.artifacts.length >= 2) {
+      this.gAnalytics.event('anon_artifact_limit_reached', 'party_member_detail', 'party_member');
+      this.notifications.info("Artifact limit reached", "Please sign-in or create an account to get access to 3 artifacts.");
+    }
+    else if (this.userKind === 'free' && this.member.artifacts.length >= 3) {
+      this.gAnalytics.event('free_artifact_limit_reached', 'party_member_detail', 'party_member');
+      this.notifications.info("Artifact limit reached", "Please sign-up to premium to get access to 5 artifacts.");
+    }
+    else if (this.userKind === 'premium' && this.member.artifacts.length >= 5) {
+      this.gAnalytics.event('premium_artifact_limit_reached', 'party_member_detail', 'party_member');
+      this.notifications.info("Artifact limit reached", "Maximum artifact limit reached!");
+    }
+
     this.gAnalytics.event('artifact_changed', 'party_member_detail', 'party_member');
     this.onMemberChanged();
   }
@@ -79,5 +97,10 @@ export class MemberDetailComponent implements OnInit {
     if(isDevMode())
       console.log('Party member changed')
     this.memberChanged.emit();
+  }
+
+  toTitle(text: string): string {
+    text = text.replace(/_/g, ' ');
+    return text;
   }
 }

@@ -118,22 +118,22 @@
   <!-- Artifact select input -->
   <div nz-row *ngIf="member.enableArtifacts" [nzGutter]="{ xs: 8, sm: 16, md: 24, lg: 32 }" style="margin-bottom: 2px">
     <div nz-col [nzSpan]="6" nzOffset="6">
-      <nz-select nzShowSearch
-                 nzAutoClearSearchValue
-                 nzAllowClear
+      <nz-select nzAllowClear
                  nzPlaceHolder="Select artifacts"
                  class="pseudo-fullwidth"
                  nzMode="tags"
                  style="min-width: 350px;"
+                 [nzMaxMultipleCount]="maxArtifactCount"
+                 [nzMaxTagCount]="5"
                  [(ngModel)]="member.artifacts"
-                 (ngModelChange)="onArtifactChanged()"
-      >
-        <nz-option nzCustomContent
-                   *ngFor="let entry of artifacts.artifactMap | keyvalue"
-                   [nzLabel]="entry.value.name"
-                   [nzValue]="entry.key">
-          {{entry.value.name}}
-        </nz-option>
+                 (ngModelChange)="onArtifactChanged()">
+        <nz-option-group *ngFor="let entry of artifacts.sortedArtifactMap | keyvalue"
+                         [nzLabel]="toTitle(entry.key) | titlecase">
+          <nz-option *ngFor="let artifactEntry of entry.value | keyvalue"
+                     [nzLabel]="artifactEntry.value.name"
+                     [nzValue]="artifactEntry.key">
+          </nz-option>
+        </nz-option-group>
       </nz-select>
     </div>
   </div>
