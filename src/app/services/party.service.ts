@@ -49,10 +49,20 @@ export class PartyService{
     if (!localParty){
       localParty = this.defaultParty();
     }
+
+    this.checkPartyValidity(localParty);
     return localParty;
   }
 
   private saveParty(party: PartyMember[]): void{
     localStorage.setItem(PartyService.LS_KEY, JSON.stringify(party));
+  }
+
+  private checkPartyValidity(localParty: PartyMember[]): void{
+    for (const {index, value} of localParty.map((v, i) => ({index: i, value: v}))){
+      if (value.artifacts === undefined || value.artifacts === null){
+        localParty[index].artifacts = [];
+      }
+    }
   }
 }
