@@ -3,6 +3,7 @@ import {NgcCookieConsentService, NgcInitializeEvent, NgcNoCookieLawEvent} from "
 import { Subscription } from "rxjs";
 import {PartyService} from "./services/party.service";
 import {Title} from "@angular/platform-browser";
+import {environment} from "../environments/environment";
 
 @Component({
   selector: 'app-root',
@@ -28,6 +29,8 @@ export class AppComponent implements OnInit, OnDestroy{
               private title: Title) { }
 
   ngOnInit(): void {
+
+    console.log(`Version: ${environment.version}`)
 
     if(isDevMode()){
       this.title.setTitle("[Local] GenshinCalculator");
