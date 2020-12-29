@@ -7,16 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProgressComponent implements OnInit {
 
-  public currentState = 0;
+  public currentState = 1;
 
   public upcomingFeatures = [
+    {
+      title: "Artifacts",
+      description: "Why did it roll into DEF again?"
+    },
     {
       title: "Schedule",
       description: "When did I have to grind that anoying domain again?"
     },
     {
-      title: "Artifacts",
-      description: "Why did it roll into DEF again?"
+      title: "Talents",
+      description: "Never know who's material is due on what day? Fear no more!"
     },
     {
       title: "Dark mode",
@@ -24,7 +28,11 @@ export class ProgressComponent implements OnInit {
     },
     {
       title: "Signin",
-      description: "A way to store things in the cloud!"
+      description: "Now you can signin!"
+    },
+    {
+      title: "Premium",
+      description: "A way to store things in the cloud! And support me through the app!"
     },
     {
       title: "Server Side Rendering",
