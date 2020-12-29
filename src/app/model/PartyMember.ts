@@ -1,5 +1,4 @@
 import {Character} from './Character';
-import {Artifact} from "./Artifact";
 
 export class PartyMember{
   public include: boolean = true;
@@ -16,10 +15,8 @@ export class PartyMember{
   // TODO: Add talents
   public enableTalents: boolean = true;
 
-  //TODO: Add talents
   public enableArtifacts: boolean = false;
-  public artifacts: string[];
-
+  public artifacts: string[] = [];
 
   constructor(characterId: string) {
     this.characterId = characterId;
