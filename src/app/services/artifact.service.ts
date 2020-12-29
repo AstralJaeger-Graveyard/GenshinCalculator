@@ -10,16 +10,24 @@ export class ArtifactService {
 
   public artifacts: Artifact[] = data.artifacts;
   public artifactMap = new Map<string, Artifact>();
+  public sortedArtifactMap = new Map<string, Map<string, Artifact>>();
 
   constructor() {
     for (let artifact of this.artifacts) {
       if (isDevMode() && this.artifactMap.has(artifact.id)){
-        console.log(`%c Duplocate item with id: ${artifact.id}`, 'color: Crimson; font-size: 20px;');
+        console.log(`%c Duplicate item with id: ${artifact.id}`, 'color: Crimson; font-size: 20px;');
       }
+
       this.artifactMap.set(artifact.id, artifact);
+
+      if(!this.sortedArtifactMap.has(artifact.kind)){
+        this.sortedArtifactMap.set(artifact.kind, new Map<string, Artifact>());
+      }
+      this.sortedArtifactMap.get(artifact.kind).set(artifact.id, artifact);
     }
 
     console.dir(this.artifactMap);
+    console.dir(this.sortedArtifactMap);
   }
 
   public get(id: string): Artifact{
