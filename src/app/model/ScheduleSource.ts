@@ -1,5 +1,4 @@
 import {MaterialSource} from './MaterialSource';
-import {Material} from './Material';
 import {Character} from './Character';
 
 export class ScheduleSource {
