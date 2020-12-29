@@ -30,7 +30,7 @@ export class AppComponent implements OnInit, OnDestroy{
 
   ngOnInit(): void {
 
-    console.log(`Version: ${environment.version}`)
+    console.log(`Version: ${environment.version.substr(environment.version.length - 6, 6)}`);
 
     if(isDevMode()){
       this.title.setTitle("[Local] GenshinCalculator");
