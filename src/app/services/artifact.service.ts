@@ -1,7 +1,7 @@
 import {Injectable, isDevMode} from '@angular/core';
 import {Artifact} from "../model/Artifact";
 // @ts-ignore
-import * as data from "../_dataassets/artifacts_2.json";
+import * as data from "../_dataassets/artifacts.json";
 
 @Injectable({
   providedIn: 'root'
