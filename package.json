@@ -38,6 +38,7 @@
     "bootstrap": "^3.4.1",
     "cookieconsent": "^3.1.1",
     "git-commit-id": "^2.0.1",
+    "glob": "^7.1.6",
     "imagekitio-angular": "^1.0.2",
     "ng-zorro-antd": "^10.1.2",
     "ngx-cookieconsent": "^2.2.3",
@@ -45,6 +46,7 @@
     "ngx-markdown": "^11.0.1",
     "ngx-pipes": "^2.7.5",
     "ngx-ssr-exclude": "^1.1.0",
+    "request": "^2.88.2",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
