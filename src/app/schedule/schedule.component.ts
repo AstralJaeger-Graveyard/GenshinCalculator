@@ -7,11 +7,11 @@ import {SourceService} from '../services/source.service';
 import {ScheduleSource} from '../model/ScheduleSource';
 import {MaterialSource} from '../model/MaterialSource';
 import {Character} from '../model/Character';
-import {Material} from "../model/Material";
-import {PartyMember} from "../model/PartyMember";
-import {MaterialEntry} from "../model/MaterialEntry";
-import {WeaponService} from "../services/weapon.service";
-import {ArtifactService} from "../services/artifact.service";
+import {Material} from '../model/Material';
+import {PartyMember} from '../model/PartyMember';
+import {MaterialEntry} from '../model/MaterialEntry';
+import {WeaponService} from '../services/weapon.service';
+import {ArtifactService} from '../services/artifact.service';
 
 @Component({
   selector: 'app-schedule',
@@ -34,7 +34,7 @@ export class ScheduleComponent implements OnInit {
     'Daily'
   ];
 
-  private characterSourceBins: Map<string, ScheduleSource>
+  private characterSourceBins: Map<string, ScheduleSource>;
   public characterDayBins: Map<number, ScheduleSource[]>;
 
   private weaponSourceBins: Map<string, ScheduleSource>;
@@ -43,7 +43,7 @@ export class ScheduleComponent implements OnInit {
   private artifactSourceBins: Map<string, ScheduleSource>;
   public artifactDayBins: Map<number, ScheduleSource[]>;
 
-  public today: number = 0;
+  public today = 0;
 
   constructor(public party: PartyService,
               public characters: CharacterService,
@@ -79,7 +79,7 @@ export class ScheduleComponent implements OnInit {
 
       const d = new Date();
       this.today = d.getDay();
-    })
+    });
   }
 
   ngOnInit(): void {
@@ -109,13 +109,21 @@ export class ScheduleComponent implements OnInit {
 
   private computeArtiSourceBins(): void {
     this.artifactSourceBins.clear();
-    for(const member of this.party.members.filter(m => m.include && m.enableArtifacts && m.artifacts.length !== 0)){
+    for (const member of this.party.members.filter(m => m.include && m.enableArtifacts && m.artifacts.length !== 0)){
         const artifacts = member.artifacts.map(a => this.artifacts.get(a));
-        for(const artifact of artifacts){
+        for (const artifact of artifacts){
           const sources = artifact.sources.map(s => this.sources.get(s));
           for (const source of sources){
             if (!this.artifactSourceBins.has(source.id)){
-              this.artifactSourceBins.set(source.id, null);
+              const materials = new Map<string, Character[]>();
+              materials.set(artifact.id, [this.characters.get(member.characterId)]);
+              const amounts = new Map<string, number>();
+              amounts.set(artifact.id, -1);
+              this.artifactSourceBins.set(source.id, new ScheduleSource(source, materials, amounts));
+            }
+            else {
+              this.artifactSourceBins.get(source.id)
+                .addMaterial(artifact.id, this.characters.get(member.characterId), -1);
             }
           }
           console.dir(this.artifactSourceBins);
@@ -124,32 +132,32 @@ export class ScheduleComponent implements OnInit {
   }
 
   private computeCharDayBins(): void {
-    for(const key of this.characterSourceBins.keys()){
-      const value = this.characterSourceBins.get(key);
-      this.categorizeIntoDay(this.characterDayBins, value)
+    for (const value of this.characterSourceBins.values()){
+      this.categorizeIntoDay(this.characterDayBins, value);
     }
   }
 
   private computeWeapDayBins(): void {
-    for (const key of this.weaponSourceBins.keys()){
-      const value = this.weaponSourceBins.get(key);
+    for (const value of this.weaponSourceBins.values()){
       this.categorizeIntoDay(this.weaponDayBins, value);
     }
   }
 
   private computeArtiDayBins(): void {
-
+    for (const value of this.artifactSourceBins.values()){
+      this.categorizeIntoDay(this.artifactDayBins, value);
+    }
   }
 
-  private categorizeIntoDay(bins: Map<number, ScheduleSource[]>, value: ScheduleSource){
-    if(value.source.isRestrictedSource){
+  private categorizeIntoDay(bins: Map<number, ScheduleSource[]>, value: ScheduleSource): void{
+    if (value.source.isRestrictedSource){
       const materials = Array.from(value.materials.keys()).map(m => this.materials.get(m));
-      for (let material of materials) {
+      for (const material of materials) {
         const sources = material.source
           .map(s => this.sources.get(s))
           .filter(s => !s.isIgnoreSource);
-        for (let src of sources) {
-          for (let day of src.available) {
+        for (const src of sources) {
+          for (const day of src.available) {
             const binValue = bins.get(day);
             if (!binValue.find(bV => bV.source.id === src.superSource)){
               binValue.push(value);
@@ -182,8 +190,8 @@ export class ScheduleComponent implements OnInit {
     }
   }
 
-  private addMaterialToBin(bin: Map<string, ScheduleSource>, src: MaterialSource, mat: Material, amount: number, char: string){
-    if(!bin.has(src.id)){
+  private addMaterialToBin(bin: Map<string, ScheduleSource>, src: MaterialSource, mat: Material, amount: number, char: string): void{
+    if (!bin.has(src.id)){
       const chars = new Map<string, Character[]>();
       chars.set(mat.id, [this.characters.get(char)]);
       const amo = new Map<string, number>();
@@ -192,7 +200,7 @@ export class ScheduleComponent implements OnInit {
       bin.set(src.id, scheduleSrc);
     }
     else {
-      let scheduleSrc = bin.get(src.id);
+      const scheduleSrc = bin.get(src.id);
       scheduleSrc.addMaterial(mat.id, this.characters.get(char), amount);
     }
   }
@@ -202,8 +210,9 @@ export class ScheduleComponent implements OnInit {
   }
 
   private getActualSrc(src: MaterialSource): MaterialSource{
-    if(src.isSuperSource)
+    if (src.isSuperSource) {
       return src;
+    }
     return this.sources.get(src.superSource);
   }
 

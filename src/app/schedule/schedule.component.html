@@ -17,7 +17,7 @@
         <div nz-col id="schedule_character" nzSpan="8" class="column">
             <ng-container *ngIf="characterDayBins.get(day).length !== 0; else emptyTpl"
                           [ngTemplateOutlet]="scheduleCard"
-                          [ngTemplateOutletContext]="{ data: characterDayBins }">
+                          [ngTemplateOutletContext]="{ data: characterDayBins, provider: localization, imgSrc: 'material_icons' }">
             </ng-container>
             <ng-template #emptyTpl>
             </ng-template>
@@ -25,7 +25,7 @@
         <div nz-col id="schedule_weapon" nzSpan="8" class="column">
           <ng-container *ngIf="weaponDayBins.get(day).length !== 0; else emptyTpl"
                         [ngTemplateOutlet]="scheduleCard"
-                        [ngTemplateOutletContext]="{ data: weaponDayBins }">
+                        [ngTemplateOutletContext]="{ data: weaponDayBins, provider: localization, imgSrc: 'material_icons' }">
           </ng-container>
           <ng-template #emptyTpl>
           </ng-template>
@@ -33,13 +33,13 @@
         <div nz-col id="schedule_artifact" nzSpan="8" class="column">
           <ng-container *ngIf="artifactDayBins.get(day).length !== 0; else emptyTpl"
                         [ngTemplateOutlet]="scheduleCard"
-                        [ngTemplateOutletContext]="{ data: artifactDayBins }">
+                        [ngTemplateOutletContext]="{ data: artifactDayBins, provider: artifacts, imgSrc: 'artifact_icons' }">
           </ng-container>
           <ng-template #emptyTpl>
           </ng-template>
         </div>
       </div>
-      <ng-template #scheduleCard let-data='data'>
+      <ng-template #scheduleCard let-data='data' let-provider='provider' let-icons='imgSrc'>
         <ng-container *ngFor="let src of data.get(day); let i = index">
           <nz-card [nzTitle]="src.source.name ? src.source.name : src.source.id"
                    [ngStyle]="{'margin-top': i === 0 ? '0' : '5px'}"
@@ -50,11 +50,11 @@
                             style="display: flex; flex-wrap: wrap">
                 <div class="list-item-container">
                   <nz-list-item-meta class="list-item-avatar"
-                                     [nzAvatar]="'https://ik.imagekit.io/AstralJaeger/tr:w-50,h-50,c-force/GC/material_icons/' + entry.key + '.png'">
+                                     [nzAvatar]="'https://ik.imagekit.io/AstralJaeger/tr:w-50,h-50,c-force/GC/' + icons + '/' + entry.key + '.png'">
                   </nz-list-item-meta>
                   <nz-list-item-meta-title class="list-item-title">
                     <span *ngIf="src.amounts.get(entry.key) !== -1">{{ src.amounts.get(entry.key) }}&#215;</span>
-                    {{ localization.get(entry.key).name }}
+                    {{ provider.get(entry.key).name }}
                   </nz-list-item-meta-title>
                 </div>
                 <div class="list-item-tags">

@@ -12,8 +12,8 @@ export class ScheduleSource {
     this.amounts = amounts;
   }
 
-  public addMaterial(id: string, character: Character, amount: number){
-    if(!this.materials.has(id)){
+  public addMaterial(id: string, character: Character, amount: number): void{
+    if (!this.materials.has(id)){
       this.materials.set(id, [character]);
       this.amounts.set(id, +amount);
     }
@@ -21,7 +21,7 @@ export class ScheduleSource {
       if (this.materials.get(id).filter(c => c.id === character.id).length === 0){
         this.materials.get(id).push(character);
       }
-      this.amounts.set(id, +this.amounts.get(id) + +amount);
+      this.amounts.set(id, Math.max(+this.amounts.get(id) + +amount, -1));
     }
   }
 }
