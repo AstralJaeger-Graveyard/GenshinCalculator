@@ -127,13 +127,11 @@
                  [nzMaxTagCount]="5"
                  [(ngModel)]="member.artifacts"
                  (ngModelChange)="onArtifactChanged()">
-        <nz-option-group *ngFor="let entry of artifacts.sortedArtifactMap | keyvalue"
-                         [nzLabel]="toTitle(entry.key) | titlecase">
-          <nz-option *ngFor="let artifactEntry of entry.value | keyvalue"
-                     [nzLabel]="artifactEntry.value.name"
-                     [nzValue]="artifactEntry.key">
+
+          <nz-option *ngFor="let artifact of artifacts.artifacts"
+                     [nzLabel]="artifact.name"
+                     [nzValue]="artifact.id">
           </nz-option>
-        </nz-option-group>
       </nz-select>
     </div>
   </div>

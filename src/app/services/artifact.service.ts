@@ -19,11 +19,6 @@ export class ArtifactService {
       }
 
       this.artifactMap.set(artifact.id, artifact);
-
-      if(!this.sortedArtifactMap.has(artifact.kind)){
-        this.sortedArtifactMap.set(artifact.kind, new Map<string, Artifact>());
-      }
-      this.sortedArtifactMap.get(artifact.kind).set(artifact.id, artifact);
     }
 
     console.dir(this.artifactMap);
