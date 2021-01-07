@@ -126,7 +126,6 @@ export class ScheduleComponent implements OnInit {
                 .addMaterial(artifact.id, this.characters.get(member.characterId), -1);
             }
           }
-          console.dir(this.artifactSourceBins);
         }
     }
   }
