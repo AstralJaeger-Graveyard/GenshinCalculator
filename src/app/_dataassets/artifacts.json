@@ -2,7 +2,7 @@
   "artifacts": [
     {
       "id": "adventurer",
-      "name": "Adventurer's Bandana",
+      "name": "Adventurer",
       "sources": [
         "oceanid",
         "pyro_regisvine"
@@ -10,21 +10,21 @@
     },
     {
       "id": "lucky_dog",
-      "name": "Lucky Dog's Silver Circlet",
+      "name": "Lucky Dog",
       "sources": [
         "blessing_liyue_guyun"
       ]
     },
     {
       "id": "traveling_doctor",
-      "name": "Traveling Doctor's Handkerchief",
+      "name": "Traveling Doctor",
       "sources": [
         "blessing_liyue_remembrance"
       ]
     },
     {
       "id": "instructor",
-      "name": "Instructor's Cap",
+      "name": "Instructor",
       "sources": [
         "blessing_liyue_remembrance",
         "stormterror"
@@ -32,14 +32,14 @@
     },
     {
       "id": "berserker",
-      "name": "Berserker's Battle Mask",
+      "name": "Berserker",
       "sources": [
         "bosses"
       ]
     },
     {
       "id": "the_exile",
-      "name": "Exile's Circlet",
+      "name": "The Exile",
       "sources": [
         "stormterror",
         "elite_bosses"
@@ -47,21 +47,21 @@
     },
     {
       "id": "resolution_of_sojourner",
-      "name": "Crown of Parting",
+      "name": "Resolution of sojourner",
       "sources": [
         "blessing_mondstadt_midsummer"
       ]
     },
     {
       "id": "martial_artist",
-      "name": "Martial Artist's Bandana",
+      "name": "Martial Artist",
       "sources": [
         "blessing_liyue_zhou_formula"
       ]
     },
     {
       "id": "defender_will",
-      "name": "Guardian's Band",
+      "name": "Defender's Will",
       "sources": [
         "blessing_liyue_zhou_formula",
         "blessing_liyue_vindagnyr"
@@ -69,21 +69,21 @@
     },
     {
       "id": "tiny_miracle",
-      "name": "Tiny Miracle's Earrings",
+      "name": "Tiny Miracle",
       "sources": [
         "blessing_liyue_remembrance"
       ]
     },
     {
       "id": "heart_of_bravery",
-      "name": "Crown of the Brave",
+      "name": "Heart Of Bravery",
       "sources": [
         "blessing_liyue_guyun"
       ]
     },
     {
       "id": "gambler",
-      "name": "Gambler's Earrings",
+      "name": "Gambler",
       "sources": [
         "blessing_liyue_vindagnyr",
         "blessing_liyue_pool_and_mountain"
@@ -91,14 +91,14 @@
     },
     {
       "id": "scholar",
-      "name": "Scholar's Lens",
+      "name": "Scholar",
       "sources": [
         "blessing_liyue_pool_and_mountain"
       ]
     },
     {
       "id": "gladiator_finale",
-      "name": "Gladiator's Triumphus",
+      "name": "Gladiator's Finale",
       "sources": [
         "elite_bosses",
         "weekly_bosses"
@@ -106,7 +106,7 @@
     },
     {
       "id": "wanderer_troupe",
-      "name": "Conductor's Top Hat",
+      "name": "Wanderer's Troupe",
       "sources": [
         "elite_bosses",
         "weekly_bosses"
@@ -114,112 +114,112 @@
     },
     {
       "id": "viridescent_venerer",
-      "name": "Viridescent Venerer's Diadem",
+      "name": "Viridescent Venerer",
       "sources": [
         "blessing_liyue_remembrance"
       ]
     },
     {
       "id": "thundering_fury",
-      "name": "Thunder Summoner's Crown",
+      "name": "Thundering Fury",
       "sources": [
         "blessing_mondstadt_midsummer"
       ]
     },
     {
       "id": "thundersoother",
-      "name": "Thundersoother's Diadem",
+      "name": "Thundersoother",
       "sources": [
         "blessing_mondstadt_midsummer"
       ]
     },
     {
       "id": "crimson_witch_of_flames",
-      "name": "Witch's Scorching Hat",
+      "name": "Crimson Witch Of Flames",
       "sources": [
         "blessing_liyue_zhou_formula"
       ]
     },
     {
       "id": "lavawalker",
-      "name": "Lavawalker's Wisdom",
+      "name": "Lavawalker",
       "sources": [
         "blessing_liyue_zhou_formula"
       ]
     },
     {
       "id": "archaic_petra",
-      "name": "Mask of Solitude Basalt",
+      "name": "Archaic Petra",
       "sources": [
         "blessing_liyue_guyun"
       ]
     },
     {
       "id": "retracing_bolide",
-      "name": "Summer Night's Mask",
+      "name": "Retracing Bolide",
       "sources": [
         "blessing_liyue_guyun"
       ]
     },
     {
       "id": "maiden_beloved",
-      "name": "Maiden's Fading Beauty",
+      "name": "Maiden's Beloved",
       "sources": [
         "blessing_liyue_remembrance"
       ]
     },
     {
       "id": "noblesse_oblige",
-      "name": "Royal Masque",
+      "name": "Noblesse Oblige",
       "sources": [
         "blessing_liyue_pool_and_mountain"
       ]
     },
     {
       "id": "bloodstained_chivalry",
-      "name": "Bloodstained Iron Mask",
+      "name": "Bloodstained Chivalry",
       "sources": [
         "blessing_liyue_pool_and_mountain"
       ]
     },
     {
       "id": "blizzard_strayer",
-      "name": "Broken Rime's Echo",
+      "name": "Blizzard Strayer",
       "sources": [
         "blessing_liyue_vindagnyr"
       ]
     },
     {
       "id": "heart_of_depth",
-      "name": "Wine-Stained Tricorne",
+      "name": "Heart Of Depth",
       "sources": [
         "blessing_liyue_vindagnyr"
       ]
     },
     {
       "id": "prayers_for_wisdom",
-      "name": "Tira of Thunder",
+      "name": "Prayer's Of Wisdom",
       "sources": [
         "ehypostasis"
       ]
     },
     {
       "id": "prayers_to_springtime",
-      "name": "Tiara of Frost",
+      "name": "Prayer's To Springtime",
       "sources": [
         "cryo_regisvine"
       ]
     },
     {
       "id": "prayers_for_illumination",
-      "name": "Tiara of Flame",
+      "name": "Prayer's For Illumination",
       "sources": [
         "pyro_regisvine"
       ]
     },
     {
       "id": "prayers_for_destiny",
-      "name": "Tiara of Torrents",
+      "name": "Prayer's For Destiny",
       "sources": [
         "oceanid"
       ]
