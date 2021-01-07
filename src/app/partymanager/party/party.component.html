@@ -73,7 +73,7 @@
           <nz-switch [nzDisabled]="!member.weaponId" [(ngModel)]="member.enableWeapon" (ngModelChange)="onMemberChanged()"></nz-switch>
         </td>
         <td id="artifacts_col" *appMedia="'(min-width: 600px)'">
-          <nz-switch [(ngModel)]="member.enableArtifacts" (ngModelChange)="onMemberChanged()"></nz-switch>
+          <nz-switch [nzDisabled]="member.artifacts.length === 0" [(ngModel)]="member.enableArtifacts" (ngModelChange)="onMemberChanged()"></nz-switch>
         </td>
         <td id="controls_col">
           <nz-button-group>
